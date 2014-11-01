@@ -1,6 +1,6 @@
 ## Playfair Display
 
-** An Open Source typeface family for display and titling use **
+# An Open Source typeface family for display and titling use
 
 ![Playfair Display specimen](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair-Display-A4-specimen.svg)
 
