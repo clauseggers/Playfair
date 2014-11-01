@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0459.smcp" format="1">
+  <advance width="989"/>
+  <outline>
+    <contour>
+      <point x="567" y="342" type="line"/>
+      <point x="643" y="342" type="line" smooth="yes"/>
+      <point x="745" y="342"/>
+      <point x="766" y="266"/>
+      <point x="766" y="179" type="curve" smooth="yes"/>
+      <point x="766" y="74"/>
+      <point x="742" y="21"/>
+      <point x="688" y="21" type="curve" smooth="yes"/>
+      <point x="638" y="21"/>
+      <point x="589" y="18"/>
+      <point x="587" y="13" type="curve" smooth="yes"/>
+      <point x="585" y="8"/>
+      <point x="639" y="0"/>
+      <point x="697" y="0" type="curve" smooth="yes"/>
+      <point x="881" y="0"/>
+      <point x="966" y="66"/>
+      <point x="966" y="190" type="curve" smooth="yes"/>
+      <point x="966" y="290"/>
+      <point x="900" y="362"/>
+      <point x="653" y="362" type="curve" smooth="yes"/>
+      <point x="567" y="362" type="line"/>
+    </contour>
+    <component base="uni043B.smcp"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

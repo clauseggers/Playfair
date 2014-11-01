@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi" format="1">
+  <advance width="335"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="34" y="158" type="line" smooth="yes"/>
+      <point x="-5" y="41"/>
+      <point x="37" y="-14"/>
+      <point x="126" y="-14" type="curve" smooth="yes"/>
+      <point x="179" y="-14"/>
+      <point x="240" y="5"/>
+      <point x="269" y="89" type="curve" smooth="yes"/>
+      <point x="294" y="162" type="line"/>
+      <point x="275" y="162" type="line"/>
+      <point x="254" y="106" type="line" smooth="yes"/>
+      <point x="233" y="50"/>
+      <point x="213" y="43"/>
+      <point x="201" y="43" type="curve" smooth="yes"/>
+      <point x="187" y="43"/>
+      <point x="178" y="52"/>
+      <point x="189" y="85" type="curve" smooth="yes"/>
+      <point x="293" y="393" type="line" smooth="yes"/>
+      <point x="314" y="456"/>
+      <point x="299" y="533"/>
+      <point x="197" y="533" type="curve" smooth="yes"/>
+      <point x="128" y="533"/>
+      <point x="75" y="505"/>
+      <point x="48" y="430" type="curve" smooth="yes"/>
+      <point x="20" y="352" type="line"/>
+      <point x="39" y="352" type="line"/>
+      <point x="62" y="413" type="line" smooth="yes"/>
+      <point x="80" y="461"/>
+      <point x="97" y="476"/>
+      <point x="117" y="476" type="curve" smooth="yes"/>
+      <point x="131" y="476"/>
+      <point x="136" y="463"/>
+      <point x="126" y="434" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="183" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="301" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="209" y="514" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

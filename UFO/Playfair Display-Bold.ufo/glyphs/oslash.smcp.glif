@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash.smcp" format="1">
+  <advance width="785"/>
+  <outline>
+    <contour>
+      <point x="230" y="70" type="line"/>
+      <point x="250" y="54" type="line"/>
+      <point x="567" y="538" type="line"/>
+      <point x="550" y="555" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="-58" type="line"/>
+      <point x="141" y="-72" type="line"/>
+      <point x="233" y="48" type="line"/>
+      <point x="217" y="66" type="line"/>
+    </contour>
+    <contour>
+      <point x="555" y="555" type="line"/>
+      <point x="572" y="538" type="line"/>
+      <point x="660" y="667" type="line"/>
+      <point x="641" y="680" type="line"/>
+    </contour>
+    <component base="o.smcp" xOffset="1"/>
+    <contour>
+      <point x="393" y="514" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

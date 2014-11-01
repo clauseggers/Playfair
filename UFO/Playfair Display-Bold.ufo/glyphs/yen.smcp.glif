@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yen.smcp" format="1">
+  <advance width="664"/>
+  <outline>
+    <contour>
+      <point x="151" y="248" type="line"/>
+      <point x="151" y="228" type="line"/>
+      <point x="546" y="228" type="line"/>
+      <point x="546" y="248" type="line"/>
+    </contour>
+    <contour>
+      <point x="151" y="148" type="line"/>
+      <point x="151" y="128" type="line"/>
+      <point x="546" y="128" type="line"/>
+      <point x="546" y="148" type="line"/>
+    </contour>
+    <component base="y.smcp" xOffset="25"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.smcp" format="1">
+  <advance width="402"/>
+  <outline>
+    <contour>
+      <point x="25" y="772" type="line"/>
+      <point x="25" y="747" type="line"/>
+      <point x="377" y="747" type="line"/>
+      <point x="377" y="772" type="line"/>
+    </contour>
+    <contour>
+      <point x="25" y="747" type="move" name="_centre"/>
+    </contour>
+    <contour>
+      <point x="203" y="608" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

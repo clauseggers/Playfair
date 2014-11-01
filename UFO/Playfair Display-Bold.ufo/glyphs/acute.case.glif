@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.case" format="1">
+  <advance width="275"/>
+  <outline>
+    <contour>
+      <point x="109" y="916"/>
+      <point x="97" y="866"/>
+      <point x="0" y="784" type="curve"/>
+      <point x="7" y="772" type="line"/>
+      <point x="124" y="808"/>
+      <point x="174" y="799"/>
+      <point x="220" y="823" type="curve" smooth="yes"/>
+      <point x="252" y="839"/>
+      <point x="267" y="876"/>
+      <point x="252" y="908" type="curve" smooth="yes"/>
+      <point x="234" y="946"/>
+      <point x="187" y="953"/>
+      <point x="158" y="939" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="81" y="708" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>
