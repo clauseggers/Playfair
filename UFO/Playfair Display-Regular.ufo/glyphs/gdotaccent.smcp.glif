@@ -3,6 +3,21 @@
   <advance width="661"/>
   <outline>
     <component base="g.smcp"/>
-    <component base="dotaccent.smcp" xOffset="272"/>
+    <component base="uni0307.smcp" xOffset="272"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0307.smcp</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

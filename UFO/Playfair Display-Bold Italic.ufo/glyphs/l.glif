@@ -30,16 +30,16 @@
       <point x="169" y="85" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="269" y="771" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="372" y="771" type="move" name="topright"/>
+    </contour>
+    <contour>
+      <point x="298" y="519" type="move" name="right"/>
+    </contour>
+    <contour>
       <point x="109" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="290" y="514" type="move" name="right"/>
-    </contour>
-    <contour>
-      <point x="262" y="754" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="296" y="514" type="move" name="topright"/>
     </contour>
   </outline>
 </glyph>

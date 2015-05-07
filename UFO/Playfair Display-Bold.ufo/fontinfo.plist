@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>1082</integer>
+	<integer>771</integer>
 	<key>capHeight</key>
 	<integer>708</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'.</string>
+	<string>Copyright (c) 2010-2015 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'.</string>
 	<key>descender</key>
-	<integer>-251</integer>
+	<integer>-181</integer>
 	<key>familyName</key>
 	<string>Playfair Display</string>
 	<key>fsType</key>
@@ -25,7 +25,11 @@ As the name indicates, Playfair Display is well suited for titling and headlines
 
 Playfair includes a full set of small-caps, common ligatures, and discretionary ligatures. For Polish, a set of alternate diacritical characters designed with ‘kreska’s are included. All European languages using the latin script are supported. A set of eight arrow devices are also included.</string>
 	<key>openTypeHeadCreated</key>
-	<string>2013/09/26 20:34:45</string>
+	<string>2015/05/05 20:07:45</string>
+	<key>openTypeHheaAscender</key>
+	<integer>999</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-241</integer>
 	<key>openTypeNameDesigner</key>
 	<string>Claus Eggers Sørensen</string>
 	<key>openTypeNameDesignerURL</key>
@@ -42,27 +46,37 @@ Playfair includes a full set of small-caps, common ligatures, and discretionary 
 	<string>Playfair Display</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>999</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-241</integer>
 	<key>openTypeOS2VendorID</key>
 	<string>FTH</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>999</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>-241</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-16</integer>
+		<integer>-30</integer>
 		<integer>0</integer>
 		<integer>519</integer>
-		<integer>535</integer>
+		<integer>549</integer>
 		<integer>608</integer>
-		<integer>624</integer>
-		<integer>708</integer>
-		<integer>724</integer>
+		<integer>638</integer>
+		<integer>698</integer>
+		<integer>728</integer>
+		<integer>758</integer>
+		<integer>788</integer>
 	</array>
 	<key>postscriptOtherBlues</key>
 	<array>
-		<integer>-197</integer>
-		<integer>-181</integer>
+		<integer>-201</integer>
+		<integer>-171</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
@@ -72,6 +86,7 @@ Playfair includes a full set of small-caps, common ligatures, and discretionary 
 	<array>
 		<integer>23</integer>
 		<integer>180</integer>
+		<integer>203</integer>
 	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
@@ -80,11 +95,11 @@ Playfair includes a full set of small-caps, common ligatures, and discretionary 
 	<key>trademark</key>
 	<string>Playfair is a trademark of Claus Eggers Sørensen.</string>
 	<key>unitsPerEm</key>
-	<integer>1000</integer>
+	<integer>1240</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>xHeight</key>
 	<integer>519</integer>
 </dict>

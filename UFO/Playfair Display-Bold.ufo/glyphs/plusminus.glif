@@ -6,4 +6,27 @@
     <component base="minus" xOffset="-31" yOffset="-340"/>
     <component base="plus" xOffset="2"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>minus</string>
+        </dict>
+        <dict>
+          <key>disableAlignment</key>
+          <true/>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>plus</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

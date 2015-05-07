@@ -2,12 +2,7 @@
 <glyph name="eth.smcp" format="1">
   <advance width="762"/>
   <outline>
-    <contour>
-      <point x="29" y="316" type="line"/>
-      <point x="29" y="296" type="line"/>
-      <point x="417" y="296" type="line"/>
-      <point x="417" y="316" type="line"/>
-    </contour>
     <component base="d.smcp"/>
+    <component base="uni0335.smcp" xOffset="-12"/>
   </outline>
 </glyph>

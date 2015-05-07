@@ -412,8 +412,6 @@
 		<integer>-15</integer>
 		<key>@MMK_R_z</key>
 		<integer>-18</integer>
-		<key>Germandbls</key>
-		<integer>-19</integer>
 		<key>b</key>
 		<integer>-6</integer>
 		<key>braceright</key>
@@ -436,6 +434,8 @@
 		<integer>40</integer>
 		<key>parenright.case</key>
 		<integer>39</integer>
+		<key>uni1E9E</key>
+		<integer>-19</integer>
 		<key>v.smcp</key>
 		<integer>-9</integer>
 		<key>x</key>
@@ -702,8 +702,6 @@
 		<integer>-16</integer>
 		<key>@MMK_R_z</key>
 		<integer>-19</integer>
-		<key>Germandbls</key>
-		<integer>-19</integer>
 		<key>b</key>
 		<integer>-7</integer>
 		<key>dotlessi</key>
@@ -712,6 +710,8 @@
 		<integer>-10</integer>
 		<key>p</key>
 		<integer>-17</integer>
+		<key>uni1E9E</key>
+		<integer>-19</integer>
 		<key>v.smcp</key>
 		<integer>-9</integer>
 		<key>x</key>
@@ -1084,8 +1084,6 @@
 		<integer>-12</integer>
 		<key>@MMK_R_z</key>
 		<integer>-20</integer>
-		<key>Germandbls</key>
-		<integer>-23</integer>
 		<key>at</key>
 		<integer>-10</integer>
 		<key>b</key>
@@ -1098,6 +1096,8 @@
 		<integer>-17</integer>
 		<key>slash</key>
 		<integer>-15</integer>
+		<key>uni1E9E</key>
+		<integer>-23</integer>
 		<key>v.smcp</key>
 		<integer>-8</integer>
 		<key>x</key>
@@ -1457,11 +1457,11 @@
 		<integer>-32</integer>
 		<key>@MMK_R_Y.smcp</key>
 		<integer>-12</integer>
-		<key>Che-cy</key>
-		<integer>-17</integer>
 		<key>V</key>
 		<integer>-30</integer>
-		<key>che-cy.smcp</key>
+		<key>uni0427</key>
+		<integer>-17</integer>
+		<key>uni0447.smcp</key>
 		<integer>-12</integer>
 		<key>v.smcp</key>
 		<integer>-12</integer>
@@ -1597,10 +1597,10 @@
 		<integer>-21</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-21</integer>
-		<key>Che-cy</key>
-		<integer>-11</integer>
 		<key>V</key>
 		<integer>-23</integer>
+		<key>uni0427</key>
+		<integer>-11</integer>
 	</dict>
 	<key>@MMK_L_guilsinglleft.cap</key>
 	<dict>
@@ -1612,14 +1612,14 @@
 		<integer>-14</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-14</integer>
-		<key>A-cy</key>
-		<integer>-14</integer>
-		<key>Che-cy</key>
-		<integer>-11</integer>
-		<key>De-cy</key>
-		<integer>-56</integer>
 		<key>V</key>
 		<integer>-14</integer>
+		<key>uni0410</key>
+		<integer>-14</integer>
+		<key>uni0414</key>
+		<integer>-56</integer>
+		<key>uni0427</key>
+		<integer>-11</integer>
 	</dict>
 	<key>@MMK_L_guilsinglright</key>
 	<dict>
@@ -1655,40 +1655,40 @@
 		<integer>-21</integer>
 		<key>@MMK_R_y</key>
 		<integer>-22</integer>
-		<key>A-cy</key>
-		<integer>-17</integer>
-		<key>Che-cy</key>
-		<integer>-28</integer>
-		<key>De-cy</key>
-		<integer>-29</integer>
-		<key>Ha-cy</key>
-		<integer>-22</integer>
-		<key>Hardsign-cy</key>
-		<integer>-27</integer>
 		<key>V</key>
 		<integer>-55</integer>
 		<key>X</key>
 		<integer>-22</integer>
-		<key>a-cy.smcp</key>
+		<key>uni0410</key>
+		<integer>-17</integer>
+		<key>uni0414</key>
+		<integer>-29</integer>
+		<key>uni0425</key>
+		<integer>-22</integer>
+		<key>uni0427</key>
+		<integer>-28</integer>
+		<key>uni042A</key>
+		<integer>-27</integer>
+		<key>uni0430.smcp</key>
 		<integer>-16</integer>
-		<key>che-cy.smcp</key>
-		<integer>-16</integer>
-		<key>de-cy</key>
+		<key>uni0434</key>
 		<integer>-60</integer>
-		<key>de-cy.smcp</key>
+		<key>uni0434.smcp</key>
 		<integer>-53</integer>
-		<key>ha-cy</key>
+		<key>uni0436</key>
+		<integer>-16</integer>
+		<key>uni0445</key>
 		<integer>-32</integer>
-		<key>ha-cy.smcp</key>
+		<key>uni0445.smcp</key>
 		<integer>-31</integer>
+		<key>uni0447.smcp</key>
+		<integer>-16</integer>
 		<key>v.smcp</key>
 		<integer>-37</integer>
 		<key>x</key>
 		<integer>-32</integer>
 		<key>x.smcp</key>
 		<integer>-31</integer>
-		<key>zhe-cy</key>
-		<integer>-16</integer>
 	</dict>
 	<key>@MMK_L_guilsinglright.cap</key>
 	<dict>
@@ -1706,26 +1706,26 @@
 		<integer>-37</integer>
 		<key>@MMK_R_uni0423</key>
 		<integer>-47</integer>
-		<key>A-cy</key>
-		<integer>-38</integer>
-		<key>Che-cy</key>
-		<integer>-10</integer>
-		<key>De-cy</key>
-		<integer>-76</integer>
-		<key>Ha-cy</key>
-		<integer>-63</integer>
-		<key>Hardsign-cy</key>
-		<integer>-25</integer>
-		<key>Ia-cy</key>
-		<integer>-19</integer>
 		<key>V</key>
 		<integer>-40</integer>
 		<key>X</key>
 		<integer>-63</integer>
-		<key>Ze-cy</key>
-		<integer>-12</integer>
-		<key>Zhe-cy</key>
+		<key>uni0410</key>
+		<integer>-38</integer>
+		<key>uni0414</key>
+		<integer>-76</integer>
+		<key>uni0416</key>
 		<integer>-32</integer>
+		<key>uni0417</key>
+		<integer>-12</integer>
+		<key>uni0425</key>
+		<integer>-63</integer>
+		<key>uni0427</key>
+		<integer>-10</integer>
+		<key>uni042A</key>
+		<integer>-25</integer>
+		<key>uni042F</key>
+		<integer>-19</integer>
 	</dict>
 	<key>@MMK_L_guilsinglright.smcp</key>
 	<dict>
@@ -1745,18 +1745,18 @@
 		<integer>-22</integer>
 		<key>@MMK_R_uni0443.smcp</key>
 		<integer>-34</integer>
-		<key>a-cy.smcp</key>
+		<key>uni0430.smcp</key>
 		<integer>-32</integer>
-		<key>de-cy.smcp</key>
+		<key>uni0434.smcp</key>
 		<integer>-82</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-47</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-12</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0436.smcp</key>
 		<integer>-26</integer>
+		<key>uni0437.smcp</key>
+		<integer>-12</integer>
+		<key>uni0445.smcp</key>
+		<integer>-47</integer>
+		<key>uni044F.smcp</key>
+		<integer>-12</integer>
 	</dict>
 	<key>@MMK_L_hyphen</key>
 	<dict>
@@ -1822,42 +1822,12 @@
 		<integer>-22</integer>
 		<key>@MMK_R_y</key>
 		<integer>-22</integer>
-		<key>A-cy</key>
-		<integer>-28</integer>
-		<key>Che-cy</key>
-		<integer>-30</integer>
-		<key>De-cy</key>
-		<integer>-47</integer>
-		<key>Ha-cy</key>
-		<integer>-45</integer>
-		<key>Hardsign-cy</key>
-		<integer>-63</integer>
-		<key>Je-cy</key>
-		<integer>-9</integer>
 		<key>V</key>
 		<integer>-49</integer>
 		<key>X</key>
 		<integer>-45</integer>
-		<key>Zhe-cy</key>
-		<integer>-19</integer>
-		<key>a-cy.smcp</key>
-		<integer>-25</integer>
-		<key>che-cy</key>
-		<integer>-13</integer>
-		<key>che-cy.smcp</key>
-		<integer>-23</integer>
-		<key>de-cy</key>
-		<integer>-52</integer>
-		<key>de-cy.smcp</key>
-		<integer>-64</integer>
 		<key>four</key>
 		<integer>-31</integer>
-		<key>ha-cy</key>
-		<integer>-28</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-43</integer>
-		<key>je-cy.smcp</key>
-		<integer>-9</integer>
 		<key>one</key>
 		<integer>-14</integer>
 		<key>one.lf</key>
@@ -1870,18 +1840,48 @@
 		<integer>-16</integer>
 		<key>two.lf</key>
 		<integer>-20</integer>
+		<key>uni0408</key>
+		<integer>-9</integer>
+		<key>uni0410</key>
+		<integer>-28</integer>
+		<key>uni0414</key>
+		<integer>-47</integer>
+		<key>uni0416</key>
+		<integer>-19</integer>
+		<key>uni0425</key>
+		<integer>-45</integer>
+		<key>uni0427</key>
+		<integer>-30</integer>
+		<key>uni042A</key>
+		<integer>-63</integer>
+		<key>uni0430.smcp</key>
+		<integer>-25</integer>
+		<key>uni0434</key>
+		<integer>-52</integer>
+		<key>uni0434.smcp</key>
+		<integer>-64</integer>
+		<key>uni0436</key>
+		<integer>-12</integer>
+		<key>uni0436.smcp</key>
+		<integer>-21</integer>
+		<key>uni0437.smcp</key>
+		<integer>-8</integer>
+		<key>uni0445</key>
+		<integer>-28</integer>
+		<key>uni0445.smcp</key>
+		<integer>-43</integer>
+		<key>uni0447</key>
+		<integer>-13</integer>
+		<key>uni0447.smcp</key>
+		<integer>-23</integer>
+		<key>uni0458.smcp</key>
+		<integer>-9</integer>
 		<key>v.smcp</key>
 		<integer>-34</integer>
 		<key>x</key>
 		<integer>-28</integer>
 		<key>x.smcp</key>
 		<integer>-43</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-8</integer>
-		<key>zhe-cy</key>
-		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-21</integer>
 	</dict>
 	<key>@MMK_L_hyphen.cap</key>
 	<dict>
@@ -1905,26 +1905,26 @@
 		<integer>-49</integer>
 		<key>@MMK_R_uni0423</key>
 		<integer>-30</integer>
-		<key>A-cy</key>
-		<integer>-38</integer>
-		<key>Che-cy</key>
-		<integer>-21</integer>
-		<key>De-cy</key>
-		<integer>-53</integer>
-		<key>Ha-cy</key>
-		<integer>-50</integer>
-		<key>Hardsign-cy</key>
-		<integer>-14</integer>
-		<key>Je-cy</key>
-		<integer>-8</integer>
 		<key>V</key>
 		<integer>-37</integer>
 		<key>X</key>
 		<integer>-50</integer>
-		<key>Ze-cy</key>
-		<integer>-9</integer>
-		<key>Zhe-cy</key>
+		<key>uni0408</key>
+		<integer>-8</integer>
+		<key>uni0410</key>
+		<integer>-38</integer>
+		<key>uni0414</key>
+		<integer>-53</integer>
+		<key>uni0416</key>
 		<integer>-24</integer>
+		<key>uni0417</key>
+		<integer>-9</integer>
+		<key>uni0425</key>
+		<integer>-50</integer>
+		<key>uni0427</key>
+		<integer>-21</integer>
+		<key>uni042A</key>
+		<integer>-14</integer>
 	</dict>
 	<key>@MMK_L_hyphen.smcp</key>
 	<dict>
@@ -1944,20 +1944,20 @@
 		<integer>-12</integer>
 		<key>@MMK_R_uni0443.smcp</key>
 		<integer>-31</integer>
-		<key>a-cy.smcp</key>
+		<key>uni0430.smcp</key>
 		<integer>-29</integer>
-		<key>che-cy.smcp</key>
-		<integer>-20</integer>
-		<key>de-cy.smcp</key>
+		<key>uni0434.smcp</key>
 		<integer>-70</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-44</integer>
-		<key>je-cy.smcp</key>
-		<integer>-9</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0436.smcp</key>
 		<integer>-23</integer>
+		<key>uni0437.smcp</key>
+		<integer>-12</integer>
+		<key>uni0445.smcp</key>
+		<integer>-44</integer>
+		<key>uni0447.smcp</key>
+		<integer>-20</integer>
+		<key>uni0458.smcp</key>
+		<integer>-9</integer>
 	</dict>
 	<key>@MMK_L_i</key>
 	<dict>
@@ -2060,8 +2060,15 @@
 	</dict>
 	<key>@MMK_L_l</key>
 	<dict>
+		<key>@MMK_R_l</key>
+		<integer>10</integer>
 		<key>@MMK_R_o</key>
 		<integer>-10</integer>
+	</dict>
+	<key>@MMK_L_lcaron</key>
+	<dict>
+		<key>@MMK_R_l</key>
+		<integer>120</integer>
 	</dict>
 	<key>@MMK_L_n</key>
 	<dict>
@@ -2209,32 +2216,12 @@
 		<integer>-46</integer>
 		<key>@MMK_R_y</key>
 		<integer>-51</integer>
-		<key>Che-cy</key>
-		<integer>-99</integer>
-		<key>Ef-cy</key>
-		<integer>-21</integer>
-		<key>Hardsign-cy</key>
-		<integer>-60</integer>
-		<key>Je-cy</key>
-		<integer>-9</integer>
 		<key>Tbar</key>
 		<integer>-39</integer>
 		<key>V</key>
 		<integer>-107</integer>
-		<key>che-cy</key>
-		<integer>-49</integer>
-		<key>che-cy.smcp</key>
-		<integer>-83</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-17</integer>
 		<key>five</key>
 		<integer>-23</integer>
-		<key>hardsign-cy</key>
-		<integer>-34</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-52</integer>
-		<key>je-cy.smcp</key>
-		<integer>-8</integer>
 		<key>nine</key>
 		<integer>-13</integer>
 		<key>seven</key>
@@ -2243,10 +2230,30 @@
 		<integer>-31</integer>
 		<key>tbar.smcp</key>
 		<integer>-33</integer>
-		<key>te-cy</key>
-		<integer>-34</integer>
 		<key>three</key>
 		<integer>-53</integer>
+		<key>uni0408</key>
+		<integer>-9</integer>
+		<key>uni0424</key>
+		<integer>-21</integer>
+		<key>uni0427</key>
+		<integer>-99</integer>
+		<key>uni042A</key>
+		<integer>-60</integer>
+		<key>uni0442</key>
+		<integer>-34</integer>
+		<key>uni0444.smcp</key>
+		<integer>-17</integer>
+		<key>uni0447</key>
+		<integer>-49</integer>
+		<key>uni0447.smcp</key>
+		<integer>-83</integer>
+		<key>uni044A</key>
+		<integer>-34</integer>
+		<key>uni044A.smcp</key>
+		<integer>-52</integer>
+		<key>uni0458.smcp</key>
+		<integer>-8</integer>
 		<key>v.smcp</key>
 		<integer>-67</integer>
 		<key>zero.lf</key>
@@ -2288,28 +2295,28 @@
 		<integer>12</integer>
 		<key>@MMK_R_y</key>
 		<integer>19</integer>
-		<key>A-cy</key>
-		<integer>-56</integer>
-		<key>Che-cy</key>
-		<integer>-9</integer>
-		<key>De-cy</key>
-		<integer>-66</integer>
-		<key>Ha-cy</key>
-		<integer>-9</integer>
 		<key>V</key>
 		<integer>-11</integer>
 		<key>X</key>
 		<integer>-9</integer>
-		<key>a-cy.smcp</key>
-		<integer>-57</integer>
-		<key>be-cy.srb</key>
-		<integer>-8</integer>
-		<key>de-cy</key>
-		<integer>-22</integer>
-		<key>de-cy.smcp</key>
-		<integer>-53</integer>
 		<key>germandbls.smcp</key>
 		<integer>-17</integer>
+		<key>uni0410</key>
+		<integer>-56</integer>
+		<key>uni0414</key>
+		<integer>-66</integer>
+		<key>uni0425</key>
+		<integer>-9</integer>
+		<key>uni0427</key>
+		<integer>-9</integer>
+		<key>uni0430.smcp</key>
+		<integer>-57</integer>
+		<key>uni0431.srb</key>
+		<integer>-8</integer>
+		<key>uni0434</key>
+		<integer>-22</integer>
+		<key>uni0434.smcp</key>
+		<integer>-53</integer>
 	</dict>
 	<key>@MMK_L_quoteright</key>
 	<dict>
@@ -2353,14 +2360,6 @@
 		<integer>-18</integer>
 		<key>@MMK_R_uni043E.smcp</key>
 		<integer>-12</integer>
-		<key>A-cy</key>
-		<integer>-61</integer>
-		<key>De-cy</key>
-		<integer>-55</integer>
-		<key>a-cy</key>
-		<integer>-11</integer>
-		<key>a-cy.smcp</key>
-		<integer>-63</integer>
 		<key>ampersand</key>
 		<integer>-18</integer>
 		<key>ampersand.smcp</key>
@@ -2369,22 +2368,30 @@
 		<integer>-37</integer>
 		<key>at.smcp</key>
 		<integer>-38</integer>
-		<key>de-cy</key>
-		<integer>-25</integer>
-		<key>de-cy.smcp</key>
-		<integer>-45</integer>
-		<key>dze-cy</key>
-		<integer>-10</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-16</integer>
 		<key>germandbls.smcp</key>
 		<integer>-24</integer>
-		<key>ia-cy</key>
-		<integer>-9</integer>
 		<key>slash</key>
 		<integer>-41</integer>
 		<key>space</key>
 		<integer>-17</integer>
+		<key>uni0410</key>
+		<integer>-61</integer>
+		<key>uni0414</key>
+		<integer>-55</integer>
+		<key>uni0430</key>
+		<integer>-11</integer>
+		<key>uni0430.smcp</key>
+		<integer>-63</integer>
+		<key>uni0434</key>
+		<integer>-25</integer>
+		<key>uni0434.smcp</key>
+		<integer>-45</integer>
+		<key>uni0444.smcp</key>
+		<integer>-16</integer>
+		<key>uni044F</key>
+		<integer>-9</integer>
+		<key>uni0455</key>
+		<integer>-10</integer>
 		<key>v.smcp</key>
 		<integer>15</integer>
 	</dict>
@@ -2438,16 +2445,6 @@
 		<integer>-26</integer>
 		<key>@MMK_R_uni043E.smcp</key>
 		<integer>-20</integer>
-		<key>A-cy</key>
-		<integer>-66</integer>
-		<key>De-cy</key>
-		<integer>-51</integer>
-		<key>Ef-cy</key>
-		<integer>-11</integer>
-		<key>a-cy</key>
-		<integer>-19</integer>
-		<key>a-cy.smcp</key>
-		<integer>-68</integer>
 		<key>ampersand</key>
 		<integer>-19</integer>
 		<key>ampersand.smcp</key>
@@ -2456,16 +2453,6 @@
 		<integer>-46</integer>
 		<key>at.smcp</key>
 		<integer>-48</integer>
-		<key>be-cy</key>
-		<integer>-12</integer>
-		<key>de-cy</key>
-		<integer>-31</integer>
-		<key>de-cy.smcp</key>
-		<integer>-45</integer>
-		<key>dze-cy</key>
-		<integer>-19</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-24</integer>
 		<key>five</key>
 		<integer>-20</integer>
 		<key>four</key>
@@ -2474,8 +2461,6 @@
 		<integer>-70</integer>
 		<key>germandbls.smcp</key>
 		<integer>-31</integer>
-		<key>ia-cy</key>
-		<integer>-18</integer>
 		<key>idieresis</key>
 		<integer>45</integer>
 		<key>itilde</key>
@@ -2494,12 +2479,34 @@
 		<integer>-18</integer>
 		<key>two</key>
 		<integer>-11</integer>
+		<key>uni0410</key>
+		<integer>-66</integer>
+		<key>uni0414</key>
+		<integer>-51</integer>
+		<key>uni0424</key>
+		<integer>-11</integer>
+		<key>uni0430</key>
+		<integer>-19</integer>
+		<key>uni0430.smcp</key>
+		<integer>-68</integer>
+		<key>uni0431</key>
+		<integer>-12</integer>
+		<key>uni0434</key>
+		<integer>-31</integer>
+		<key>uni0434.smcp</key>
+		<integer>-45</integer>
+		<key>uni0436</key>
+		<integer>-9</integer>
+		<key>uni0444.smcp</key>
+		<integer>-24</integer>
+		<key>uni044F</key>
+		<integer>-18</integer>
+		<key>uni0455</key>
+		<integer>-19</integer>
 		<key>v.smcp</key>
 		<integer>12</integer>
 		<key>zero</key>
 		<integer>-26</integer>
-		<key>zhe-cy</key>
-		<integer>-9</integer>
 	</dict>
 	<key>@MMK_L_r</key>
 	<dict>
@@ -2604,38 +2611,38 @@
 		<integer>-44</integer>
 		<key>@MMK_R_uni043E.smcp</key>
 		<integer>-16</integer>
-		<key>A-cy</key>
-		<integer>-71</integer>
-		<key>De-cy</key>
-		<integer>-59</integer>
-		<key>a-cy</key>
-		<integer>-22</integer>
-		<key>a-cy.smcp</key>
-		<integer>-83</integer>
-		<key>be-cy</key>
-		<integer>-14</integer>
-		<key>be-cy.srb</key>
-		<integer>-9</integer>
-		<key>de-cy</key>
-		<integer>-55</integer>
-		<key>de-cy.smcp</key>
-		<integer>-86</integer>
-		<key>dze-cy</key>
-		<integer>-22</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-17</integer>
-		<key>ereversed-cy</key>
-		<integer>-6</integer>
-		<key>ia-cy</key>
-		<integer>-48</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-13</integer>
 		<key>slash</key>
 		<integer>-43</integer>
-		<key>ze-cy</key>
-		<integer>-6</integer>
-		<key>zhe-cy</key>
+		<key>uni0410</key>
+		<integer>-71</integer>
+		<key>uni0414</key>
+		<integer>-59</integer>
+		<key>uni0430</key>
+		<integer>-22</integer>
+		<key>uni0430.smcp</key>
+		<integer>-83</integer>
+		<key>uni0431</key>
+		<integer>-14</integer>
+		<key>uni0431.srb</key>
+		<integer>-9</integer>
+		<key>uni0434</key>
+		<integer>-55</integer>
+		<key>uni0434.smcp</key>
+		<integer>-86</integer>
+		<key>uni0436</key>
 		<integer>-5</integer>
+		<key>uni0437</key>
+		<integer>-6</integer>
+		<key>uni0444.smcp</key>
+		<integer>-17</integer>
+		<key>uni044D</key>
+		<integer>-6</integer>
+		<key>uni044F</key>
+		<integer>-48</integer>
+		<key>uni044F.smcp</key>
+		<integer>-13</integer>
+		<key>uni0455</key>
+		<integer>-22</integer>
 	</dict>
 	<key>@MMK_L_uni0414</key>
 	<dict>
@@ -2663,52 +2670,52 @@
 		<integer>-25</integer>
 		<key>@MMK_R_uni0443.smcp</key>
 		<integer>-5</integer>
-		<key>Che-cy</key>
-		<integer>-6</integer>
-		<key>Ef-cy</key>
-		<integer>-12</integer>
-		<key>Hardsign-cy</key>
-		<integer>-5</integer>
-		<key>Je-cy</key>
-		<integer>180</integer>
-		<key>a-cy</key>
-		<integer>-7</integer>
 		<key>asterisk</key>
 		<integer>-9</integer>
-		<key>be-cy</key>
-		<integer>-22</integer>
-		<key>be-cy.srb</key>
-		<integer>-15</integer>
 		<key>braceright</key>
 		<integer>6</integer>
-		<key>che-cy</key>
-		<integer>-32</integer>
-		<key>che-cy.smcp</key>
-		<integer>-15</integer>
-		<key>de-cy</key>
-		<integer>-8</integer>
-		<key>dze-cy</key>
-		<integer>-7</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ef-cy.smcp</key>
+		<key>uni0408</key>
+		<integer>180</integer>
+		<key>uni0424</key>
 		<integer>-12</integer>
-		<key>er-cy</key>
-		<integer>-14</integer>
-		<key>ereversed-cy</key>
+		<key>uni0427</key>
 		<integer>-6</integer>
-		<key>ereversed-cy.smcp</key>
+		<key>uni042A</key>
 		<integer>-5</integer>
-		<key>hardsign-cy</key>
+		<key>uni0430</key>
+		<integer>-7</integer>
+		<key>uni0431</key>
+		<integer>-22</integer>
+		<key>uni0431.srb</key>
+		<integer>-15</integer>
+		<key>uni0434</key>
+		<integer>-8</integer>
+		<key>uni0440</key>
+		<integer>-14</integer>
+		<key>uni0442</key>
 		<integer>-26</integer>
-		<key>hardsign-cy.smcp</key>
+		<key>uni0444.smcp</key>
+		<integer>-12</integer>
+		<key>uni0447</key>
+		<integer>-32</integer>
+		<key>uni0447.smcp</key>
+		<integer>-15</integer>
+		<key>uni044A</key>
+		<integer>-26</integer>
+		<key>uni044A.smcp</key>
 		<integer>-13</integer>
-		<key>je-cy</key>
+		<key>uni044D</key>
+		<integer>-6</integer>
+		<key>uni044D.smcp</key>
+		<integer>-5</integer>
+		<key>uni0455</key>
+		<integer>-7</integer>
+		<key>uni0455.smcp</key>
+		<integer>-5</integer>
+		<key>uni0458</key>
 		<integer>178</integer>
-		<key>je-cy.smcp</key>
+		<key>uni0458.smcp</key>
 		<integer>177</integer>
-		<key>te-cy</key>
-		<integer>-26</integer>
 	</dict>
 	<key>@MMK_L_uni0415</key>
 	<dict>
@@ -2718,21 +2725,21 @@
 		<integer>-7</integer>
 		<key>@MMK_R_uni0456</key>
 		<integer>10</integer>
-		<key>Che-cy</key>
+		<key>uni0427</key>
 		<integer>-9</integer>
-		<key>be-cy</key>
+		<key>uni0431</key>
 		<integer>-5</integer>
-		<key>be-cy.srb</key>
+		<key>uni0431.srb</key>
 		<integer>-5</integer>
-		<key>che-cy</key>
-		<integer>-8</integer>
-		<key>che-cy.smcp</key>
-		<integer>-6</integer>
-		<key>de-cy</key>
+		<key>uni0434</key>
 		<integer>-20</integer>
-		<key>hardsign-cy</key>
+		<key>uni0442</key>
 		<integer>-7</integer>
-		<key>te-cy</key>
+		<key>uni0447</key>
+		<integer>-8</integer>
+		<key>uni0447.smcp</key>
+		<integer>-6</integer>
+		<key>uni044A</key>
 		<integer>-7</integer>
 	</dict>
 	<key>@MMK_L_uni0418</key>
@@ -2751,40 +2758,40 @@
 		<integer>-11</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>-17</integer>
-		<key>Ef-cy</key>
-		<integer>-5</integer>
-		<key>a-cy</key>
-		<integer>-7</integer>
-		<key>be-cy</key>
-		<integer>-15</integer>
-		<key>be-cy.srb</key>
-		<integer>-11</integer>
-		<key>che-cy</key>
-		<integer>-23</integer>
-		<key>che-cy.smcp</key>
-		<integer>-9</integer>
-		<key>de-cy</key>
-		<integer>-18</integer>
-		<key>dze-cy</key>
-		<integer>-6</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-6</integer>
-		<key>er-cy</key>
-		<integer>-13</integer>
-		<key>ereversed-cy</key>
-		<integer>-6</integer>
-		<key>hardsign-cy</key>
-		<integer>-18</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-7</integer>
-		<key>je-cy</key>
-		<integer>-5</integer>
-		<key>je-cy.smcp</key>
-		<integer>-5</integer>
 		<key>parenright</key>
 		<integer>14</integer>
-		<key>te-cy</key>
+		<key>uni0424</key>
+		<integer>-5</integer>
+		<key>uni0430</key>
+		<integer>-7</integer>
+		<key>uni0431</key>
+		<integer>-15</integer>
+		<key>uni0431.srb</key>
+		<integer>-11</integer>
+		<key>uni0434</key>
 		<integer>-18</integer>
+		<key>uni0440</key>
+		<integer>-13</integer>
+		<key>uni0442</key>
+		<integer>-18</integer>
+		<key>uni0444.smcp</key>
+		<integer>-6</integer>
+		<key>uni0447</key>
+		<integer>-23</integer>
+		<key>uni0447.smcp</key>
+		<integer>-9</integer>
+		<key>uni044A</key>
+		<integer>-18</integer>
+		<key>uni044A.smcp</key>
+		<integer>-7</integer>
+		<key>uni044D</key>
+		<integer>-6</integer>
+		<key>uni0455</key>
+		<integer>-6</integer>
+		<key>uni0458</key>
+		<integer>-5</integer>
+		<key>uni0458.smcp</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_uni041A</key>
 	<dict>
@@ -2802,23 +2809,23 @@
 		<integer>-12</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>-15</integer>
-		<key>Che-cy</key>
+		<key>uni0424</key>
+		<integer>-15</integer>
+		<key>uni0427</key>
 		<integer>-9</integer>
-		<key>Ef-cy</key>
+		<key>uni0431</key>
 		<integer>-15</integer>
-		<key>be-cy</key>
-		<integer>-15</integer>
-		<key>be-cy.srb</key>
+		<key>uni0431.srb</key>
 		<integer>-10</integer>
-		<key>che-cy</key>
-		<integer>-20</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-12</integer>
-		<key>hardsign-cy</key>
+		<key>uni0442</key>
 		<integer>-18</integer>
-		<key>te-cy</key>
+		<key>uni0444.smcp</key>
+		<integer>-12</integer>
+		<key>uni0447</key>
+		<integer>-20</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
+		<key>uni044A</key>
 		<integer>-18</integer>
 	</dict>
 	<key>@MMK_L_uni041E</key>
@@ -2841,51 +2848,51 @@
 		<integer>-10</integer>
 		<key>@MMK_R_uni045B</key>
 		<integer>-8</integer>
-		<key>A-cy</key>
-		<integer>-31</integer>
-		<key>Che-cy</key>
-		<integer>-13</integer>
-		<key>De-cy</key>
-		<integer>-62</integer>
-		<key>Ha-cy</key>
-		<integer>-35</integer>
-		<key>Je-cy</key>
-		<integer>-7</integer>
-		<key>Zhe-cy</key>
-		<integer>-15</integer>
-		<key>a-cy</key>
-		<integer>-7</integer>
-		<key>a-cy.smcp</key>
-		<integer>-34</integer>
 		<key>braceright</key>
 		<integer>-21</integer>
-		<key>che-cy.smcp</key>
-		<integer>-7</integer>
-		<key>de-cy</key>
-		<integer>-46</integer>
-		<key>de-cy.smcp</key>
-		<integer>-60</integer>
-		<key>dze-cy</key>
-		<integer>-5</integer>
-		<key>ereversed-cy</key>
-		<integer>-6</integer>
-		<key>ha-cy</key>
-		<integer>-12</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-30</integer>
-		<key>ia-cy</key>
-		<integer>-6</integer>
 		<key>parenright</key>
 		<integer>-27</integer>
 		<key>parenright.case</key>
 		<integer>-23</integer>
 		<key>question</key>
 		<integer>-14</integer>
-		<key>ze-cy</key>
+		<key>uni0408</key>
 		<integer>-7</integer>
-		<key>zhe-cy</key>
+		<key>uni0410</key>
+		<integer>-31</integer>
+		<key>uni0414</key>
+		<integer>-62</integer>
+		<key>uni0416</key>
+		<integer>-15</integer>
+		<key>uni0425</key>
+		<integer>-35</integer>
+		<key>uni0427</key>
+		<integer>-13</integer>
+		<key>uni0430</key>
+		<integer>-7</integer>
+		<key>uni0430.smcp</key>
+		<integer>-34</integer>
+		<key>uni0434</key>
+		<integer>-46</integer>
+		<key>uni0434.smcp</key>
+		<integer>-60</integer>
+		<key>uni0436</key>
 		<integer>-8</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0436.smcp</key>
+		<integer>-5</integer>
+		<key>uni0437</key>
+		<integer>-7</integer>
+		<key>uni0445</key>
+		<integer>-12</integer>
+		<key>uni0445.smcp</key>
+		<integer>-30</integer>
+		<key>uni0447.smcp</key>
+		<integer>-7</integer>
+		<key>uni044D</key>
+		<integer>-6</integer>
+		<key>uni044F</key>
+		<integer>-6</integer>
+		<key>uni0455</key>
 		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_uni0423</key>
@@ -2938,90 +2945,90 @@
 		<integer>-10</integer>
 		<key>@MMK_R_uni045B</key>
 		<integer>-11</integer>
-		<key>A-cy</key>
-		<integer>-93</integer>
-		<key>De-cy</key>
-		<integer>-51</integer>
-		<key>Dze-cy</key>
-		<integer>-19</integer>
-		<key>Ef-cy</key>
-		<integer>-41</integer>
-		<key>Ereversed-cy</key>
-		<integer>-10</integer>
-		<key>Ia-cy</key>
-		<integer>-28</integer>
-		<key>Ze-cy</key>
-		<integer>-8</integer>
-		<key>Zhe-cy</key>
-		<integer>-8</integer>
-		<key>a-cy</key>
-		<integer>-96</integer>
-		<key>a-cy.smcp</key>
-		<integer>-124</integer>
 		<key>asterisk</key>
 		<integer>-9</integer>
 		<key>backslash</key>
 		<integer>18</integer>
-		<key>be-cy</key>
-		<integer>-50</integer>
-		<key>be-cy.srb</key>
-		<integer>-14</integer>
 		<key>braceright</key>
 		<integer>-12</integer>
 		<key>bracketright</key>
 		<integer>-12</integer>
 		<key>bracketright.case</key>
 		<integer>-12</integer>
-		<key>che-cy</key>
-		<integer>-47</integer>
-		<key>che-cy.smcp</key>
-		<integer>-15</integer>
-		<key>de-cy</key>
-		<integer>-115</integer>
-		<key>de-cy.smcp</key>
-		<integer>-116</integer>
-		<key>dze-cy</key>
-		<integer>-92</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-52</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-55</integer>
-		<key>er-cy</key>
-		<integer>-47</integer>
-		<key>ereversed-cy</key>
-		<integer>-59</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-25</integer>
-		<key>ha-cy</key>
-		<integer>-43</integer>
-		<key>hardsign-cy</key>
-		<integer>-60</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-16</integer>
-		<key>ia-cy</key>
-		<integer>-97</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-52</integer>
-		<key>io-cy</key>
-		<integer>-14</integer>
-		<key>je-cy</key>
-		<integer>-5</integer>
-		<key>je-cy.smcp</key>
-		<integer>-15</integer>
 		<key>question</key>
 		<integer>18</integer>
 		<key>slash</key>
 		<integer>-73</integer>
-		<key>te-cy</key>
-		<integer>-60</integer>
-		<key>ze-cy</key>
-		<integer>-64</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-23</integer>
-		<key>zhe-cy</key>
+		<key>uni0405</key>
+		<integer>-19</integer>
+		<key>uni0410</key>
+		<integer>-93</integer>
+		<key>uni0414</key>
+		<integer>-51</integer>
+		<key>uni0416</key>
+		<integer>-8</integer>
+		<key>uni0417</key>
+		<integer>-8</integer>
+		<key>uni0424</key>
+		<integer>-41</integer>
+		<key>uni042D</key>
+		<integer>-10</integer>
+		<key>uni042F</key>
+		<integer>-28</integer>
+		<key>uni0430</key>
+		<integer>-96</integer>
+		<key>uni0430.smcp</key>
+		<integer>-124</integer>
+		<key>uni0431</key>
+		<integer>-50</integer>
+		<key>uni0431.srb</key>
+		<integer>-14</integer>
+		<key>uni0434</key>
+		<integer>-115</integer>
+		<key>uni0434.smcp</key>
+		<integer>-116</integer>
+		<key>uni0436</key>
 		<integer>-70</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0436.smcp</key>
 		<integer>-33</integer>
+		<key>uni0437</key>
+		<integer>-64</integer>
+		<key>uni0437.smcp</key>
+		<integer>-23</integer>
+		<key>uni0440</key>
+		<integer>-47</integer>
+		<key>uni0442</key>
+		<integer>-60</integer>
+		<key>uni0444.smcp</key>
+		<integer>-55</integer>
+		<key>uni0445</key>
+		<integer>-43</integer>
+		<key>uni0447</key>
+		<integer>-47</integer>
+		<key>uni0447.smcp</key>
+		<integer>-15</integer>
+		<key>uni044A</key>
+		<integer>-60</integer>
+		<key>uni044A.smcp</key>
+		<integer>-16</integer>
+		<key>uni044D</key>
+		<integer>-59</integer>
+		<key>uni044D.smcp</key>
+		<integer>-25</integer>
+		<key>uni044F</key>
+		<integer>-97</integer>
+		<key>uni044F.smcp</key>
+		<integer>-52</integer>
+		<key>uni0451</key>
+		<integer>-14</integer>
+		<key>uni0455</key>
+		<integer>-92</integer>
+		<key>uni0455.smcp</key>
+		<integer>-52</integer>
+		<key>uni0458</key>
+		<integer>-5</integer>
+		<key>uni0458.smcp</key>
+		<integer>-15</integer>
 	</dict>
 	<key>@MMK_L_uni042C</key>
 	<dict>
@@ -3051,69 +3058,69 @@
 		<integer>-7</integer>
 		<key>@MMK_R_uni045B</key>
 		<integer>-6</integer>
-		<key>A-cy</key>
-		<integer>-20</integer>
-		<key>Che-cy</key>
-		<integer>-42</integer>
-		<key>De-cy</key>
-		<integer>-35</integer>
-		<key>Ha-cy</key>
-		<integer>-47</integer>
-		<key>Hardsign-cy</key>
-		<integer>-73</integer>
-		<key>Je-cy</key>
-		<integer>-9</integer>
-		<key>Zhe-cy</key>
-		<integer>-14</integer>
-		<key>a-cy.smcp</key>
-		<integer>-13</integer>
 		<key>asterisk</key>
 		<integer>-27</integer>
 		<key>backslash</key>
 		<integer>-40</integer>
 		<key>braceright</key>
 		<integer>-23</integer>
-		<key>che-cy</key>
-		<integer>-12</integer>
-		<key>che-cy.smcp</key>
-		<integer>-25</integer>
-		<key>de-cy</key>
-		<integer>-40</integer>
-		<key>de-cy.smcp</key>
-		<integer>-37</integer>
-		<key>er-cy</key>
-		<integer>-7</integer>
-		<key>ereversed-cy</key>
-		<integer>-9</integer>
 		<key>exclam</key>
 		<integer>-11</integer>
-		<key>ha-cy</key>
-		<integer>-33</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-36</integer>
-		<key>hardsign-cy</key>
-		<integer>-6</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-20</integer>
-		<key>ia-cy</key>
-		<integer>-7</integer>
-		<key>je-cy</key>
-		<integer>-7</integer>
-		<key>je-cy.smcp</key>
-		<integer>-8</integer>
 		<key>parenright</key>
 		<integer>-30</integer>
 		<key>parenright.case</key>
 		<integer>-19</integer>
 		<key>question</key>
 		<integer>-37</integer>
-		<key>te-cy</key>
-		<integer>-6</integer>
-		<key>ze-cy</key>
-		<integer>-8</integer>
-		<key>zhe-cy</key>
+		<key>uni0408</key>
+		<integer>-9</integer>
+		<key>uni0410</key>
+		<integer>-20</integer>
+		<key>uni0414</key>
+		<integer>-35</integer>
+		<key>uni0416</key>
+		<integer>-14</integer>
+		<key>uni0425</key>
+		<integer>-47</integer>
+		<key>uni0427</key>
+		<integer>-42</integer>
+		<key>uni042A</key>
+		<integer>-73</integer>
+		<key>uni0430.smcp</key>
+		<integer>-13</integer>
+		<key>uni0434</key>
+		<integer>-40</integer>
+		<key>uni0434.smcp</key>
+		<integer>-37</integer>
+		<key>uni0436</key>
 		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0436.smcp</key>
+		<integer>-8</integer>
+		<key>uni0437</key>
+		<integer>-8</integer>
+		<key>uni0440</key>
+		<integer>-7</integer>
+		<key>uni0442</key>
+		<integer>-6</integer>
+		<key>uni0445</key>
+		<integer>-33</integer>
+		<key>uni0445.smcp</key>
+		<integer>-36</integer>
+		<key>uni0447</key>
+		<integer>-12</integer>
+		<key>uni0447.smcp</key>
+		<integer>-25</integer>
+		<key>uni044A</key>
+		<integer>-6</integer>
+		<key>uni044A.smcp</key>
+		<integer>-20</integer>
+		<key>uni044D</key>
+		<integer>-9</integer>
+		<key>uni044F</key>
+		<integer>-7</integer>
+		<key>uni0458</key>
+		<integer>-7</integer>
+		<key>uni0458.smcp</key>
 		<integer>-8</integer>
 	</dict>
 	<key>@MMK_L_uni0433</key>
@@ -3124,12 +3131,12 @@
 		<integer>-119</integer>
 		<key>braceright</key>
 		<integer>-17</integer>
-		<key>de-cy</key>
-		<integer>-53</integer>
 		<key>parenright</key>
 		<integer>-27</integer>
 		<key>slash</key>
 		<integer>-11</integer>
+		<key>uni0434</key>
+		<integer>-53</integer>
 	</dict>
 	<key>@MMK_L_uni0433.smcp</key>
 	<dict>
@@ -3137,16 +3144,16 @@
 		<integer>-51</integer>
 		<key>@MMK_R_uni043B.smcp</key>
 		<integer>-66</integer>
-		<key>a-cy.smcp</key>
-		<integer>-45</integer>
-		<key>de-cy.smcp</key>
-		<integer>-77</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-5</integer>
 		<key>parenright</key>
 		<integer>-13</integer>
 		<key>slash</key>
 		<integer>-21</integer>
+		<key>uni0430.smcp</key>
+		<integer>-45</integer>
+		<key>uni0434.smcp</key>
+		<integer>-77</integer>
+		<key>uni044F.smcp</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_uni0434</key>
 	<dict>
@@ -3162,30 +3169,30 @@
 		<integer>-5</integer>
 		<key>@MMK_R_uni043E</key>
 		<integer>-11</integer>
-		<key>a-cy</key>
-		<integer>-6</integer>
 		<key>backslash</key>
 		<integer>-16</integer>
-		<key>be-cy</key>
-		<integer>-9</integer>
-		<key>be-cy.srb</key>
-		<integer>-11</integer>
-		<key>che-cy</key>
-		<integer>-10</integer>
-		<key>dze-cy</key>
-		<integer>-6</integer>
-		<key>er-cy</key>
-		<integer>-5</integer>
-		<key>ereversed-cy</key>
-		<integer>-4</integer>
-		<key>hardsign-cy</key>
-		<integer>-9</integer>
-		<key>je-cy</key>
-		<integer>174</integer>
 		<key>question</key>
 		<integer>-11</integer>
-		<key>te-cy</key>
+		<key>uni0430</key>
+		<integer>-6</integer>
+		<key>uni0431</key>
 		<integer>-9</integer>
+		<key>uni0431.srb</key>
+		<integer>-11</integer>
+		<key>uni0440</key>
+		<integer>-5</integer>
+		<key>uni0442</key>
+		<integer>-9</integer>
+		<key>uni0447</key>
+		<integer>-10</integer>
+		<key>uni044A</key>
+		<integer>-9</integer>
+		<key>uni044D</key>
+		<integer>-4</integer>
+		<key>uni0455</key>
+		<integer>-6</integer>
+		<key>uni0458</key>
+		<integer>174</integer>
 	</dict>
 	<key>@MMK_L_uni0434.smcp</key>
 	<dict>
@@ -3203,15 +3210,15 @@
 		<integer>-6</integer>
 		<key>braceright</key>
 		<integer>5</integer>
-		<key>che-cy.smcp</key>
-		<integer>-8</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-4</integer>
-		<key>ef-cy.smcp</key>
+		<key>uni0444.smcp</key>
 		<integer>-13</integer>
-		<key>hardsign-cy.smcp</key>
+		<key>uni0447.smcp</key>
 		<integer>-8</integer>
-		<key>je-cy.smcp</key>
+		<key>uni044A.smcp</key>
+		<integer>-8</integer>
+		<key>uni0455.smcp</key>
+		<integer>-4</integer>
+		<key>uni0458.smcp</key>
 		<integer>177</integer>
 	</dict>
 	<key>@MMK_L_uni0435</key>
@@ -3228,21 +3235,21 @@
 		<integer>-23</integer>
 		<key>braceright</key>
 		<integer>-23</integer>
-		<key>de-cy</key>
-		<integer>-61</integer>
-		<key>ha-cy</key>
-		<integer>-16</integer>
 		<key>parenright</key>
 		<integer>-29</integer>
 		<key>question</key>
 		<integer>-19</integer>
+		<key>uni0434</key>
+		<integer>-61</integer>
+		<key>uni0445</key>
+		<integer>-16</integer>
 	</dict>
 	<key>@MMK_L_uni0435.smcp</key>
 	<dict>
-		<key>che-cy.smcp</key>
-		<integer>-7</integer>
 		<key>parenright</key>
 		<integer>-11</integer>
+		<key>uni0447.smcp</key>
+		<integer>-7</integer>
 	</dict>
 	<key>@MMK_L_uni0438</key>
 	<dict>
@@ -3263,10 +3270,10 @@
 		<integer>42</integer>
 		<key>bracketright</key>
 		<integer>12</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-7</integer>
 		<key>parenright</key>
 		<integer>31</integer>
+		<key>uni0444.smcp</key>
+		<integer>-7</integer>
 	</dict>
 	<key>@MMK_L_uni043A</key>
 	<dict>
@@ -3286,10 +3293,10 @@
 		<integer>-5</integer>
 		<key>backslash</key>
 		<integer>-17</integer>
-		<key>be-cy.srb</key>
-		<integer>-7</integer>
 		<key>parenright</key>
 		<integer>-12</integer>
+		<key>uni0431.srb</key>
+		<integer>-7</integer>
 	</dict>
 	<key>@MMK_L_uni043A.smcp</key>
 	<dict>
@@ -3301,12 +3308,12 @@
 		<integer>-23</integer>
 		<key>@MMK_R_uni043E.smcp</key>
 		<integer>-11</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-13</integer>
 		<key>parenright</key>
 		<integer>-11</integer>
+		<key>uni0444.smcp</key>
+		<integer>-13</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_uni043E</key>
 	<dict>
@@ -3322,17 +3329,17 @@
 		<integer>-30</integer>
 		<key>braceright</key>
 		<integer>-26</integer>
-		<key>che-cy</key>
-		<integer>-7</integer>
-		<key>de-cy</key>
-		<integer>-66</integer>
-		<key>ha-cy</key>
-		<integer>-31</integer>
 		<key>parenright</key>
 		<integer>-32</integer>
 		<key>question</key>
 		<integer>-26</integer>
-		<key>zhe-cy</key>
+		<key>uni0434</key>
+		<integer>-66</integer>
+		<key>uni0436</key>
+		<integer>-7</integer>
+		<key>uni0445</key>
+		<integer>-31</integer>
+		<key>uni0447</key>
 		<integer>-7</integer>
 	</dict>
 	<key>@MMK_L_uni043E.smcp</key>
@@ -3347,36 +3354,36 @@
 		<integer>-9</integer>
 		<key>@MMK_R_uni0443.smcp</key>
 		<integer>-15</integer>
-		<key>a-cy.smcp</key>
-		<integer>-26</integer>
 		<key>backslash</key>
 		<integer>-21</integer>
 		<key>braceright</key>
 		<integer>-27</integer>
 		<key>braceright.smcp</key>
 		<integer>-17</integer>
-		<key>che-cy.smcp</key>
-		<integer>-12</integer>
-		<key>de-cy.smcp</key>
-		<integer>-69</integer>
 		<key>exclam</key>
 		<integer>-11</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-29</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-5</integer>
-		<key>je-cy.smcp</key>
-		<integer>-8</integer>
 		<key>parenright</key>
 		<integer>-32</integer>
 		<key>parenright.smcp</key>
 		<integer>-15</integer>
 		<key>question</key>
 		<integer>-26</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-4</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0430.smcp</key>
+		<integer>-26</integer>
+		<key>uni0434.smcp</key>
+		<integer>-69</integer>
+		<key>uni0436.smcp</key>
 		<integer>-11</integer>
+		<key>uni0437.smcp</key>
+		<integer>-4</integer>
+		<key>uni0445.smcp</key>
+		<integer>-29</integer>
+		<key>uni0447.smcp</key>
+		<integer>-12</integer>
+		<key>uni044F.smcp</key>
+		<integer>-5</integer>
+		<key>uni0458.smcp</key>
+		<integer>-8</integer>
 	</dict>
 	<key>@MMK_L_uni0440</key>
 	<dict>
@@ -3394,17 +3401,17 @@
 		<integer>-27</integer>
 		<key>braceright</key>
 		<integer>-27</integer>
-		<key>che-cy</key>
-		<integer>-6</integer>
-		<key>de-cy</key>
-		<integer>-36</integer>
-		<key>ha-cy</key>
-		<integer>-21</integer>
 		<key>parenright</key>
 		<integer>-32</integer>
 		<key>question</key>
 		<integer>-24</integer>
-		<key>zhe-cy</key>
+		<key>uni0434</key>
+		<integer>-36</integer>
+		<key>uni0436</key>
+		<integer>-6</integer>
+		<key>uni0445</key>
+		<integer>-21</integer>
+		<key>uni0447</key>
 		<integer>-6</integer>
 	</dict>
 	<key>@MMK_L_uni0443</key>
@@ -3421,30 +3428,30 @@
 		<integer>-42</integer>
 		<key>@MMK_R_uni045B</key>
 		<integer>-14</integer>
-		<key>a-cy</key>
-		<integer>-17</integer>
-		<key>be-cy</key>
-		<integer>-8</integer>
-		<key>be-cy.srb</key>
-		<integer>-23</integer>
 		<key>braceright</key>
 		<integer>-13</integer>
-		<key>de-cy</key>
-		<integer>-98</integer>
-		<key>dze-cy</key>
-		<integer>-16</integer>
-		<key>ereversed-cy</key>
-		<integer>-7</integer>
-		<key>ia-cy</key>
-		<integer>-20</integer>
 		<key>parenright</key>
 		<integer>-28</integer>
 		<key>slash</key>
 		<integer>-34</integer>
-		<key>ze-cy</key>
-		<integer>-30</integer>
-		<key>zhe-cy</key>
+		<key>uni0430</key>
+		<integer>-17</integer>
+		<key>uni0431</key>
+		<integer>-8</integer>
+		<key>uni0431.srb</key>
+		<integer>-23</integer>
+		<key>uni0434</key>
+		<integer>-98</integer>
+		<key>uni0436</key>
 		<integer>-9</integer>
+		<key>uni0437</key>
+		<integer>-30</integer>
+		<key>uni044D</key>
+		<integer>-7</integer>
+		<key>uni044F</key>
+		<integer>-20</integer>
+		<key>uni0455</key>
+		<integer>-16</integer>
 	</dict>
 	<key>@MMK_L_uni0443.smcp</key>
 	<dict>
@@ -3470,28 +3477,28 @@
 		<integer>-132</integer>
 		<key>@MMK_R_uni043E.smcp</key>
 		<integer>-31</integer>
-		<key>a-cy.smcp</key>
-		<integer>-77</integer>
 		<key>asterisk</key>
 		<integer>35</integer>
-		<key>de-cy.smcp</key>
-		<integer>-92</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-13</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-32</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-4</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-24</integer>
 		<key>parenright</key>
 		<integer>-10</integer>
 		<key>question</key>
 		<integer>7</integer>
 		<key>slash</key>
 		<integer>-50</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0430.smcp</key>
+		<integer>-77</integer>
+		<key>uni0434.smcp</key>
+		<integer>-92</integer>
+		<key>uni0436.smcp</key>
 		<integer>-5</integer>
+		<key>uni0444.smcp</key>
+		<integer>-32</integer>
+		<key>uni044D.smcp</key>
+		<integer>-4</integer>
+		<key>uni044F.smcp</key>
+		<integer>-24</integer>
+		<key>uni0455.smcp</key>
+		<integer>-13</integer>
 	</dict>
 	<key>@MMK_L_uni044C</key>
 	<dict>
@@ -3513,30 +3520,30 @@
 		<integer>-58</integer>
 		<key>braceright</key>
 		<integer>-22</integer>
-		<key>che-cy</key>
-		<integer>-74</integer>
-		<key>de-cy</key>
-		<integer>-46</integer>
-		<key>er-cy</key>
-		<integer>-6</integer>
-		<key>ereversed-cy</key>
-		<integer>-4</integer>
-		<key>ha-cy</key>
-		<integer>-35</integer>
-		<key>hardsign-cy</key>
-		<integer>-25</integer>
-		<key>ia-cy</key>
-		<integer>-4</integer>
-		<key>je-cy</key>
-		<integer>-6</integer>
 		<key>parenright</key>
 		<integer>-30</integer>
 		<key>question</key>
 		<integer>-33</integer>
-		<key>te-cy</key>
-		<integer>-25</integer>
-		<key>zhe-cy</key>
+		<key>uni0434</key>
+		<integer>-46</integer>
+		<key>uni0436</key>
 		<integer>-13</integer>
+		<key>uni0440</key>
+		<integer>-6</integer>
+		<key>uni0442</key>
+		<integer>-25</integer>
+		<key>uni0445</key>
+		<integer>-35</integer>
+		<key>uni0447</key>
+		<integer>-74</integer>
+		<key>uni044A</key>
+		<integer>-25</integer>
+		<key>uni044D</key>
+		<integer>-4</integer>
+		<key>uni044F</key>
+		<integer>-4</integer>
+		<key>uni0458</key>
+		<integer>-6</integer>
 	</dict>
 	<key>@MMK_L_uni044C.smcp</key>
 	<dict>
@@ -3552,8 +3559,6 @@
 		<integer>-34</integer>
 		<key>@MMK_R_uni0443.smcp</key>
 		<integer>-12</integer>
-		<key>a-cy.smcp</key>
-		<integer>-11</integer>
 		<key>asterisk</key>
 		<integer>-38</integer>
 		<key>backslash</key>
@@ -3562,16 +3567,6 @@
 		<integer>-20</integer>
 		<key>braceright.smcp</key>
 		<integer>-13</integer>
-		<key>che-cy.smcp</key>
-		<integer>-42</integer>
-		<key>de-cy.smcp</key>
-		<integer>-28</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-34</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-38</integer>
-		<key>je-cy.smcp</key>
-		<integer>-10</integer>
 		<key>parenright</key>
 		<integer>-29</integer>
 		<key>parenright.smcp</key>
@@ -3580,8 +3575,20 @@
 		<integer>-33</integer>
 		<key>question.smcp</key>
 		<integer>-31</integer>
-		<key>zhe-cy.smcp</key>
+		<key>uni0430.smcp</key>
+		<integer>-11</integer>
+		<key>uni0434.smcp</key>
+		<integer>-28</integer>
+		<key>uni0436.smcp</key>
 		<integer>-9</integer>
+		<key>uni0445.smcp</key>
+		<integer>-34</integer>
+		<key>uni0447.smcp</key>
+		<integer>-42</integer>
+		<key>uni044A.smcp</key>
+		<integer>-38</integer>
+		<key>uni0458.smcp</key>
+		<integer>-10</integer>
 	</dict>
 	<key>@MMK_L_uni0456</key>
 	<dict>
@@ -3589,7 +3596,7 @@
 		<integer>-6</integer>
 		<key>braceright</key>
 		<integer>12</integer>
-		<key>che-cy</key>
+		<key>uni0447</key>
 		<integer>-8</integer>
 	</dict>
 	<key>@MMK_L_v</key>
@@ -3670,113 +3677,6 @@
 		<key>parenright</key>
 		<integer>-18</integer>
 	</dict>
-	<key>A-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-16</integer>
-		<key>@MMK_R_guilsinglleft.cap</key>
-		<integer>-38</integer>
-		<key>@MMK_R_guilsinglright.cap</key>
-		<integer>-13</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-26</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-37</integer>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-59</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-64</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-66</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-30</integer>
-		<key>@MMK_R_uni0422</key>
-		<integer>-65</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-21</integer>
-		<key>@MMK_R_uni0438</key>
-		<integer>-5</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-22</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-22</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-52</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-64</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-18</integer>
-		<key>@MMK_R_uni0456</key>
-		<integer>-6</integer>
-		<key>Che-cy</key>
-		<integer>-91</integer>
-		<key>De-cy</key>
-		<integer>14</integer>
-		<key>Dze-cy</key>
-		<integer>-8</integer>
-		<key>Ef-cy</key>
-		<integer>-29</integer>
-		<key>Ereversed-cy</key>
-		<integer>-8</integer>
-		<key>Hardsign-cy</key>
-		<integer>-61</integer>
-		<key>Je-cy</key>
-		<integer>-18</integer>
-		<key>Ze-cy</key>
-		<integer>-9</integer>
-		<key>a-cy</key>
-		<integer>-12</integer>
-		<key>asterisk</key>
-		<integer>-49</integer>
-		<key>backslash</key>
-		<integer>-63</integer>
-		<key>be-cy</key>
-		<integer>-27</integer>
-		<key>be-cy.srb</key>
-		<integer>-23</integer>
-		<key>braceright</key>
-		<integer>-13</integer>
-		<key>bracketright</key>
-		<integer>-12</integer>
-		<key>bracketright.case</key>
-		<integer>-12</integer>
-		<key>che-cy</key>
-		<integer>-60</integer>
-		<key>che-cy.smcp</key>
-		<integer>-75</integer>
-		<key>dze-cy</key>
-		<integer>-12</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-7</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-21</integer>
-		<key>er-cy</key>
-		<integer>-16</integer>
-		<key>ereversed-cy</key>
-		<integer>-10</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-8</integer>
-		<key>exclam</key>
-		<integer>-12</integer>
-		<key>hardsign-cy</key>
-		<integer>-49</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-56</integer>
-		<key>je-cy</key>
-		<integer>-16</integer>
-		<key>je-cy.smcp</key>
-		<integer>-16</integer>
-		<key>parenright</key>
-		<integer>-14</integer>
-		<key>question</key>
-		<integer>-24</integer>
-		<key>te-cy</key>
-		<integer>-49</integer>
-		<key>ze-cy</key>
-		<integer>-8</integer>
-	</dict>
 	<key>Aogonek</key>
 	<dict>
 		<key>@MMK_R_J</key>
@@ -3835,243 +3735,12 @@
 		<key>x.smcp</key>
 		<integer>-11</integer>
 	</dict>
-	<key>Be-cy</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni0422</key>
-		<integer>-7</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-16</integer>
-		<key>A-cy</key>
-		<integer>-18</integer>
-		<key>Che-cy</key>
-		<integer>-15</integer>
-		<key>De-cy</key>
-		<integer>-28</integer>
-		<key>Ha-cy</key>
-		<integer>-9</integer>
-		<key>Hardsign-cy</key>
-		<integer>-9</integer>
-		<key>a-cy.smcp</key>
-		<integer>-9</integer>
-		<key>braceright</key>
-		<integer>-10</integer>
-		<key>che-cy</key>
-		<integer>-9</integer>
-		<key>che-cy.smcp</key>
-		<integer>-9</integer>
-		<key>de-cy</key>
-		<integer>-30</integer>
-		<key>de-cy.smcp</key>
-		<integer>-29</integer>
-		<key>ha-cy</key>
-		<integer>-5</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-15</integer>
-		<key>zhe-cy</key>
-		<integer>-9</integer>
-	</dict>
 	<key>Ccedilla</key>
 	<dict>
 		<key>@MMK_R_J.smcp</key>
 		<integer>37</integer>
 		<key>@MMK_R_j</key>
 		<integer>38</integer>
-	</dict>
-	<key>Dje-cy</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-62</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-62</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-73</integer>
-		<key>@MMK_R_uni0418</key>
-		<integer>-7</integer>
-		<key>@MMK_R_uni0422</key>
-		<integer>-46</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-17</integer>
-		<key>@MMK_R_uni0438</key>
-		<integer>-5</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-22</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-41</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-9</integer>
-		<key>A-cy</key>
-		<integer>-16</integer>
-		<key>Che-cy</key>
-		<integer>-45</integer>
-		<key>De-cy</key>
-		<integer>-27</integer>
-		<key>Ha-cy</key>
-		<integer>-32</integer>
-		<key>Hardsign-cy</key>
-		<integer>-67</integer>
-		<key>Je-cy</key>
-		<integer>-7</integer>
-		<key>Zhe-cy</key>
-		<integer>-8</integer>
-		<key>a-cy.smcp</key>
-		<integer>-11</integer>
-		<key>asterisk</key>
-		<integer>-27</integer>
-		<key>backslash</key>
-		<integer>-38</integer>
-		<key>braceright</key>
-		<integer>-16</integer>
-		<key>che-cy</key>
-		<integer>-13</integer>
-		<key>che-cy.smcp</key>
-		<integer>-27</integer>
-		<key>de-cy</key>
-		<integer>-29</integer>
-		<key>de-cy.smcp</key>
-		<integer>-29</integer>
-		<key>er-cy</key>
-		<integer>-6</integer>
-		<key>ha-cy</key>
-		<integer>-26</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-24</integer>
-		<key>hardsign-cy</key>
-		<integer>-8</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-28</integer>
-		<key>ia-cy</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-24</integer>
-		<key>parenright.case</key>
-		<integer>-13</integer>
-		<key>question</key>
-		<integer>-30</integer>
-		<key>te-cy</key>
-		<integer>-8</integer>
-		<key>ze-cy</key>
-		<integer>-5</integer>
-		<key>zhe-cy</key>
-		<integer>-10</integer>
-	</dict>
-	<key>Dze-cy</key>
-	<dict>
-		<key>@MMK_R_uni0443</key>
-		<integer>-8</integer>
-		<key>A-cy</key>
-		<integer>-18</integer>
-		<key>Che-cy</key>
-		<integer>-9</integer>
-		<key>De-cy</key>
-		<integer>-25</integer>
-		<key>a-cy.smcp</key>
-		<integer>-10</integer>
-		<key>che-cy</key>
-		<integer>-9</integer>
-		<key>che-cy.smcp</key>
-		<integer>-6</integer>
-		<key>de-cy</key>
-		<integer>-29</integer>
-		<key>de-cy.smcp</key>
-		<integer>-26</integer>
-		<key>hardsign-cy</key>
-		<integer>-7</integer>
-		<key>ia-cy</key>
-		<integer>-7</integer>
-		<key>parenright</key>
-		<integer>-12</integer>
-		<key>te-cy</key>
-		<integer>-7</integer>
-		<key>zhe-cy</key>
-		<integer>-6</integer>
-	</dict>
-	<key>E-cy</key>
-	<dict>
-		<key>@MMK_R_uni043E</key>
-		<integer>-7</integer>
-		<key>A-cy</key>
-		<integer>-5</integer>
-		<key>Che-cy</key>
-		<integer>-7</integer>
-		<key>De-cy</key>
-		<integer>-5</integer>
-		<key>a-cy.smcp</key>
-		<integer>-5</integer>
-		<key>be-cy</key>
-		<integer>-8</integer>
-		<key>be-cy.srb</key>
-		<integer>-7</integer>
-		<key>che-cy</key>
-		<integer>-8</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>de-cy</key>
-		<integer>-21</integer>
-		<key>de-cy.smcp</key>
-		<integer>-8</integer>
-		<key>hardsign-cy</key>
-		<integer>-6</integer>
-		<key>te-cy</key>
-		<integer>-6</integer>
-	</dict>
-	<key>Ef-cy</key>
-	<dict>
-		<key>@MMK_R_period</key>
-		<integer>-23</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-9</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni0418</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni041B</key>
-		<integer>-13</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-27</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-14</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-9</integer>
-		<key>A-cy</key>
-		<integer>-30</integer>
-		<key>Che-cy</key>
-		<integer>-9</integer>
-		<key>De-cy</key>
-		<integer>-69</integer>
-		<key>Ha-cy</key>
-		<integer>-58</integer>
-		<key>Ia-cy</key>
-		<integer>-5</integer>
-		<key>Zhe-cy</key>
-		<integer>-17</integer>
-		<key>a-cy.smcp</key>
-		<integer>-29</integer>
-		<key>braceright</key>
-		<integer>-15</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>de-cy</key>
-		<integer>-42</integer>
-		<key>de-cy.smcp</key>
-		<integer>-63</integer>
-		<key>ha-cy</key>
-		<integer>-7</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-31</integer>
-		<key>parenright</key>
-		<integer>-23</integer>
-		<key>parenright.case</key>
-		<integer>-18</integer>
-		<key>question</key>
-		<integer>-20</integer>
-		<key>zhe-cy</key>
-		<integer>-5</integer>
 	</dict>
 	<key>Eng</key>
 	<dict>
@@ -4085,87 +3754,10 @@
 		<key>@MMK_R_J.smcp</key>
 		<integer>118</integer>
 	</dict>
-	<key>Er-cy</key>
+	<key>Euro</key>
 	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-12</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-21</integer>
-		<key>@MMK_R_period</key>
-		<integer>-78</integer>
-		<key>@MMK_R_uni0418</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni041B</key>
-		<integer>-80</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-95</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-82</integer>
-		<key>@MMK_R_uni043E</key>
+		<key>three</key>
 		<integer>-19</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-6</integer>
-		<key>A-cy</key>
-		<integer>-67</integer>
-		<key>Che-cy</key>
-		<integer>-7</integer>
-		<key>De-cy</key>
-		<integer>-84</integer>
-		<key>Ha-cy</key>
-		<integer>-30</integer>
-		<key>Ia-cy</key>
-		<integer>-5</integer>
-		<key>Je-cy</key>
-		<integer>-6</integer>
-		<key>Ze-cy</key>
-		<integer>-10</integer>
-		<key>Zhe-cy</key>
-		<integer>-11</integer>
-		<key>a-cy</key>
-		<integer>-15</integer>
-		<key>a-cy.smcp</key>
-		<integer>-82</integer>
-		<key>be-cy</key>
-		<integer>-8</integer>
-		<key>be-cy.srb</key>
-		<integer>-14</integer>
-		<key>braceright</key>
-		<integer>-12</integer>
-		<key>de-cy</key>
-		<integer>-45</integer>
-		<key>de-cy.smcp</key>
-		<integer>-88</integer>
-		<key>dze-cy</key>
-		<integer>-12</integer>
-		<key>ereversed-cy</key>
-		<integer>-8</integer>
-		<key>ia-cy</key>
-		<integer>-17</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-7</integer>
-		<key>parenright</key>
-		<integer>-21</integer>
-		<key>parenright.case</key>
-		<integer>-18</integer>
-		<key>slash</key>
-		<integer>-42</integer>
-		<key>ze-cy</key>
-		<integer>-10</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-6</integer>
-		<key>zhe-cy</key>
-		<integer>-11</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-6</integer>
-	</dict>
-	<key>Es-cy</key>
-	<dict>
-		<key>de-cy</key>
-		<integer>-18</integer>
-		<key>de-cy.smcp</key>
-		<integer>-5</integer>
 	</dict>
 	<key>F</key>
 	<dict>
@@ -4220,202 +3812,6 @@
 		<key>space</key>
 		<integer>-25</integer>
 	</dict>
-	<key>Germandbls</key>
-	<dict>
-		<key>@MMK_R_A</key>
-		<integer>-21</integer>
-		<key>@MMK_R_AE</key>
-		<integer>-16</integer>
-		<key>@MMK_R_I</key>
-		<integer>-14</integer>
-		<key>@MMK_R_J</key>
-		<integer>-17</integer>
-		<key>@MMK_R_O</key>
-		<integer>-5</integer>
-		<key>@MMK_R_T</key>
-		<integer>-16</integer>
-		<key>@MMK_R_U</key>
-		<integer>-16</integer>
-		<key>@MMK_R_W</key>
-		<integer>-30</integer>
-		<key>@MMK_R_Y</key>
-		<integer>-27</integer>
-		<key>@MMK_R_Z</key>
-		<integer>-10</integer>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-8</integer>
-		<key>V</key>
-		<integer>-31</integer>
-		<key>X</key>
-		<integer>-19</integer>
-		<key>asterisk</key>
-		<integer>-9</integer>
-		<key>braceright</key>
-		<integer>-13</integer>
-		<key>ordfeminine</key>
-		<integer>-8</integer>
-		<key>ordmasculine</key>
-		<integer>-10</integer>
-		<key>parenright</key>
-		<integer>-20</integer>
-		<key>registered</key>
-		<integer>-13</integer>
-		<key>space</key>
-		<integer>-14</integer>
-	</dict>
-	<key>Gheupturn-cy</key>
-	<dict>
-		<key>@MMK_R_colon</key>
-		<integer>-61</integer>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-85</integer>
-		<key>@MMK_R_guilsinglleft.cap</key>
-		<integer>-87</integer>
-		<key>@MMK_R_guilsinglright</key>
-		<integer>-77</integer>
-		<key>@MMK_R_guilsinglright.cap</key>
-		<integer>-48</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-72</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-72</integer>
-		<key>@MMK_R_period</key>
-		<integer>-64</integer>
-		<key>@MMK_R_uni041B</key>
-		<integer>-87</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-74</integer>
-		<key>@MMK_R_uni0438</key>
-		<integer>-106</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-60</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-117</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-95</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-133</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-97</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-72</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-107</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-47</integer>
-		<key>A-cy</key>
-		<integer>-99</integer>
-		<key>De-cy</key>
-		<integer>-58</integer>
-		<key>Ef-cy</key>
-		<integer>-89</integer>
-		<key>Ia-cy</key>
-		<integer>-51</integer>
-		<key>a-cy</key>
-		<integer>-121</integer>
-		<key>a-cy.smcp</key>
-		<integer>-100</integer>
-		<key>be-cy</key>
-		<integer>-80</integer>
-		<key>be-cy.srb</key>
-		<integer>-19</integer>
-		<key>braceright</key>
-		<integer>9</integer>
-		<key>che-cy</key>
-		<integer>-114</integer>
-		<key>che-cy.smcp</key>
-		<integer>-66</integer>
-		<key>de-cy</key>
-		<integer>-138</integer>
-		<key>de-cy.smcp</key>
-		<integer>-122</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-94</integer>
-		<key>er-cy</key>
-		<integer>-112</integer>
-		<key>ereversed-cy</key>
-		<integer>-115</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-77</integer>
-		<key>ha-cy</key>
-		<integer>-92</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-39</integer>
-		<key>hardsign-cy</key>
-		<integer>-120</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-62</integer>
-		<key>ia-cy</key>
-		<integer>-108</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-81</integer>
-		<key>iishort-cy</key>
-		<integer>-93</integer>
-		<key>io-cy</key>
-		<integer>-39</integer>
-		<key>slash</key>
-		<integer>-64</integer>
-		<key>te-cy</key>
-		<integer>-120</integer>
-		<key>ze-cy</key>
-		<integer>-116</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-78</integer>
-		<key>zhe-cy</key>
-		<integer>-109</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-88</integer>
-	</dict>
-	<key>Gje-cy</key>
-	<dict>
-		<key>de-cy</key>
-		<integer>-49</integer>
-	</dict>
-	<key>Ha-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft.cap</key>
-		<integer>-57</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-31</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-47</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-37</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-25</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-46</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-21</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-62</integer>
-		<key>Ef-cy</key>
-		<integer>-61</integer>
-		<key>asterisk</key>
-		<integer>-18</integer>
-		<key>be-cy</key>
-		<integer>-28</integer>
-		<key>be-cy.srb</key>
-		<integer>-19</integer>
-		<key>che-cy</key>
-		<integer>-48</integer>
-		<key>che-cy.smcp</key>
-		<integer>-25</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-51</integer>
-		<key>hardsign-cy</key>
-		<integer>-38</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-27</integer>
-		<key>parenright.case</key>
-		<integer>5</integer>
-		<key>slash</key>
-		<integer>24</integer>
-		<key>te-cy</key>
-		<integer>-38</integer>
-		<key>ushort-cy</key>
-		<integer>-54</integer>
-	</dict>
 	<key>Idieresis</key>
 	<dict>
 		<key>parenright</key>
@@ -4427,71 +3823,6 @@
 		<integer>158</integer>
 		<key>@MMK_R_j</key>
 		<integer>159</integer>
-	</dict>
-	<key>Je-cy</key>
-	<dict>
-		<key>@MMK_R_hyphen</key>
-		<integer>-9</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-8</integer>
-		<key>@MMK_R_period</key>
-		<integer>-10</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0438</key>
-		<integer>-15</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-15</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-20</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-10</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-15</integer>
-		<key>A-cy</key>
-		<integer>-18</integer>
-		<key>De-cy</key>
-		<integer>-24</integer>
-		<key>a-cy</key>
-		<integer>-18</integer>
-		<key>a-cy.smcp</key>
-		<integer>-15</integer>
-		<key>be-cy</key>
-		<integer>-14</integer>
-		<key>be-cy.srb</key>
-		<integer>-11</integer>
-		<key>che-cy</key>
-		<integer>-20</integer>
-		<key>che-cy.smcp</key>
-		<integer>-10</integer>
-		<key>de-cy</key>
-		<integer>-35</integer>
-		<key>de-cy.smcp</key>
-		<integer>-26</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-5</integer>
-		<key>er-cy</key>
-		<integer>-17</integer>
-		<key>ereversed-cy</key>
-		<integer>-16</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ha-cy</key>
-		<integer>-7</integer>
-		<key>hardsign-cy</key>
-		<integer>-17</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-6</integer>
-		<key>ia-cy</key>
-		<integer>-14</integer>
-		<key>te-cy</key>
-		<integer>-17</integer>
-		<key>ze-cy</key>
-		<integer>-14</integer>
-		<key>zhe-cy</key>
-		<integer>-15</integer>
 	</dict>
 	<key>Lcaron</key>
 	<dict>
@@ -4606,49 +3937,6 @@
 		<key>@MMK_R_period</key>
 		<integer>-39</integer>
 	</dict>
-	<key>Te-cy</key>
-	<dict>
-		<key>@MMK_R_hyphen</key>
-		<integer>-26</integer>
-		<key>@MMK_R_period</key>
-		<integer>-46</integer>
-		<key>@MMK_R_uni041B</key>
-		<integer>-64</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-66</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-57</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-20</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-6</integer>
-		<key>A-cy</key>
-		<integer>-65</integer>
-		<key>De-cy</key>
-		<integer>-48</integer>
-		<key>a-cy</key>
-		<integer>-14</integer>
-		<key>a-cy.smcp</key>
-		<integer>-61</integer>
-		<key>be-cy</key>
-		<integer>-9</integer>
-		<key>be-cy.srb</key>
-		<integer>-7</integer>
-		<key>de-cy</key>
-		<integer>-45</integer>
-		<key>de-cy.smcp</key>
-		<integer>-61</integer>
-		<key>dze-cy</key>
-		<integer>-12</integer>
-		<key>ereversed-cy</key>
-		<integer>-5</integer>
-		<key>ia-cy</key>
-		<integer>-16</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-5</integer>
-		<key>slash</key>
-		<integer>-28</integer>
-	</dict>
 	<key>Thorn</key>
 	<dict>
 		<key>@MMK_R_A</key>
@@ -4698,69 +3986,6 @@
 		<key>x.smcp</key>
 		<integer>-34</integer>
 	</dict>
-	<key>Tshe-cy</key>
-	<dict>
-		<key>@MMK_R_hyphen</key>
-		<integer>-9</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-13</integer>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-60</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-59</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-66</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-11</integer>
-		<key>@MMK_R_uni0422</key>
-		<integer>-53</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-14</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-9</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-28</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-55</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-8</integer>
-		<key>Che-cy</key>
-		<integer>-57</integer>
-		<key>Ef-cy</key>
-		<integer>-8</integer>
-		<key>Hardsign-cy</key>
-		<integer>-66</integer>
-		<key>Je-cy</key>
-		<integer>-10</integer>
-		<key>a-cy</key>
-		<integer>-5</integer>
-		<key>asterisk</key>
-		<integer>-36</integer>
-		<key>backslash</key>
-		<integer>-49</integer>
-		<key>be-cy</key>
-		<integer>-11</integer>
-		<key>be-cy.srb</key>
-		<integer>-9</integer>
-		<key>che-cy</key>
-		<integer>-36</integer>
-		<key>che-cy.smcp</key>
-		<integer>-50</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-6</integer>
-		<key>er-cy</key>
-		<integer>-9</integer>
-		<key>hardsign-cy</key>
-		<integer>-19</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-32</integer>
-		<key>question</key>
-		<integer>-19</integer>
-		<key>te-cy</key>
-		<integer>-19</integer>
-	</dict>
 	<key>V</key>
 	<dict>
 		<key>@MMK_R_A</key>
@@ -4789,55 +4014,6 @@
 		<integer>-50</integer>
 		<key>@MMK_R_y</key>
 		<integer>-70</integer>
-	</dict>
-	<key>Ve-cy</key>
-	<dict>
-		<key>@MMK_R_uni0422</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0423</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-17</integer>
-		<key>A-cy</key>
-		<integer>-19</integer>
-		<key>Che-cy</key>
-		<integer>-20</integer>
-		<key>De-cy</key>
-		<integer>-48</integer>
-		<key>Ha-cy</key>
-		<integer>-30</integer>
-		<key>Hardsign-cy</key>
-		<integer>-8</integer>
-		<key>Zhe-cy</key>
-		<integer>-8</integer>
-		<key>a-cy.smcp</key>
-		<integer>-12</integer>
-		<key>braceright</key>
-		<integer>-13</integer>
-		<key>che-cy</key>
-		<integer>-11</integer>
-		<key>che-cy.smcp</key>
-		<integer>-10</integer>
-		<key>de-cy</key>
-		<integer>-43</integer>
-		<key>de-cy.smcp</key>
-		<integer>-44</integer>
-		<key>ha-cy</key>
-		<integer>-16</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-11</integer>
-		<key>hardsign-cy</key>
-		<integer>-7</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ia-cy</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-19</integer>
-		<key>te-cy</key>
-		<integer>-7</integer>
-		<key>zhe-cy</key>
-		<integer>-13</integer>
 	</dict>
 	<key>X</key>
 	<dict>
@@ -4890,142 +4066,6 @@
 		<key>v.smcp</key>
 		<integer>-35</integer>
 	</dict>
-	<key>Ze-cy</key>
-	<dict>
-		<key>@MMK_R_uni0443</key>
-		<integer>-15</integer>
-		<key>A-cy</key>
-		<integer>-17</integer>
-		<key>Che-cy</key>
-		<integer>-14</integer>
-		<key>De-cy</key>
-		<integer>-38</integer>
-		<key>Ha-cy</key>
-		<integer>-20</integer>
-		<key>a-cy.smcp</key>
-		<integer>-10</integer>
-		<key>braceright</key>
-		<integer>-10</integer>
-		<key>che-cy</key>
-		<integer>-10</integer>
-		<key>che-cy.smcp</key>
-		<integer>-7</integer>
-		<key>de-cy</key>
-		<integer>-35</integer>
-		<key>de-cy.smcp</key>
-		<integer>-38</integer>
-		<key>ha-cy</key>
-		<integer>-12</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-5</integer>
-		<key>hardsign-cy</key>
-		<integer>-6</integer>
-		<key>ia-cy</key>
-		<integer>-6</integer>
-		<key>parenright</key>
-		<integer>-16</integer>
-		<key>te-cy</key>
-		<integer>-6</integer>
-		<key>zhe-cy</key>
-		<integer>-10</integer>
-	</dict>
-	<key>Zhe-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft.cap</key>
-		<integer>-33</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-18</integer>
-		<key>@MMK_R_hyphen.cap</key>
-		<integer>-25</integer>
-		<key>@MMK_R_uni041E</key>
-		<integer>-16</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-10</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-12</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-11</integer>
-		<key>Che-cy</key>
-		<integer>-5</integer>
-		<key>Ef-cy</key>
-		<integer>-19</integer>
-		<key>be-cy</key>
-		<integer>-12</integer>
-		<key>be-cy.srb</key>
-		<integer>-8</integer>
-		<key>che-cy</key>
-		<integer>-16</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-12</integer>
-		<key>hardsign-cy</key>
-		<integer>-14</integer>
-		<key>te-cy</key>
-		<integer>-14</integer>
-	</dict>
-	<key>a-cy</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-16</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-28</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-26</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-11</integer>
-		<key>asterisk</key>
-		<integer>-8</integer>
-		<key>backslash</key>
-		<integer>-36</integer>
-		<key>braceright</key>
-		<integer>-14</integer>
-		<key>che-cy</key>
-		<integer>-10</integer>
-		<key>parenright</key>
-		<integer>-22</integer>
-		<key>question</key>
-		<integer>-22</integer>
-	</dict>
-	<key>a-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-15</integer>
-		<key>@MMK_R_guilsinglleft.smcp</key>
-		<integer>-31</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-24</integer>
-		<key>@MMK_R_hyphen.smcp</key>
-		<integer>-28</integer>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-61</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-68</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-69</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-22</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-51</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-14</integer>
-		<key>asterisk</key>
-		<integer>-52</integer>
-		<key>backslash</key>
-		<integer>-67</integer>
-		<key>che-cy.smcp</key>
-		<integer>-86</integer>
-		<key>de-cy.smcp</key>
-		<integer>22</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-24</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-47</integer>
-		<key>je-cy.smcp</key>
-		<integer>-12</integer>
-		<key>question</key>
-		<integer>-21</integer>
-		<key>question.smcp</key>
-		<integer>-27</integer>
-	</dict>
 	<key>ampersand</key>
 	<dict>
 		<key>@MMK_R_A</key>
@@ -5077,18 +4117,18 @@
 		<integer>-45</integer>
 		<key>@MMK_R_uni043B.smcp</key>
 		<integer>-56</integer>
-		<key>A-cy</key>
-		<integer>-49</integer>
-		<key>De-cy</key>
-		<integer>-66</integer>
-		<key>a-cy.smcp</key>
-		<integer>-51</integer>
-		<key>de-cy</key>
-		<integer>-31</integer>
-		<key>de-cy.smcp</key>
-		<integer>-57</integer>
 		<key>germandbls.smcp</key>
 		<integer>-13</integer>
+		<key>uni0410</key>
+		<integer>-49</integer>
+		<key>uni0414</key>
+		<integer>-66</integer>
+		<key>uni0430.smcp</key>
+		<integer>-51</integer>
+		<key>uni0434</key>
+		<integer>-31</integer>
+		<key>uni0434.smcp</key>
+		<integer>-57</integer>
 	</dict>
 	<key>at</key>
 	<dict>
@@ -5202,26 +4242,26 @@
 		<integer>-31</integer>
 		<key>@MMK_R_y</key>
 		<integer>-32</integer>
-		<key>Che-cy</key>
-		<integer>-54</integer>
-		<key>Hardsign-cy</key>
-		<integer>-37</integer>
 		<key>V</key>
 		<integer>-62</integer>
-		<key>che-cy</key>
-		<integer>-25</integer>
-		<key>che-cy.smcp</key>
-		<integer>-42</integer>
-		<key>hardsign-cy</key>
-		<integer>-11</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-24</integer>
 		<key>seven.lf</key>
 		<integer>-26</integer>
-		<key>te-cy</key>
-		<integer>-11</integer>
 		<key>three</key>
 		<integer>-27</integer>
+		<key>uni0427</key>
+		<integer>-54</integer>
+		<key>uni042A</key>
+		<integer>-37</integer>
+		<key>uni0442</key>
+		<integer>-11</integer>
+		<key>uni0447</key>
+		<integer>-25</integer>
+		<key>uni0447.smcp</key>
+		<integer>-42</integer>
+		<key>uni044A</key>
+		<integer>-11</integer>
+		<key>uni044A.smcp</key>
+		<integer>-24</integer>
 		<key>v.smcp</key>
 		<integer>-44</integer>
 	</dict>
@@ -5233,51 +4273,6 @@
 		<integer>116</integer>
 		<key>@MMK_R_j</key>
 		<integer>120</integer>
-	</dict>
-	<key>be-cy</key>
-	<dict>
-		<key>braceright</key>
-		<integer>-1</integer>
-		<key>parenright</key>
-		<integer>-13</integer>
-	</dict>
-	<key>be-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-7</integer>
-		<key>a-cy.smcp</key>
-		<integer>-11</integer>
-		<key>backslash</key>
-		<integer>-13</integer>
-		<key>braceright</key>
-		<integer>-13</integer>
-		<key>che-cy.smcp</key>
-		<integer>-14</integer>
-		<key>de-cy.smcp</key>
-		<integer>-27</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-10</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-9</integer>
-		<key>parenright</key>
-		<integer>-22</integer>
-	</dict>
-	<key>be-cy.srb</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-9</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-16</integer>
-		<key>che-cy</key>
-		<integer>-7</integer>
-		<key>de-cy</key>
-		<integer>-36</integer>
-		<key>ha-cy</key>
-		<integer>-22</integer>
-		<key>zhe-cy</key>
-		<integer>-7</integer>
 	</dict>
 	<key>braceleft</key>
 	<dict>
@@ -5331,42 +4326,18 @@
 		<integer>-10</integer>
 		<key>@MMK_R_z</key>
 		<integer>-10</integer>
-		<key>A-cy</key>
-		<integer>-14</integer>
-		<key>De-cy</key>
-		<integer>16</integer>
-		<key>Ef-cy</key>
-		<integer>-19</integer>
 		<key>Itilde</key>
 		<integer>48</integer>
-		<key>Je-cy</key>
-		<integer>139</integer>
 		<key>V</key>
 		<integer>-13</integer>
-		<key>a-cy</key>
-		<integer>-14</integer>
 		<key>b</key>
 		<integer>11</integer>
-		<key>be-cy</key>
-		<integer>-20</integer>
 		<key>braceleft</key>
 		<integer>-19</integer>
 		<key>braceleft.smcp</key>
 		<integer>-29</integer>
-		<key>che-cy</key>
-		<integer>-13</integer>
-		<key>de-cy.smcp</key>
-		<integer>11</integer>
-		<key>dze-cy</key>
-		<integer>-15</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-25</integer>
-		<key>ereversed-cy</key>
-		<integer>-12</integer>
 		<key>four.lf</key>
 		<integer>-10</integer>
-		<key>hardsign-cy</key>
-		<integer>-17</integer>
 		<key>idieresis</key>
 		<integer>30</integer>
 		<key>igrave.smcp</key>
@@ -5375,10 +4346,6 @@
 		<integer>10</integer>
 		<key>itilde.smcp</key>
 		<integer>43</integer>
-		<key>je-cy</key>
-		<integer>139</integer>
-		<key>je-cy.smcp</key>
-		<integer>137</integer>
 		<key>nine</key>
 		<integer>-19</integer>
 		<key>parenleft</key>
@@ -5391,12 +4358,40 @@
 		<integer>-23</integer>
 		<key>six.lf</key>
 		<integer>-18</integer>
-		<key>te-cy</key>
-		<integer>-17</integer>
 		<key>two</key>
 		<integer>-10</integer>
-		<key>ze-cy</key>
+		<key>uni0408</key>
+		<integer>139</integer>
+		<key>uni0410</key>
+		<integer>-14</integer>
+		<key>uni0414</key>
+		<integer>16</integer>
+		<key>uni0424</key>
+		<integer>-19</integer>
+		<key>uni0430</key>
+		<integer>-14</integer>
+		<key>uni0431</key>
+		<integer>-20</integer>
+		<key>uni0434.smcp</key>
+		<integer>11</integer>
+		<key>uni0437</key>
 		<integer>-12</integer>
+		<key>uni0442</key>
+		<integer>-17</integer>
+		<key>uni0444.smcp</key>
+		<integer>-25</integer>
+		<key>uni0447</key>
+		<integer>-13</integer>
+		<key>uni044A</key>
+		<integer>-17</integer>
+		<key>uni044D</key>
+		<integer>-12</integer>
+		<key>uni0455</key>
+		<integer>-15</integer>
+		<key>uni0458</key>
+		<integer>139</integer>
+		<key>uni0458.smcp</key>
+		<integer>137</integer>
 		<key>zero</key>
 		<integer>-28</integer>
 		<key>zero.lf</key>
@@ -5414,7 +4409,7 @@
 		<integer>-11</integer>
 		<key>Itilde</key>
 		<integer>31</integer>
-		<key>Je-cy</key>
+		<key>uni0408</key>
 		<integer>165</integer>
 	</dict>
 	<key>braceleft.smcp</key>
@@ -5427,12 +4422,12 @@
 		<integer>-17</integer>
 		<key>braceleft.smcp</key>
 		<integer>-15</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-14</integer>
-		<key>je-cy.smcp</key>
-		<integer>161</integer>
 		<key>parenleft.smcp</key>
 		<integer>-16</integer>
+		<key>uni0444.smcp</key>
+		<integer>-14</integer>
+		<key>uni0458.smcp</key>
+		<integer>161</integer>
 	</dict>
 	<key>braceright</key>
 	<dict>
@@ -5476,23 +4471,23 @@
 		<integer>7</integer>
 		<key>@MMK_R_uni0456</key>
 		<integer>6</integer>
-		<key>A-cy</key>
-		<integer>-10</integer>
-		<key>Je-cy</key>
-		<integer>118</integer>
 		<key>V</key>
 		<integer>-13</integer>
-		<key>de-cy</key>
-		<integer>-11</integer>
 		<key>idieresis</key>
 		<integer>9</integer>
 		<key>imacron.smcp</key>
 		<integer>10</integer>
 		<key>itilde.smcp</key>
 		<integer>17</integer>
-		<key>je-cy</key>
+		<key>uni0408</key>
 		<integer>118</integer>
-		<key>je-cy.smcp</key>
+		<key>uni0410</key>
+		<integer>-10</integer>
+		<key>uni0434</key>
+		<integer>-11</integer>
+		<key>uni0458</key>
+		<integer>118</integer>
+		<key>uni0458.smcp</key>
 		<integer>116</integer>
 	</dict>
 	<key>bracketleft.case</key>
@@ -5505,16 +4500,16 @@
 		<integer>-10</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-12</integer>
-		<key>Je-cy</key>
-		<integer>148</integer>
 		<key>V</key>
 		<integer>-11</integer>
+		<key>uni0408</key>
+		<integer>148</integer>
 	</dict>
 	<key>bracketleft.smcp</key>
 	<dict>
 		<key>@MMK_R_J.smcp</key>
 		<integer>134</integer>
-		<key>je-cy.smcp</key>
+		<key>uni0458.smcp</key>
 		<integer>134</integer>
 	</dict>
 	<key>bracketright.smcp</key>
@@ -5528,11 +4523,11 @@
 		<integer>123</integer>
 		<key>@MMK_R_J.smcp</key>
 		<integer>124</integer>
-		<key>Ia-cy</key>
-		<integer>12</integer>
-		<key>Je-cy</key>
+		<key>uni0408</key>
 		<integer>123</integer>
-		<key>je-cy.smcp</key>
+		<key>uni042F</key>
+		<integer>12</integer>
+		<key>uni0458.smcp</key>
 		<integer>124</integer>
 	</dict>
 	<key>currency</key>
@@ -5591,165 +4586,6 @@
 		<key>two.lf</key>
 		<integer>-26</integer>
 	</dict>
-	<key>dje-cy</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-11</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-22</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-20</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-10</integer>
-		<key>backslash</key>
-		<integer>-24</integer>
-		<key>braceright</key>
-		<integer>-14</integer>
-		<key>che-cy</key>
-		<integer>-4</integer>
-		<key>de-cy</key>
-		<integer>-14</integer>
-		<key>parenright</key>
-		<integer>-17</integer>
-		<key>question</key>
-		<integer>-20</integer>
-	</dict>
-	<key>dje-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-75</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-76</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-80</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-53</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-7</integer>
-		<key>a-cy.smcp</key>
-		<integer>-6</integer>
-		<key>asterisk</key>
-		<integer>-54</integer>
-		<key>backslash</key>
-		<integer>-49</integer>
-		<key>braceright</key>
-		<integer>-13</integer>
-		<key>che-cy.smcp</key>
-		<integer>-52</integer>
-		<key>de-cy.smcp</key>
-		<integer>-25</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-24</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-56</integer>
-		<key>parenright</key>
-		<integer>-24</integer>
-		<key>question</key>
-		<integer>-27</integer>
-		<key>question.smcp</key>
-		<integer>-29</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-4</integer>
-	</dict>
-	<key>dze-cy</key>
-	<dict>
-		<key>backslash</key>
-		<integer>-13</integer>
-		<key>braceright</key>
-		<integer>-15</integer>
-		<key>che-cy</key>
-		<integer>-4</integer>
-		<key>de-cy</key>
-		<integer>-22</integer>
-		<key>parenright</key>
-		<integer>-25</integer>
-	</dict>
-	<key>dze-cy.smcp</key>
-	<dict>
-		<key>a-cy.smcp</key>
-		<integer>-9</integer>
-		<key>braceright</key>
-		<integer>-11</integer>
-		<key>che-cy.smcp</key>
-		<integer>-7</integer>
-		<key>de-cy.smcp</key>
-		<integer>-25</integer>
-		<key>parenright</key>
-		<integer>-21</integer>
-	</dict>
-	<key>e-cy</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-17</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-14</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-11</integer>
-		<key>backslash</key>
-		<integer>-21</integer>
-		<key>braceright</key>
-		<integer>-21</integer>
-		<key>de-cy</key>
-		<integer>-26</integer>
-		<key>ha-cy</key>
-		<integer>-6</integer>
-		<key>parenright</key>
-		<integer>-28</integer>
-		<key>question</key>
-		<integer>-17</integer>
-	</dict>
-	<key>e-cy.smcp</key>
-	<dict>
-		<key>che-cy.smcp</key>
-		<integer>-6</integer>
-		<key>parenright</key>
-		<integer>-11</integer>
-	</dict>
-	<key>ef-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_period</key>
-		<integer>-17</integer>
-		<key>@MMK_R_quoteleft</key>
-		<integer>-11</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-21</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-23</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-7</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-21</integer>
-		<key>a-cy.smcp</key>
-		<integer>-26</integer>
-		<key>backslash</key>
-		<integer>-17</integer>
-		<key>braceright</key>
-		<integer>-25</integer>
-		<key>braceright.smcp</key>
-		<integer>-15</integer>
-		<key>che-cy.smcp</key>
-		<integer>-8</integer>
-		<key>de-cy.smcp</key>
-		<integer>-82</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-54</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-7</integer>
-		<key>parenright</key>
-		<integer>-27</integer>
-		<key>parenright.smcp</key>
-		<integer>-12</integer>
-		<key>question</key>
-		<integer>-26</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-4</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-13</integer>
-	</dict>
 	<key>eight</key>
 	<dict>
 		<key>braceright</key>
@@ -5786,78 +4622,13 @@
 	</dict>
 	<key>eight.sups</key>
 	<dict>
-		<key>threesuperior</key>
+		<key>uni00B3</key>
 		<integer>-21</integer>
 	</dict>
 	<key>equal</key>
 	<dict>
 		<key>four</key>
 		<integer>-42</integer>
-	</dict>
-	<key>er-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_period</key>
-		<integer>-71</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-8</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-73</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-4</integer>
-		<key>a-cy.smcp</key>
-		<integer>-60</integer>
-		<key>braceright</key>
-		<integer>-16</integer>
-		<key>braceright.smcp</key>
-		<integer>-11</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>de-cy.smcp</key>
-		<integer>-91</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-22</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-5</integer>
-		<key>je-cy.smcp</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-28</integer>
-		<key>parenright.smcp</key>
-		<integer>-12</integer>
-		<key>slash</key>
-		<integer>-30</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-7</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-6</integer>
-	</dict>
-	<key>es-cy</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-15</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-12</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-7</integer>
-		<key>backslash</key>
-		<integer>-20</integer>
-		<key>braceright</key>
-		<integer>-20</integer>
-		<key>de-cy</key>
-		<integer>-24</integer>
-		<key>ha-cy</key>
-		<integer>-4</integer>
-		<key>parenright</key>
-		<integer>-27</integer>
-		<key>question</key>
-		<integer>-13</integer>
-	</dict>
-	<key>es-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_uni043E</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-11</integer>
 	</dict>
 	<key>eth</key>
 	<dict>
@@ -5907,11 +4678,6 @@
 		<integer>-8</integer>
 		<key>x</key>
 		<integer>-14</integer>
-	</dict>
-	<key>euro</key>
-	<dict>
-		<key>three</key>
-		<integer>-19</integer>
 	</dict>
 	<key>exclamdown</key>
 	<dict>
@@ -6020,14 +4786,14 @@
 		<integer>-12</integer>
 		<key>parenright</key>
 		<integer>-17</integer>
-		<key>rupeeIndian</key>
-		<integer>-19</integer>
 		<key>seven</key>
 		<integer>-11</integer>
 		<key>space</key>
 		<integer>-18</integer>
 		<key>three</key>
 		<integer>-17</integer>
+		<key>uni20B9</key>
+		<integer>-19</integer>
 	</dict>
 	<key>four.dnom</key>
 	<dict>
@@ -6054,7 +4820,7 @@
 	</dict>
 	<key>four.sups</key>
 	<dict>
-		<key>threesuperior</key>
+		<key>uni00B3</key>
 		<integer>-16</integer>
 	</dict>
 	<key>fraction</key>
@@ -6177,104 +4943,6 @@
 		<key>x.smcp</key>
 		<integer>-7</integer>
 	</dict>
-	<key>gheupturn-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-56</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-55</integer>
-		<key>@MMK_R_period</key>
-		<integer>-35</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-66</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-35</integer>
-		<key>a-cy</key>
-		<integer>-23</integer>
-		<key>be-cy</key>
-		<integer>-14</integer>
-		<key>be-cy.srb</key>
-		<integer>-18</integer>
-		<key>de-cy</key>
-		<integer>-45</integer>
-		<key>ia-cy</key>
-		<integer>-36</integer>
-		<key>slash</key>
-		<integer>-31</integer>
-		<key>zhe-cy</key>
-		<integer>-4</integer>
-	</dict>
-	<key>gheupturn-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_colon</key>
-		<integer>-21</integer>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-64</integer>
-		<key>@MMK_R_guilsinglleft.smcp</key>
-		<integer>-65</integer>
-		<key>@MMK_R_guilsinglright</key>
-		<integer>-26</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-62</integer>
-		<key>@MMK_R_hyphen.smcp</key>
-		<integer>-62</integer>
-		<key>@MMK_R_period</key>
-		<integer>-41</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-53</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-52</integer>
-		<key>a-cy.smcp</key>
-		<integer>-76</integer>
-		<key>asterisk</key>
-		<integer>7</integer>
-		<key>de-cy.smcp</key>
-		<integer>-85</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-65</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-4</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-40</integer>
-		<key>slash</key>
-		<integer>-36</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-6</integer>
-	</dict>
-	<key>ha-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-31</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-31</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-22</integer>
-		<key>be-cy</key>
-		<integer>-8</integer>
-		<key>be-cy.srb</key>
-		<integer>-23</integer>
-		<key>de-cy</key>
-		<integer>16</integer>
-		<key>hardsign-cy</key>
-		<integer>-6</integer>
-		<key>te-cy</key>
-		<integer>-6</integer>
-	</dict>
-	<key>ha-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-24</integer>
-		<key>@MMK_R_guilsinglleft.smcp</key>
-		<integer>-45</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-34</integer>
-		<key>@MMK_R_hyphen.smcp</key>
-		<integer>-40</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-30</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-54</integer>
-	</dict>
 	<key>idieresis</key>
 	<dict>
 		<key>@MMK_R_quoteright</key>
@@ -6335,30 +5003,6 @@
 		<integer>34</integer>
 		<key>trademark</key>
 		<integer>32</integer>
-	</dict>
-	<key>je-cy</key>
-	<dict>
-		<key>de-cy</key>
-		<integer>-14</integer>
-	</dict>
-	<key>je-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_hyphen</key>
-		<integer>-9</integer>
-		<key>@MMK_R_hyphen.smcp</key>
-		<integer>-9</integer>
-		<key>@MMK_R_period</key>
-		<integer>-9</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-8</integer>
-		<key>a-cy.smcp</key>
-		<integer>-14</integer>
-		<key>de-cy.smcp</key>
-		<integer>-24</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-4</integer>
-		<key>parenright</key>
-		<integer>-10</integer>
 	</dict>
 	<key>lcaron.smcp</key>
 	<dict>
@@ -6481,15 +5125,6 @@
 		<key>three.subs</key>
 		<integer>-14</integer>
 	</dict>
-	<key>onesuperior</key>
-	<dict>
-		<key>five.sups</key>
-		<integer>-12</integer>
-		<key>four.sups</key>
-		<integer>5</integer>
-		<key>threesuperior</key>
-		<integer>-16</integer>
-	</dict>
 	<key>p.smcp</key>
 	<dict>
 		<key>@MMK_R_A.smcp</key>
@@ -6591,60 +5226,26 @@
 		<integer>-22</integer>
 		<key>@MMK_R_z</key>
 		<integer>-17</integer>
-		<key>A-cy</key>
-		<integer>-14</integer>
-		<key>Dze-cy</key>
-		<integer>-12</integer>
-		<key>Ef-cy</key>
-		<integer>-23</integer>
 		<key>Idieresis</key>
 		<integer>10</integer>
 		<key>Itilde</key>
 		<integer>46</integer>
-		<key>Je-cy</key>
-		<integer>149</integer>
-		<key>Ze-cy</key>
-		<integer>-11</integer>
-		<key>a-cy</key>
-		<integer>-24</integer>
-		<key>be-cy</key>
-		<integer>-26</integer>
-		<key>be-cy.srb</key>
-		<integer>-12</integer>
 		<key>braceleft</key>
 		<integer>-20</integer>
 		<key>braceleft.smcp</key>
 		<integer>-30</integer>
 		<key>bracketleft.smcp</key>
 		<integer>-11</integer>
-		<key>che-cy</key>
-		<integer>-28</integer>
-		<key>che-cy.smcp</key>
-		<integer>-13</integer>
-		<key>dze-cy</key>
-		<integer>-22</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-16</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-27</integer>
 		<key>eight</key>
 		<integer>-18</integer>
 		<key>eight.lf</key>
 		<integer>-18</integer>
-		<key>ereversed-cy</key>
-		<integer>-23</integer>
-		<key>ereversed-cy.smcp</key>
-		<integer>-11</integer>
 		<key>five.lf</key>
 		<integer>-12</integer>
 		<key>four</key>
 		<integer>-16</integer>
 		<key>four.lf</key>
 		<integer>-23</integer>
-		<key>hardsign-cy</key>
-		<integer>-27</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-14</integer>
 		<key>idieresis</key>
 		<integer>19</integer>
 		<key>idieresis.smcp</key>
@@ -6655,10 +5256,6 @@
 		<integer>21</integer>
 		<key>itilde.smcp</key>
 		<integer>23</integer>
-		<key>je-cy</key>
-		<integer>150</integer>
-		<key>je-cy.smcp</key>
-		<integer>147</integer>
 		<key>nine</key>
 		<integer>-24</integer>
 		<key>nine.lf</key>
@@ -6675,26 +5272,64 @@
 		<integer>-28</integer>
 		<key>six.lf</key>
 		<integer>-26</integer>
-		<key>te-cy</key>
-		<integer>-27</integer>
 		<key>three.lf</key>
 		<integer>-10</integer>
 		<key>two</key>
 		<integer>-16</integer>
+		<key>uni0405</key>
+		<integer>-12</integer>
+		<key>uni0408</key>
+		<integer>149</integer>
+		<key>uni0410</key>
+		<integer>-14</integer>
+		<key>uni0417</key>
+		<integer>-11</integer>
+		<key>uni0424</key>
+		<integer>-23</integer>
+		<key>uni0430</key>
+		<integer>-24</integer>
+		<key>uni0431</key>
+		<integer>-26</integer>
+		<key>uni0431.srb</key>
+		<integer>-12</integer>
+		<key>uni0436</key>
+		<integer>-12</integer>
+		<key>uni0436.smcp</key>
+		<integer>-11</integer>
+		<key>uni0437</key>
+		<integer>-23</integer>
+		<key>uni0437.smcp</key>
+		<integer>-14</integer>
+		<key>uni0442</key>
+		<integer>-27</integer>
+		<key>uni0444.smcp</key>
+		<integer>-27</integer>
+		<key>uni0447</key>
+		<integer>-28</integer>
+		<key>uni0447.smcp</key>
+		<integer>-13</integer>
+		<key>uni044A</key>
+		<integer>-27</integer>
+		<key>uni044A.smcp</key>
+		<integer>-14</integer>
+		<key>uni044D</key>
+		<integer>-23</integer>
+		<key>uni044D.smcp</key>
+		<integer>-11</integer>
+		<key>uni0455</key>
+		<integer>-22</integer>
+		<key>uni0455.smcp</key>
+		<integer>-16</integer>
+		<key>uni0458</key>
+		<integer>150</integer>
+		<key>uni0458.smcp</key>
+		<integer>147</integer>
 		<key>v.smcp</key>
 		<integer>-10</integer>
-		<key>ze-cy</key>
-		<integer>-23</integer>
-		<key>ze-cy.smcp</key>
-		<integer>-14</integer>
 		<key>zero</key>
 		<integer>-33</integer>
 		<key>zero.lf</key>
 		<integer>-26</integer>
-		<key>zhe-cy</key>
-		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-11</integer>
 	</dict>
 	<key>parenleft.case</key>
 	<dict>
@@ -6706,14 +5341,14 @@
 		<integer>-23</integer>
 		<key>@MMK_R_uni041E</key>
 		<integer>-23</integer>
-		<key>De-cy</key>
-		<integer>5</integer>
-		<key>Ef-cy</key>
-		<integer>-19</integer>
 		<key>Itilde</key>
 		<integer>43</integer>
-		<key>Je-cy</key>
+		<key>uni0408</key>
 		<integer>167</integer>
+		<key>uni0414</key>
+		<integer>5</integer>
+		<key>uni0424</key>
+		<integer>-19</integer>
 	</dict>
 	<key>parenleft.smcp</key>
 	<dict>
@@ -6725,12 +5360,12 @@
 		<integer>-15</integer>
 		<key>braceleft.smcp</key>
 		<integer>-12</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-12</integer>
-		<key>je-cy.smcp</key>
-		<integer>109</integer>
 		<key>parenleft.smcp</key>
 		<integer>-15</integer>
+		<key>uni0444.smcp</key>
+		<integer>-12</integer>
+		<key>uni0458.smcp</key>
+		<integer>109</integer>
 	</dict>
 	<key>parenright</key>
 	<dict>
@@ -6877,9 +5512,9 @@
 		<integer>123</integer>
 		<key>@MMK_R_J.smcp</key>
 		<integer>124</integer>
-		<key>Je-cy</key>
+		<key>uni0408</key>
 		<integer>123</integer>
-		<key>je-cy.smcp</key>
+		<key>uni0458.smcp</key>
 		<integer>124</integer>
 	</dict>
 	<key>quotesinglbase</key>
@@ -6888,15 +5523,10 @@
 		<integer>123</integer>
 		<key>@MMK_R_J.smcp</key>
 		<integer>124</integer>
-		<key>Je-cy</key>
+		<key>uni0408</key>
 		<integer>123</integer>
-		<key>je-cy.smcp</key>
+		<key>uni0458.smcp</key>
 		<integer>124</integer>
-	</dict>
-	<key>rupeeIndian</key>
-	<dict>
-		<key>three</key>
-		<integer>-16</integer>
 	</dict>
 	<key>seven</key>
 	<dict>
@@ -6930,6 +5560,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_period</key>
 		<integer>-48</integer>
+		<key>Euro</key>
+		<integer>-28</integer>
 		<key>cent</key>
 		<integer>-37</integer>
 		<key>currency</key>
@@ -6938,8 +5570,6 @@
 		<integer>-35</integer>
 		<key>equal</key>
 		<integer>-16</integer>
-		<key>euro</key>
-		<integer>-28</integer>
 		<key>four.lf</key>
 		<integer>-53</integer>
 		<key>minus</key>
@@ -7004,7 +5634,7 @@
 	</dict>
 	<key>six.sups</key>
 	<dict>
-		<key>threesuperior</key>
+		<key>uni00B3</key>
 		<integer>-11</integer>
 	</dict>
 	<key>slash</key>
@@ -7047,28 +5677,6 @@
 		<integer>-24</integer>
 		<key>@MMK_R_z</key>
 		<integer>-10</integer>
-		<key>A-cy</key>
-		<integer>-62</integer>
-		<key>De-cy</key>
-		<integer>-51</integer>
-		<key>a-cy</key>
-		<integer>-27</integer>
-		<key>a-cy.smcp</key>
-		<integer>-67</integer>
-		<key>be-cy</key>
-		<integer>-15</integer>
-		<key>de-cy</key>
-		<integer>-53</integer>
-		<key>de-cy.smcp</key>
-		<integer>-67</integer>
-		<key>dze-cy</key>
-		<integer>-26</integer>
-		<key>dze-cy.smcp</key>
-		<integer>-12</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-17</integer>
-		<key>ereversed-cy</key>
-		<integer>-10</integer>
 		<key>five</key>
 		<integer>-30</integer>
 		<key>four</key>
@@ -7077,10 +5685,6 @@
 		<integer>-48</integer>
 		<key>germandbls.smcp</key>
 		<integer>-37</integer>
-		<key>ia-cy</key>
-		<integer>-29</integer>
-		<key>ia-cy.smcp</key>
-		<integer>-18</integer>
 		<key>nine</key>
 		<integer>-24</integer>
 		<key>one</key>
@@ -7095,12 +5699,38 @@
 		<integer>-24</integer>
 		<key>two</key>
 		<integer>-20</integer>
-		<key>ze-cy</key>
+		<key>uni0410</key>
+		<integer>-62</integer>
+		<key>uni0414</key>
+		<integer>-51</integer>
+		<key>uni0430</key>
+		<integer>-27</integer>
+		<key>uni0430.smcp</key>
+		<integer>-67</integer>
+		<key>uni0431</key>
+		<integer>-15</integer>
+		<key>uni0434</key>
+		<integer>-53</integer>
+		<key>uni0434.smcp</key>
+		<integer>-67</integer>
+		<key>uni0436</key>
+		<integer>-17</integer>
+		<key>uni0437</key>
 		<integer>-14</integer>
+		<key>uni0444.smcp</key>
+		<integer>-17</integer>
+		<key>uni044D</key>
+		<integer>-10</integer>
+		<key>uni044F</key>
+		<integer>-29</integer>
+		<key>uni044F.smcp</key>
+		<integer>-18</integer>
+		<key>uni0455</key>
+		<integer>-26</integer>
+		<key>uni0455.smcp</key>
+		<integer>-12</integer>
 		<key>zero</key>
 		<integer>-32</integer>
-		<key>zhe-cy</key>
-		<integer>-17</integer>
 	</dict>
 	<key>space</key>
 	<dict>
@@ -7160,7 +5790,7 @@
 		<integer>-13</integer>
 		<key>two.dnom</key>
 		<integer>-11</integer>
-		<key>twosuperior</key>
+		<key>uni00B2</key>
 		<integer>-12</integer>
 		<key>v.smcp</key>
 		<integer>-35</integer>
@@ -7185,48 +5815,6 @@
 	<dict>
 		<key>asterisk</key>
 		<integer>29</integer>
-	</dict>
-	<key>tcedilla</key>
-	<dict>
-		<key>@MMK_R_j</key>
-		<integer>158</integer>
-	</dict>
-	<key>tcommaaccent</key>
-	<dict>
-		<key>@MMK_R_j</key>
-		<integer>120</integer>
-	</dict>
-	<key>te-cy</key>
-	<dict>
-		<key>@MMK_R_period</key>
-		<integer>-34</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-99</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>9</integer>
-		<key>braceright</key>
-		<integer>-17</integer>
-		<key>de-cy</key>
-		<integer>-43</integer>
-		<key>parenright</key>
-		<integer>-27</integer>
-		<key>slash</key>
-		<integer>-11</integer>
-	</dict>
-	<key>te-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_period</key>
-		<integer>-40</integer>
-		<key>@MMK_R_uni043B.smcp</key>
-		<integer>-55</integer>
-		<key>a-cy.smcp</key>
-		<integer>-51</integer>
-		<key>de-cy.smcp</key>
-		<integer>-78</integer>
-		<key>parenright</key>
-		<integer>-12</integer>
-		<key>slash</key>
-		<integer>-16</integer>
 	</dict>
 	<key>thorn.smcp</key>
 	<dict>
@@ -7291,10 +5879,10 @@
 		<integer>-22</integer>
 		<key>periodcentered</key>
 		<integer>-10</integer>
-		<key>rupeeIndian</key>
-		<integer>-11</integer>
 		<key>space</key>
 		<integer>-10</integer>
+		<key>uni20B9</key>
+		<integer>-11</integer>
 	</dict>
 	<key>three.lf</key>
 	<dict>
@@ -7307,7 +5895,1399 @@
 		<key>parenright</key>
 		<integer>-17</integer>
 	</dict>
-	<key>tshe-cy</key>
+	<key>two</key>
+	<dict>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-21</integer>
+		<key>backslash</key>
+		<integer>-31</integer>
+		<key>braceright</key>
+		<integer>-10</integer>
+		<key>degree</key>
+		<integer>-29</integer>
+		<key>divide</key>
+		<integer>-10</integer>
+		<key>mu</key>
+		<integer>-10</integer>
+		<key>parenright</key>
+		<integer>-17</integer>
+		<key>space</key>
+		<integer>-17</integer>
+		<key>uni20B9</key>
+		<integer>-11</integer>
+	</dict>
+	<key>two.lf</key>
+	<dict>
+		<key>divide</key>
+		<integer>-17</integer>
+		<key>minus</key>
+		<integer>-11</integer>
+		<key>mu</key>
+		<integer>-12</integer>
+		<key>plus</key>
+		<integer>-14</integer>
+		<key>space</key>
+		<integer>-16</integer>
+	</dict>
+	<key>uni00B9</key>
+	<dict>
+		<key>five.sups</key>
+		<integer>-12</integer>
+		<key>four.sups</key>
+		<integer>5</integer>
+		<key>uni00B3</key>
+		<integer>-16</integer>
+	</dict>
+	<key>uni0163</key>
+	<dict>
+		<key>@MMK_R_j</key>
+		<integer>158</integer>
+	</dict>
+	<key>uni021B</key>
+	<dict>
+		<key>@MMK_R_j</key>
+		<integer>120</integer>
+	</dict>
+	<key>uni0402</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-62</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-62</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-73</integer>
+		<key>@MMK_R_uni0418</key>
+		<integer>-7</integer>
+		<key>@MMK_R_uni0422</key>
+		<integer>-46</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-17</integer>
+		<key>@MMK_R_uni0438</key>
+		<integer>-5</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-22</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-41</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-9</integer>
+		<key>asterisk</key>
+		<integer>-27</integer>
+		<key>backslash</key>
+		<integer>-38</integer>
+		<key>braceright</key>
+		<integer>-16</integer>
+		<key>parenright</key>
+		<integer>-24</integer>
+		<key>parenright.case</key>
+		<integer>-13</integer>
+		<key>question</key>
+		<integer>-30</integer>
+		<key>uni0408</key>
+		<integer>-7</integer>
+		<key>uni0410</key>
+		<integer>-16</integer>
+		<key>uni0414</key>
+		<integer>-27</integer>
+		<key>uni0416</key>
+		<integer>-8</integer>
+		<key>uni0425</key>
+		<integer>-32</integer>
+		<key>uni0427</key>
+		<integer>-45</integer>
+		<key>uni042A</key>
+		<integer>-67</integer>
+		<key>uni0430.smcp</key>
+		<integer>-11</integer>
+		<key>uni0434</key>
+		<integer>-29</integer>
+		<key>uni0434.smcp</key>
+		<integer>-29</integer>
+		<key>uni0436</key>
+		<integer>-10</integer>
+		<key>uni0437</key>
+		<integer>-5</integer>
+		<key>uni0440</key>
+		<integer>-6</integer>
+		<key>uni0442</key>
+		<integer>-8</integer>
+		<key>uni0445</key>
+		<integer>-26</integer>
+		<key>uni0445.smcp</key>
+		<integer>-24</integer>
+		<key>uni0447</key>
+		<integer>-13</integer>
+		<key>uni0447.smcp</key>
+		<integer>-27</integer>
+		<key>uni044A</key>
+		<integer>-8</integer>
+		<key>uni044A.smcp</key>
+		<integer>-28</integer>
+		<key>uni044F</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0403</key>
+	<dict>
+		<key>uni0434</key>
+		<integer>-49</integer>
+	</dict>
+	<key>uni0404</key>
+	<dict>
+		<key>@MMK_R_uni043E</key>
+		<integer>-7</integer>
+		<key>uni0410</key>
+		<integer>-5</integer>
+		<key>uni0414</key>
+		<integer>-5</integer>
+		<key>uni0427</key>
+		<integer>-7</integer>
+		<key>uni0430.smcp</key>
+		<integer>-5</integer>
+		<key>uni0431</key>
+		<integer>-8</integer>
+		<key>uni0431.srb</key>
+		<integer>-7</integer>
+		<key>uni0434</key>
+		<integer>-21</integer>
+		<key>uni0434.smcp</key>
+		<integer>-8</integer>
+		<key>uni0442</key>
+		<integer>-6</integer>
+		<key>uni0447</key>
+		<integer>-8</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
+		<key>uni044A</key>
+		<integer>-6</integer>
+	</dict>
+	<key>uni0405</key>
+	<dict>
+		<key>@MMK_R_uni0443</key>
+		<integer>-8</integer>
+		<key>parenright</key>
+		<integer>-12</integer>
+		<key>uni0410</key>
+		<integer>-18</integer>
+		<key>uni0414</key>
+		<integer>-25</integer>
+		<key>uni0427</key>
+		<integer>-9</integer>
+		<key>uni0430.smcp</key>
+		<integer>-10</integer>
+		<key>uni0434</key>
+		<integer>-29</integer>
+		<key>uni0434.smcp</key>
+		<integer>-26</integer>
+		<key>uni0436</key>
+		<integer>-6</integer>
+		<key>uni0442</key>
+		<integer>-7</integer>
+		<key>uni0447</key>
+		<integer>-9</integer>
+		<key>uni0447.smcp</key>
+		<integer>-6</integer>
+		<key>uni044A</key>
+		<integer>-7</integer>
+		<key>uni044F</key>
+		<integer>-7</integer>
+	</dict>
+	<key>uni0408</key>
+	<dict>
+		<key>@MMK_R_hyphen</key>
+		<integer>-9</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-8</integer>
+		<key>@MMK_R_period</key>
+		<integer>-10</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0438</key>
+		<integer>-15</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-15</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-20</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-10</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-15</integer>
+		<key>uni0410</key>
+		<integer>-18</integer>
+		<key>uni0414</key>
+		<integer>-24</integer>
+		<key>uni0430</key>
+		<integer>-18</integer>
+		<key>uni0430.smcp</key>
+		<integer>-15</integer>
+		<key>uni0431</key>
+		<integer>-14</integer>
+		<key>uni0431.srb</key>
+		<integer>-11</integer>
+		<key>uni0434</key>
+		<integer>-35</integer>
+		<key>uni0434.smcp</key>
+		<integer>-26</integer>
+		<key>uni0436</key>
+		<integer>-15</integer>
+		<key>uni0437</key>
+		<integer>-14</integer>
+		<key>uni0440</key>
+		<integer>-17</integer>
+		<key>uni0442</key>
+		<integer>-17</integer>
+		<key>uni0444.smcp</key>
+		<integer>-5</integer>
+		<key>uni0445</key>
+		<integer>-7</integer>
+		<key>uni0447</key>
+		<integer>-20</integer>
+		<key>uni0447.smcp</key>
+		<integer>-10</integer>
+		<key>uni044A</key>
+		<integer>-17</integer>
+		<key>uni044A.smcp</key>
+		<integer>-6</integer>
+		<key>uni044D</key>
+		<integer>-16</integer>
+		<key>uni044D.smcp</key>
+		<integer>-5</integer>
+		<key>uni044F</key>
+		<integer>-14</integer>
+	</dict>
+	<key>uni040B</key>
+	<dict>
+		<key>@MMK_R_hyphen</key>
+		<integer>-9</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-13</integer>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-60</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-59</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-66</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-11</integer>
+		<key>@MMK_R_uni0422</key>
+		<integer>-53</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-14</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-9</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-28</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-55</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-8</integer>
+		<key>asterisk</key>
+		<integer>-36</integer>
+		<key>backslash</key>
+		<integer>-49</integer>
+		<key>question</key>
+		<integer>-19</integer>
+		<key>uni0408</key>
+		<integer>-10</integer>
+		<key>uni0424</key>
+		<integer>-8</integer>
+		<key>uni0427</key>
+		<integer>-57</integer>
+		<key>uni042A</key>
+		<integer>-66</integer>
+		<key>uni0430</key>
+		<integer>-5</integer>
+		<key>uni0431</key>
+		<integer>-11</integer>
+		<key>uni0431.srb</key>
+		<integer>-9</integer>
+		<key>uni0440</key>
+		<integer>-9</integer>
+		<key>uni0442</key>
+		<integer>-19</integer>
+		<key>uni0444.smcp</key>
+		<integer>-6</integer>
+		<key>uni0447</key>
+		<integer>-36</integer>
+		<key>uni0447.smcp</key>
+		<integer>-50</integer>
+		<key>uni044A</key>
+		<integer>-19</integer>
+		<key>uni044A.smcp</key>
+		<integer>-32</integer>
+	</dict>
+	<key>uni0410</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-16</integer>
+		<key>@MMK_R_guilsinglleft.cap</key>
+		<integer>-38</integer>
+		<key>@MMK_R_guilsinglright.cap</key>
+		<integer>-13</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-26</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-37</integer>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-59</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-64</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-66</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-30</integer>
+		<key>@MMK_R_uni0422</key>
+		<integer>-65</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-21</integer>
+		<key>@MMK_R_uni0438</key>
+		<integer>-5</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-22</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-22</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-52</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-64</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-18</integer>
+		<key>@MMK_R_uni0456</key>
+		<integer>-6</integer>
+		<key>asterisk</key>
+		<integer>-49</integer>
+		<key>backslash</key>
+		<integer>-63</integer>
+		<key>braceright</key>
+		<integer>-13</integer>
+		<key>bracketright</key>
+		<integer>-12</integer>
+		<key>bracketright.case</key>
+		<integer>-12</integer>
+		<key>exclam</key>
+		<integer>-12</integer>
+		<key>parenright</key>
+		<integer>-14</integer>
+		<key>question</key>
+		<integer>-24</integer>
+		<key>uni0405</key>
+		<integer>-8</integer>
+		<key>uni0408</key>
+		<integer>-18</integer>
+		<key>uni0414</key>
+		<integer>14</integer>
+		<key>uni0417</key>
+		<integer>-9</integer>
+		<key>uni0424</key>
+		<integer>-29</integer>
+		<key>uni0427</key>
+		<integer>-91</integer>
+		<key>uni042A</key>
+		<integer>-61</integer>
+		<key>uni042D</key>
+		<integer>-8</integer>
+		<key>uni0430</key>
+		<integer>-12</integer>
+		<key>uni0431</key>
+		<integer>-27</integer>
+		<key>uni0431.srb</key>
+		<integer>-23</integer>
+		<key>uni0437</key>
+		<integer>-8</integer>
+		<key>uni0440</key>
+		<integer>-16</integer>
+		<key>uni0442</key>
+		<integer>-49</integer>
+		<key>uni0444.smcp</key>
+		<integer>-21</integer>
+		<key>uni0447</key>
+		<integer>-60</integer>
+		<key>uni0447.smcp</key>
+		<integer>-75</integer>
+		<key>uni044A</key>
+		<integer>-49</integer>
+		<key>uni044A.smcp</key>
+		<integer>-56</integer>
+		<key>uni044D</key>
+		<integer>-10</integer>
+		<key>uni044D.smcp</key>
+		<integer>-8</integer>
+		<key>uni0455</key>
+		<integer>-12</integer>
+		<key>uni0455.smcp</key>
+		<integer>-7</integer>
+		<key>uni0458</key>
+		<integer>-16</integer>
+		<key>uni0458.smcp</key>
+		<integer>-16</integer>
+	</dict>
+	<key>uni0411</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni0422</key>
+		<integer>-7</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-16</integer>
+		<key>braceright</key>
+		<integer>-10</integer>
+		<key>parenright</key>
+		<integer>-15</integer>
+		<key>uni0410</key>
+		<integer>-18</integer>
+		<key>uni0414</key>
+		<integer>-28</integer>
+		<key>uni0425</key>
+		<integer>-9</integer>
+		<key>uni0427</key>
+		<integer>-15</integer>
+		<key>uni042A</key>
+		<integer>-9</integer>
+		<key>uni0430.smcp</key>
+		<integer>-9</integer>
+		<key>uni0434</key>
+		<integer>-30</integer>
+		<key>uni0434.smcp</key>
+		<integer>-29</integer>
+		<key>uni0436</key>
+		<integer>-9</integer>
+		<key>uni0445</key>
+		<integer>-5</integer>
+		<key>uni0447</key>
+		<integer>-9</integer>
+		<key>uni0447.smcp</key>
+		<integer>-9</integer>
+		<key>uni044A.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0412</key>
+	<dict>
+		<key>@MMK_R_uni0422</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-17</integer>
+		<key>braceright</key>
+		<integer>-13</integer>
+		<key>parenright</key>
+		<integer>-19</integer>
+		<key>uni0410</key>
+		<integer>-19</integer>
+		<key>uni0414</key>
+		<integer>-48</integer>
+		<key>uni0416</key>
+		<integer>-8</integer>
+		<key>uni0425</key>
+		<integer>-30</integer>
+		<key>uni0427</key>
+		<integer>-20</integer>
+		<key>uni042A</key>
+		<integer>-8</integer>
+		<key>uni0430.smcp</key>
+		<integer>-12</integer>
+		<key>uni0434</key>
+		<integer>-43</integer>
+		<key>uni0434.smcp</key>
+		<integer>-44</integer>
+		<key>uni0436</key>
+		<integer>-13</integer>
+		<key>uni0442</key>
+		<integer>-7</integer>
+		<key>uni0445</key>
+		<integer>-16</integer>
+		<key>uni0445.smcp</key>
+		<integer>-11</integer>
+		<key>uni0447</key>
+		<integer>-11</integer>
+		<key>uni0447.smcp</key>
+		<integer>-10</integer>
+		<key>uni044A</key>
+		<integer>-7</integer>
+		<key>uni044A.smcp</key>
+		<integer>-5</integer>
+		<key>uni044F</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0416</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft.cap</key>
+		<integer>-33</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-18</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-25</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-16</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-10</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-12</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-11</integer>
+		<key>uni0424</key>
+		<integer>-19</integer>
+		<key>uni0427</key>
+		<integer>-5</integer>
+		<key>uni0431</key>
+		<integer>-12</integer>
+		<key>uni0431.srb</key>
+		<integer>-8</integer>
+		<key>uni0442</key>
+		<integer>-14</integer>
+		<key>uni0444.smcp</key>
+		<integer>-12</integer>
+		<key>uni0447</key>
+		<integer>-16</integer>
+		<key>uni044A</key>
+		<integer>-14</integer>
+	</dict>
+	<key>uni0417</key>
+	<dict>
+		<key>@MMK_R_uni0443</key>
+		<integer>-15</integer>
+		<key>braceright</key>
+		<integer>-10</integer>
+		<key>parenright</key>
+		<integer>-16</integer>
+		<key>uni0410</key>
+		<integer>-17</integer>
+		<key>uni0414</key>
+		<integer>-38</integer>
+		<key>uni0425</key>
+		<integer>-20</integer>
+		<key>uni0427</key>
+		<integer>-14</integer>
+		<key>uni0430.smcp</key>
+		<integer>-10</integer>
+		<key>uni0434</key>
+		<integer>-35</integer>
+		<key>uni0434.smcp</key>
+		<integer>-38</integer>
+		<key>uni0436</key>
+		<integer>-10</integer>
+		<key>uni0442</key>
+		<integer>-6</integer>
+		<key>uni0445</key>
+		<integer>-12</integer>
+		<key>uni0445.smcp</key>
+		<integer>-5</integer>
+		<key>uni0447</key>
+		<integer>-10</integer>
+		<key>uni0447.smcp</key>
+		<integer>-7</integer>
+		<key>uni044A</key>
+		<integer>-6</integer>
+		<key>uni044F</key>
+		<integer>-6</integer>
+	</dict>
+	<key>uni0420</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-12</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-21</integer>
+		<key>@MMK_R_period</key>
+		<integer>-78</integer>
+		<key>@MMK_R_uni0418</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni041B</key>
+		<integer>-80</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-95</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-82</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-19</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-6</integer>
+		<key>braceright</key>
+		<integer>-12</integer>
+		<key>parenright</key>
+		<integer>-21</integer>
+		<key>parenright.case</key>
+		<integer>-18</integer>
+		<key>slash</key>
+		<integer>-42</integer>
+		<key>uni0408</key>
+		<integer>-6</integer>
+		<key>uni0410</key>
+		<integer>-67</integer>
+		<key>uni0414</key>
+		<integer>-84</integer>
+		<key>uni0416</key>
+		<integer>-11</integer>
+		<key>uni0417</key>
+		<integer>-10</integer>
+		<key>uni0425</key>
+		<integer>-30</integer>
+		<key>uni0427</key>
+		<integer>-7</integer>
+		<key>uni042F</key>
+		<integer>-5</integer>
+		<key>uni0430</key>
+		<integer>-15</integer>
+		<key>uni0430.smcp</key>
+		<integer>-82</integer>
+		<key>uni0431</key>
+		<integer>-8</integer>
+		<key>uni0431.srb</key>
+		<integer>-14</integer>
+		<key>uni0434</key>
+		<integer>-45</integer>
+		<key>uni0434.smcp</key>
+		<integer>-88</integer>
+		<key>uni0436</key>
+		<integer>-11</integer>
+		<key>uni0436.smcp</key>
+		<integer>-6</integer>
+		<key>uni0437</key>
+		<integer>-10</integer>
+		<key>uni0437.smcp</key>
+		<integer>-6</integer>
+		<key>uni044D</key>
+		<integer>-8</integer>
+		<key>uni044F</key>
+		<integer>-17</integer>
+		<key>uni044F.smcp</key>
+		<integer>-7</integer>
+		<key>uni0455</key>
+		<integer>-12</integer>
+	</dict>
+	<key>uni0421</key>
+	<dict>
+		<key>uni0434</key>
+		<integer>-18</integer>
+		<key>uni0434.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0422</key>
+	<dict>
+		<key>@MMK_R_hyphen</key>
+		<integer>-26</integer>
+		<key>@MMK_R_period</key>
+		<integer>-46</integer>
+		<key>@MMK_R_uni041B</key>
+		<integer>-64</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-66</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-57</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-20</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-6</integer>
+		<key>slash</key>
+		<integer>-28</integer>
+		<key>uni0410</key>
+		<integer>-65</integer>
+		<key>uni0414</key>
+		<integer>-48</integer>
+		<key>uni0430</key>
+		<integer>-14</integer>
+		<key>uni0430.smcp</key>
+		<integer>-61</integer>
+		<key>uni0431</key>
+		<integer>-9</integer>
+		<key>uni0431.srb</key>
+		<integer>-7</integer>
+		<key>uni0434</key>
+		<integer>-45</integer>
+		<key>uni0434.smcp</key>
+		<integer>-61</integer>
+		<key>uni044D</key>
+		<integer>-5</integer>
+		<key>uni044F</key>
+		<integer>-16</integer>
+		<key>uni044F.smcp</key>
+		<integer>-5</integer>
+		<key>uni0455</key>
+		<integer>-12</integer>
+	</dict>
+	<key>uni0424</key>
+	<dict>
+		<key>@MMK_R_period</key>
+		<integer>-23</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-9</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni0418</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni041B</key>
+		<integer>-13</integer>
+		<key>@MMK_R_uni0423</key>
+		<integer>-27</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-14</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-9</integer>
+		<key>braceright</key>
+		<integer>-15</integer>
+		<key>parenright</key>
+		<integer>-23</integer>
+		<key>parenright.case</key>
+		<integer>-18</integer>
+		<key>question</key>
+		<integer>-20</integer>
+		<key>uni0410</key>
+		<integer>-30</integer>
+		<key>uni0414</key>
+		<integer>-69</integer>
+		<key>uni0416</key>
+		<integer>-17</integer>
+		<key>uni0425</key>
+		<integer>-58</integer>
+		<key>uni0427</key>
+		<integer>-9</integer>
+		<key>uni042F</key>
+		<integer>-5</integer>
+		<key>uni0430.smcp</key>
+		<integer>-29</integer>
+		<key>uni0434</key>
+		<integer>-42</integer>
+		<key>uni0434.smcp</key>
+		<integer>-63</integer>
+		<key>uni0436</key>
+		<integer>-5</integer>
+		<key>uni0445</key>
+		<integer>-7</integer>
+		<key>uni0445.smcp</key>
+		<integer>-31</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0425</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft.cap</key>
+		<integer>-57</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-31</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-47</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-37</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-25</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-46</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-21</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-62</integer>
+		<key>asterisk</key>
+		<integer>-18</integer>
+		<key>parenright.case</key>
+		<integer>5</integer>
+		<key>slash</key>
+		<integer>24</integer>
+		<key>uni0424</key>
+		<integer>-61</integer>
+		<key>uni0431</key>
+		<integer>-28</integer>
+		<key>uni0431.srb</key>
+		<integer>-19</integer>
+		<key>uni0442</key>
+		<integer>-38</integer>
+		<key>uni0444.smcp</key>
+		<integer>-51</integer>
+		<key>uni0447</key>
+		<integer>-48</integer>
+		<key>uni0447.smcp</key>
+		<integer>-25</integer>
+		<key>uni044A</key>
+		<integer>-38</integer>
+		<key>uni044A.smcp</key>
+		<integer>-27</integer>
+		<key>uni045E</key>
+		<integer>-54</integer>
+	</dict>
+	<key>uni0430</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-16</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-28</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-26</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-11</integer>
+		<key>asterisk</key>
+		<integer>-8</integer>
+		<key>backslash</key>
+		<integer>-36</integer>
+		<key>braceright</key>
+		<integer>-14</integer>
+		<key>parenright</key>
+		<integer>-22</integer>
+		<key>question</key>
+		<integer>-22</integer>
+		<key>uni0447</key>
+		<integer>-10</integer>
+	</dict>
+	<key>uni0430.smcp</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-15</integer>
+		<key>@MMK_R_guilsinglleft.smcp</key>
+		<integer>-31</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-24</integer>
+		<key>@MMK_R_hyphen.smcp</key>
+		<integer>-28</integer>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-61</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-68</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-69</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-22</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-51</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-14</integer>
+		<key>asterisk</key>
+		<integer>-52</integer>
+		<key>backslash</key>
+		<integer>-67</integer>
+		<key>question</key>
+		<integer>-21</integer>
+		<key>question.smcp</key>
+		<integer>-27</integer>
+		<key>uni0434.smcp</key>
+		<integer>22</integer>
+		<key>uni0444.smcp</key>
+		<integer>-24</integer>
+		<key>uni0447.smcp</key>
+		<integer>-86</integer>
+		<key>uni044A.smcp</key>
+		<integer>-47</integer>
+		<key>uni0458.smcp</key>
+		<integer>-12</integer>
+	</dict>
+	<key>uni0431</key>
+	<dict>
+		<key>braceright</key>
+		<integer>-1</integer>
+		<key>parenright</key>
+		<integer>-13</integer>
+	</dict>
+	<key>uni0431.smcp</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-7</integer>
+		<key>backslash</key>
+		<integer>-13</integer>
+		<key>braceright</key>
+		<integer>-13</integer>
+		<key>parenright</key>
+		<integer>-22</integer>
+		<key>uni0430.smcp</key>
+		<integer>-11</integer>
+		<key>uni0434.smcp</key>
+		<integer>-27</integer>
+		<key>uni0445.smcp</key>
+		<integer>-10</integer>
+		<key>uni0447.smcp</key>
+		<integer>-14</integer>
+		<key>uni044A.smcp</key>
+		<integer>-9</integer>
+	</dict>
+	<key>uni0431.srb</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-9</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-16</integer>
+		<key>uni0434</key>
+		<integer>-36</integer>
+		<key>uni0436</key>
+		<integer>-7</integer>
+		<key>uni0445</key>
+		<integer>-22</integer>
+		<key>uni0447</key>
+		<integer>-7</integer>
+	</dict>
+	<key>uni0432</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-18</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-13</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-15</integer>
+		<key>backslash</key>
+		<integer>-26</integer>
+		<key>braceright</key>
+		<integer>-21</integer>
+		<key>parenright</key>
+		<integer>-29</integer>
+		<key>question</key>
+		<integer>-20</integer>
+		<key>uni0434</key>
+		<integer>-32</integer>
+		<key>uni0436</key>
+		<integer>-4</integer>
+		<key>uni0445</key>
+		<integer>-13</integer>
+		<key>uni0447</key>
+		<integer>-9</integer>
+	</dict>
+	<key>uni0432.smcp</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-12</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-5</integer>
+		<key>backslash</key>
+		<integer>-23</integer>
+		<key>braceright</key>
+		<integer>-18</integer>
+		<key>parenright</key>
+		<integer>-26</integer>
+		<key>question</key>
+		<integer>-18</integer>
+		<key>uni0430.smcp</key>
+		<integer>-13</integer>
+		<key>uni0434.smcp</key>
+		<integer>-58</integer>
+		<key>uni0436.smcp</key>
+		<integer>-8</integer>
+		<key>uni0445.smcp</key>
+		<integer>-28</integer>
+		<key>uni0447.smcp</key>
+		<integer>-21</integer>
+		<key>uni044A.smcp</key>
+		<integer>-9</integer>
+		<key>uni0458.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0436</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-16</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-12</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-13</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-9</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-4</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-7</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-6</integer>
+		<key>backslash</key>
+		<integer>-17</integer>
+		<key>parenright</key>
+		<integer>-12</integer>
+		<key>uni0431.srb</key>
+		<integer>-7</integer>
+	</dict>
+	<key>uni0436.smcp</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft.smcp</key>
+		<integer>-26</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-21</integer>
+		<key>@MMK_R_hyphen.smcp</key>
+		<integer>-23</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-12</integer>
+		<key>parenright</key>
+		<integer>-11</integer>
+		<key>uni0444.smcp</key>
+		<integer>-14</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0437</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-18</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-13</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-16</integer>
+		<key>backslash</key>
+		<integer>-26</integer>
+		<key>braceright</key>
+		<integer>-21</integer>
+		<key>parenright</key>
+		<integer>-28</integer>
+		<key>question</key>
+		<integer>-20</integer>
+		<key>uni0434</key>
+		<integer>-32</integer>
+		<key>uni0436</key>
+		<integer>-4</integer>
+		<key>uni0445</key>
+		<integer>-15</integer>
+		<key>uni0447</key>
+		<integer>-8</integer>
+	</dict>
+	<key>uni0437.smcp</key>
+	<dict>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-4</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-4</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-4</integer>
+		<key>backslash</key>
+		<integer>-13</integer>
+		<key>braceright</key>
+		<integer>-17</integer>
+		<key>parenright</key>
+		<integer>-25</integer>
+		<key>question</key>
+		<integer>-12</integer>
+		<key>uni0430.smcp</key>
+		<integer>-10</integer>
+		<key>uni0434.smcp</key>
+		<integer>-45</integer>
+		<key>uni0436.smcp</key>
+		<integer>-4</integer>
+		<key>uni0445.smcp</key>
+		<integer>-20</integer>
+		<key>uni0447.smcp</key>
+		<integer>-14</integer>
+		<key>uni044A.smcp</key>
+		<integer>-5</integer>
+		<key>uni0458.smcp</key>
+		<integer>-4</integer>
+	</dict>
+	<key>uni0440.smcp</key>
+	<dict>
+		<key>@MMK_R_period</key>
+		<integer>-71</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-8</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-73</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-4</integer>
+		<key>braceright</key>
+		<integer>-16</integer>
+		<key>braceright.smcp</key>
+		<integer>-11</integer>
+		<key>parenright</key>
+		<integer>-28</integer>
+		<key>parenright.smcp</key>
+		<integer>-12</integer>
+		<key>slash</key>
+		<integer>-30</integer>
+		<key>uni0430.smcp</key>
+		<integer>-60</integer>
+		<key>uni0434.smcp</key>
+		<integer>-91</integer>
+		<key>uni0436.smcp</key>
+		<integer>-6</integer>
+		<key>uni0437.smcp</key>
+		<integer>-7</integer>
+		<key>uni0445.smcp</key>
+		<integer>-22</integer>
+		<key>uni0447.smcp</key>
+		<integer>-5</integer>
+		<key>uni044F.smcp</key>
+		<integer>-5</integer>
+		<key>uni0458.smcp</key>
+		<integer>-5</integer>
+	</dict>
+	<key>uni0441</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-15</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-12</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-7</integer>
+		<key>backslash</key>
+		<integer>-20</integer>
+		<key>braceright</key>
+		<integer>-20</integer>
+		<key>parenright</key>
+		<integer>-27</integer>
+		<key>question</key>
+		<integer>-13</integer>
+		<key>uni0434</key>
+		<integer>-24</integer>
+		<key>uni0445</key>
+		<integer>-4</integer>
+	</dict>
+	<key>uni0441.smcp</key>
+	<dict>
+		<key>@MMK_R_uni043E</key>
+		<integer>-5</integer>
+		<key>parenright</key>
+		<integer>-11</integer>
+	</dict>
+	<key>uni0442</key>
+	<dict>
+		<key>@MMK_R_period</key>
+		<integer>-34</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-99</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>9</integer>
+		<key>braceright</key>
+		<integer>-17</integer>
+		<key>parenright</key>
+		<integer>-27</integer>
+		<key>slash</key>
+		<integer>-11</integer>
+		<key>uni0434</key>
+		<integer>-43</integer>
+	</dict>
+	<key>uni0442.smcp</key>
+	<dict>
+		<key>@MMK_R_period</key>
+		<integer>-40</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-55</integer>
+		<key>parenright</key>
+		<integer>-12</integer>
+		<key>slash</key>
+		<integer>-16</integer>
+		<key>uni0430.smcp</key>
+		<integer>-51</integer>
+		<key>uni0434.smcp</key>
+		<integer>-78</integer>
+	</dict>
+	<key>uni0444.smcp</key>
+	<dict>
+		<key>@MMK_R_period</key>
+		<integer>-17</integer>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-11</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-21</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-23</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-7</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-21</integer>
+		<key>backslash</key>
+		<integer>-17</integer>
+		<key>braceright</key>
+		<integer>-25</integer>
+		<key>braceright.smcp</key>
+		<integer>-15</integer>
+		<key>parenright</key>
+		<integer>-27</integer>
+		<key>parenright.smcp</key>
+		<integer>-12</integer>
+		<key>question</key>
+		<integer>-26</integer>
+		<key>uni0430.smcp</key>
+		<integer>-26</integer>
+		<key>uni0434.smcp</key>
+		<integer>-82</integer>
+		<key>uni0436.smcp</key>
+		<integer>-13</integer>
+		<key>uni0437.smcp</key>
+		<integer>-4</integer>
+		<key>uni0445.smcp</key>
+		<integer>-54</integer>
+		<key>uni0447.smcp</key>
+		<integer>-8</integer>
+		<key>uni044F.smcp</key>
+		<integer>-7</integer>
+	</dict>
+	<key>uni0445</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-31</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-31</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-22</integer>
+		<key>uni0431</key>
+		<integer>-8</integer>
+		<key>uni0431.srb</key>
+		<integer>-23</integer>
+		<key>uni0434</key>
+		<integer>16</integer>
+		<key>uni0442</key>
+		<integer>-6</integer>
+		<key>uni044A</key>
+		<integer>-6</integer>
+	</dict>
+	<key>uni0445.smcp</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-24</integer>
+		<key>@MMK_R_guilsinglleft.smcp</key>
+		<integer>-45</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-34</integer>
+		<key>@MMK_R_hyphen.smcp</key>
+		<integer>-40</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-30</integer>
+		<key>uni0444.smcp</key>
+		<integer>-54</integer>
+	</dict>
+	<key>uni0452</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-11</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-22</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-20</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-10</integer>
+		<key>backslash</key>
+		<integer>-24</integer>
+		<key>braceright</key>
+		<integer>-14</integer>
+		<key>parenright</key>
+		<integer>-17</integer>
+		<key>question</key>
+		<integer>-20</integer>
+		<key>uni0434</key>
+		<integer>-14</integer>
+		<key>uni0447</key>
+		<integer>-4</integer>
+	</dict>
+	<key>uni0452.smcp</key>
+	<dict>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-75</integer>
+		<key>@MMK_R_quoteright</key>
+		<integer>-76</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-80</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-6</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-53</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-7</integer>
+		<key>asterisk</key>
+		<integer>-54</integer>
+		<key>backslash</key>
+		<integer>-49</integer>
+		<key>braceright</key>
+		<integer>-13</integer>
+		<key>parenright</key>
+		<integer>-24</integer>
+		<key>question</key>
+		<integer>-27</integer>
+		<key>question.smcp</key>
+		<integer>-29</integer>
+		<key>uni0430.smcp</key>
+		<integer>-6</integer>
+		<key>uni0434.smcp</key>
+		<integer>-25</integer>
+		<key>uni0436.smcp</key>
+		<integer>-4</integer>
+		<key>uni0445.smcp</key>
+		<integer>-24</integer>
+		<key>uni0447.smcp</key>
+		<integer>-52</integer>
+		<key>uni044A.smcp</key>
+		<integer>-56</integer>
+	</dict>
+	<key>uni0454</key>
+	<dict>
+		<key>@MMK_R_quoteright</key>
+		<integer>-17</integer>
+		<key>@MMK_R_quotesingle</key>
+		<integer>-14</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-11</integer>
+		<key>backslash</key>
+		<integer>-21</integer>
+		<key>braceright</key>
+		<integer>-21</integer>
+		<key>parenright</key>
+		<integer>-28</integer>
+		<key>question</key>
+		<integer>-17</integer>
+		<key>uni0434</key>
+		<integer>-26</integer>
+		<key>uni0445</key>
+		<integer>-6</integer>
+	</dict>
+	<key>uni0454.smcp</key>
+	<dict>
+		<key>parenright</key>
+		<integer>-11</integer>
+		<key>uni0447.smcp</key>
+		<integer>-6</integer>
+	</dict>
+	<key>uni0455</key>
+	<dict>
+		<key>backslash</key>
+		<integer>-13</integer>
+		<key>braceright</key>
+		<integer>-15</integer>
+		<key>parenright</key>
+		<integer>-25</integer>
+		<key>uni0434</key>
+		<integer>-22</integer>
+		<key>uni0447</key>
+		<integer>-4</integer>
+	</dict>
+	<key>uni0455.smcp</key>
+	<dict>
+		<key>braceright</key>
+		<integer>-11</integer>
+		<key>parenright</key>
+		<integer>-21</integer>
+		<key>uni0430.smcp</key>
+		<integer>-9</integer>
+		<key>uni0434.smcp</key>
+		<integer>-25</integer>
+		<key>uni0447.smcp</key>
+		<integer>-7</integer>
+	</dict>
+	<key>uni0458</key>
+	<dict>
+		<key>uni0434</key>
+		<integer>-14</integer>
+	</dict>
+	<key>uni0458.smcp</key>
+	<dict>
+		<key>@MMK_R_hyphen</key>
+		<integer>-9</integer>
+		<key>@MMK_R_hyphen.smcp</key>
+		<integer>-9</integer>
+		<key>@MMK_R_period</key>
+		<integer>-9</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-8</integer>
+		<key>parenright</key>
+		<integer>-10</integer>
+		<key>uni0430.smcp</key>
+		<integer>-14</integer>
+		<key>uni0434.smcp</key>
+		<integer>-24</integer>
+		<key>uni0444.smcp</key>
+		<integer>-4</integer>
+	</dict>
+	<key>uni045B</key>
 	<dict>
 		<key>@MMK_R_quoteleft</key>
 		<integer>-18</integer>
@@ -7323,14 +7303,14 @@
 		<integer>-35</integer>
 		<key>braceright</key>
 		<integer>-10</integer>
-		<key>che-cy</key>
-		<integer>-12</integer>
 		<key>parenright</key>
 		<integer>-15</integer>
 		<key>question</key>
 		<integer>-24</integer>
+		<key>uni0447</key>
+		<integer>-12</integer>
 	</dict>
-	<key>tshe-cy.smcp</key>
+	<key>uni045B.smcp</key>
 	<dict>
 		<key>@MMK_R_guilsinglleft.smcp</key>
 		<integer>-12</integer>
@@ -7354,49 +7334,230 @@
 		<integer>-51</integer>
 		<key>backslash</key>
 		<integer>-59</integer>
-		<key>che-cy.smcp</key>
-		<integer>-60</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-9</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-42</integer>
 		<key>question</key>
 		<integer>-19</integer>
 		<key>question.smcp</key>
 		<integer>-27</integer>
+		<key>uni0444.smcp</key>
+		<integer>-9</integer>
+		<key>uni0447.smcp</key>
+		<integer>-60</integer>
+		<key>uni044A.smcp</key>
+		<integer>-42</integer>
 	</dict>
-	<key>two</key>
+	<key>uni0490</key>
 	<dict>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-21</integer>
-		<key>backslash</key>
-		<integer>-31</integer>
+		<key>@MMK_R_colon</key>
+		<integer>-61</integer>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-85</integer>
+		<key>@MMK_R_guilsinglleft.cap</key>
+		<integer>-87</integer>
+		<key>@MMK_R_guilsinglright</key>
+		<integer>-77</integer>
+		<key>@MMK_R_guilsinglright.cap</key>
+		<integer>-48</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-72</integer>
+		<key>@MMK_R_hyphen.cap</key>
+		<integer>-72</integer>
+		<key>@MMK_R_period</key>
+		<integer>-64</integer>
+		<key>@MMK_R_uni041B</key>
+		<integer>-87</integer>
+		<key>@MMK_R_uni041E</key>
+		<integer>-74</integer>
+		<key>@MMK_R_uni0438</key>
+		<integer>-106</integer>
+		<key>@MMK_R_uni0438.smcp</key>
+		<integer>-60</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-117</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-95</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-133</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-97</integer>
+		<key>@MMK_R_uni0442.smcp</key>
+		<integer>-72</integer>
+		<key>@MMK_R_uni0443</key>
+		<integer>-107</integer>
+		<key>@MMK_R_uni0443.smcp</key>
+		<integer>-47</integer>
 		<key>braceright</key>
+		<integer>9</integer>
+		<key>slash</key>
+		<integer>-64</integer>
+		<key>uni0410</key>
+		<integer>-99</integer>
+		<key>uni0414</key>
+		<integer>-58</integer>
+		<key>uni0424</key>
+		<integer>-89</integer>
+		<key>uni042F</key>
+		<integer>-51</integer>
+		<key>uni0430</key>
+		<integer>-121</integer>
+		<key>uni0430.smcp</key>
+		<integer>-100</integer>
+		<key>uni0431</key>
+		<integer>-80</integer>
+		<key>uni0431.srb</key>
+		<integer>-19</integer>
+		<key>uni0434</key>
+		<integer>-138</integer>
+		<key>uni0434.smcp</key>
+		<integer>-122</integer>
+		<key>uni0436</key>
+		<integer>-109</integer>
+		<key>uni0436.smcp</key>
+		<integer>-88</integer>
+		<key>uni0437</key>
+		<integer>-116</integer>
+		<key>uni0437.smcp</key>
+		<integer>-78</integer>
+		<key>uni0439</key>
+		<integer>-93</integer>
+		<key>uni0440</key>
+		<integer>-112</integer>
+		<key>uni0442</key>
+		<integer>-120</integer>
+		<key>uni0444.smcp</key>
+		<integer>-94</integer>
+		<key>uni0445</key>
+		<integer>-92</integer>
+		<key>uni0445.smcp</key>
+		<integer>-39</integer>
+		<key>uni0447</key>
+		<integer>-114</integer>
+		<key>uni0447.smcp</key>
+		<integer>-66</integer>
+		<key>uni044A</key>
+		<integer>-120</integer>
+		<key>uni044A.smcp</key>
+		<integer>-62</integer>
+		<key>uni044D</key>
+		<integer>-115</integer>
+		<key>uni044D.smcp</key>
+		<integer>-77</integer>
+		<key>uni044F</key>
+		<integer>-108</integer>
+		<key>uni044F.smcp</key>
+		<integer>-81</integer>
+		<key>uni0451</key>
+		<integer>-39</integer>
+	</dict>
+	<key>uni0491</key>
+	<dict>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-56</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-55</integer>
+		<key>@MMK_R_period</key>
+		<integer>-35</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-66</integer>
+		<key>@MMK_R_uni043E</key>
+		<integer>-35</integer>
+		<key>slash</key>
+		<integer>-31</integer>
+		<key>uni0430</key>
+		<integer>-23</integer>
+		<key>uni0431</key>
+		<integer>-14</integer>
+		<key>uni0431.srb</key>
+		<integer>-18</integer>
+		<key>uni0434</key>
+		<integer>-45</integer>
+		<key>uni0436</key>
+		<integer>-4</integer>
+		<key>uni044F</key>
+		<integer>-36</integer>
+	</dict>
+	<key>uni0491.smcp</key>
+	<dict>
+		<key>@MMK_R_colon</key>
+		<integer>-21</integer>
+		<key>@MMK_R_guilsinglleft</key>
+		<integer>-64</integer>
+		<key>@MMK_R_guilsinglleft.smcp</key>
+		<integer>-65</integer>
+		<key>@MMK_R_guilsinglright</key>
+		<integer>-26</integer>
+		<key>@MMK_R_hyphen</key>
+		<integer>-62</integer>
+		<key>@MMK_R_hyphen.smcp</key>
+		<integer>-62</integer>
+		<key>@MMK_R_period</key>
+		<integer>-41</integer>
+		<key>@MMK_R_uni043B.smcp</key>
+		<integer>-53</integer>
+		<key>@MMK_R_uni043E.smcp</key>
+		<integer>-52</integer>
+		<key>asterisk</key>
+		<integer>7</integer>
+		<key>slash</key>
+		<integer>-36</integer>
+		<key>uni0430.smcp</key>
+		<integer>-76</integer>
+		<key>uni0434.smcp</key>
+		<integer>-85</integer>
+		<key>uni0436.smcp</key>
+		<integer>-6</integer>
+		<key>uni0444.smcp</key>
+		<integer>-65</integer>
+		<key>uni044D.smcp</key>
+		<integer>-4</integer>
+		<key>uni044F.smcp</key>
+		<integer>-40</integer>
+	</dict>
+	<key>uni1E9E</key>
+	<dict>
+		<key>@MMK_R_A</key>
+		<integer>-21</integer>
+		<key>@MMK_R_AE</key>
+		<integer>-16</integer>
+		<key>@MMK_R_I</key>
+		<integer>-14</integer>
+		<key>@MMK_R_J</key>
+		<integer>-17</integer>
+		<key>@MMK_R_O</key>
+		<integer>-5</integer>
+		<key>@MMK_R_T</key>
+		<integer>-16</integer>
+		<key>@MMK_R_U</key>
+		<integer>-16</integer>
+		<key>@MMK_R_W</key>
+		<integer>-30</integer>
+		<key>@MMK_R_Y</key>
+		<integer>-27</integer>
+		<key>@MMK_R_Z</key>
 		<integer>-10</integer>
-		<key>degree</key>
-		<integer>-29</integer>
-		<key>divide</key>
-		<integer>-10</integer>
-		<key>mu</key>
+		<key>@MMK_R_quoteleft</key>
+		<integer>-8</integer>
+		<key>V</key>
+		<integer>-31</integer>
+		<key>X</key>
+		<integer>-19</integer>
+		<key>asterisk</key>
+		<integer>-9</integer>
+		<key>braceright</key>
+		<integer>-13</integer>
+		<key>ordfeminine</key>
+		<integer>-8</integer>
+		<key>ordmasculine</key>
 		<integer>-10</integer>
 		<key>parenright</key>
-		<integer>-17</integer>
-		<key>rupeeIndian</key>
-		<integer>-11</integer>
+		<integer>-20</integer>
+		<key>registered</key>
+		<integer>-13</integer>
 		<key>space</key>
-		<integer>-17</integer>
-	</dict>
-	<key>two.lf</key>
-	<dict>
-		<key>divide</key>
-		<integer>-17</integer>
-		<key>minus</key>
-		<integer>-11</integer>
-		<key>mu</key>
-		<integer>-12</integer>
-		<key>plus</key>
 		<integer>-14</integer>
-		<key>space</key>
+	</dict>
+	<key>uni20B9</key>
+	<dict>
+		<key>three</key>
 		<integer>-16</integer>
 	</dict>
 	<key>uogonek</key>
@@ -7451,64 +7612,6 @@
 		<key>space</key>
 		<integer>-35</integer>
 	</dict>
-	<key>ve-cy</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-18</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-13</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-15</integer>
-		<key>backslash</key>
-		<integer>-26</integer>
-		<key>braceright</key>
-		<integer>-21</integer>
-		<key>che-cy</key>
-		<integer>-9</integer>
-		<key>de-cy</key>
-		<integer>-32</integer>
-		<key>ha-cy</key>
-		<integer>-13</integer>
-		<key>parenright</key>
-		<integer>-29</integer>
-		<key>question</key>
-		<integer>-20</integer>
-		<key>zhe-cy</key>
-		<integer>-4</integer>
-	</dict>
-	<key>ve-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-12</integer>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-6</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-5</integer>
-		<key>a-cy.smcp</key>
-		<integer>-13</integer>
-		<key>backslash</key>
-		<integer>-23</integer>
-		<key>braceright</key>
-		<integer>-18</integer>
-		<key>che-cy.smcp</key>
-		<integer>-21</integer>
-		<key>de-cy.smcp</key>
-		<integer>-58</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-28</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-9</integer>
-		<key>je-cy.smcp</key>
-		<integer>-5</integer>
-		<key>parenright</key>
-		<integer>-26</integer>
-		<key>question</key>
-		<integer>-18</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-8</integer>
-	</dict>
 	<key>x</key>
 	<dict>
 		<key>@MMK_R_J</key>
@@ -7549,62 +7652,6 @@
 		<key>space</key>
 		<integer>-16</integer>
 	</dict>
-	<key>ze-cy</key>
-	<dict>
-		<key>@MMK_R_quoteright</key>
-		<integer>-18</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-13</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-16</integer>
-		<key>backslash</key>
-		<integer>-26</integer>
-		<key>braceright</key>
-		<integer>-21</integer>
-		<key>che-cy</key>
-		<integer>-8</integer>
-		<key>de-cy</key>
-		<integer>-32</integer>
-		<key>ha-cy</key>
-		<integer>-15</integer>
-		<key>parenright</key>
-		<integer>-28</integer>
-		<key>question</key>
-		<integer>-20</integer>
-		<key>zhe-cy</key>
-		<integer>-4</integer>
-	</dict>
-	<key>ze-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_uni0438.smcp</key>
-		<integer>-4</integer>
-		<key>@MMK_R_uni0442.smcp</key>
-		<integer>-4</integer>
-		<key>@MMK_R_uni0443.smcp</key>
-		<integer>-4</integer>
-		<key>a-cy.smcp</key>
-		<integer>-10</integer>
-		<key>backslash</key>
-		<integer>-13</integer>
-		<key>braceright</key>
-		<integer>-17</integer>
-		<key>che-cy.smcp</key>
-		<integer>-14</integer>
-		<key>de-cy.smcp</key>
-		<integer>-45</integer>
-		<key>ha-cy.smcp</key>
-		<integer>-20</integer>
-		<key>hardsign-cy.smcp</key>
-		<integer>-5</integer>
-		<key>je-cy.smcp</key>
-		<integer>-4</integer>
-		<key>parenright</key>
-		<integer>-25</integer>
-		<key>question</key>
-		<integer>-12</integer>
-		<key>zhe-cy.smcp</key>
-		<integer>-4</integer>
-	</dict>
 	<key>zero</key>
 	<dict>
 		<key>@MMK_R_quotesingle</key>
@@ -7636,46 +7683,6 @@
 		<integer>-48</integer>
 		<key>parenright</key>
 		<integer>-26</integer>
-	</dict>
-	<key>zhe-cy</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft</key>
-		<integer>-16</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-12</integer>
-		<key>@MMK_R_quoteright</key>
-		<integer>-13</integer>
-		<key>@MMK_R_quotesingle</key>
-		<integer>-9</integer>
-		<key>@MMK_R_uni043B</key>
-		<integer>-4</integer>
-		<key>@MMK_R_uni043E</key>
-		<integer>-7</integer>
-		<key>@MMK_R_uni0443</key>
-		<integer>-6</integer>
-		<key>backslash</key>
-		<integer>-17</integer>
-		<key>be-cy.srb</key>
-		<integer>-7</integer>
-		<key>parenright</key>
-		<integer>-12</integer>
-	</dict>
-	<key>zhe-cy.smcp</key>
-	<dict>
-		<key>@MMK_R_guilsinglleft.smcp</key>
-		<integer>-26</integer>
-		<key>@MMK_R_hyphen</key>
-		<integer>-21</integer>
-		<key>@MMK_R_hyphen.smcp</key>
-		<integer>-23</integer>
-		<key>@MMK_R_uni043E.smcp</key>
-		<integer>-12</integer>
-		<key>che-cy.smcp</key>
-		<integer>-5</integer>
-		<key>ef-cy.smcp</key>
-		<integer>-14</integer>
-		<key>parenright</key>
-		<integer>-11</integer>
 	</dict>
 </dict>
 </plist>

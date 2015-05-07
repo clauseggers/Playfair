@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbar.smcp" format="1">
-  <advance width="845"/>
+  <advance width="844"/>
   <outline>
-    <contour>
-      <point x="63" y="454" type="line"/>
-      <point x="58" y="434" type="line"/>
-      <point x="861" y="434" type="line"/>
-      <point x="866" y="454" type="line"/>
-    </contour>
-    <component base="h.smcp" xOffset="1"/>
+    <component base="h.smcp"/>
+    <component base="uni0336.smcp" xOffset="-14"/>
   </outline>
 </glyph>

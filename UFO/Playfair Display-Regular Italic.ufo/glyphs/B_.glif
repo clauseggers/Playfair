@@ -60,12 +60,13 @@
       <point x="425" y="376"/>
       <point x="304" y="376" type="curve" smooth="yes"/>
       <point x="226" y="376" type="line"/>
-      <point x="226" y="376"/>
-      <point x="222" y="359"/>
-      <point x="222" y="359" type="curve"/>
+      <point x="222" y="359" type="line"/>
     </contour>
     <contour>
       <point x="403" y="708" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="252" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

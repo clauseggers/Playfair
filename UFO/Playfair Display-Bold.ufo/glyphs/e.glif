@@ -31,22 +31,20 @@
       <point x="332" y="426"/>
       <point x="331" y="328" type="curve"/>
       <point x="162" y="328" type="line"/>
-      <point x="162" y="328"/>
-      <point x="164" y="309"/>
-      <point x="164" y="309" type="curve"/>
+      <point x="164" y="309" type="line"/>
       <point x="477" y="309" type="line"/>
       <point x="477" y="470"/>
       <point x="405" y="533"/>
       <point x="288" y="533" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="262" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
       <point x="341" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="279" y="514" type="move" name="top"/>
+      <point x="262" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="279" y="519" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

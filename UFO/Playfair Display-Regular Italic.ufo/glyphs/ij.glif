@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="1">
-  <advance width="608"/>
+  <advance width="625"/>
   <unicode hex="0133"/>
   <outline>
     <contour>
@@ -75,7 +75,7 @@
       <point x="299" y="190"/>
       <point x="256" y="91" type="curve" smooth="yes"/>
     </contour>
-    <component base="dotaccent" xOffset="151" yOffset="-5"/>
-    <component base="dotaccent" xOffset="481" yOffset="-5"/>
+    <component base="uni0307" xOffset="76" yOffset="-5"/>
+    <component base="uni0307" xOffset="406" yOffset="-5"/>
   </outline>
 </glyph>

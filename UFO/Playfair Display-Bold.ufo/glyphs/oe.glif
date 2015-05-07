@@ -59,16 +59,17 @@
       <point x="629" y="426"/>
       <point x="628" y="328" type="curve"/>
       <point x="479" y="328" type="line"/>
-      <point x="479" y="328"/>
-      <point x="481" y="309"/>
-      <point x="481" y="309" type="curve"/>
+      <point x="481" y="309" type="line"/>
       <point x="774" y="309" type="line"/>
       <point x="774" y="470"/>
       <point x="702" y="533"/>
       <point x="585" y="533" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="400" y="514" type="move" name="top"/>
+      <point x="430" y="519" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="429" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

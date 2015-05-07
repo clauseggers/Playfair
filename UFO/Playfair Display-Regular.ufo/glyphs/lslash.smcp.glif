@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash.smcp" format="1">
-  <advance width="574"/>
+  <advance width="573"/>
   <outline>
-    <contour>
-      <point x="172" y="256" type="line"/>
-      <point x="172" y="233" type="line"/>
-      <point x="414" y="370" type="line"/>
-      <point x="414" y="393" type="line"/>
-    </contour>
-    <contour>
-      <point x="43" y="193" type="line"/>
-      <point x="43" y="170" type="line"/>
-      <point x="172" y="243" type="line"/>
-      <point x="172" y="266" type="line"/>
-    </contour>
-    <component base="l.smcp" xOffset="1"/>
+    <component base="l.smcp"/>
+    <component base="slashL.smcp" xOffset="11"/>
   </outline>
 </glyph>

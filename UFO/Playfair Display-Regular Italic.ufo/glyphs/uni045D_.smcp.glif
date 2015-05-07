@@ -3,14 +3,6 @@
   <advance width="762"/>
   <outline>
     <component base="uni0438.smcp"/>
-    <component base="grave.smcp" xOffset="268" yOffset="1"/>
+    <component base="gravecomb.smcp" xOffset="146"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

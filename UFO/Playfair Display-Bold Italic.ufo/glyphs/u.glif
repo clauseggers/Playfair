@@ -61,13 +61,13 @@
       <point x="474" y="85" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="274" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
       <point x="472" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="347" y="514" type="move" name="top"/>
+      <point x="274" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="347" y="519" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

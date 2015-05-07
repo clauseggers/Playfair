@@ -69,14 +69,15 @@
     </contour>
     <contour>
       <point x="700" y="635" type="line"/>
-      <point x="700" y="635"/>
-      <point x="691" y="655"/>
-      <point x="691" y="655" type="curve"/>
+      <point x="691" y="655" type="line"/>
       <point x="126" y="89" type="line"/>
       <point x="136" y="71" type="line"/>
     </contour>
     <contour>
       <point x="492" y="708" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="657" y="0" type="move" name="bottomright"/>
     </contour>
   </outline>
 </glyph>

@@ -56,10 +56,19 @@
       <point x="274" y="529" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="395" y="618" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="291" y="758" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="561" y="758" type="move" name="topright"/>
+    </contour>
+    <contour>
       <point x="560" y="608" type="move" name="bar-right"/>
     </contour>
     <contour>
-      <point x="291" y="257" type="move" name="center"/>
+      <point x="291" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

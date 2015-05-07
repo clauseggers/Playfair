@@ -38,13 +38,16 @@
       <point x="234" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="187" y="257" type="move" name="center"/>
+      <point x="154" y="758" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="288" y="514" type="move" name="right"/>
+      <point x="253" y="758" type="move" name="topright"/>
     </contour>
     <contour>
-      <point x="154" y="514" type="move" name="top"/>
+      <point x="338" y="514" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="177" y="347" type="move" name="center"/>
     </contour>
   </outline>
 </glyph>
