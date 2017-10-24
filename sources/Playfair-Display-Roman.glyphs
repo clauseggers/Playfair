@@ -1,5 +1,8 @@
 {
 .appVersion = "1073";
+DisplayStrings = (
+"/ellipsis \":"
+);
 classes = (
 {
 automatic = 1;
@@ -60599,17 +60602,17 @@ unicode = 002C;
 },
 {
 glyphname = colon;
-lastChange = "2012-08-07 07:56:17 +0000";
+lastChange = "2017-10-24 10:58:26 +0000";
 layers = (
 {
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 7, 0}";
+transform = "{1, 0, 0, 1, 7, 414}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 7, 414}";
+transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = UUID0;
@@ -60619,11 +60622,11 @@ width = 266;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 12, 0}";
+transform = "{1, 0, 0, 1, 12, 375}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 12, 375}";
+transform = "{1, 0, 0, 1, 12, 0}";
 }
 );
 layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
@@ -60673,16 +60676,16 @@ unicode = 003B;
 },
 {
 glyphname = ellipsis;
-lastChange = "2012-08-07 07:56:17 +0000";
+lastChange = "2017-10-24 10:58:38 +0000";
 layers = (
 {
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 281, 0}";
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 281, 0}";
 },
 {
 name = period;
@@ -60696,10 +60699,10 @@ width = 813;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 281, 0}";
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 281, 0}";
 },
 {
 name = period;
@@ -63146,16 +63149,16 @@ unicode = 203A;
 },
 {
 glyphname = quotedbl;
-lastChange = "2012-08-07 07:56:17 +0000";
+lastChange = "2017-10-24 10:58:26 +0000";
 layers = (
 {
 components = (
 {
 name = quotesingle;
-transform = "{1, 0, 0, 1, 109, 0}";
 },
 {
 name = quotesingle;
+transform = "{1, 0, 0, 1, 109, 0}";
 }
 );
 layerId = UUID0;
@@ -63165,10 +63168,10 @@ width = 298;
 components = (
 {
 name = quotesingle;
-transform = "{1, 0, 0, 1, 195, 0}";
 },
 {
 name = quotesingle;
+transform = "{1, 0, 0, 1, 195, 0}";
 }
 );
 layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
