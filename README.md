@@ -28,3 +28,13 @@ Play­fair Dis­play is pub­lished under the [SIL Open Font License Version 1.1
 Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bulgarian, Catalan, Chiga, Congo Swahili, Cornish, Croatian, Czech, Danish, Embu, English, Esperanto, Estonian, Faroese, Filipino, Finnish, French, Galician, Ganda, German, Gusii, Hungarian, Icelandic, Indonesian, Irish, Italian, Jola-Fonyi, Kabuverdianu, Kalaallisut, Kalenjin, Kamba, Kikuyu, Kinyarwanda, Latvian, Lithuanian, Luo, Luyia, Macedonian, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Meru, Morisyen, North Ndebele, Norwegian Bokmål, Norwegian Nynorsk, Nyankole, Oromo, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Samburu, Sango, Sangu, Sena, Serbian, Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swedish, Swiss German, Taita, Teso, Turkmen, Vunjo, Welsh, and Zulu.
 
 Playfair Display is designed by **[Claus Eggers Sørensen](http://forthehearts.net/)** in 2005–2015, and is published under the [SIL Open Font License Version 1.1](https://github.com/clauseggers/Playfair-Display/blob/master/OFL.txt).
+
+## Building ttfs for Google Fonts
+
+The GoogleFonts version has different vertical metrics.
+
+To generate the fonts run
+
+```
+$ python sources/generate_gf_version.py
+```
