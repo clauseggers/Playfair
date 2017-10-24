@@ -33,6 +33,10 @@ value = "Playfair Display is a transitional design. From the time of enlightenme
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2015-05-05 18:07:45 +0000";
@@ -176,11 +180,11 @@ value = -241;
 },
 {
 name = winAscent;
-value = 999;
+value = 1072;
 },
 {
 name = winDescent;
-value = -241;
+value = 251;
 },
 {
 name = hheaAscender;
@@ -189,6 +193,14 @@ value = 999;
 {
 name = hheaDescender;
 value = -241;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 descender = -181;
@@ -233,11 +245,11 @@ value = -241;
 },
 {
 name = winAscent;
-value = 999;
+value = 1072;
 },
 {
 name = winDescent;
-value = -241;
+value = 251;
 },
 {
 name = hheaAscender;
@@ -246,6 +258,14 @@ value = 999;
 {
 name = hheaDescender;
 value = -241;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 descender = -181;
@@ -78791,7 +78811,6 @@ instanceInterpolations = {
 UUID0 = 0.4;
 };
 isBold = 1;
-linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
@@ -78871,7 +78890,6 @@ instanceInterpolations = {
 UUID0 = 0.4;
 };
 isBold = 1;
-linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
@@ -86599,5 +86617,5 @@ UUID0 = {
 };
 };
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 100;
 }

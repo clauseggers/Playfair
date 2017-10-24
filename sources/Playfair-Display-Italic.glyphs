@@ -15,7 +15,7 @@ value = FTH;
 },
 {
 name = openTypeNameLicense;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
 name = openTypeNameLicenseURL;
@@ -33,6 +33,10 @@ value = "Playfair Display is a transitional design. From the time of enlightenme
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2015-05-05 18:07:45 +0000";
@@ -176,11 +180,11 @@ value = -241;
 },
 {
 name = winAscent;
-value = 999;
+value = 1072;
 },
 {
 name = winDescent;
-value = -241;
+value = 251;
 },
 {
 name = hheaAscender;
@@ -189,6 +193,14 @@ value = 999;
 {
 name = hheaDescender;
 value = -241;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 descender = -181;
@@ -234,11 +246,11 @@ value = -241;
 },
 {
 name = winAscent;
-value = 999;
+value = 1072;
 },
 {
 name = winDescent;
-value = -241;
+value = 251;
 },
 {
 name = hheaAscender;
@@ -247,6 +259,14 @@ value = 999;
 {
 name = hheaDescender;
 value = -241;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 descender = -181;
@@ -73472,7 +73492,6 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
@@ -73489,7 +73508,7 @@ UUID0 = 0.4;
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
+linkStyle = Bold;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -73539,7 +73558,6 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
@@ -73574,7 +73592,7 @@ UUID0 = 0.4;
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
+linkStyle = Bold;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -79053,5 +79071,5 @@ manufacturer = "Claus Eggers Sørensen";
 manufacturerURL = "http://www.forthehearts.net";
 unitsPerEm = 1240;
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 100;
 }
