@@ -1,7 +1,7 @@
 {
 .appVersion = "1078";
 DisplayStrings = (
-"/ge-cy.smcp/ghestroke-cy.smcp"
+"/ezh"
 );
 classes = (
 {
@@ -946,7 +946,7 @@ unicode = 1EA6;
 },
 {
 glyphname = Acircumflexhookabove;
-lastChange = "2017-10-31 15:55:32 +0000";
+lastChange = "2017-10-31 17:07:26 +0000";
 layers = (
 {
 components = (
@@ -959,7 +959,7 @@ transform = "{1, 0, 0, 1, 103, 0}";
 },
 {
 name = hookabovecomb.case;
-transform = "{1, 0, 0, 1, 319, 108}";
+transform = "{1, 0, 0, 1, 319, 148}";
 }
 );
 layerId = UUID0;
@@ -976,7 +976,7 @@ transform = "{1, 0, 0, 1, 134, 0}";
 },
 {
 name = hookabovecomb.case;
-transform = "{1, 0, 0, 1, 362, 140}";
+transform = "{1, 0, 0, 1, 362, 170}";
 }
 );
 layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
@@ -2922,7 +2922,7 @@ unicode = 1EC0;
 },
 {
 glyphname = Ecircumflexhookabove;
-lastChange = "2017-10-31 14:10:41 +0000";
+lastChange = "2017-10-31 17:39:01 +0000";
 layers = (
 {
 components = (
@@ -2935,7 +2935,7 @@ transform = "{1, 0, 0, 1, 95, 0}";
 },
 {
 name = hookabovecomb.case;
-transform = "{1, 0, 0, 1, 311, 108}";
+transform = "{1, 0, 0, 1, 311, 148}";
 }
 );
 layerId = UUID0;
@@ -3289,7 +3289,7 @@ unicode = 1EBC;
 },
 {
 glyphname = Ezh;
-lastChange = "2017-10-30 17:57:57 +0000";
+lastChange = "2017-10-31 20:15:30 +0000";
 layers = (
 {
 anchors = (
@@ -3377,7 +3377,8 @@ target = "{0, 15}";
 },
 {
 horizontal = 1;
-origin = "{0, 18}";
+origin = "{0, 41}";
+target = "{0, 24}";
 }
 );
 layerId = UUID0;
@@ -7356,7 +7357,7 @@ unicode = 1ED2;
 },
 {
 glyphname = Ocircumflexhookabove;
-lastChange = "2017-10-30 17:40:43 +0000";
+lastChange = "2017-10-31 17:39:01 +0000";
 layers = (
 {
 components = (
@@ -7369,7 +7370,7 @@ transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
 name = hookabovecomb.case;
-transform = "{1, 0, 0, 1, 374, 108}";
+transform = "{1, 0, 0, 1, 374, 148}";
 }
 );
 layerId = UUID0;
@@ -16012,7 +16013,7 @@ unicode = 0259;
 },
 {
 glyphname = ezh;
-lastChange = "2017-10-30 16:01:43 +0000";
+lastChange = "2017-10-31 20:22:15 +0000";
 layers = (
 {
 anchors = (
@@ -16120,7 +16121,8 @@ target = "{0, 1}";
 },
 {
 horizontal = 1;
-place = "{0, 206}";
+origin = "{0, 22}";
+target = "{0, 23}";
 }
 );
 layerId = UUID0;
@@ -67543,7 +67545,7 @@ leftKerningGroup = uni0442.smcp;
 {
 color = 8;
 glyphname = "yat-cy.smcp";
-lastChange = "2017-10-31 15:34:02 +0000";
+lastChange = "2017-10-31 20:09:43 +0000";
 layers = (
 {
 components = (
@@ -90917,7 +90919,7 @@ width = 455;
 },
 {
 glyphname = circumflexcomb.case;
-lastChange = "2017-10-30 17:36:47 +0000";
+lastChange = "2017-10-31 17:07:26 +0000";
 layers = (
 {
 anchors = (
@@ -90927,7 +90929,7 @@ position = "{211, 708}";
 },
 {
 name = right;
-position = "{359, 816}";
+position = "{359, 856}";
 },
 {
 name = top;
@@ -90973,7 +90975,7 @@ position = "{211, 708}";
 },
 {
 name = right;
-position = "{379, 848}";
+position = "{379, 878}";
 },
 {
 name = top;
