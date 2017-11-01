@@ -1,8 +1,5 @@
 {
 .appVersion = "1078";
-DisplayStrings = (
-"/ezh"
-);
 classes = (
 {
 automatic = 1;
@@ -34379,9 +34376,8 @@ leftKerningGroup = I.smcp;
 rightKerningGroup = E.smcp;
 },
 {
-color = 11;
 glyphname = schwa.smcp;
-lastChange = "2017-10-31 15:40:30 +0000";
+lastChange = "2017-11-01 13:40:13 +0000";
 layers = (
 {
 anchors = (
@@ -34591,7 +34587,7 @@ rightMetricsKey = o.smcp;
 },
 {
 glyphname = ezh.smcp;
-lastChange = "2017-10-31 15:45:13 +0000";
+lastChange = "2017-11-01 13:40:01 +0000";
 layers = (
 {
 anchors = (
@@ -34609,10 +34605,6 @@ hints = (
 horizontal = 1;
 origin = "{0, 5}";
 target = "{0, 15}";
-},
-{
-horizontal = 1;
-origin = "{0, 18}";
 }
 );
 layerId = UUID0;
