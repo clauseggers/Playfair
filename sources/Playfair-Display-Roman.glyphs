@@ -1,9 +1,5 @@
 {
 .appVersion = "1078";
-DisplayStrings = (
-"/adotbelow.smcp/dotbelowcomb/commaaccentcomb/commaaccentcomb.smcp/gcommaaccent.smcp/gdotaccent.smcp/ncommaaccent.smcp",
-"/f_f  /f_h.liga  /fi  /fl  /f_f_h.liga  /f_f_i  /f_f_l  /f_idieresis.liga  /f_b.liga  /f_f_b.liga   /f_f_j.liga  /f_f_k.liga  /f_igrave.liga  /f_j.liga  /f_k.liga  \012/longs_longs.liga  /longs_h.liga  /longs_i.liga  /longs_l.liga  /longs_longs_h.liga  /longs_longs_i.liga  /longs_longs_l.liga  /longs_t.liga  /longs_longs_t.liga"
-);
 classes = (
 {
 automatic = 1;
@@ -31856,7 +31852,7 @@ rightKerningGroup = k;
 {
 color = 8;
 glyphname = longs_t.liga;
-lastChange = "2017-11-02 18:07:16 +0000";
+lastChange = "2017-11-02 19:18:32 +0000";
 layers = (
 {
 background = {
@@ -31874,6 +31870,23 @@ components = (
 {
 name = t;
 transform = "{1, 0, 0, 1, 290, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{0, 20}";
+},
+{
+horizontal = 1;
+origin = "{0, 31}";
+target = "{0, 30}";
+},
+{
+horizontal = 1;
+origin = "{0, 24}";
+target = "{0, 25}";
 }
 );
 layerId = UUID0;
@@ -31988,7 +32001,7 @@ rightMetricsKey = t;
 {
 color = 6;
 glyphname = longs_h.liga;
-lastChange = "2017-11-02 17:47:53 +0000";
+lastChange = "2017-11-02 19:18:46 +0000";
 layers = (
 {
 background = {
@@ -32002,6 +32015,22 @@ transform = "{1, 0, 0, 1, 332, 0}";
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+place = "{785, 20}";
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 13}";
+},
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = "{0, 18}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -32226,7 +32255,7 @@ rightMetricsKey = h;
 {
 color = 8;
 glyphname = longs_i.liga;
-lastChange = "2017-11-02 17:59:14 +0000";
+lastChange = "2017-11-02 19:18:59 +0000";
 layers = (
 {
 background = {
@@ -32315,6 +32344,23 @@ components = (
 {
 name = idotless;
 transform = "{1, 0, 0, 1, 329, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 30}";
+target = "{0, 48}";
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 7}";
+},
+{
+horizontal = 1;
+origin = "{0, 13}";
+target = "{0, 12}";
 }
 );
 layerId = UUID0;
@@ -32451,7 +32497,7 @@ rightMetricsKey = i;
 {
 color = 6;
 glyphname = longs_l.liga;
-lastChange = "2017-11-02 17:48:13 +0000";
+lastChange = "2017-11-02 19:19:10 +0000";
 layers = (
 {
 background = {
@@ -32465,6 +32511,23 @@ transform = "{1, 0, 0, 1, 332, 0}";
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 36}";
+target = "{0, 5}";
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 13}";
+},
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = "{0, 18}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -32625,7 +32688,7 @@ rightMetricsKey = l;
 {
 color = 8;
 glyphname = longs_longs.liga;
-lastChange = "2017-11-02 17:59:11 +0000";
+lastChange = "2017-11-02 19:20:44 +0000";
 layers = (
 {
 background = {
@@ -32763,7 +32826,7 @@ rightMetricsKey = longs;
 {
 color = 6;
 glyphname = longs_longs_h.liga;
-lastChange = "2017-11-02 17:59:26 +0000";
+lastChange = "2017-11-02 19:19:36 +0000";
 layers = (
 {
 background = {
@@ -32781,6 +32844,23 @@ transform = "{1, 0, 0, 1, 664, 0}";
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 36}";
+target = "{0, 5}";
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{1, 7}";
+},
+{
+horizontal = 1;
+origin = "{1, 13}";
+target = "{1, 12}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -33089,7 +33169,7 @@ rightMetricsKey = h;
 {
 color = 8;
 glyphname = longs_longs_i.liga;
-lastChange = "2017-11-02 17:59:41 +0000";
+lastChange = "2017-11-02 19:19:50 +0000";
 layers = (
 {
 background = {
@@ -33218,6 +33298,23 @@ components = (
 {
 name = idotless;
 transform = "{1, 0, 0, 1, 650, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 16}";
+target = "{0, 34}";
+},
+{
+horizontal = 1;
+origin = "{1, 27}";
+target = "{1, 28}";
+},
+{
+horizontal = 1;
+origin = "{1, 34}";
+target = "{1, 33}";
 }
 );
 layerId = UUID0;
@@ -33556,7 +33653,7 @@ rightMetricsKey = i;
 {
 color = 6;
 glyphname = longs_longs_l.liga;
-lastChange = "2017-11-02 17:58:04 +0000";
+lastChange = "2017-11-02 19:20:02 +0000";
 layers = (
 {
 background = {
@@ -33574,6 +33671,23 @@ transform = "{1, 0, 0, 1, 664, 0}";
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 36}";
+target = "{0, 5}";
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{1, 7}";
+},
+{
+horizontal = 1;
+origin = "{1, 13}";
+target = "{1, 12}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -33818,7 +33932,7 @@ rightMetricsKey = l;
 {
 color = 8;
 glyphname = longs_longs_t.liga;
-lastChange = "2017-11-02 18:07:04 +0000";
+lastChange = "2017-11-02 19:20:19 +0000";
 layers = (
 {
 background = {
@@ -37083,7 +37197,7 @@ rightKerningGroup = E.smcp;
 },
 {
 glyphname = schwa.smcp;
-lastChange = "2017-11-01 13:40:13 +0000";
+lastChange = "2017-11-02 19:22:00 +0000";
 layers = (
 {
 anchors = (
@@ -37134,6 +37248,23 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 22}";
+},
+{
+horizontal = 1;
+origin = "{0, 35}";
+target = "{0, 38}";
+},
+{
+horizontal = 1;
+origin = "{0, 41}";
+target = "{0, 32}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -52370,12 +52501,19 @@ unicode = 0402;
 {
 color = 8;
 glyphname = "Yat-cy";
-lastChange = "2017-10-30 15:47:39 +0000";
+lastChange = "2017-11-02 19:25:03 +0000";
 layers = (
 {
 components = (
 {
 name = "Softsign-cy";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 2}";
 }
 );
 layerId = UUID0;
@@ -53630,7 +53768,7 @@ unicode = 0496;
 },
 {
 glyphname = "Kadescender-cy";
-lastChange = "2017-10-31 15:55:38 +0000";
+lastChange = "2017-11-02 19:24:52 +0000";
 layers = (
 {
 anchors = (
@@ -53746,18 +53884,18 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 20}";
-target = "{0, 21}";
+origin = "{0, 16}";
+target = "{0, 15}";
+},
+{
+horizontal = 1;
+origin = "{1, 29}";
+target = "{1, 28}";
 },
 {
 horizontal = 1;
 origin = "{1, 20}";
-target = "{1, 19}";
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 0}";
+target = "{1, 21}";
 }
 );
 layerId = UUID0;
@@ -62418,7 +62556,7 @@ unicode = 0463;
 },
 {
 glyphname = "yusbig-cy";
-lastChange = "2017-11-01 19:16:33 +0000";
+lastChange = "2017-11-02 19:22:59 +0000";
 layers = (
 {
 background = {
@@ -62578,6 +62716,11 @@ horizontal = 1;
 origin = "{2, 17}";
 target = up;
 type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{1, 8}";
+target = "{1, 9}";
 }
 );
 layerId = UUID0;
@@ -63023,7 +63166,7 @@ unicode = 0493;
 },
 {
 glyphname = "zhedescender-cy";
-lastChange = "2017-11-01 18:30:39 +0000";
+lastChange = "2017-11-02 19:24:21 +0000";
 layers = (
 {
 background = {
@@ -63190,6 +63333,11 @@ horizontal = 1;
 origin = "{0, 47}";
 target = up;
 type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 9}";
 }
 );
 layerId = UUID0;
@@ -64075,12 +64223,19 @@ unicode = 04A3;
 {
 color = 8;
 glyphname = "ustrait-cy";
-lastChange = "2017-11-01 18:27:43 +0000";
+lastChange = "2017-11-02 19:24:10 +0000";
 layers = (
 {
 components = (
 {
 name = v;
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{0, 5}";
 }
 );
 layerId = UUID0;
