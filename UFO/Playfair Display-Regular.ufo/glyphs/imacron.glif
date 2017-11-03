@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="1">
+  <advance width="293"/>
+  <unicode hex="012B"/>
+  <outline>
+    <contour>
+      <point x="281" y="712" type="line"/>
+      <point x="-11" y="712" type="line"/>
+      <point x="-11" y="687" type="line"/>
+      <point x="281" y="687" type="line"/>
+    </contour>
+    <component base="dotlessi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2012-08-07 07:59:26 +0000</string>
+    </dict>
+  </lib>
+</glyph>
