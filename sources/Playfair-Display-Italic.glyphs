@@ -1,5 +1,5 @@
 {
-.appVersion = "1078";
+.appVersion = "1075";
 classes = (
 {
 automatic = 1;
@@ -4324,13 +4324,13 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{1, 25}";
+origin = "{1, 1}";
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-origin = "{1, 31}";
+origin = "{1, 3}";
 target = up;
 type = BottomGhost;
 }
@@ -21996,7 +21996,7 @@ unicode = 014D;
 {
 color = 5;
 glyphname = oslash;
-lastChange = "2017-10-31 17:24:07 +0000";
+lastChange = "2017-11-03 09:38:59 +0000";
 layers = (
 {
 components = (
@@ -92209,6 +92209,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 90;
@@ -92223,6 +92234,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 144;
@@ -92241,6 +92263,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 180;
@@ -92259,6 +92292,17 @@ name = familyName;
 value = "Playfair Display SC";
 },
 {
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "iacute_j.smcp.loclNLD=iacute_j.loclNLD",
@@ -92626,6 +92670,17 @@ customParameters = (
 {
 name = familyName;
 value = "Playfair Display SC";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 },
 {
 name = "Rename Glyphs";
@@ -92999,6 +93054,17 @@ customParameters = (
 {
 name = familyName;
 value = "Playfair Display SC";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 },
 {
 name = "Rename Glyphs";

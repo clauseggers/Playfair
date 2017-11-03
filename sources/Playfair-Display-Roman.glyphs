@@ -1,7 +1,7 @@
 {
-.appVersion = "1078";
+.appVersion = "1075";
 DisplayStrings = (
-"gangmingaængmin"
+"gangminga\U00E6ngmin"
 );
 classes = (
 {
@@ -98074,6 +98074,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 90;
@@ -98087,6 +98098,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 144;
@@ -98103,6 +98125,17 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--hinting-range-min=10 --hinting-range-max=42 --default-script=latn --fallback-script=latn --increase-x-height=21";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 }
 );
 interpolationWeight = 180;
@@ -98113,11 +98146,21 @@ name = Black;
 weightClass = Black;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Playfair Display SC";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 },
 {
 name = "Rename Glyphs";
@@ -98483,11 +98526,21 @@ UUID0 = 1;
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Playfair Display SC";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 },
 {
 name = "Rename Glyphs";
@@ -98856,11 +98909,21 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Playfair Display SC";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Oslash,
+Oslashacute,
+oslash,
+oslashacute,
+oslash.smcp,
+oslashacute.smcp
+);
 },
 {
 name = "Rename Glyphs";
