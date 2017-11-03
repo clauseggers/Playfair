@@ -23,7 +23,7 @@ def update_vert_metrics(ttfont):
     ttfont['OS/2'].sTypoDescender = -251
     ttfont['OS/2'].sTypoLineGap = 0
 
-    ttfont['OS/2'].usWinAscent = 1072
+    ttfont['OS/2'].usWinAscent = 1201
     ttfont['OS/2'].usWinDescent = 251
 
 
