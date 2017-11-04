@@ -1,8 +1,5 @@
 {
 .appVersion = "1078";
-DisplayStrings = (
-"/f_f_j.liga/jdotless j/f_j.liga"
-);
 classes = (
 {
 automatic = 1;
@@ -972,6 +969,10 @@ sub f f i by f_f_i;
 sub f f j by f_f_j.liga;
 sub f f k by f_f_k.liga;
 sub f f l by f_f_l;
+sub longs longs h by longs_longs_h.liga;
+sub longs longs i by longs_longs_i.liga;
+sub longs longs l by longs_longs_l.liga;
+sub longs longs t by longs_longs_t.liga;
 sub T h by T_h.liga;
 sub f b by f_b.liga;
 sub f f by f_f;
@@ -980,6 +981,11 @@ sub f idieresis by f_idieresis.liga;
 sub f igrave by f_igrave.liga;
 sub f j by f_j.liga;
 sub f k by f_k.liga;
+sub longs h by longs_h.liga;
+sub longs i by longs_i.liga;
+sub longs l by longs_l.liga;
+sub longs longs by longs_longs.liga;
+sub longs t by longs_t.liga;
 sub f i by fi;
 sub f l by fl;
 ";

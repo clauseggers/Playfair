@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_idieresis.liga" format="1">
-  <advance width="619"/>
+  <advance width="614"/>
   <outline>
     <contour>
       <point x="285" y="782" type="curve" smooth="yes"/>
@@ -70,8 +70,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-11-02 17:58:17 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>idieresis</string>
     </dict>
   </lib>
 </glyph>
