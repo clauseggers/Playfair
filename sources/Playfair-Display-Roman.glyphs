@@ -1,8 +1,5 @@
 {
 .appVersion = "1082";
-DisplayStrings = (
-"H/Schwa e/schwa s/h.smcp/schwa.smcp \012/En-cy/Schwa-cy/en-cy/schwa-cy/ze-cy/en-cy.smcp/schwa-cy.smcp"
-);
 classes = (
 {
 automatic = 1;
@@ -1092,6 +1089,7 @@ position = "{-139, 622}";
 horizontalStems = (
 20
 );
+iconName = Regular;
 id = UUID0;
 verticalStems = (
 23,
@@ -1157,6 +1155,7 @@ descender = -181;
 horizontalStems = (
 20
 );
+iconName = Bold;
 id = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
 name = Bold;
 verticalStems = (
@@ -92086,6 +92085,47 @@ rightKerningGroup = quoteright;
 unicode = 02BC;
 },
 {
+color = 5;
+glyphname = commaturnedmod;
+layers = (
+{
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 4, 0}";
+}
+);
+layerId = UUID0;
+width = 261;
+},
+{
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 2, 0}";
+}
+);
+layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
+width = 278;
+},
+{
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 2, 0}";
+}
+);
+layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
+width = 278;
+}
+);
+leftKerningGroup = quoteleft;
+leftMetricsKey = "=|comma";
+rightKerningGroup = quoteleft;
+rightMetricsKey = "=|comma";
+unicode = 02BB;
+},
+{
 glyphname = dieresiscomb;
 layers = (
 {
@@ -107316,5 +107356,5 @@ UUID0 = {
 };
 };
 versionMajor = 1;
-versionMinor = 202;
+versionMinor = 203;
 }

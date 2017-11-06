@@ -1,9 +1,5 @@
 {
 .appVersion = "1082";
-DisplayStrings = (
-"HO/Schwa e/schwa/h.smcp/schwa.smcp \012/En-cy/Schwa-cy/en-cy/schwa-cy/ze-cy/en-cy.smcp/schwa-cy.smcp",
-"/Es-cy/em-cy/a-cy/te-cy/er-cy/a-cy/en-cy/ii-cy \012/En-cy/a-cy/es-cy/ie-cy/el-cy/ie-cy/en-cy/ii-cy/ia-cy \012/Em-cy/ie-cy/ze-cy/o-cy/el-cy/i-cy/te-cy/ii-cy/che-cy/en-cy/o-cy/ge-cy/o-cy"
-);
 classes = (
 {
 automatic = 1;
@@ -1086,6 +1082,7 @@ descender = -181;
 horizontalStems = (
 20
 );
+iconName = Regular;
 id = UUID0;
 italicAngle = 14;
 verticalStems = (
@@ -1152,6 +1149,7 @@ descender = -181;
 horizontalStems = (
 20
 );
+iconName = Bold;
 id = "DE547DD1-6B89-4C93-B672-7CF1D26AB89E";
 italicAngle = 14;
 name = Bold;
@@ -86503,6 +86501,37 @@ rightKerningGroup = quoteright;
 unicode = 02BC;
 },
 {
+color = 5;
+glyphname = commaturnedmod;
+layers = (
+{
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 19, 0}";
+}
+);
+layerId = UUID0;
+width = 251;
+},
+{
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 16, 0}";
+}
+);
+layerId = "DE547DD1-6B89-4C93-B672-7CF1D26AB89E";
+width = 309;
+}
+);
+leftKerningGroup = quoteleft;
+leftMetricsKey = "=|comma";
+rightKerningGroup = quoteleft;
+rightMetricsKey = "=|comma";
+unicode = 02BB;
+},
+{
 glyphname = dieresiscomb;
 layers = (
 {
@@ -99360,5 +99389,5 @@ manufacturer = "Claus Eggers Sørensen";
 manufacturerURL = "http://www.forthehearts.net";
 unitsPerEm = 1240;
 versionMajor = 1;
-versionMinor = 202;
+versionMinor = 203;
 }
