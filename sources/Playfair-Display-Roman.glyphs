@@ -11901,8 +11901,8 @@ nodes = (
 width = 693;
 }
 );
-leftKerningGroup = O;
-rightKerningGroup = Ohorn;
+leftKerningGroup = U;
+rightKerningGroup = Uhorn;
 unicode = 01AF;
 },
 {
@@ -20185,11 +20185,6 @@ transform = "{1, 0, 0, 1, 328, 0}";
 hints = (
 {
 horizontal = 1;
-origin = "{0, 34}";
-target = "{0, 35}";
-},
-{
-horizontal = 1;
 origin = "{0, 45}";
 target = up;
 type = BottomGhost;
@@ -20197,6 +20192,11 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{-188, 15}";
+},
+{
+horizontal = 1;
+origin = "{0, 30}";
+target = "{0, 31}";
 }
 );
 layerId = UUID0;
@@ -92097,16 +92097,6 @@ transform = "{1, 0, 0, 1, 4, 0}";
 );
 layerId = UUID0;
 width = 261;
-},
-{
-components = (
-{
-name = quoteleft;
-transform = "{1, 0, 0, 1, 2, 0}";
-}
-);
-layerId = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
-width = 278;
 },
 {
 components = (
