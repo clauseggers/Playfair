@@ -1089,7 +1089,6 @@ position = "{-139, 622}";
 horizontalStems = (
 20
 );
-iconName = Regular;
 id = UUID0;
 verticalStems = (
 23,
@@ -1155,7 +1154,6 @@ descender = -181;
 horizontalStems = (
 20
 );
-iconName = Bold;
 id = "39933D6F-F4A7-4C4E-8677-28C34DBED807";
 name = Bold;
 verticalStems = (
@@ -16448,7 +16446,7 @@ width = 609;
 }
 );
 leftKerningGroup = o;
-rightKerningGroup = d;
+rightKerningGroup = lcaron;
 unicode = 010F;
 },
 {
