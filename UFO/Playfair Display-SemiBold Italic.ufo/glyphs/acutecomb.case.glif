@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb.case" format="1">
+  <advance width="283"/>
+  <outline>
+    <contour>
+      <point x="158" y="772" type="line"/>
+      <point x="272" y="822"/>
+      <point x="338" y="832"/>
+      <point x="385" y="860" type="curve" smooth="yes"/>
+      <point x="411" y="874"/>
+      <point x="433" y="898"/>
+      <point x="422" y="924" type="curve" smooth="yes"/>
+      <point x="407" y="954"/>
+      <point x="368" y="947"/>
+      <point x="344" y="934" type="curve" smooth="yes"/>
+      <point x="294" y="905"/>
+      <point x="253" y="858"/>
+      <point x="151" y="783" type="curve"/>
+    </contour>
+    <contour>
+      <point x="218" y="928" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="163" y="708" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

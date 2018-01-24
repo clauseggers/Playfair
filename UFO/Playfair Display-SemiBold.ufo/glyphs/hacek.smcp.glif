@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hacek.smcp" format="1">
+  <advance width="161"/>
+  <outline>
+    <contour>
+      <point x="136" y="607"/>
+      <point x="104" y="603"/>
+      <point x="50" y="608" type="curve"/>
+      <point x="50" y="587" type="line"/>
+      <point x="75" y="587"/>
+      <point x="80" y="573"/>
+      <point x="80" y="547" type="curve" smooth="yes"/>
+      <point x="80" y="528"/>
+      <point x="76" y="487"/>
+      <point x="60" y="389" type="curve"/>
+      <point x="74" y="385" type="line"/>
+      <point x="130" y="478"/>
+      <point x="170" y="536"/>
+      <point x="170" y="578" type="curve" smooth="yes"/>
+      <point x="170" y="590"/>
+      <point x="168" y="607"/>
+      <point x="165" y="614" type="curve"/>
+    </contour>
+    <contour>
+      <point x="25" y="608" type="move" name="_right"/>
+    </contour>
+  </outline>
+</glyph>

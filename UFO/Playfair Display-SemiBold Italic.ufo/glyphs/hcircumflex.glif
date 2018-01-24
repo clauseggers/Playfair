@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hcircumflex" format="1">
+  <advance width="551"/>
+  <unicode hex="0125"/>
+  <outline>
+    <component base="h"/>
+    <component base="uni0302" xOffset="193" yOffset="240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0302</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

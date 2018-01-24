@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04CA.smcp" format="1">
+  <advance width="757"/>
+  <outline>
+    <contour>
+      <point x="636" y="-169" type="line"/>
+      <point x="656" y="-129"/>
+      <point x="704" y="-51"/>
+      <point x="741" y="0" type="curve"/>
+      <point x="741" y="20" type="line"/>
+      <point x="714" y="20" type="line" smooth="yes"/>
+      <point x="653" y="20"/>
+      <point x="640" y="33"/>
+      <point x="640" y="106" type="curve"/>
+      <point x="547" y="3" type="line"/>
+      <point x="628" y="3"/>
+      <point x="686" y="-24"/>
+      <point x="616" y="-159" type="curve"/>
+    </contour>
+    <component base="uni043D.smcp"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>8</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

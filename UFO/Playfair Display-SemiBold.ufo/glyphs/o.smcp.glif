@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o.smcp" format="1">
+  <advance width="738"/>
+  <outline>
+    <contour>
+      <point x="182" y="622"/>
+      <point x="48" y="492"/>
+      <point x="48" y="298" type="curve" smooth="yes"/>
+      <point x="48" y="99"/>
+      <point x="177" y="-14"/>
+      <point x="369" y="-14" type="curve" smooth="yes"/>
+      <point x="557" y="-14"/>
+      <point x="690" y="116"/>
+      <point x="690" y="310" type="curve" smooth="yes"/>
+      <point x="690" y="509"/>
+      <point x="562" y="622"/>
+      <point x="370" y="622" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="475" y="604"/>
+      <point x="563" y="489"/>
+      <point x="563" y="306" type="curve" smooth="yes"/>
+      <point x="563" y="129"/>
+      <point x="489" y="4"/>
+      <point x="373" y="4" type="curve" smooth="yes"/>
+      <point x="263" y="4"/>
+      <point x="175" y="119"/>
+      <point x="175" y="302" type="curve" smooth="yes"/>
+      <point x="175" y="479"/>
+      <point x="250" y="604"/>
+      <point x="366" y="604" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="368" y="608" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="371" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

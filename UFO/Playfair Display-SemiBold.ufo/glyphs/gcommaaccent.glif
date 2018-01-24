@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gcommaaccent" format="1">
+  <advance width="522"/>
+  <unicode hex="0123"/>
+  <outline>
+    <component base="g"/>
+    <component base="uni0326" xOffset="336" yOffset="569" xScale="-1" yScale="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0326</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
