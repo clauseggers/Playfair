@@ -1,0 +1,67 @@
+
+/** PlayfairDisplay  **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: normal;
+    src: url("EOT/PlayfairDisplay-Regular.eot");
+    src: url("EOT/PlayfairDisplay-Regular.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-Regular.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-Regular.woff") format("woff");
+}
+
+/** PlayfairDisplay-Italic **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: normal;
+    src: url("EOT/PlayfairDisplay-Italic.eot");
+    src: url("EOT/PlayfairDisplay-Italic.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-Italic.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-Italic.woff") format("woff");
+}
+
+/** PlayfairDisplay Bold **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: normal;
+    src: url("EOT/PlayfairDisplay-Bold.eot");
+    src: url("EOT/PlayfairDisplay-Bold.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-Bold.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-Bold.woff") format("woff");
+}
+
+/** PlayfairDisplay Bold-Italic **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: italic;
+    src: url("EOT/PlayfairDisplay-BoldItalic.eot");
+    src: url("EOT/PlayfairDisplay-BoldItalic.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-BoldItalic.woff") format("woff");
+}
+
+
+/** PlayfairDisplay Black **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-style: normal;
+    src: url("EOT/PlayfairDisplay-Black.eot");
+    src: url("EOT/PlayfairDisplay-Black.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-Black.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-Black.woff") format("woff");
+}
+
+/** PlayfairDisplay Black-Italic **/
+@font-face {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-style: italic;
+    src: url("EOT/PlayfairDisplay-BlackItalic.eot");
+    src: url("EOT/PlayfairDisplay-BlackItalic.eot?#iefix") format('embedded-opentype'),
+         url("WOFF2/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+         url("WOFF/PlayfairDisplay-BlackItalic.woff") format("woff");
+}
