@@ -35,10 +35,6 @@ name = trademark;
 value = "Playfair is a trademark of Claus Eggers Sørensen.";
 },
 {
-name = note;
-value = "Playfair Display is a transitional design. From the time of enlightenment in the late 18th century, the broad nib quills were replaced by pointed steel pens. This influenced typographical letterforms to become increasingly detached from the written ones. Developments in printing technology, ink and paper making, made it possible to print letterforms of high contrast and fine hairlines.\012\012This design lends itself to this period, and while it is not a revival of any particular design, it take influence from the printer and typeface designer John Baskerville’s designs, the punch-cutter William Martin’s typeface for the “Boydell Shakespeare” (sic) edition, and from the “Scotch Roman” designs that followed thereafter.\012\012As the name indicates, Playfair Display is well suited for titling and headlines. It has an extra large x-height and short descenders, that enable it to be set with no leading. Stylistically it can accompany Georgia when Georgia is used for body text.\012\012Playfair includes a full set of small-caps, common ligatures, and discretionary ligatures. For Polish, a set of alternate diacritical characters designed with ‘kreska’s are included. All European languages using the latin script are supported. A set of eight arrow devices are also included.";
-},
-{
 name = fsType;
 value = (
 );
@@ -46,6 +42,10 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = note;
+value = "Playfair is a transitional design. From the time of enlightenment in the late 18th century, the broad nib quills were replaced by pointed steel pens. This influenced typographical letterforms to become increasingly detached from the written ones. Developments in printing technology, ink and paper making, made it possible to print letterforms of high contrast and fine hairlines. Playfair weights, widths, and optical sizes to cover any typesetting need from the very large to the very small, the delicate to the sturdy.\012\012This design lends itself to this period, and while it is not a revival of any particular design, it takes influence from the designs of printer and typeface designer John Baskerville, the punch-cutter William Martin’s typeface for the “Boydell Shakespeare” (sic) edition, and from the “Scotch Roman” designs that followed thereafter.\012\012Playfair is well suited for all types of media. It has an extra large x-height and short descenders, that enable it to be set with no leading to conserve space. This is an advantage on both print and screen.\012\012Playfair includes a full set of small-caps, common ligatures, and discretionary ligatures. All European languages using the latin script are supported. Additionally South-East Asian languages using the Latin script including Vietnamese are supported. Expanded Cyrillic characters allow many languages using the Cyrillic script to be set using Playfair.";
 }
 );
 date = "2019-04-09 18:57:13 +0000";
