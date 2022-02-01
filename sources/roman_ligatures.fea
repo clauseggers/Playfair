@@ -1,0 +1,30 @@
+sub f idotaccent by fi;
+sub longs idotaccent by longs_i.liga;
+
+# For f_f_x ligatures
+lookup double_f {
+sub f' [f_adieresis.liga f_idieresis.liga f_igrave.liga f_odieresis.liga f_thorn.liga f_b.liga f_h.liga fi f_j.liga f_k.liga fl f_udieresis.liga f_ydieresis.liga f_t.liga] by f-init.ligature;
+sub f-init.ligature [f_adieresis.liga f_idieresis.liga f_igrave.liga f_odieresis.liga f_thorn.liga f_b.liga f_h.liga fi f_j.liga f_k.liga fl f_udieresis.liga f_ydieresis.liga f_t.liga]' by [_f_adieresis.ligature _f_idieresis.ligature _f_igrave.ligature _f_odieresis.ligature _f_thorn.ligature _f_b.ligature _f_h.ligature _f_i.ligature _f_j.ligature _f_k.ligature _f_l.ligature _f_udieresis.ligature _f_ydieresis.ligature _f_t.ligature];
+} double_f;
+
+# For f_f ligatures
+lookup first_f {
+	sub f' f by f-init.ligature;
+} first_f;
+lookup second_f {
+	sub f-init.ligature f' by f-fina.ligature ;
+} second_f;
+
+# For longs_longs_x ligatures
+lookup double_longs {
+sub longs' [longs_i.liga longs_l.liga longs_h.liga longs_k.liga] by longs-init.ligature;
+sub longs-init.ligature [longs_i.liga longs_l.liga longs_h.liga longs_k.liga]' by [_longs_i.ligature _longs_l.ligature _longs_h.ligature _longs_k.ligature];
+} double_longs;
+
+# For longs_longs ligatures
+lookup first_longs {
+	sub longs' longs by longs-init.ligature;
+} first_longs;
+lookup second_longs {
+	sub longs-init.ligature longs' by longs-fina.ligature;
+} second_longs;
