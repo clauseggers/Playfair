@@ -2,7 +2,7 @@
 
 ## An Open Source typeface family for display and titling use
 
-![Playfair Display specimen](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair-Display-A4-specimen.svg)
+![Playfair Display specimen](sources/Legacy (Playfair Display)/Images/Playfair-Display-A4-specimen.svg)
 
 Play­fair is a trans­itional design. From the time of enlight­en­ment in the late 18th cen­tury, the broad nib quills were replaced by poin­ted steel pens. This influ­enced typo­graph­ical let­ter­forms to become increas­ingly detached from the writ­ten ones. Devel­op­ments in print­ing tech­no­logy, ink and paper mak­ing, made it pos­sible to print let­ter­forms of high con­trast and del­ic­ate hairlines.
 
@@ -35,6 +35,5 @@ The GoogleFonts version has different vertical metrics.
 
 To generate the fonts run
 
-```
-$ python sources/generate_gf_version.py
-```
+    python sources/Legacy\ \(Playfair\ Display\)/generate_gf_version.py
+
