@@ -1,32 +1,35 @@
 ![**Playfair 2.0** banner](Images/Playfair2_banner.svg)
 <!---![**Playfair 2.0** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_banner.svg)--->
 
-**Playfair 2.0** is stylistically a *trans­itional* design. From the time of enlight­en­ment in the late 18th cen­tury, the broad nib quills were replaced by poin­ted steel pens. This influ­enced typo­graph­ical let­ter­forms to become increas­ingly detached from the writ­ten ones. Devel­op­ments in print­ing tech­no­logy, ink, and paper mak­ing made it pos­sible to print let­ter­forms of high con­trast and del­ic­ate hairlines.
-
-This design lends itself to this *trans­itional* period, and while it is not a revival of any par­tic­u­lar design, it takes influ­ence from the Caslon foundry type, the designs of printer and typeface designer John Bask­erville, the punch­cut­ter Wil­liam Martin’s typeface for the ‘Boy­dell Shak­speare’ (sic) edi­tion, and from the ‘Scotch Roman’ designs that fol­lowed thereafter.
-
-![**Playfair 2.0** animation](Images/Playfair2_a-z.svg)
-<!---![**Playfair 2.0** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_a-z.svg)--->
+**Playfair 2.0** extends and improves on Playfair Display. Playfair 2.0 is now a three axes variable font. This means that you, the designer, can choose any combination of width, weight, and optical size contained within these design extrema.
 
 **Playfair 2.0** is well suited for general purpose typesetting. It has an extra large x-height and short des­cend­ers. Because it is now a *variable font,* you the designer can seamlessly interpolate Playfair in three dimensions:
 - *Widths* from Semi-Condensed to Semi-Expanded
 - *Weights* from Normal to Black
 - *Optical sizes* from Agate to Needlepoint
 
-**Playfair 2.0** supports both the Latin and Cyrillic scripts with a glyph complement for the most used languages using these scripts.
+![**Playfair 2.0** animation](Images/Playfair2_a-z.svg)
+<!---![**Playfair 2.0** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_a-z.svg)--->
+
+The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the the horisontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
+
+The **weight** axis adds a second dimension by allowing you to seamlessly change from a light regular to a dark black.
 
 ![**Playfair 2.0** animation](Images/Playfair2_cyrillic.svg)
 <!---![**Playfair 2.0** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_cyrillic.svg)--->
 
 **Playfair 2.0** has been designed with context-dependant alternate designs of some glyphs. These alternates are automatically applied based on the *optical size, the width, and the weight* of the text.
 
-Besides the default *old-style* numerals, **Playfair 2.0** also includes lining numerals, scientific inferiors, numerators, denominators, pre-composed fractions, and arbitrary fractions.
+The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expanded. Any combination within this design-envelope is now available to you. This kind of flexibility means that you the designer can find the perfect expression in any context. You can make subtle changes to harmonise the way renderings vary across media, devices, or even specific webbrowsers.
 
-**Playfair 2.0** Contains several *stylistic alternate* letterforms so that you the designer can change how your text appears to the world.
+**Playfair 2.0** is stylistically a trans­itional design. From the time of enlight­en­ment in the late 18th cen­tury, the broad nib quills were replaced by poin­ted steel pens. This influ­enced typo­graph­ical let­ter­forms to become increas­ingly detached from the writ­ten ones. Devel­op­ments in print­ing tech­no­logy, ink, and paper mak­ing made it pos­sible to print let­ter­forms of high con­trast and del­ic­ate hairlines.
 
-**Playfair 2.0** Includes Small-Caps.
+**Playfair 2.0** supports both the Latin and Cyrillic scripts with a glyph complement for the most used languages using these scripts.
 
-**Playfair 2.0** includes a full set of small-caps, common lig­at­ures, rare ligatures including *ſ,* and dis­cre­tion­ary lig­at­ures.
+**Playfair 2.0** has been designed with context-dependant alternate designs of some glyphs. These alternates are automatically applied based on the optical size, the width, and the weight of the text. These substitutions are primarily instantiated in the smallest sizes. The smaller, the narrower, and the darker you typeset, the more of these substitutions you will encounter.
+
+**Playfair 2.0** Contains several stylistic alternate letterforms so that you the designer can change how your text appears to the world. Additionally **Playfair 2.0** includes a full complement of small-caps for both the Latin and Cyrillic scripts, common lig­at­ures, rare ligatures including ſ, and dis­cre­tion­ary lig­at­ures.
+
 - Pol­ish altern­ate *kreska* forms are included.
 - Catalan *punt volat* is supported.
 - Dutch *IJ* and *ij* is supported.
