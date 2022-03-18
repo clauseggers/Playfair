@@ -1,4 +1,4 @@
-# This is a pre-release. Do not use in production, but do try it out and report the bugs you find.
+# \*\*\* This is a pre-release. Do not use in production, but do try it out and report the bugs you find. \*\*\*
 
 ![**Playfair 2.0** banner](Images/Playfair2_banner.svg)
 <!---![**Playfair 2.0** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_banner.svg)--->
