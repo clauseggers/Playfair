@@ -56,13 +56,3 @@ Afrikaans, Albanian, Asu, Basque, Belarusian, Bemba, Bena, Bosnian, Bulgarian, C
 <!---![**Playfair 2.0** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_n-n.svg)--->
 
 **Playfair 2.0** is designed by **[Claus Eggers Sørensen](http://forthehearts.net/)** in 2005–2022, and is published under the [SIL Open Font License Version 1.1](https://github.com/clauseggers/Playfair-Display/blob/master/OFL.txt).
-
-## Building TTFs for Google Fonts
-
-The GoogleFonts version has different vertical metrics.
-
-To generate the fonts run
-
-```
-$ python sources/generate_gf_version.py
-```
