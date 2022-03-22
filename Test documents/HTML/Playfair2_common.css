@@ -103,6 +103,7 @@ strong {
 
 .documentHeadline { 
   font-variation-settings: 'wght' 620, 'wdth' 70, 'opsz' 42;
+  letter-spacing: -0.07rem;
   /* font-variant-caps: all-small-caps; */
   /* text-transform: uppercase; */
   font-style: normal;
