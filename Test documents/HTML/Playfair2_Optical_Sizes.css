@@ -1,0 +1,272 @@
+/* right margin exception */
+body {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  overflow-x: hidden;
+}
+
+/* right margin is instead applied to these div */
+.documentHeadline,
+.documentTrumpet,
+#links {
+  padding-left: 12rem;
+  margin-right: 12rem;
+}
+
+.fullWidth {
+  width: 100%;
+  display: block;
+
+  padding-left: 12rem;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+:root {
+  /* line-height */
+  --big-line-height: 1;
+
+  /* capital letters */
+  --font-primary-capital-letter: 0.5;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  display: block;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: clip;
+}
+
+p+p {
+  text-indent: 0;
+}
+
+.agateOptical {
+  font-size: 0.5rem;
+  line-height: 140%;
+  font-variation-settings: "wght"445, "wdth"130, "opsz"5;
+}
+
+.agateOpticalBold {
+  font-size: 0.5rem;
+  line-height: 140%;
+  font-variation-settings: "wght"700, "wdth"130, "opsz"5;
+}
+
+.agateOpticalBlack {
+  font-size: 0.5rem;
+  line-height: 140%;
+  font-variation-settings: "wght"900, "wdth"130, "opsz"5;
+}
+
+.captionOptical {
+  font-size: 0.8rem;
+  line-height: 130%;
+  font-variation-settings: "wght"445, "wdth"110, "opsz"7;
+}
+
+.captionOpticalBold {
+  font-size: 0.8rem;
+  line-height: 130%;
+  font-variation-settings: "wght"700, "wdth"110, "opsz"7;
+}
+
+.captionOpticalBlack {
+  font-size: 0.8rem;
+  line-height: 130%;
+  font-variation-settings: "wght"900, "wdth"110, "opsz"7;
+}
+
+.textOptical {
+  font-size: 1.1rem;
+  line-height: 130%;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"9;
+}
+
+.textOpticalBold {
+  font-size: 1.1rem;
+  line-height: 130%;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"9;
+}
+
+.textOpticalBlack {
+  font-size: 1.1rem;
+  line-height: 130%;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"9;
+}
+
+.subHeadingOptical {
+  font-size: 1.4rem;
+  line-height: 110%;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"9;
+}
+
+.subHeadingOpticalBold {
+  font-size: 1.4rem;
+  line-height: 110%;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"9;
+}
+
+.subHeadingOpticalBlack {
+  font-size: 1.4rem;
+  line-height: 110%;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"9;
+}
+
+.trumpetOptical {
+  font-size: 3rem;
+
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.125rem;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"24;
+}
+
+.trumpetOpticalBold {
+  font-size: 3rem;
+
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.125rem;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"24;
+}
+
+.trumpetOpticalBlack {
+  font-size: 3rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.125rem;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"24;
+}
+
+.headlineOptical {
+  font-size: 6rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.25rem;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"60;
+}
+
+.headlineOpticalBold {
+  font-size: 6rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.25rem;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"60;
+}
+
+.headlineOpticalBlack {
+  font-size: 6rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.25rem;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"60;
+}
+
+.bannerOptical {
+  font-size: 12rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.5rem;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"75;
+}
+
+.bannerOpticalBold {
+  font-size: 12rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.5rem;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"75;
+}
+
+.bannerOpticalBlack {
+  font-size: 12rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -0.5rem;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"75;
+}
+
+.hugeOptical {
+  font-size: 24rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -1rem;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"100;
+}
+
+.hugeOpticalBold {
+  font-size: 24rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -1rem;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"100;
+}
+
+.hugeOpticalBlack {
+  font-size: 24rem;
+
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -1rem;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"100;
+}
+
+.insanelyHugeOptical {
+  font-size: 48rem;
+
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -2rem;
+  font-variation-settings: "wght"445, "wdth"70, "opsz"130;
+}
+
+.insanelyHugeOpticalBold {
+  font-size: 48rem;
+
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -2rem;
+  font-variation-settings: "wght"700, "wdth"70, "opsz"130;
+}
+
+.insanelyHugeOpticalBlack {
+  font-size: 48rem;
+  
+  margin-top: calc((var(--font-primary-capital-letter) - var(--big-line-height)) * 0.2em);
+  line-height: var(--big-line-height);
+
+  text-indent: -2rem;
+  font-variation-settings: "wght"900, "wdth"70, "opsz"130;
+}

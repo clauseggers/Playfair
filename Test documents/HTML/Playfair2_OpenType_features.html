@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Playfair OpenType features demonstration page</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="Playfair2_font-face.css">
+  <link rel="stylesheet" href="Playfair2_common.css">
+  <link rel="stylesheet" href="Playfair2_OpenType_features.css">
+</head>
+
+<body>
+  <p class="documentHeadline">The OpenType features of the <strong><em>Playfair 2·0</em></strong> typeface family</p>
+
+  <p class="documentTrumpet"><strong>Playfair 2.0</strong> contains many OpenType features that can be applied to text to make it render correctly, more beautifully, or in an alternate style.</p>
+
+
+  <div id="links">
+    <a href="#kern">Kerning</a><br>
+    <a href="#c2sc">Small-capitals from capitals</a><br>
+    <a href="#c2sc">Case-sensitive forms</a><br>
+    <a href="#liga">Standard ligatures</a><br>
+    <a href="#dlig">Discretionary ligatures</a><br>
+    <a href="#onum">Old-style figures (default)</a><br>
+    <a href="#lnum">Lining figures</a><br>
+    <a href="#sinf">Scientific inferiors</a><br>
+    <a href="#sups">Superscript</a><br>
+    <a href="#subs">Subscript</a><br>
+    <a href="#numr">Numerators</a><br>
+    <a href="#dnom">Denominators</a><br>
+    <a href="#frac">Arbitrary fractions</a><br>
+    <a href="#ordn">Ordinals</a><br>
+    <a href="#loclAZE">Localised forms: Azerbaijani</a><br>
+    <a href="#loclCRT">Localised forms: Crimean Tartar</a><br>
+    <a href="#loclKAZ">Localised forms: Kazakh</a><br>
+    <a href="#loclTAT">Localised forms: Tatar</a><br>
+    <a href="#loclTRK">Localised forms: Turkish</a><br>
+    <a href="#loclCAT">Localised forms: Catalan</a><br>
+    <a href="#loclNLD">Localised forms: Dutch/Flemish</a><br>
+    <a href="#loclPLK">Localised forms: Polish</a><br>
+    <a href="#loclROM">Localised forms: Romanian</a><br>
+    <a href="#loclMOL">Localised forms: Moldovan</a><br>
+    <a href="#loclUKR">Localised forms: Ukranian</a><br>
+    <a href="#loclSRB">Localised forms: Serbian</a><br>
+    <a href="#ss01">Stylistic alternate 1</a><br>
+    <a href="#ss02">Stylistic alternate 2</a><br>
+    <a href="#ss03">Stylistic alternate 3</a><br>
+    <a href="#ss04">Stylistic alternate 4</a><br>
+    <a href="#ss05">Stylistic alternate 5</a><br>
+    <a href="#ss06">Stylistic alternate 6</a><br>
+    <a href="#ss07">Stylistic alternate 7</a><br>
+    <a href="#ss08">Stylistic alternate 8</a><br>
+    <a href="#ss09">Stylistic alternate 9</a><br>
+    <a href="#ss10">Stylistic alternate 10</a><br>
+    <a href="#ss11">Stylistic alternate 11</a><br>
+    <a href="#ss12">Stylistic alternate 12</a><br>
+    <a href="#ss13">Stylistic alternate 13</a><br>
+    <a href="#cpsp">Majuscule spacing</a><br>
+    <a href="#calt">Contextual alternate</a><br>
+    
+    
+  </div>
+  <br>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="kern"><span class="feature">Kerning</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">kern</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRomanNoKerning">LVIV ATOM Yves Tatar Герой</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="kern">LVIV ATOM Yves Tatar Герой</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalicNoKerning">LVIV ATOM Yves Tatar Герой</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="kern">LVIV ATOM Yves Tatar Герой</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="c2sc"><span class="feature">Small-caps from majuscules</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">c2sc</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">HELLO … Can anybody hear me?</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="c2sc">HELLO … Can anybody hear me?</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">HELLO … Can anybody hear me?</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="c2sc">HELLO … Can anybody hear me?</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="smcp"><span class="feature">Small-caps from minuscule</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">smcp</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Telephone for Mr Anderson</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="smcp">Telephone for Mr Anderson</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><em>Telephone for Mr Anderson</em></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="smcp">Telephone for Mr Anderson</span></td>
+      </tr>
+    </tbody>
+  </table>
+    
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="case"><span class="feature">Majuscle context</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">case</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">¿PURCHASE OF 19 F-35S!</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="case">¿PURCHASE OF 19 F-35S!</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><em>¿PURCHASE OF 19 F-35S!</em></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="case">¿PURCHASE OF 19 F-35S!</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="liga"><span class="feature">Standard ligatures</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">liga</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">fi fl ff ffi ffl fb fh fk fä ffä ffï fö ffö fì ffì fï ffï fü ffü fð fþ ſi ſſi ſl ſſl ſſ ſh ſſh ſk ſſk ſt ſſt</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="liga">fi fl ff ffi ffl fb fh fk fä ffä ffï fö ffö fì ffì fï ffï fü ffü fþ ſi ſſi ſl ſſl ſſ ſh ſſh ſk ſſk ſt ſſt</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><em>fi fl ff ffi ffl fb fh fk fä ffä ffï fö ffö fì ffì fï ffï fü ffü fð fþ ſi ſſi ſl ſſl ſſ ſh ſſh ſk ſſk ſt ſſt</em></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="liga">fi fl ff ffi ffl fb fh fk fä ffä ffï fö ffö fï ffï fü ffü fð fþ ſi ſſi ſl ſſl ſſ ſh ſſh ſk ſſk ſt ſſt</span></td>
+      </tr>
+    </tbody>
+  </table>
+    
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="dlig"><span class="feature">Discretionary ligatures</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">dlig</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">The spunky cast</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="dlig">The spunky cast</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><em>The spunky cast</em></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="dlig">The spunky cast</span></td>
+      </tr>
+    </tbody>
+  </table>
+    
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="onum"><span class="feature">Old-style figures (default)</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">onum</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">numbers 902361 for text</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="onum">numbers 902361 for text</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">numbers 902361 for text</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="onum">numbers 902361 for text</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="lnum"><span class="feature">Lining figures</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">lnum</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">H0123456789H</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="lnum">H0123456789H</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">H0123456789H</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="lnum">H0123456789H</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="sinf"><span class="feature">Scientific inferiors</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">sinf</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">H2O CO2 NaClO4</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="sinf">H2O CO2 NaClO4</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">H2O CO2 NaClO4</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="sinf">H2O CO2 NaClO4</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="sups"><span class="feature">Superscript</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">sups</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">0123456789</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="sups">0123456789</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">0123456789</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="sups">0123456789</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="subs"><span class="feature">Subscript</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">subs</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">0123456789</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="subs">0123456789</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">0123456789</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="subs">0123456789</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="numr"><span class="feature">Numerators</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">numr</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">0123456789</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="numr">0123456789</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">0123456789</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="numr">0123456789</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="dnom"><span class="feature">Denominators</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">dnom</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">0123456789</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="dnom">0123456789</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">0123456789</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="dnom">0123456789</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="frac"><span class="feature">Arbitrary fractions</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">frac</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">9/7 316/5 1/69 5874/314078</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="frac">9/7 316/5 1/69 5874/314078</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">9/7 316/5 1/69 5874/314078</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="frac">9/7 316/5 1/69 5874/314078</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ordn"><span class="feature">Ordinals</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ordn</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">El 4o piso … la 3a ciudad</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="ordn">El 4o piso … la 3a ciudad</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">El 4o piso … la 3a ciudad</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ordn">El 4o piso … la 3a ciudad</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclAZE"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Azerbaijani</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclAZE" lang="az">qırmızı mavi</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclAZE" lang="az">qırmızı mavi</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclCRT"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Crimean Tatar</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclCRT" lang="az">qırmızı mavi</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclCRT" lang="az">qırmızı mavi</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclKAZ"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Kazakh</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclKAZ" lang="kk">qırmızı mavi</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclKAZ" lang="kk">qırmızı mavi</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclTAT"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Tatar</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclTAT" lang="tt">qırmızı mavi</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclTAT" lang="tt">qırmızı mavi</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclTRK"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Turkish</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclTRK" lang="tr">qırmızı mavi</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic"><span class="case">qırmızı mavi</span></td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclTRK" lang="tr">qırmızı mavi</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclCAT"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Catalan</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">paral·lel CEĿLA</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclCAT" lang="ca">paral·lel CEĿLA</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">paral·lel CEĿLA</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclCAT" lang="ca">paral·lel CEĿLA</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclNLD"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Dutch/Flemish</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Fúji? Nee, Fíji. FÚJI? NEE, FÍJI.</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclNLD" lang="nl">Fúji? Nee, Fíji. FÚJI? NEE, FÍJI.</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">Fúji? Nee, Fíji. FÚJI? NEE, FÍJI.</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclNLD" lang="nl">Fúji? Nee, Fíji. FÚJI? NEE, FÍJI.</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclPLK"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Polish</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">ĆŃÓŚŹćńóśź</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclPLK" lang="pl">ĆŃÓŚŹćńóśź</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">ĆŃÓŚŹćńóśź</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclPLK" lang="pl">ĆŃÓŚŹćńóśź</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclROM"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Romanian</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Scuzaţi-mă</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclROM" lang="ro">Scuzaţi-mă</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">Scuzaţi-mă</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclROM" lang="ro">Scuzaţi-mă</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclMOL"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Moldovan (deprecated)</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Scuzaţi-mă</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclMOL" lang="mo"><em>The language subtag mo is deprecated. Use ro instead.</em> Scuzaţi-mă</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">Scuzaţi-mă</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclMOL" lang="mo"><em>The language subtag mo is deprecated. Use ro instead.</em> Scuzaţi-mă</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclUKR"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Ukranian</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Визнайте її нарешті</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclUKR" lang="uk">Визнайте її нарешті</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">Визнайте її нарешті</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclUKR" lang="uk">Визнайте її нарешті</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="loclSRB"><span class="feature">Localised forms</span></a></th>
+        <th class="featureTableTitle"></th>
+        <th class="featureTableTitle"><span class="feature">locl <em>Serbian</em></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">Србије</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="loclSRB" lang="sr">Србије</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">бгдпт</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="loclSRB" lang="sr">бгдпт</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss01"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss01</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">pþ sp р</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss01">pþ sp р</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss02"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss02</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">EÉĔĚÊẾỆỀỂỄËĖẸÈẺĒĘẼ ЕЀЁ</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss02">EÉĔĚÊẾỆỀỂỄËĖẸÈẺĒĘẼ ЕЀЁ</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss03"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss03</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">рѫка</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss03">рѫка</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss04"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss04</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">інформацію</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss04">інформацію</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss05"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss05</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">gǵğǧĝģġǥ</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss05">gǵğǧĝģġǥ</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss06"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss06</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">yýŷÿỵỳỷỹ уў</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss06">yýŷÿỵỳỷỹ уў</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss07"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss07</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">
+          TŦŤŢȚ
+          <span class="c2sc">TŦŤŢȚ</span> 
+          ТЋЂ <span class="c2sc">ТЋЂ</span>
+        </td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic">
+          <span class="ss07">TŦŤŢȚ</span>
+          <span class="ss07_c2sc">TŦŤŢȚ</span> 
+          <span class="ss07">ТЋЂ</span> <span class="ss07_c2sc">ТЋЂ</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss08"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss08</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">These</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss08">These</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss09"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss09</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">These</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss09">These</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss10"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss10</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">These</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="ss10">These</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss11"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss11</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">£28–</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="ss11">£28–</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">£28–</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="ss11">£28–</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss12"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss12</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">
+          ƷǮ<span class="c2sc">ƷǮ</span>ʒǯ
+          ZŹŽŻ<span class="c2sc">ZŹŽŻ</span>zźžż
+        </td>
+        <td class="featureTableItalic">&rarr;</td>
+          <td class="featureTableItalic">
+            <span class="ss12">ƷǮ</span><span class="ss12_c2sc">ƷǮ</span><span class="ss12">ʒǯ</span>
+            <span class="ss12">ZŹŽŻ</span><span class="ss12_c2sc">ZŹŽŻ</span><span class="ss12">zźžż</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="ss13"><span class="feature">Stylistic alternate</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">ss13</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableItalic">
+          X<span class="c2sc">X</span>x
+          ХҲ<span class="c2sc">ХҲ</span>хҳ
+        </td>
+        <td class="featureTableItalic">&rarr;</td>
+          <td class="featureTableItalic">
+            <span class="ss13">X</span><span class="ss13_c2sc">X</span><span class="ss13">x</span>
+            <span class="ss13">ХҲ</span><span class="ss13_c2sc">ХҲ</span><span class="ss13">хҳ</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="cpsp"><span class="feature">Majuscle spacing</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">cpsp</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">MINIMUM</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="cpsp">MINIMUM</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">MINIMUM</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="cpsp">MINIMUM</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="feature">
+    <thead>
+      <tr>
+        <th class="featureTableTitle"><a id="calt"><span class="feature">Contextual alternates</span></a></th>
+        <th class="featureTableTitle"><span class="feature"></span></th>
+        <th class="featureTableTitle"><span class="feature">calt</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="featureTableRoman">-&gt; &lt;- &lt;-&gt; -^ -~ ^~ ^\ /^ \~ ~/</td>
+        <td class="featureTableRoman">&rarr;</td>
+        <td class="featureTableRoman"><span class="calt">-&gt; &lt;- &lt;-&gt; -^ -~ ^~ ^\ /^ \~ ~/</span></td>
+      </tr>
+      <tr>
+        <td class="featureTableItalic">-&gt; &lt;- &lt;-&gt; -^ -~ ^~ ^\ /^ \~ ~/</td>
+        <td class="featureTableItalic">&rarr;</td>
+        <td class="featureTableItalic"><span class="calt">-&gt; &lt;- &lt;-&gt; -^ -~ ^~ ^\ /^ \~ ~/</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

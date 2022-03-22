@@ -1,0 +1,208 @@
+  .language {
+    font-size: 1.14rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-weight: normal;
+    font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
+    text-align: center;
+    line-height: 100%;
+    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    display: block;
+  }
+  
+  .language:before {
+    content: "\2192";
+  }
+  
+  .language:after {
+    content: "\2190";
+  }
+
+  table td, table td * {
+      vertical-align: top;
+      border-spacing: 0rem;
+      padding: 0rem;
+      margin: 0rem;
+  }
+  
+  table td {
+    padding-right: 1rem;
+  }
+  
+  table td, table td * {
+      vertical-align: top;
+      border-spacing: 0rem;
+      padding: 0rem;
+      margin: 0rem;
+  }
+
+  table td {
+    padding-right: 1rem;
+  }
+
+  table.currency {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: none;
+    text-indent: 0rem;
+    text-align: left;
+  }
+  .currency th {
+    font-weight: normal;
+    font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
+    text-align: left;
+    padding-right: 1rem;
+    background-color: rgba(230,230,230,1);
+
+  }
+  .currency th:nth-child(2) {
+    text-align: center;
+  }
+  .currency tr:nth-child(even) {
+    background-color: rgba(230,230,230,1);
+  }
+
+  .currency td:nth-child(1) {
+    text-align: left;
+    font-style: italic;
+  }
+  .currency td:nth-child(2) {
+    width: 1rem;
+    font-feature-settings: "ss11"1;
+    text-align: center;
+  }
+  .currency td:nth-child(3),
+  .currency td:nth-child(6) {
+    width: 1rem;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  .currency td:nth-child(4),
+  .currency td:nth-child(7),
+  .currency th:nth-child(4),
+  .currency th:nth-child(7)  {
+    width: 0.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .currency td:nth-child(5),
+  .currency td:nth-child(8) {
+    width: 3rem;
+    text-align: left;
+  }
+  
+  table.shares {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+  .shares th {
+    font-weight: normal;
+    font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
+    text-align: right;
+    background-color: rgba(230,230,230,1);
+  }
+  .shares th:nth-child(1) {
+    text-align: left;
+  }
+  .shares th:nth-child(2) {
+    text-align: center;
+  }
+  .shares tr:nth-child(even) {
+    background-color: rgba(230,230,230,1);
+  }
+  .shares td:nth-child(1) {
+    text-align: left;
+    font-style: italic;
+  }
+  .shares td:nth-child(2),
+  .shares td:nth-child(3),
+  .shares td:nth-child(4),
+  .shares td:nth-child(5),
+  .shares td:nth-child(6),
+  .shares td:nth-child(7),
+  .shares td:nth-child(8),
+  .shares td:nth-child(9) {
+    width: 1rem;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    padding-left:1rem;
+  }
+  
+  .year-list {
+    text-indent: -3rem;
+    text-indent: 3rem hanging each-line;
+  }
+
+  .subheading {
+    font-weight: normal;
+    font-variation-settings: 'wght' 700, 'wdth' 80, 'opsz' 9;
+  }
+
+  .subheading-sc {
+    font-weight: normal;
+    font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
+    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+  }
+
+  .smcp {
+    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
+  }
+
+  .smcp em {
+    font-style: italic;
+    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+  }
+  
+  .allcaps {
+    text-transform: uppercase;
+    font-feature-settings: "kern"1, "rlig"1, "liga"1, "calt"1, "cpsp"1;
+  }
+
+  .sinf {
+    font-feature-settings: "rlig"1, "sinf"1, "kern"1;
+  }
+
+  .sups {
+    font-feature-settings: "rlig"1, "sups"1, "kern"1;
+  }
+
+  .numr {
+    font-feature-settings: "rlig"1, "numr"1, "kern"1;
+  }
+
+  .dnom {
+    font-feature-settings: "rlig"1, "dnom"1, "kern"1;
+  }
+
+  .frac {
+    font-feature-settings: "rlig"1, "frac"1, "kern"1;
+  }
+
+  .lnum {
+    font-feature-settings: "rlig"1, "lnum"1, "case"1, "kern"1;
+  }
+
+  .column {
+  float: left;
+  width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
