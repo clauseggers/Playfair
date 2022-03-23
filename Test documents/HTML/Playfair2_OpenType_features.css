@@ -1,6 +1,6 @@
 table {
-  width: 42rem;
-  min-width: 42rem;
+  table-layout: auto;
+  width: 100%;
 }
 
 table,
@@ -15,8 +15,6 @@ tbody {
   -webkit-border-vertical-spacing: 0px;
   border-collapse:collapse;
   border: 0rem;
-  table-layout: fixed;
-  width: 100%;
 }
 
 th {
@@ -27,7 +25,6 @@ th {
 }
 
 .feature {
-  width: 100%;
   text-align: left;
   font-style: normal;
   margin-top: 1rem;
@@ -44,17 +41,9 @@ td.featureTableItalic {
   font-style: italic;
 }
 
-tbody,
-thead,
-tr,
-.trow {
-  width: 100%;
-  display:block;
-  clear: both;
-}
-
 table td,
 table td * { 
+  /* width: 20%; */
   vertical-align: top;
   border-spacing: 0rem;
   padding: 0rem;
@@ -64,8 +53,10 @@ table td * {
 th.featureTableTitle:nth-of-type(1),
 th:nth-of-type(1),
 td:nth-of-type(1) { 
-  min-width: 20rem;
-  width: 20rem;
+  /* min-width: 20rem; */
+/*   width: 40%;
+  min-width: 40%; */
+  /* width: 20rem; */
   text-align: left;
   vertical-align: baseline;
 }
@@ -73,19 +64,17 @@ td:nth-of-type(1) {
 th.featureTableTitle:nth-of-type(2),
 th:nth-of-type(2),
 td:nth-of-type(2) { 
-  width: 2rem;
+  padding-left: 2rem;
   text-align: center;
   vertical-align: baseline;
 }
 
 th.featureTableTitle:nth-of-type(2) {
-  width: 2rem;
 }
 
 th.featureTableTitle:nth-of-type(3),
 th:nth-of-type(3),
 td:nth-of-type(3) { 
-  width: 20rem;
   padding-left: 2rem;
   text-align: left;
   vertical-align: baseline;
