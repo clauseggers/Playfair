@@ -35,7 +35,7 @@ body {
   margin-right: 12rem;
   text-align: left;
   height: 100%;
-  font-feature-settings: "kern"1, "rlig"1, "dlig"0, "liga"0, "calt"0, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0;
+  font-feature-settings: "kern"1, "rlig"1, "dlig"0, "liga"1, "calt"0, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0;
   hanging-punctuation: first allow-end last;
 }
 
@@ -160,6 +160,29 @@ p+p {
   font-variation-settings: 'wght' 700, 'wdth' 80, 'opsz' 9;
 }
 
+.language {
+  font-size: 1.14rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
+  text-align: center;
+  line-height: 100%;
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.language:before {
+  content: "\2192";
+}
+
+.language:after {
+  content: "\2190";
+}
+
 .kern { 
   font-feature-settings: "kern"1;
 }
@@ -180,6 +203,10 @@ p+p {
 .smcp em { 
   font-style: italic;
   font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+}
+
+.smallcaps {
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
 }
 
 .allcaps { 

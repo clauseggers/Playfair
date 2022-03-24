@@ -1,26 +1,3 @@
-  .language {
-    font-size: 1.14rem;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: .1rem;
-    font-weight: normal;
-    font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
-    text-align: center;
-    line-height: 100%;
-    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
-    margin-top: 3rem;
-    margin-bottom: .5rem;
-    display: block;
-  }
-  
-  .language:before {
-    content: "\2192";
-  }
-  
-  .language:after {
-    content: "\2190";
-  }
-
   table td, table td * {
       vertical-align: top;
       border-spacing: 0rem;
@@ -146,53 +123,10 @@
     text-indent: 3rem hanging each-line;
   }
 
-  .subheading {
-    font-weight: normal;
-    font-variation-settings: 'wght' 700, 'wdth' 80, 'opsz' 9;
-  }
-
   .subheading-sc {
     font-weight: normal;
     font-variation-settings: 'wght' 700, 'wdth' 70, 'opsz' 9;
     font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
-  }
-
-  .smcp {
-    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
-  }
-
-  .smcp em {
-    font-style: italic;
-    font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
-  }
-  
-  .allcaps {
-    text-transform: uppercase;
-    font-feature-settings: "kern"1, "rlig"1, "liga"1, "calt"1, "cpsp"1;
-  }
-
-  .sinf {
-    font-feature-settings: "rlig"1, "sinf"1, "kern"1;
-  }
-
-  .sups {
-    font-feature-settings: "rlig"1, "sups"1, "kern"1;
-  }
-
-  .numr {
-    font-feature-settings: "rlig"1, "numr"1, "kern"1;
-  }
-
-  .dnom {
-    font-feature-settings: "rlig"1, "dnom"1, "kern"1;
-  }
-
-  .frac {
-    font-feature-settings: "rlig"1, "frac"1, "kern"1;
-  }
-
-  .lnum {
-    font-feature-settings: "rlig"1, "lnum"1, "case"1, "kern"1;
   }
 
   .column {
