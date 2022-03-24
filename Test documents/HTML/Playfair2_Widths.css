@@ -14,7 +14,7 @@ html {
   font-variation-settings: 'wght' 700, 'wdth' 50, 'opsz' 14;
 }
 .wdth50 h3 {
-  font-variation-settings: 'wght' 640, 'wdth' 50, 'opsz' 14;
+  font-variation-settings: 'wght' 550, 'wdth' 50, 'opsz' 14;
 }
 .wdth50 p.smallcaps {
   font-variation-settings: 'wght' 445, 'wdth' 50, 'opsz' 14;
@@ -187,17 +187,17 @@ h1 {
   font-size: 4rem;
   line-height: 100%;
   font-weight: normal;
-  font-variation-settings: 'wght' 700, 'wdth' 80, 'opsz' 14;
 }
 
 h3 {
+  font-style: normal;
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
   text-align: center;
   margin: 0;
-  margin-bottom: 1.8rem;
-  font-size: 2rem;
-  font-style: italic;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
   line-height: 100%;
   font-weight: normal;
-  font-variation-settings: 'wght' 640, 'wdth' 80, 'opsz' 14;
-  font-feature-settings: "ss09"1;
 }
