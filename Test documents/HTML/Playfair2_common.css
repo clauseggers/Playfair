@@ -95,6 +95,7 @@ a {
 
 em { 
   font-style: italic;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "dlig"0, "ss09"1;
 }
 
 strong { 
