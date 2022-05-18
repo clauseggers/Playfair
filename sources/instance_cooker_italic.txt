@@ -1,24 +1,41 @@
+Optical Size specified in points.
+
+Width Class:
+https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
+Width narrow master is set to 50, wide to 150 as it has been from the beginning. Must be kept at these values because of layer-switching being defined on these values.
+
+Weight Class:
+https://docs.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
+Weight of the ‘regular’ masters is now set at 380. This makes the Regular instance set at 400 be a little darker, and allows users to specify 380 as a lighter alternative to the regular Regular.
+
+Fill *all* the fields in the master custom parameter ‘Axis Location’.
+
+Excuting this script will delete all existing instances *including* VF-instances!
+
 #Optical size:opsz
 5:Agate
-40>8:Caption
-60>12:Italic*
-75>21:Headline
-90>48:Display
-100>72:Titling
-110>96:Hairline
-120:Needlepoint
+50>8:Caption
+430>12:Italic*
+600>16:SubHeading
+760>21:Headline
+860>48:Display
+980>72:Titling
+1100>96:Hairline
+1200:Needlepoint
 
 #Width:wdth
-50>75|5:SemiCondensed
-100>0|5:Italic*
-150>0|6:SemiExpanded
+50>75|4:SemiCondensed
+75>100|5:Italic*
+112>112|6:SemiExpanded
+150>150|7:Expanded
 
 #Weight:wght
-400>380:Italic*
-470>0:SemiBold Italic
-650>0:Bold Italic
-750>0:ExtraBold Italic
-900>0:Black Italic
+400:Italic*
+475:Medium
+550:SemiBold
+650:Bold
+750:ExtraBold
+900:Black
 
 #Italic:ital
 1:Italic*
