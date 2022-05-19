@@ -1,4 +1,11 @@
-Optical Size specified in points.
+These instances are based on the following master settings:
+Axes Coordinates: Weight: 360/900, Width: 50/150
+With the custom parameter 'Axis Location':
+Optical size = [same as master]
+Width = 75/150 (Here the 50 width of the masters is scaled to 75)
+Weight = [same as master]
+
+Optical Size is specified in points.
 
 Width Class:
 https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
@@ -6,19 +13,21 @@ Width narrow master is set to 50, wide to 150 as it has been from the beginning.
 
 Weight Class:
 https://docs.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
-Weight of the ‘regular’ masters is now set at 380. This makes the Regular instance set at 400 be a little darker, and allows users to specify 380 as a lighter alternative to the regular Regular.
+Weight of the ‘regular’ masters is now set at [Glyphs internal: 360]. This makes the Regular instance set at 400 be a little darker, and allows users to specify 300 as a lighter alternative to the regular Italic.
 
 Fill *all* the fields in the master custom parameter ‘Axis Location’.
 
 Excuting this script will delete all existing instances *including* VF-instances!
 
 #Optical size:opsz
-5:Agate
+5:Micro
+40>6:Minuscule
+43>7:Mini
 50>8:Caption
-430>12:Italic*
-600>16:SubHeading
-760>21:Headline
-860>48:Display
+650>12:Italic*
+720>16:SubHeading
+780>21:Headline
+830>48:Display
 980>72:Titling
 1100>96:Hairline
 1200:Needlepoint
@@ -30,12 +39,13 @@ Excuting this script will delete all existing instances *including* VF-instances
 150>150|7:Expanded
 
 #Weight:wght
-400:Italic*
-475:Medium
-550:SemiBold
-650:Bold
-750:ExtraBold
-900:Black
+360>300:SemiLight
+400>400:Italic*
+475>500:Medium
+550>600:SemiBold
+650>700:Bold
+750>800:ExtraBold
+900>900:Black
 
 #Italic:ital
 1:Italic*
