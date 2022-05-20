@@ -5,7 +5,7 @@ Optical size = [same as master]
 Width = 75/150 (Here the 50 width of the masters is scaled to 75)
 Weight = [same as master]
 
-Optical Size is specified in points.
+Optical Size is specified in points. Refer to the 'Optical Size instances.numbers' spreadsheet in this folder to view and/or edit the relationship between internal and external Optical Size coordinates.
 
 Width Class:
 https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
@@ -20,17 +20,17 @@ Fill *all* the fields in the master custom parameter ‘Axis Location’.
 Excuting this script will delete all existing instances *including* VF-instances!
 
 #Optical size:opsz
-5:Micro
-40>6:Minuscule
-43>7:Mini
-50>8:Caption
-650>12:Regular*
-720>16:SubHeading
-780>21:Headline
-830>48:Display
+5>5:Micro
+200>6:Minuscule
+325>7:Mini
+410>8:Caption
+580>12:Regular*
+660>16:SubHeading
+730>21:Headline
+900>48:Display
 980>72:Titling
-1100>96:Hairline
-1200:Needlepoint
+1020>96:Hairline
+1200>1200:Needlepoint
 
 #Width:wdth
 50>75|4:SemiCondensed
