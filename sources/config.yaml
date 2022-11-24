@@ -44,10 +44,11 @@
           value: 87.5
         - name: Normal
           value: 100
+          flags: 2
         - name: SemiExpanded
           value: 112.5
-        - name: ExtraExpanded
-          value: 150
+        - name: Expanded
+          value: 125
       - name: Weight
         tag: wght
         values:
@@ -111,8 +112,8 @@
       #     value: 100
       #   - name: SemiExpanded
       #     value: 112.5
-      #   - name: ExtraExpanded
-      #     value: 150
+      #   - name: Expanded
+      #     value: 125
       # - name: Weight
       #   tag: wght
       #   values:
