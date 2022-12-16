@@ -13,30 +13,30 @@
       - name: Optical size
         tag: opsz
         values:
+        - name: 5pt
+          value: 5
         - name: 6pt
           value: 6
+        - name: 7pt
+          value: 7
         - name: 8pt
           value: 8
-        - name: 9pt
-          value: 9
-        - name: 10pt
-          value: 10
         - name: 12pt
           value: 12
         - name: 16pt
           value: 16
-        - name: 24pt
-          value: 24
-        - name: 36pt
-          value: 36
+        - name: 21pt
+          value: 21
+        - name: 32pt
+          value: 32
         - name: 48pt
           value: 48
         - name: 72pt
           value: 72
         - name: 96pt
           value: 96
-        - name: 144pt
-          value: 144
+        - name: 1200pt
+          value: 1200
       - name: Width
         tag: wdth
         values:
@@ -47,8 +47,6 @@
           flags: 2
         - name: SemiExpanded
           value: 112.5
-        - name: Expanded
-          value: 125
       - name: Weight
         tag: wght
         values:
@@ -79,30 +77,30 @@
       - name: Optical size
         tag: opsz
         values:
+        - name: 5pt
+          value: 5
         - name: 6pt
           value: 6
+        - name: 7pt
+          value: 7
         - name: 8pt
           value: 8
-        - name: 9pt
-          value: 9
-        - name: 10pt
-          value: 10
         - name: 12pt
           value: 12
         - name: 16pt
           value: 16
-        - name: 24pt
-          value: 24
-        - name: 36pt
-          value: 36
+        - name: 21pt
+          value: 21
+        - name: 32pt
+          value: 32
         - name: 48pt
           value: 48
         - name: 72pt
           value: 72
         - name: 96pt
           value: 96
-        - name: 144pt
-          value: 144
+        - name: 1200pt
+          value: 1200
       - name: Width
         tag: wdth
         values:
@@ -113,8 +111,6 @@
           flags: 2
         - name: SemiExpanded
           value: 112.5
-        - name: Expanded
-          value: 125
       - name: Weight
         tag: wght
         values:
