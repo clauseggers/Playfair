@@ -1,0 +1,28 @@
+THE PLAYFAIR AXES
+=================
+
+After much toing and froing we have settled on these values.
+
+
+WEIGHT
+======
+Weight is linearly scaled
+Internal weight		External weight
+360					300
+900					900
+
+
+WIDTH
+=====
+Width is linearly scaled
+Internal width		External width
+50					87,5
+150					112,5
+
+
+OPTICAL SIZE
+============
+Optical size is scaled exponentially, look at the Numbers document "Optical Size instances.numbers" for more information.
+Internal optical	External optical
+5					5
+1200				1200
