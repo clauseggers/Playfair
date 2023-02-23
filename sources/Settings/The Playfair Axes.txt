@@ -6,9 +6,14 @@ After much toing and froing we have settled on these values.
 
 WEIGHT
 ======
-Weight is linearly scaled
+Weight is approximately linearly scaled, except the 'SemiLight' weight, which is only the 360 internal value remapped to 300 to follow the CSS spec.
 Internal weight		External weight
 360					300
+400					400
+475					500
+550					600
+650					700
+750					800
 900					900
 
 CSS WEIGHT (as per specification)
@@ -27,10 +32,12 @@ Value	Common weight name
 
 WIDTH
 =====
-Width is linearly scaled
+Width is linearly scaled, but with normal (external 100) set to internal 75.
+[The external widths are rounded to the nearest integers because the Glyphs script "Instance Cooker" only supports integers. Instance Cooker is used to generate the instances.]
 Internal width		External width
-50					87.5
-150					112.5
+50					88 (87.5)
+75					100
+150					113 (112.5)
 
 CSS FONT-STRETCH (as per specification)
 Keyword				Percentage		(Instance Cooker Class aka. OS/2 widthClass)
