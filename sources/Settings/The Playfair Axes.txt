@@ -1,7 +1,12 @@
 THE PLAYFAIR AXES
 =================
 
-After much toing and froing we have settled on these values.
+After much toing and froing we have settled on these values, and here is the structure to make it happen.
+1) Do not make an AVAR-table in Glyphs. That means in practical terms that the Font Info > Font > Custom Parameters : Shall *not* contain an active "Axis Mappings".
+2) The Font Info > Masters > Custom Parameters : Shall have an "Axis Location" remapping the internal values to external values.
+3) The Font Info > Exports > Custom Parameters : Shall have "Axis Location" remapping the internal values to external values.
+
+All the instances/exports/statics shall be defined in the "Instance Cooker" recipes in this repo, located in Sources > Settings > Instance Cooker scripts.
 
 
 WEIGHT
@@ -28,6 +33,7 @@ Value	Common weight name
 800		Extra Bold (Ultra Bold)
 900		Black (Heavy)
 950		Extra Black (Ultra Black)
+https://docs.microsoft.com/en-us/typography/opentype/spec/os2#usweightclass
 
 
 WIDTH
@@ -50,6 +56,7 @@ semi-expanded		112.5%			6
 expanded			125%			7
 extra-expanded		150%			8
 ultra-expanded		200%			9
+https://docs.microsoft.com/en-us/typography/opentype/spec/os2#uswidthclass
 
 
 OPTICAL SIZE
