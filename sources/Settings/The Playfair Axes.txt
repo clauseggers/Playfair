@@ -11,13 +11,38 @@ Internal weight		External weight
 360					300
 900					900
 
+CSS WEIGHT (as per specification)
+Value	Common weight name
+100		Thin (Hairline)
+200		Extra Light (Ultra Light)
+300		Light
+400		Normal (Regular)
+500		Medium
+600		Semi Bold (Demi Bold)
+700		Bold
+800		Extra Bold (Ultra Bold)
+900		Black (Heavy)
+950		Extra Black (Ultra Black)
+
 
 WIDTH
 =====
 Width is linearly scaled
 Internal width		External width
-50					87,5
-150					112,5
+50					87.5
+150					112.5
+
+CSS FONT-STRETCH (as per specification)
+Keyword				Percentage
+ultra-condensed		50%
+extra-condensed		62.5%
+condensed			75%
+semi-condensed		7.5%
+normal				100%
+semi-expanded		112.5%
+expanded			125%
+extra-expanded		150%
+ultra-expanded		200%
 
 
 OPTICAL SIZE
@@ -26,3 +51,19 @@ Optical size is scaled exponentially, look at the Numbers document "Optical Size
 Internal optical	External optical
 5					5
 1200				1200
+
+These following names I have assigned for Playfair. There is not standard naming.
+External point size		Assigned name
+5						Micro
+6						Minuscule
+7						Miniature
+8						Caption
+12						Regular
+16						SubHeading
+21						Trumpet
+32						Headline
+48						Display
+72						Titling
+96						Hairline
+1200					Needlepoint
+
