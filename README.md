@@ -13,7 +13,7 @@
 ![**Playfair 2.0** animation](Images/Playfair2_a-z.svg)
 <!---![**Playfair 2.0** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_a-z.svg)--->
 
-The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the the horisontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
+The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the the horizontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
 
 The **weight** axis adds a second dimension by allowing you to seamlessly change from a light regular to a dark black.
 
@@ -36,7 +36,7 @@ The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expan
 - Catalan *punt volat* is supported.
 - Dutch *IJ* and *ij* is supported.
 - Case-transformation of Turkic languages is supported.
-- Icelandic and Faroese *fð* and *fþ* ligatures included. 
+- Icelandic and Faroese *fð* and *fþ* ligatures included.
 - Romanian *comma accents* are supported.
 - *Serbian Cyrillic* letterforms are included.
 - Vietnamese double-stacked diacritical marks are included.
