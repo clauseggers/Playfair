@@ -22,7 +22,7 @@ The **weight** axis adds a second dimension by allowing you to seamlessly change
 
 **Playfair 2.0** has been designed with context-dependant alternate designs of some glyphs. These alternates are automatically applied based on the *optical size, the width, and the weight* of the text.
 
-The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expanded. Any combination within this design-envelope is now available to you. This kind of flexibility means that you the designer can find the perfect expression in any context. You can make subtle changes to harmonise the way renderings vary across media, devices, or even specific webbrowsers.
+The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expanded. Any combination within this design-envelope is now available to you. This kind of flexibility means that you the designer can find the perfect expression in any context. You can make subtle changes to harmonise the way renderings vary across media, devices, or even specific web browsers.
 
 **Playfair 2.0** is stylistically a trans­itional design. From the time of enlight­en­ment in the late 18th cen­tury, the broad nib quills were replaced by poin­ted steel pens. This influ­enced typo­graph­ical let­ter­forms to become increas­ingly detached from the writ­ten ones. Devel­op­ments in print­ing tech­no­logy, ink, and paper mak­ing made it pos­sible to print let­ter­forms of high con­trast and del­ic­ate hairlines.
 
