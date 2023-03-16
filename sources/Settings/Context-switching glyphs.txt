@@ -1,53 +1,198 @@
-Context-switching glyphs
+========== ROMAN ==========
+Kghkĸmnvwxy
+çşţÇŞŢ + SC
 
-Roman:
-g
-n
-m
-h
-k
-x
-y
+ff fl ffl fh ffh fk ffk fft Th
 
-çşţÇŞŢ
+K + k.smcp
+пницшмчкєэЄЭ
+$ + dollar.smcp
+₩ + won.smcp
 
-ff
-fl
-ffl
-fh
-ffh
-fk
-ffk
-fft
 
-Th
+========== ROMAN = GLYPH NAMES ==========
 
 K
-п
-н
-и
-ц
-ш
-м
-ч
-к
-є
-э
-Є
-Э
-$
+T_h.ss01
+g
+h
+k
+kgreenlandic
+m
+n
+v
+w
+x
+y
+f_b.liga
+f_fina-component
+f_h.liga
+f_k.liga
+fi
+fl
+longs_h.liga
+longs_i.liga
+longs_k.liga
+longs_l.liga
+k.smcp
+ii-cy
+em-cy
+en-cy
+pe-cy
+che-cy
+sha-cy
+shcha-cy
+nje-cy
+tshe-cy
+ia-cy
+shha-cy
+euro
+hryvnia
+lari
+liraTurkish
+sterling
+euro.smcp
+hryvnia.smcp
+lari.smcp
+sterling.smcp
+_f_adieresis.ligature
+_f_b.ligature
+_f_h.ligature
+_f_i.ligature
+_f_idieresis.ligature
+_f_igrave.ligature
+_f_j.ligature
+_f_k.ligature
+_f_l.ligature
+_f_odieresis.ligature
+_f_t.ligature
+_f_thorn.ligature
+_f_udieresis.ligature
+_f_ydieresis.ligature
+_longs_h.ligature
+_longs_i.ligature
+_longs_k.ligature
+_longs_l.ligature
+_longs_t.liga
+_E-middlestroke-cy
+E-cy
+Ereversed-cy
+_e-middlestroke-cy
+e-cy
+ereversed-cy
+_e-middlestroke-cy.smcp
+e-cy.smcp
+ereversed-cy.smcp
+_cent-bar
+cent
+_dollar-bar
+baht
+cedi
+dollar
+_guarani-bar
+guarani
+_naira-bar
+naira
+naira.smcp
+_won-bar
+won
+won.smcp
+yen-strokes-overlay
+yen
+yen-strokes-overlay.smcp
+yen.smcp
+_cent-bar.smcp
+baht.smcp
+cent.smcp
+_dollar-bar.smcp
+dollar.smcp
+_guarani-bar.smcp
+guarani.smcp
+longs-ligature
+_cedillacomb-t
+Tcedilla
+tcedilla
+tcedilla.smcp
+_cedillacomb-T.case
+h-lowered
+hbar
+tse-dzhe-base-cy
+tse-cy
+dzhe-cy
 
 
-Italic:
+========== ITALIC ==========
 w
 
-çşţÇŞŢ
+çşţÇŞŢ + SC
 
-fü
-ffü
+fü ffü
 
-Є
-Э
-є
-э
-$
+ЄЭєэ
+$ + dollar.smcp
+₩ + won.smcp
+€ + euro.smcp
+₴ + hryvnia.smcp
+₾ + lari.smcp
+₺ 
+£ + sterling.smcp
+
+
+========== ITALIC = GLYPH NAMES ==========
+_E-middlestroke-cy
+E-cy
+Ereversed-cy
+e-cy.smcp
+ereversed-cy.smcp
+_e-middlestroke-cy
+e-cy
+ereversed-cy
+g
+w
+f_adieresis.liga
+f_edieresis.liga
+f_f_adieresis.liga
+f_f_edieresis.liga
+f_f_odieresis.liga
+f_f_udieresis.liga
+f_f_ydieresis.liga
+f_odieresis.liga
+f_udieresis.liga
+f_ydieresis.liga
+euro
+hryvnia
+lari
+liraTurkish
+sterling
+euro.smcp
+hryvnia.smcp
+lari.smcp
+sterling.smcp
+_cent-bar
+cent
+_dollar-bar
+baht
+cedi
+dollar
+_guarani-bar
+guarani
+_naira-bar
+naira
+naira.smcp
+_won-bar
+won
+won.smcp
+_yen-strokes-overlay
+yen
+_dollar-cent-bar.smcp
+cent.smcp
+dollar.smcp
+_guarani-bar.smcp
+guarani.smcp
+_yen-strokes-overlay.smcp
+yen.smcp
+_cedillacomb-T.case
+Tcedilla
+Tcedilla.ss07
+tcedilla.smcp
+tcedilla.smcp.ss07
