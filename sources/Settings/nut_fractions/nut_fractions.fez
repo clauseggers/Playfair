@@ -1,0 +1,25 @@
+LoadPlugin Fractions;
+DefineClass @afrcFigures = [zero one two three four five six seven eight nine];
+DefineClass @afrcFraction = [slash fraction];
+
+Feature afrc {
+	# Change slash to bar.afrc here. That needs a separate lookup
+	Routine SlashToBar { Substitute @afrcFraction -> bar.afrc; };
+
+	# Denominator substitutions are easy; any digit coming after either a bar.afrc or another denominator
+	Routine Denominator {
+		Substitute [bar.afrc /dnom.afrc$/] (@afrcFigures) -> @afrcFigures.dnom.afrc;
+	};
+
+	# Numerator substitutions are harder because we don't know how many places there will be before the slash.
+	Routine Numerator {
+		Substitute (@afrcFigures) @afrcFigures @afrcFigures @afrcFigures bar.afrc -> @afrcFigures.numr.afrc;
+		Substitute (@afrcFigures) @afrcFigures @afrcFigures bar.afrc -> @afrcFigures.numr.afrc;
+		Substitute (@afrcFigures) @afrcFigures bar.afrc -> @afrcFigures.numr.afrc;
+		Substitute (@afrcFigures) bar.afrc -> @afrcFigures.numr.afrc;
+	};
+
+	Routine Fraction {
+		Fractions /numr.afrc$/ bar.afrc /dnom.afrc$/ 152;
+	};
+};
