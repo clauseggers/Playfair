@@ -1,0 +1,744 @@
+@afrcFigures = [zero one two three four five six seven eight nine];
+@afrcFraction = [slash fraction];
+
+lookup SlashToBar {
+  lookupflag 0;
+  ;
+  sub [slash fraction] by bar.afrc;
+} SlashToBar;
+
+lookup Denominator {
+  lookupflag 0;
+  ;
+  sub [bar.afrc zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero one two three four five six seven eight nine]' by [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc];
+} Denominator;
+
+lookup Numerator {
+  lookupflag 0;
+  ;
+  sub [zero one two three four five six seven eight nine]' [zero one two three four five six seven eight nine] [zero one two three four five six seven eight nine] [zero one two three four five six seven eight nine] bar.afrc by [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc];
+
+  sub [zero one two three four five six seven eight nine]' [zero one two three four five six seven eight nine] [zero one two three four five six seven eight nine] bar.afrc by [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc];
+
+  sub [zero one two three four five six seven eight nine]' [zero one two three four five six seven eight nine] bar.afrc by [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc];
+
+  sub [zero one two three four five six seven eight nine]' bar.afrc by [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc];
+} Numerator;
+
+lookup FractionDFLT_dflt_Substitution_6 {
+  lookupflag 0;
+  ;
+  sub [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] bar.afrc' by bar.afrc bar.afrc bar.afrc bar.afrc;
+  
+  sub bar.afrc' [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] by bar.afrc bar.afrc bar.afrc bar.afrc;
+  
+  sub [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] bar.afrc' by bar.afrc bar.afrc bar.afrc;
+  
+  sub bar.afrc' [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] by bar.afrc bar.afrc bar.afrc;
+  
+  sub [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] [zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc] bar.afrc' by bar.afrc bar.afrc;
+  
+  sub bar.afrc' [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc] by bar.afrc bar.afrc;
+} FractionDFLT_dflt_Substitution_6;
+
+lookup FractionDFLT_dflt_Positioning_8 {
+  lookupflag 0;
+  ;
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <86 0 -243 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-19 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <-76 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-19 0 -348 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-124 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-181 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <815 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <815 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-76 0 -405 0> one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <815 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <920 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <920 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-181 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <920 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> one.numr.afrc' <977 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <977 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-238 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <977 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <207 0 -243 0> one.numr.afrc' <450 0 -243 0> one.numr.afrc' <693 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <207 0 -243 0> one.numr.afrc' <450 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <693 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <207 0 -243 0> one.numr.afrc' <450 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <693 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <155 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> one.numr.afrc' <746 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <155 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <746 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <155 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <746 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <126 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <126 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <126 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <102 0 -348 0> one.numr.afrc' <450 0 -243 0> one.numr.afrc' <693 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <102 0 -348 0> one.numr.afrc' <450 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <693 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <102 0 -348 0> one.numr.afrc' <450 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <693 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <50 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> one.numr.afrc' <746 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <50 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <746 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <50 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <746 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <21 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <21 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <21 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <45 0 -405 0> one.numr.afrc' <450 0 -243 0> one.numr.afrc' <693 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <45 0 -405 0> one.numr.afrc' <450 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <693 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <45 0 -405 0> one.numr.afrc' <450 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <693 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> one.numr.afrc' <746 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <746 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <746 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-35 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-35 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-35 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <83 0 -243 0> one.numr.afrc' <326 0 -243 0> one.numr.afrc' <569 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <83 0 -243 0> one.numr.afrc' <326 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <569 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <83 0 -243 0> one.numr.afrc' <326 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <569 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <31 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> one.numr.afrc' <622 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <31 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <622 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <31 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <622 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <2 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> one.numr.afrc' <650 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <2 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <650 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <2 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <650 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-21 0 -348 0> one.numr.afrc' <326 0 -243 0> one.numr.afrc' <569 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-21 0 -348 0> one.numr.afrc' <326 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <569 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-21 0 -348 0> one.numr.afrc' <326 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <569 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-74 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> one.numr.afrc' <622 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-74 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <622 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-74 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <622 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-102 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> one.numr.afrc' <650 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-102 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <650 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-102 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <650 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-78 0 -405 0> one.numr.afrc' <326 0 -243 0> one.numr.afrc' <569 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-78 0 -405 0> one.numr.afrc' <326 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <569 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-78 0 -405 0> one.numr.afrc' <326 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <569 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-131 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> one.numr.afrc' <622 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-131 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <622 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-131 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <622 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-159 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> one.numr.afrc' <650 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-159 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <650 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-159 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <650 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <329 0 -243 0> one.numr.afrc' <572 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <329 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <329 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> one.numr.afrc' <572 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <224 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> one.numr.afrc' <572 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <572 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <167 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <572 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <205 0 -243 0> one.numr.afrc' <448 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <205 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <448 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <205 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <448 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <100 0 -348 0> one.numr.afrc' <448 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <100 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <448 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <100 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <448 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <43 0 -405 0> one.numr.afrc' <448 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <43 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <448 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <43 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <448 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <81 0 -243 0> one.numr.afrc' <324 0 -243 0> bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <81 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <324 0 -348 0> bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <81 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <324 0 -405 0> bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-24 0 -348 0> one.numr.afrc' <324 0 -243 0> bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-24 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <324 0 -348 0> bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <-24 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <324 0 -405 0> bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-81 0 -405 0> one.numr.afrc' <324 0 -243 0> bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-81 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <324 0 -348 0> bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-81 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <324 0 -405 0> bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <450 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <398 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <369 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <326 0 -243 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <274 0 -348 0> bar.afrc bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <245 0 -405 0> bar.afrc bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <202 0 -243 0> bar.afrc bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <150 0 -348 0> bar.afrc bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <121 0 -405 0> bar.afrc bar.afrc;
+
+  pos one.numr.afrc' <78 0 -243 0> bar.afrc;
+
+  pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <26 0 -348 0> bar.afrc;
+
+  pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-2 0 -405 0> bar.afrc;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1058 0 -243 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1163 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1220 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1163 0 -348 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1268 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1325 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-329 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-329 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1220 0 -405 0> one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-329 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-224 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-224 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1325 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-224 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> one.dnom.afrc' <-167 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-167 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1382 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-167 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-937 0 -243 0> one.dnom.afrc' <-694 0 -243 0> one.dnom.afrc' <-451 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-937 0 -243 0> one.dnom.afrc' <-694 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-451 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-937 0 -243 0> one.dnom.afrc' <-694 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-451 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-989 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> one.dnom.afrc' <-398 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-989 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-989 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1018 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> one.dnom.afrc' <-370 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1018 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-370 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1018 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-370 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1042 0 -348 0> one.dnom.afrc' <-694 0 -243 0> one.dnom.afrc' <-451 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1042 0 -348 0> one.dnom.afrc' <-694 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-451 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1042 0 -348 0> one.dnom.afrc' <-694 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-451 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1094 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> one.dnom.afrc' <-398 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1094 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1094 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1123 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> one.dnom.afrc' <-370 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1123 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-370 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1123 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-370 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1099 0 -405 0> one.dnom.afrc' <-694 0 -243 0> one.dnom.afrc' <-451 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1099 0 -405 0> one.dnom.afrc' <-694 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-451 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1099 0 -405 0> one.dnom.afrc' <-694 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-451 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1151 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> one.dnom.afrc' <-398 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1151 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1151 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> one.dnom.afrc' <-370 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-370 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-370 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-813 0 -243 0> one.dnom.afrc' <-570 0 -243 0> one.dnom.afrc' <-327 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-813 0 -243 0> one.dnom.afrc' <-570 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-327 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-813 0 -243 0> one.dnom.afrc' <-570 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-327 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-865 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> one.dnom.afrc' <-274 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-865 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-274 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-865 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-274 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-894 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> one.dnom.afrc' <-246 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-894 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-246 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-894 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-246 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-917 0 -348 0> one.dnom.afrc' <-570 0 -243 0> one.dnom.afrc' <-327 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-917 0 -348 0> one.dnom.afrc' <-570 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-327 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-917 0 -348 0> one.dnom.afrc' <-570 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-327 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-970 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> one.dnom.afrc' <-274 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-970 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-274 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-970 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-274 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-998 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> one.dnom.afrc' <-246 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-998 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-246 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-998 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-246 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-974 0 -405 0> one.dnom.afrc' <-570 0 -243 0> one.dnom.afrc' <-327 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-974 0 -405 0> one.dnom.afrc' <-570 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-327 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-974 0 -405 0> one.dnom.afrc' <-570 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-327 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1027 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> one.dnom.afrc' <-274 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1027 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-274 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1027 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-274 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1055 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> one.dnom.afrc' <-246 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1055 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-246 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1055 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-246 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-815 0 -243 0> one.dnom.afrc' <-572 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-815 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-815 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> one.dnom.afrc' <-572 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-920 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> one.dnom.afrc' <-572 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-572 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-977 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-572 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-691 0 -243 0> one.dnom.afrc' <-448 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-691 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-448 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-691 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-448 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-796 0 -348 0> one.dnom.afrc' <-448 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-796 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-448 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-796 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-448 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-853 0 -405 0> one.dnom.afrc' <-448 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-853 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-448 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-853 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-448 0 -405 0>;
+
+  pos bar.afrc bar.afrc one.dnom.afrc' <-567 0 -243 0> one.dnom.afrc' <-324 0 -243 0>;
+
+  pos bar.afrc bar.afrc one.dnom.afrc' <-567 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-324 0 -348 0>;
+
+  pos bar.afrc bar.afrc one.dnom.afrc' <-567 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-324 0 -405 0>;
+
+  pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-672 0 -348 0> one.dnom.afrc' <-324 0 -243 0>;
+
+  pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-672 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-324 0 -348 0>;
+
+  pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-672 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-324 0 -405 0>;
+
+  pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-729 0 -405 0> one.dnom.afrc' <-324 0 -243 0>;
+
+  pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-729 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-324 0 -348 0>;
+
+  pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-729 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-324 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-694 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-746 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-775 0 -405 0>;
+
+  pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-570 0 -243 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-622 0 -348 0>;
+
+  pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-651 0 -405 0>;
+
+  pos bar.afrc bar.afrc one.dnom.afrc' <-446 0 -243 0>;
+
+  pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-498 0 -348 0>;
+
+  pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-527 0 -405 0>;
+
+  pos bar.afrc one.dnom.afrc' <-322 0 -243 0>;
+
+  pos bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-374 0 -348 0>;
+
+  pos bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-402 0 -405 0>;
+
+  pos bar.afrc' -152 bar.afrc;
+} FractionDFLT_dflt_Positioning_8;
