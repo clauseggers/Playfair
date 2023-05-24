@@ -1,0 +1,27 @@
+Static feature code output from Fez:
+pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+Becomes interpolatable in a Variable Font by using Glyphs tokens:
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+
+${zero.numr.afrc:width}
+${one.numr.afrc:width}
+${two.numr.afrc:width}
+${three.numr.afrc:width}
+${four.numr.afrc:width}
+${five.numr.afrc:width}
+${six.numr.afrc:width}
+${seven.numr.afrc:width}
+${eight.numr.afrc:width}
+${nine.numr.afrc:width}
+
+${zero.dnom.afrc:width}
+${one.dnom.afrc:width}
+${two.dnom.afrc:width}
+${three.dnom.afrc:width}
+${four.dnom.afrc:width}
+${five.dnom.afrc:width}
+${six.dnom.afrc:width}
+${seven.dnom.afrc:width}
+${eight.dnom.afrc:width}
+${nine.dnom.afrc:width}
