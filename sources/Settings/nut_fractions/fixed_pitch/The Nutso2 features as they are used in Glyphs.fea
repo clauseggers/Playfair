@@ -1,0 +1,261 @@
+# afrc
+lookup AFRC_LKP_5 {
+	sub zero.numr.afrc by fracinit zero.numr.afrc;
+	sub one.numr.afrc by fracinit one.numr.afrc;
+	sub two.numr.afrc by fracinit two.numr.afrc;
+	sub three.numr.afrc by fracinit three.numr.afrc;
+	sub four.numr.afrc by fracinit four.numr.afrc;
+	sub five.numr.afrc by fracinit five.numr.afrc;
+	sub six.numr.afrc by fracinit six.numr.afrc;
+	sub seven.numr.afrc by fracinit seven.numr.afrc;
+	sub eight.numr.afrc by fracinit eight.numr.afrc;
+	sub nine.numr.afrc by fracinit nine.numr.afrc;
+} AFRC_LKP_5;
+	
+lookup AFRC_LKP_0 {
+	sub @afrcFigures by @afrcNumerators;
+} AFRC_LKP_0;
+
+lookup AFRC_LKP_1 {
+	sub [slash fraction @afrcDenominators] @afrcNumerators' by @afrcDenominators;
+} AFRC_LKP_1;
+
+lookup AFRC_LKP_2 {
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar10.afrc bar10.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar10.afrc bar10.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar9.afrc bar9.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar9.afrc bar9.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar8.afrc bar8.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar8.afrc bar8.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar7.afrc bar7.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar7.afrc bar7.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar6.afrc bar6.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar6.afrc bar6.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar5.afrc bar5.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar5.afrc bar5.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar4.afrc bar4.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators by [bar4.afrc bar4.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcNumerators @afrcFraction' by [bar3.afrc bar3.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators @afrcDenominators by [bar3.afrc bar3.afrc];
+
+	sub @afrcNumerators @afrcNumerators @afrcFraction' by [bar2.afrc bar2.afrc];
+	sub @afrcFraction' @afrcDenominators @afrcDenominators by [bar2.afrc bar2.afrc];
+
+	sub @afrcNumerators @afrcFraction' by [bar1.afrc bar1.afrc];
+	sub @afrcFraction' @afrcDenominators by [bar1.afrc bar1.afrc];
+} AFRC_LKP_2;
+
+lookup AFRC_LKP_3 {
+	ignore sub @afrcNumerators @afrcNumerators';
+	sub @afrcNumerators' lookup AFRC_LKP_5;
+} AFRC_LKP_3;
+
+
+#kern
+lookupflag IgnoreMarks;
+pos @afrcFigures fracinit 140;
+pos @afrcBars @afrcFigures 140;
+
+
+#mark
+markClass @afrcNumerators <anchor 0 0> @MARK_CLASS_0;
+markClass @afrcDenominators <anchor 0 0> @MARK_CLASS_1;
+
+lookup MARK_LKP_1 {
+	pos base fracinit <anchor 1800 0> mark @MARK_CLASS_0;
+} MARK_LKP_1;
+
+lookup MARK_LKP_2 {
+	pos base fracinit <anchor 1600 0> mark @MARK_CLASS_0;
+} MARK_LKP_2;
+
+lookup MARK_LKP_3 {
+	pos base fracinit <anchor 1400 0> mark @MARK_CLASS_0;
+} MARK_LKP_3;
+
+lookup MARK_LKP_4 {
+	pos base fracinit <anchor 1200 0> mark @MARK_CLASS_0;
+} MARK_LKP_4;
+
+lookup MARK_LKP_5 {
+	pos base fracinit <anchor 1000 0> mark @MARK_CLASS_0;
+} MARK_LKP_5;
+
+lookup MARK_LKP_6 {
+	pos base fracinit <anchor 800 0> mark @MARK_CLASS_0;
+} MARK_LKP_6;
+
+lookup MARK_LKP_7 {
+	pos base fracinit <anchor 600 0> mark @MARK_CLASS_0;
+} MARK_LKP_7;
+
+lookup MARK_LKP_8 {
+	pos base fracinit <anchor 400 0> mark @MARK_CLASS_0;
+} MARK_LKP_8;
+
+lookup MARK_LKP_9 {
+	pos base fracinit <anchor 200 0> mark @MARK_CLASS_0;
+} MARK_LKP_9;
+
+lookup MARK_LKP_10 {
+	pos base bar10.afrc <anchor 0 0> mark @MARK_CLASS_1;
+} MARK_LKP_10;
+
+lookup MARK_LKP_11 {
+	pos base bar9.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 200 0> mark @MARK_CLASS_1;
+} MARK_LKP_11;
+
+lookup MARK_LKP_12 {
+	pos base bar8.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 400 0> mark @MARK_CLASS_1;
+} MARK_LKP_12;
+
+lookup MARK_LKP_13 {
+	pos base bar7.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 600 0> mark @MARK_CLASS_1;
+} MARK_LKP_13;
+
+lookup MARK_LKP_14 {
+	pos base bar6.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 800 0> mark @MARK_CLASS_1;
+} MARK_LKP_14;
+
+lookup MARK_LKP_15 {
+	pos base bar5.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 800 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 1000 0> mark @MARK_CLASS_1;
+} MARK_LKP_15;
+
+lookup MARK_LKP_16 {
+	pos base bar4.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 800 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 1000 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 1200 0> mark @MARK_CLASS_1;
+} MARK_LKP_16;
+
+lookup MARK_LKP_17 {
+	pos base bar3.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 800 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 1000 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 1200 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 1400 0> mark @MARK_CLASS_1;
+} MARK_LKP_17;
+
+lookup MARK_LKP_18 {
+	pos base bar2.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar3.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor 800 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 1000 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 1200 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 1600 0> mark @MARK_CLASS_1;
+} MARK_LKP_18;
+
+lookup MARK_LKP_19 {
+	pos base bar1.afrc <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar2.afrc <anchor 200 0> mark @MARK_CLASS_1;
+	pos base bar3.afrc <anchor 400 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor 600 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor 800 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor 1000 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor 1200 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor 1600 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor 1800 0> mark @MARK_CLASS_1;
+} MARK_LKP_19;
+
+pos @afrcNumerators' lookup MARK_LKP_1 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_2 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_2 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_3 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_3 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_3 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_4 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_4 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_4 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_4 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_5 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_5 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_5 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_5 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_5 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_6 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_7 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_8 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators;
+
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcNumerators @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcNumerators' lookup MARK_LKP_9 @afrcBars @afrcDenominators @afrcDenominators;
+
+pos @afrcDenominators' lookup MARK_LKP_10 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_11 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_12 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_13 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_14 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_15 @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_16 @afrcDenominators @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_17 @afrcDenominators @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_18 @afrcDenominators;
+ignore pos @afrcDenominators' @afrcDenominators;
+pos @afrcDenominators' lookup MARK_LKP_19;
+
+
+#mkmk
+pos mark @afrcNumerators <anchor 400 0> mark @MARK_CLASS_0 <anchor 0 0> mark @MARK_CLASS_1;
+pos mark @afrcDenominators <anchor 0 0> mark @MARK_CLASS_0 <anchor 400 0> mark @MARK_CLASS_1;
