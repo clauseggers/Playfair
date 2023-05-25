@@ -56,697 +56,697 @@ sub bar.afrc' [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.d
 
 lookup FractionDFLT_dflt_Positioning_8 {
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <209 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <209 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <152 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <152 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <209 0 -348 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <104 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <47 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1043 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <152 0 -405 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1043 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1148 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1148 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <47 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1148 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> one.numr.afrc' <1205 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1205 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-10 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1205 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <435 0 -243 0> one.numr.afrc' <678 0 -243 0> one.numr.afrc' <921 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <435 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <921 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <435 0 -243 0> one.numr.afrc' <678 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <435 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <435 0 -243 0> one.numr.afrc' <678 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <435 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <383 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <383 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <383 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <974 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <383 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <974 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <383 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <974 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <383 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <974 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <354 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <354 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <354 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1002 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <354 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1002 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <354 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1002 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <354 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1002 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 -243 0> one.numr.afrc' <921 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <921 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <330 0 -348 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <278 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <278 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <278 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <974 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <278 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <974 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <249 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <249 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <249 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1002 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <249 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1002 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 -243 0> one.numr.afrc' <921 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <921 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <921 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <273 0 -405 0> one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <921 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <221 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <221 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> one.numr.afrc' <974 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <221 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <974 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <221 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <974 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <192 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <192 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> one.numr.afrc' <1002 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <192 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <1002 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <192 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <1002 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <235 0 -243 0> one.numr.afrc' <478 0 -243 0> one.numr.afrc' <721 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <235 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <721 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <235 0 -243 0> one.numr.afrc' <478 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <235 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <235 0 -243 0> one.numr.afrc' <478 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <235 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <183 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <183 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <183 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <183 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <183 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <183 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <154 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <154 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <154 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <802 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <154 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <802 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <154 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <802 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <154 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <802 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 -243 0> one.numr.afrc' <721 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <721 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <130 0 -348 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <78 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <78 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <78 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <78 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <49 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <49 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <49 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <802 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <49 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <802 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 -243 0> one.numr.afrc' <721 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <721 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <721 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <73 0 -405 0> one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <721 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <21 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <21 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> one.numr.afrc' <774 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <21 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <774 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <21 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <774 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> one.numr.afrc' <802 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <802 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-7 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <802 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <557 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <557 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <452 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <800 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <395 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <800 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <357 0 -243 0> one.numr.afrc' <600 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <357 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <600 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <357 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <600 0 -348 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <357 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <600 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <357 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <600 0 -405 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <357 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <600 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <252 0 -348 0> one.numr.afrc' <600 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <252 0 -348 0> one.numr.afrc' <600 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <252 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <600 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <252 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <600 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <195 0 -405 0> one.numr.afrc' <600 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <195 0 -405 0> one.numr.afrc' <600 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <195 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <600 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <195 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <600 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <157 0 -243 0> one.numr.afrc' <400 0 -243 0> bar.afrc bar.afrc;
+pos one.numr.afrc' <157 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <400 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc;
 
-pos one.numr.afrc' <157 0 -243 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <400 0 -348 0> bar.afrc bar.afrc;
+pos one.numr.afrc' <157 0 ${one.numr.afrc:width*-1} 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <400 0 -348 0> bar.afrc bar.afrc;
 
-pos one.numr.afrc' <157 0 -243 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <400 0 -405 0> bar.afrc bar.afrc;
+pos one.numr.afrc' <157 0 ${one.numr.afrc:width*-1} 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <400 0 -405 0> bar.afrc bar.afrc;
 
-pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <52 0 -348 0> one.numr.afrc' <400 0 -243 0> bar.afrc bar.afrc;
+pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <52 0 -348 0> one.numr.afrc' <400 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <52 0 -348 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <400 0 -348 0> bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <52 0 -348 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <400 0 -405 0> bar.afrc bar.afrc;
 
-pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-5 0 -405 0> one.numr.afrc' <400 0 -243 0> bar.afrc bar.afrc;
+pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-5 0 -405 0> one.numr.afrc' <400 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-5 0 -405 0> [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <400 0 -348 0> bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-5 0 -405 0> [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <400 0 -405 0> bar.afrc bar.afrc;
 
-pos one.numr.afrc' <678 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <678 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <626 0 -348 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <597 0 -405 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <478 0 -243 0> bar.afrc bar.afrc bar.afrc;
+pos one.numr.afrc' <478 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <426 0 -348 0> bar.afrc bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <397 0 -405 0> bar.afrc bar.afrc bar.afrc;
 
-pos one.numr.afrc' <278 0 -243 0> bar.afrc bar.afrc;
+pos one.numr.afrc' <278 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <226 0 -348 0> bar.afrc bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <197 0 -405 0> bar.afrc bar.afrc;
 
-pos one.numr.afrc' <78 0 -243 0> bar.afrc;
+pos one.numr.afrc' <78 0 ${one.numr.afrc:width*-1} 0> bar.afrc;
 
 pos [eight.numr.afrc five.numr.afrc four.numr.afrc seven.numr.afrc three.numr.afrc two.numr.afrc]' <26 0 -348 0> bar.afrc;
 
 pos [nine.numr.afrc six.numr.afrc zero.numr.afrc]' <-2 0 -405 0> bar.afrc;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 -243 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1286 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1391 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1448 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1391 0 -348 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1496 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1553 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-557 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-557 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1448 0 -405 0> one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-557 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-452 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-452 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1553 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-452 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> one.dnom.afrc' <-395 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-395 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1610 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-395 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 -243 0> one.dnom.afrc' <-922 0 -243 0> one.dnom.afrc' <-679 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-679 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 -243 0> one.dnom.afrc' <-922 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 -243 0> one.dnom.afrc' <-922 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1165 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-626 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-626 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-626 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1217 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-626 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-598 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-598 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-598 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1246 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-598 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 -243 0> one.dnom.afrc' <-679 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-679 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1270 0 -348 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1322 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1322 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1322 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-626 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1322 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-626 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1351 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1351 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1351 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-598 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1351 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-598 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 -243 0> one.dnom.afrc' <-679 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-679 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-679 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1327 0 -405 0> one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-679 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1379 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1379 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> one.dnom.afrc' <-626 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1379 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-626 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1379 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-626 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1408 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1408 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> one.dnom.afrc' <-598 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1408 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-598 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1408 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-598 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 -243 0> one.dnom.afrc' <-722 0 -243 0> one.dnom.afrc' <-479 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-479 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 -243 0> one.dnom.afrc' <-722 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 -243 0> one.dnom.afrc' <-722 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-965 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-426 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-426 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-426 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1017 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-426 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1046 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 -243 0> one.dnom.afrc' <-479 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-479 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1070 0 -348 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1122 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1122 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1122 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-426 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1122 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-426 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1151 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1151 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1151 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1151 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 -243 0> one.dnom.afrc' <-479 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-479 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-479 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1127 0 -405 0> one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-479 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> one.dnom.afrc' <-426 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-426 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1179 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-426 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1207 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1207 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> one.dnom.afrc' <-398 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1207 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-398 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1207 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-398 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 -243 0> one.dnom.afrc' <-800 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-1043 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-1148 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> one.dnom.afrc' <-800 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-800 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1205 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-800 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 -243 0> one.dnom.afrc' <-600 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-600 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-600 0 -348 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-600 0 -348 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-600 0 -405 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-843 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-600 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-948 0 -348 0> one.dnom.afrc' <-600 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-948 0 -348 0> one.dnom.afrc' <-600 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-948 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-600 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-948 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-600 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1005 0 -405 0> one.dnom.afrc' <-600 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1005 0 -405 0> one.dnom.afrc' <-600 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1005 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-600 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1005 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-600 0 -405 0>;
 
-pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 -243 0> one.dnom.afrc' <-400 0 -243 0>;
+pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 ${one.numr.afrc:width*-1} 0> one.dnom.afrc' <-400 0 ${one.numr.afrc:width*-1} 0>;
 
-pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 -243 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-400 0 -348 0>;
+pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 ${one.numr.afrc:width*-1} 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-400 0 -348 0>;
 
-pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 -243 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-400 0 -405 0>;
+pos bar.afrc bar.afrc one.dnom.afrc' <-643 0 ${one.numr.afrc:width*-1} 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-400 0 -405 0>;
 
-pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-748 0 -348 0> one.dnom.afrc' <-400 0 -243 0>;
+pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-748 0 -348 0> one.dnom.afrc' <-400 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-748 0 -348 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-400 0 -348 0>;
 
 pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-748 0 -348 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-400 0 -405 0>;
 
-pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-805 0 -405 0> one.dnom.afrc' <-400 0 -243 0>;
+pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-805 0 -405 0> one.dnom.afrc' <-400 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-805 0 -405 0> [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-400 0 -348 0>;
 
 pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-805 0 -405 0> [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-400 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-922 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-922 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-974 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-1003 0 -405 0>;
 
-pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-722 0 -243 0>;
+pos bar.afrc bar.afrc bar.afrc one.dnom.afrc' <-722 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-774 0 -348 0>;
 
 pos bar.afrc bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-803 0 -405 0>;
 
-pos bar.afrc bar.afrc one.dnom.afrc' <-522 0 -243 0>;
+pos bar.afrc bar.afrc one.dnom.afrc' <-522 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-574 0 -348 0>;
 
 pos bar.afrc bar.afrc [nine.dnom.afrc six.dnom.afrc zero.dnom.afrc]' <-603 0 -405 0>;
 
-pos bar.afrc one.dnom.afrc' <-322 0 -243 0>;
+pos bar.afrc one.dnom.afrc' <-322 0 ${one.numr.afrc:width*-1} 0>;
 
 pos bar.afrc [eight.dnom.afrc five.dnom.afrc four.dnom.afrc seven.dnom.afrc three.dnom.afrc two.dnom.afrc]' <-374 0 -348 0>;
 

@@ -1,6 +1,8 @@
 Static feature code output from Fez:
 pos one.numr.afrc' <314 0 -243 0> one.numr.afrc' <557 0 -243 0> one.numr.afrc' <800 0 -243 0> one.numr.afrc' <1043 0 -243 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
+GPOS is specified as <xPlacement yPlacement xAdvance yAdvance>
+
 Becomes interpolatable in a Variable Font by using Glyphs tokens:
 pos one.numr.afrc' <314 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <557 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <800 0 ${one.numr.afrc:width*-1} 0> one.numr.afrc' <1043 0 ${one.numr.afrc:width*-1} 0> bar.afrc bar.afrc bar.afrc bar.afrc;
 
@@ -25,3 +27,8 @@ ${six.dnom.afrc:width}
 ${seven.dnom.afrc:width}
 ${eight.dnom.afrc:width}
 ${nine.dnom.afrc:width}
+
+
+Instances calculated
+Bin of zero, six, nine averages is 405, negative -405
+${((zero.numr.afrc:width+six.numr.afrc:width+nine.numr.afrc:width)/3)*-1}
