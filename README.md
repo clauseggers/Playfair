@@ -36,7 +36,7 @@ The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expan
 - Catalan *punt volat* is supported.
 - Dutch *IJ* and *ij* is supported.
 - Case-transformation of Turkic languages is supported.
-- Icelandic and Faroese *fð* and *fþ* ligatures included. 
+- Icelandic and Faroese *fð* and *fþ* ligatures included.
 - Romanian *comma accents* are supported.
 - *Serbian Cyrillic* letterforms are included.
 - Vietnamese double-stacked diacritical marks are included.
