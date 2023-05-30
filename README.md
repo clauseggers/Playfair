@@ -2,7 +2,7 @@
 
 # \*\*\* Download the 2.100-RC-1 Variable Font TTFs here <https://github.com/clauseggers/Playfair/releases/tag/2.100-RC-1>
 
-If you want the static PostScript fonts, then download the https://github.com/clauseggers/Playfair/tree/master/fonts/CFF folder \*\*\*
+# If you want the static PostScript fonts, then download the https://github.com/clauseggers/Playfair/tree/master/fonts/CFF folder \*\*\*
 
 ![**Playfair 2.1** banner](Images/Playfair2_1_banner.svg)
 <!---![**Playfair 2.1** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_1_banner.svg)--->
