@@ -43,9 +43,13 @@ The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expan
 - Icelandic and Faroese *fð* and *fþ* ligatures included.
 - Romanian *comma accents* are supported.
 - *Serbian Cyrillic* letterforms are included.
-- Vietnamese double-stacked diacritical marks are included.
+- *Bulgarian Cyrillic* letterforms are included.
 - Special design of the *її* combination for Ukrainian is included.
+- Vietnamese double-stacked diacritical marks are included.
 - Mark-to-mark positioning and composition of diacritical marks is supported.
+- Five figure styles included: Old-style proportional, lining proportional, tabular old-style, tabular lining, and small-caps lining. All in both upright and italic styles.
+- An expanded range of currency symbols.
+- Special tabular versions of punctuation and currency symbols for table use with tabular figures.
 
 ![**Playfair 2.1** animation](Images/Playfair2_g-two.svg)
 <!---![**Playfair 2.1** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_g-two.svg)--->
