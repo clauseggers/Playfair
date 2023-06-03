@@ -1,6 +1,13 @@
 #!/bin/sh
+# This script generates the Variable Font TTFs for the Playfair typeface.
 
-fontmake Playfair-2_1-Roman.glyphs -o variable --output-path /variable_ttf/PlayfairRomanVF.ttf
-fontmake Playfair-2_1-Italic.glyphs -o variable --output-path /variable_ttf/PlayfairItalicVF.ttf
+# Checks if the `variable_ttf` pathectory exists, if not it creates it.
+if [ ! -d "variable_ttf" ]; then
+  mkdir -p "variable_ttf"
+  chmod -R 755 "variable_ttf"
+fi
+
+fontmake Playfair-2_1-Roman.glyphs -o variable --output-path 'variable_ttf/PlayfairRomanVF.ttf' --verbose WARNING
+fontmake Playfair-2_1-Italic.glyphs -o variable --output-path 'variable_ttf/PlayfairItalicVF.ttf' --verbose WARNING
 
 # EOF
