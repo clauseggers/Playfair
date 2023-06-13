@@ -1,4 +1,4 @@
-# afrc
+# afrc feature
 lookup AFRC_LKP_5 {
 	sub zero.numr.afrc by fracinit zero.numr.afrc;
 	sub one.numr.afrc by fracinit one.numr.afrc;
@@ -58,13 +58,13 @@ lookup AFRC_LKP_3 {
 } AFRC_LKP_3;
 
 
-#kern
+#kern feature
 lookupflag IgnoreMarks;
 pos @afrcFigures fracinit $afrc;
 pos @afrcBars @afrcFigures $afrc;
 
 
-#mark
+#mark feature
 markClass @afrcNumerators <anchor 0 0> @MARK_CLASS_0;
 markClass @afrcDenominators <anchor 0 0> @MARK_CLASS_1;
 
@@ -256,6 +256,6 @@ ignore pos @afrcDenominators' @afrcDenominators;
 pos @afrcDenominators' lookup MARK_LKP_19;
 
 
-#mkmk
+#mkmk feature
 pos mark @afrcNumerators <anchor ${afrc*2} 0> mark @MARK_CLASS_0 <anchor 0 0> mark @MARK_CLASS_1;
 pos mark @afrcDenominators <anchor 0 0> mark @MARK_CLASS_0 <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
