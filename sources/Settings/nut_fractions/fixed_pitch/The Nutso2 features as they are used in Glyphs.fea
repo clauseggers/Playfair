@@ -1,4 +1,13 @@
-# afrc feature
+##### GROUPS #####
+@afrcFigures = [zero one two three four five six seven eight nine];
+@afrcNumerators =[zero.numr.afrc one.numr.afrc two.numr.afrc three.numr.afrc four.numr.afrc five.numr.afrc six.numr.afrc seven.numr.afrc eight.numr.afrc nine.numr.afrc];
+@afrcDenominators = [zero.dnom.afrc one.dnom.afrc two.dnom.afrc three.dnom.afrc four.dnom.afrc five.dnom.afrc six.dnom.afrc seven.dnom.afrc eight.dnom.afrc nine.dnom.afrc];
+@afrcFraction = [slash fraction];
+@afrcBars = [bar1.afrc bar2.afrc bar3.afrc bar4.afrc bar5.afrc bar6.afrc bar7.afrc bar8.afrc bar9.afrc bar10.afrc];
+
+
+##### FEATURES #####
+# AFRC feature
 lookup AFRC_LKP_5 {
 	sub zero.numr.afrc by fracinit zero.numr.afrc;
 	sub one.numr.afrc by fracinit one.numr.afrc;
@@ -11,7 +20,7 @@ lookup AFRC_LKP_5 {
 	sub eight.numr.afrc by fracinit eight.numr.afrc;
 	sub nine.numr.afrc by fracinit nine.numr.afrc;
 } AFRC_LKP_5;
-	
+
 lookup AFRC_LKP_0 {
 	sub @afrcFigures by @afrcNumerators;
 } AFRC_LKP_0;
@@ -58,50 +67,50 @@ lookup AFRC_LKP_3 {
 } AFRC_LKP_3;
 
 
-#kern feature
+#KERN feature
 lookupflag IgnoreMarks;
-pos @afrcFigures fracinit $afrc;
-pos @afrcBars @afrcFigures $afrc;
+pos @afrcFigures fracinit ${bar1.afrc:width/5};
+pos @afrcBars @afrcFigures ${bar1.afrc:width/5};
 
 
-#mark feature
+#MARK feature
 markClass @afrcNumerators <anchor 0 0> @MARK_CLASS_0;
 markClass @afrcDenominators <anchor 0 0> @MARK_CLASS_1;
 
 lookup MARK_LKP_1 {
-	pos base fracinit <anchor ${afrc*9} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*4,5} 0> mark @MARK_CLASS_0;
 } MARK_LKP_1;
 
 lookup MARK_LKP_2 {
-	pos base fracinit <anchor ${afrc*8} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*4} 0> mark @MARK_CLASS_0;
 } MARK_LKP_2;
 
 lookup MARK_LKP_3 {
-	pos base fracinit <anchor ${afrc*7} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*3,5} 0> mark @MARK_CLASS_0;
 } MARK_LKP_3;
 
 lookup MARK_LKP_4 {
-	pos base fracinit <anchor ${afrc*6} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*3} 0> mark @MARK_CLASS_0;
 } MARK_LKP_4;
 
 lookup MARK_LKP_5 {
-	pos base fracinit <anchor ${afrc*5} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_0;
 } MARK_LKP_5;
 
 lookup MARK_LKP_6 {
-	pos base fracinit <anchor ${afrc*4} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_0;
 } MARK_LKP_6;
 
 lookup MARK_LKP_7 {
-	pos base fracinit <anchor ${afrc*3} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_0;
 } MARK_LKP_7;
 
 lookup MARK_LKP_8 {
-	pos base fracinit <anchor ${afrc*2} 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_0;
 } MARK_LKP_8;
 
 lookup MARK_LKP_9 {
-	pos base fracinit <anchor $afrc 0> mark @MARK_CLASS_0;
+	pos base fracinit <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_0;
 } MARK_LKP_9;
 
 lookup MARK_LKP_10 {
@@ -110,83 +119,83 @@ lookup MARK_LKP_10 {
 
 lookup MARK_LKP_11 {
 	pos base bar9.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
 } MARK_LKP_11;
 
 lookup MARK_LKP_12 {
 	pos base bar8.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
 } MARK_LKP_12;
 
 lookup MARK_LKP_13 {
 	pos base bar7.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
 } MARK_LKP_13;
 
 lookup MARK_LKP_14 {
 	pos base bar6.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
 } MARK_LKP_14;
 
 lookup MARK_LKP_15 {
 	pos base bar5.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar6.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*5} 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_1;
 } MARK_LKP_15;
 
 lookup MARK_LKP_16 {
 	pos base bar4.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar5.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar6.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*5} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*6} 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*3} 0> mark @MARK_CLASS_1;
 } MARK_LKP_16;
 
 lookup MARK_LKP_17 {
 	pos base bar3.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar4.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar5.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar6.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*5} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*6} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*7} 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*3} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*3,5} 0> mark @MARK_CLASS_1;
 } MARK_LKP_17;
 
 lookup MARK_LKP_18 {
 	pos base bar2.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar3.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar4.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar5.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar6.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor ${afrc*5} 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*6} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*7} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*8} 0> mark @MARK_CLASS_1;
+	pos base bar3.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width*3} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*3,5} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*4} 0> mark @MARK_CLASS_1;
 } MARK_LKP_18;
 
 lookup MARK_LKP_19 {
 	pos base bar1.afrc <anchor 0 0> mark @MARK_CLASS_1;
-	pos base bar2.afrc <anchor $afrc 0> mark @MARK_CLASS_1;
-	pos base bar3.afrc <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
-	pos base bar4.afrc <anchor ${afrc*3} 0> mark @MARK_CLASS_1;
-	pos base bar5.afrc <anchor ${afrc*4} 0> mark @MARK_CLASS_1;
-	pos base bar6.afrc <anchor ${afrc*5} 0> mark @MARK_CLASS_1;
-	pos base bar7.afrc <anchor ${afrc*6} 0> mark @MARK_CLASS_1;
-	pos base bar8.afrc <anchor ${afrc*7} 0> mark @MARK_CLASS_1;
-	pos base bar9.afrc <anchor ${afrc*8} 0> mark @MARK_CLASS_1;
-	pos base bar10.afrc <anchor ${afrc*9} 0> mark @MARK_CLASS_1;
+	pos base bar2.afrc <anchor ${bar1.afrc:width/2} 0> mark @MARK_CLASS_1;
+	pos base bar3.afrc <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
+	pos base bar4.afrc <anchor ${bar1.afrc:width*1,5} 0> mark @MARK_CLASS_1;
+	pos base bar5.afrc <anchor ${bar1.afrc:width*2} 0> mark @MARK_CLASS_1;
+	pos base bar6.afrc <anchor ${bar1.afrc:width*2,5} 0> mark @MARK_CLASS_1;
+	pos base bar7.afrc <anchor ${bar1.afrc:width*3} 0> mark @MARK_CLASS_1;
+	pos base bar8.afrc <anchor ${bar1.afrc:width*3,5} 0> mark @MARK_CLASS_1;
+	pos base bar9.afrc <anchor ${bar1.afrc:width*4} 0> mark @MARK_CLASS_1;
+	pos base bar10.afrc <anchor ${bar1.afrc:width*4,5} 0> mark @MARK_CLASS_1;
 } MARK_LKP_19;
 
 pos @afrcNumerators' lookup MARK_LKP_1 @afrcBars @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators @afrcDenominators;
@@ -256,6 +265,6 @@ ignore pos @afrcDenominators' @afrcDenominators;
 pos @afrcDenominators' lookup MARK_LKP_19;
 
 
-#mkmk feature
-pos mark @afrcNumerators <anchor ${afrc*2} 0> mark @MARK_CLASS_0 <anchor 0 0> mark @MARK_CLASS_1;
-pos mark @afrcDenominators <anchor 0 0> mark @MARK_CLASS_0 <anchor ${afrc*2} 0> mark @MARK_CLASS_1;
+#MKMK feature
+pos mark @afrcNumerators <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_0 <anchor 0 0> mark @MARK_CLASS_1;
+pos mark @afrcDenominators <anchor 0 0> mark @MARK_CLASS_0 <anchor ${bar1.afrc:width} 0> mark @MARK_CLASS_1;
