@@ -1,0 +1,295 @@
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@FIGS = [zero one two three four five six seven eight nine];
+@NUMR = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+@DNOM = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+@FRAC = [slash fraction];
+@BARS = [bar1 bar2 bar3 bar4 bar5 bar6 bar7 bar8 bar9 bar10];
+
+
+#vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+lookup AFRC_LKP_5 {
+	sub zero.numr by fracinit zero.numr;
+	sub one.numr by fracinit one.numr;
+	sub two.numr by fracinit two.numr;
+	sub three.numr by fracinit three.numr;
+	sub four.numr by fracinit four.numr;
+	sub five.numr by fracinit five.numr;
+	sub six.numr by fracinit six.numr;
+	sub seven.numr by fracinit seven.numr;
+	sub eight.numr by fracinit eight.numr;
+	sub nine.numr by fracinit nine.numr;
+} AFRC_LKP_5;
+
+
+#--------------------------------------
+feature afrc {
+
+	lookup AFRC_LKP_0 {
+		sub @FIGS by @NUMR;
+	} AFRC_LKP_0;
+
+	lookup AFRC_LKP_1 {
+		sub [slash fraction @DNOM] @NUMR' by @DNOM;
+	} AFRC_LKP_1;
+
+	lookup AFRC_LKP_2 {
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar10 bar10];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM by [bar10 bar10];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar9 bar9];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM by [bar9 bar9];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar8 bar8];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM by [bar8 bar8];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar7 bar7];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM by [bar7 bar7];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar6 bar6];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM by [bar6 bar6];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar5 bar5];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM @DNOM by [bar5 bar5];
+	
+		sub @NUMR @NUMR @NUMR @NUMR @FRAC' by [bar4 bar4];
+		sub @FRAC' @DNOM @DNOM @DNOM @DNOM by [bar4 bar4];
+	
+		sub @NUMR @NUMR @NUMR @FRAC' by [bar3 bar3];
+		sub @FRAC' @DNOM @DNOM @DNOM by [bar3 bar3];
+	
+		sub @NUMR @NUMR @FRAC' by [bar2 bar2];
+		sub @FRAC' @DNOM @DNOM by [bar2 bar2];
+	
+		sub @NUMR @FRAC' by [bar1 bar1];
+		sub @FRAC' @DNOM by [bar1 bar1];
+	} AFRC_LKP_2;
+
+	lookup AFRC_LKP_3 {
+		ignore sub @NUMR @NUMR';
+		sub @NUMR' lookup AFRC_LKP_5;
+	} AFRC_LKP_3;
+
+} afrc;
+
+
+#--------------------------------------
+feature frac {
+	lookup AFRC_LKP_0;
+	lookup AFRC_LKP_1;
+	lookup AFRC_LKP_2;
+	lookup AFRC_LKP_3;
+} frac;
+
+
+#--------------------------------------
+feature kern {
+	lookupflag IgnoreMarks;
+	pos @FIGS fracinit 140;
+	pos @BARS @FIGS 140;
+} kern;
+
+
+#vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+markClass @NUMR <anchor 0 0> @MARK_CLASS_0;
+markClass @DNOM <anchor 0 0> @MARK_CLASS_1;
+
+lookup MARK_LKP_1 {
+	pos base fracinit <anchor 3150 0> mark @MARK_CLASS_0;
+} MARK_LKP_1;
+
+lookup MARK_LKP_2 {
+	pos base fracinit <anchor 2800 0> mark @MARK_CLASS_0;
+} MARK_LKP_2;
+
+lookup MARK_LKP_3 {
+	pos base fracinit <anchor 2450 0> mark @MARK_CLASS_0;
+} MARK_LKP_3;
+
+lookup MARK_LKP_4 {
+	pos base fracinit <anchor 2100 0> mark @MARK_CLASS_0;
+} MARK_LKP_4;
+
+lookup MARK_LKP_5 {
+	pos base fracinit <anchor 1750 0> mark @MARK_CLASS_0;
+} MARK_LKP_5;
+
+lookup MARK_LKP_6 {
+	pos base fracinit <anchor 1400 0> mark @MARK_CLASS_0;
+} MARK_LKP_6;
+
+lookup MARK_LKP_7 {
+	pos base fracinit <anchor 1050 0> mark @MARK_CLASS_0;
+} MARK_LKP_7;
+
+lookup MARK_LKP_8 {
+	pos base fracinit <anchor 700 0> mark @MARK_CLASS_0;
+} MARK_LKP_8;
+
+lookup MARK_LKP_9 {
+	pos base fracinit <anchor 350 0> mark @MARK_CLASS_0;
+} MARK_LKP_9;
+
+lookup MARK_LKP_10 {
+	pos base bar10 <anchor 0 0> mark @MARK_CLASS_1;
+} MARK_LKP_10;
+
+lookup MARK_LKP_11 {
+	pos base bar9 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 350 0> mark @MARK_CLASS_1;
+} MARK_LKP_11;
+
+lookup MARK_LKP_12 {
+	pos base bar8 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 700 0> mark @MARK_CLASS_1;
+} MARK_LKP_12;
+
+lookup MARK_LKP_13 {
+	pos base bar7 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 1050 0> mark @MARK_CLASS_1;
+} MARK_LKP_13;
+
+lookup MARK_LKP_14 {
+	pos base bar6 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 1400 0> mark @MARK_CLASS_1;
+} MARK_LKP_14;
+
+lookup MARK_LKP_15 {
+	pos base bar5 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar6 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 1750 0> mark @MARK_CLASS_1;
+} MARK_LKP_15;
+
+lookup MARK_LKP_16 {
+	pos base bar4 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar5 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar6 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 1750 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 2100 0> mark @MARK_CLASS_1;
+} MARK_LKP_16;
+
+lookup MARK_LKP_17 {
+	pos base bar3 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar4 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar5 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar6 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 1750 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 2100 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 2450 0> mark @MARK_CLASS_1;
+} MARK_LKP_17;
+
+lookup MARK_LKP_18 {
+	pos base bar2 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar3 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar4 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar5 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar6 <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 1750 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 2100 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 2450 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 2800 0> mark @MARK_CLASS_1;
+} MARK_LKP_18;
+
+lookup MARK_LKP_19 {
+	pos base bar1 <anchor 0 0> mark @MARK_CLASS_1;
+	pos base bar2 <anchor 350 0> mark @MARK_CLASS_1;
+	pos base bar3 <anchor 700 0> mark @MARK_CLASS_1;
+	pos base bar4 <anchor 1050 0> mark @MARK_CLASS_1;
+	pos base bar5 <anchor 1400 0> mark @MARK_CLASS_1;
+	pos base bar6 <anchor 1750 0> mark @MARK_CLASS_1;
+	pos base bar7 <anchor 2100 0> mark @MARK_CLASS_1;
+	pos base bar8 <anchor 2450 0> mark @MARK_CLASS_1;
+	pos base bar9 <anchor 2800 0> mark @MARK_CLASS_1;
+	pos base bar10 <anchor 3150 0> mark @MARK_CLASS_1;
+} MARK_LKP_19;
+
+
+#--------------------------------------
+feature mark {
+	pos @NUMR' lookup MARK_LKP_1 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_2 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_2 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_3 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_3 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_3 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_4 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_4 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_4 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_4 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_5 @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_5 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_5 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_5 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_5 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_6 @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_6 @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_6 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_6 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_6 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_6 @BARS @DNOM @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_7 @BARS @DNOM @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @NUMR @BARS @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_8 @BARS @DNOM @DNOM @DNOM;
+	
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @NUMR @BARS @DNOM @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @NUMR @BARS @DNOM @DNOM @DNOM;
+	pos @NUMR' lookup MARK_LKP_9 @BARS @DNOM @DNOM;
+
+	pos @DNOM' lookup MARK_LKP_10 @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_11 @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_12 @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_13 @DNOM @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_14 @DNOM @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_15 @DNOM @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_16 @DNOM @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_17 @DNOM @DNOM;
+	pos @DNOM' lookup MARK_LKP_18 @DNOM;
+	ignore pos @DNOM' @DNOM;
+	pos @DNOM' lookup MARK_LKP_19;
+} mark;
+
+
+#--------------------------------------
+feature mkmk {
+	pos mark @NUMR <anchor 700 0> mark @MARK_CLASS_0 <anchor 0 0> mark @MARK_CLASS_1;
+	pos mark @DNOM <anchor 0 0> mark @MARK_CLASS_0 <anchor 700 0> mark @MARK_CLASS_1;
+} mkmk;
