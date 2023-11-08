@@ -1,0 +1,405 @@
+html {
+  /* font-optical-sizing: auto; */
+  /* -webkit-font-smoothing: subpixel-antialiased;
+  /*
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  */
+  /*
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  */
+  text-rendering: geometricPrecision;
+  font-kerning: normal;
+}
+
+body,
+tbody {
+  font-family: "Playfair";
+  font-size: 1.1rem;
+  font-style: normal;
+  /* font-weight: 400;
+  font-stretch: normal;
+  font-optical-sizing: auto; */
+
+  line-height: 120%;
+  background-color: #ffffff;
+  color: #000000;
+
+  /* word-spacing: 0.02rem; */
+  font-variation-settings: "wght" 400, "wdth" 100, "opsz" 9;
+
+  /*
+  2rem = 32px with default font sizing
+  Optical size axis 'opsz' is defined in typographical points.
+  "font-optical-sizing: auto;" is broken in Firefox? Or in all the other browsers? Is it the font 'avar' table that is the source?
+  Conversions from REM to Points.
+  REM       Points
+  00.42     5 Agate
+  00.67     8 Caption
+  01.00    12 Text
+  01.75    21 Headline
+  04.01    48 Display
+  08.03    96 Hairline
+  10.00   120 Needlepoint
+  */
+
+  /* font-optical-sizing: auto; */
+
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  text-align: left;
+  height: 100%;
+
+  font-feature-settings: "kern"1, "rlig"1, "dlig"0, "rlig"1, "liga"1, "calt"1, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0, "ss14"0, "ss15"0;
+
+  hanging-punctuation: first allow-end last;
+}
+
+p,
+p.subheading+p {
+  text-indent: 0;
+  margin: 0;
+  hyphens: auto;
+}
+
+p+p.subheading {
+  margin-top: 1em;
+  text-indent: 0;
+}
+
+p+p {
+  text-indent: 2rem;
+  margin-top: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration-line: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.1rem;
+}
+
+/*
+#links a:hover::before {
+    content: "\2192";
+}
+
+#links a:hover::after {
+  content: "\2190";
+}
+*/
+
+#links {
+  font-style: italic;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "dlig"0, "ss01"0, "ss02"0, "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"1, "ss08"0, "ss09"1, "ss10"0, "ss11"0, "ss12"1, "ss13"1;
+
+  column-width: auto;
+  column-count: 3;
+
+  column-fill: balance-all;
+}
+
+em {
+  font-style: italic;
+  /* font-feature-settings: "kern"1, "rlig"1, "liga"1; */
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "dlig"0, "ss01"0, "ss02"0, "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"1, "ss08"0, "ss09"1, "ss10"0, "ss11"0, "ss12"1, "ss13"1;
+}
+
+strong {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+}
+
+.headline {
+  font-variation-settings: 'wght' 620, 'wdth' 100, 'opsz' 48;
+  /* font-variant-caps: all-small-caps; */
+  /* text-transform: uppercase; */
+  font-style: normal;
+  text-indent: 0;
+  font-size: 5rem;
+  line-height: 100%;
+  display: block;
+  margin-bottom: 4rem;
+  hyphens: none;
+  font-feature-settings: "kern"1, "rlig"1, "dlig"1, "liga"1, "calt"1, "ss01"1, "ss03"1, "ss04"1, "ss05"1, "ss06"1, "ss07"1, "ss08"1, "ss09"1, "ss10"1;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-feature-settings: "cpsp"1, "case"1, "lnum"1;
+}
+
+.abecedarium {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-indent: 0;
+}
+
+.agate,
+.agate td {
+  font-variation-settings: 'wght' 400, 'wdth' 113, 'opsz' 5.2;
+  font-size: 00.42rem;
+  line-height: 110%;
+}
+
+.agate em {
+  font-style: italic;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "ss01"0, "ss02"1, "ss03"1, "ss04"0, "ss05"0, "ss06"0, "ss07"1, "ss08"1, "ss10"1, "ss12"0, "ss13"1;
+}
+
+.agate strong,
+.agate .subheading {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 113, 'opsz' 5.2;
+  line-height: 110%;
+}
+
+.caption,
+.caption td {
+  font-variation-settings: 'wght' 400, 'wdth' 106, 'opsz' 7;
+  font-size: 00.67rem;
+  line-height: 110%;
+}
+
+.caption em {
+  font-style: italic;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "ss01"0, "ss02"1, "ss03"1, "ss04"0, "ss05"0, "ss06"0, "ss07"1, "ss08"1, "ss10"1, "ss12"0, "ss13"1;
+}
+
+.caption strong,
+.caption .subheading {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 106, 'opsz' 7;
+}
+
+.language {
+  font-size: 1.14rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+  text-align: center;
+  line-height: 100%;
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.language:before {
+  content: "\2192";
+}
+
+.language:after {
+  content: "\2190";
+}
+
+.trumpet {
+  font-size: 1.8rem;
+  font-variation-settings: 'wdth' 97, 'opsz' 24;
+  line-height: 130%;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "ss10"1, "calt"1;
+}
+
+.headline+.trumpet {
+  padding-top: 1.8rem;
+  text-indent: 0;
+}
+
+table td, table td * {
+    vertical-align: top;
+    border-spacing: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+table td {
+  padding-right: 1rem;
+}
+
+table td, table td * {
+    vertical-align: top;
+    border-spacing: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+table td {
+  padding-right: 1rem;
+}
+
+table.currency {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border: none;
+  text-indent: 0rem;
+  text-align: left;
+}
+.currency th {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+  text-align: left;
+  padding-right: 1rem;
+  background-color: rgba(230,230,230,1);
+
+}
+.currency th:nth-child(2) {
+  text-align: center;
+}
+.currency tr:nth-child(even) {
+  background-color: rgba(230,230,230,1);
+}
+
+.currency td:nth-child(1) {
+  text-align: left;
+  font-style: italic;
+}
+.currency td:nth-child(2) {
+  width: 1rem;
+  font-feature-settings: "ss11"1;
+  text-align: center;
+}
+.currency td:nth-child(3),
+.currency td:nth-child(6) {
+  font-feature-settings: "kern" 1, "rlig" 1, "liga" 1, "tnum" 1, "lnum" 0, "ss14" 0, "calt" 1;
+  width: 1rem;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.currency td:nth-child(4),
+.currency td:nth-child(7),
+.currency th:nth-child(4),
+.currency th:nth-child(7)  {
+  width: 0.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.currency td:nth-child(5),
+.currency td:nth-child(8) {
+  font-feature-settings: "kern" 1, "rlig" 1, "liga" 1, "tnum" 1, "lnum" 0, "ss14" 0, "calt" 1;
+  width: 3rem;
+  text-align: left;
+}
+
+table.shares {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+.shares th {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+  text-align: right;
+  background-color: rgba(230,230,230,1);
+}
+.shares th:nth-child(1) {
+  text-align: left;
+}
+.shares th:nth-child(2) {
+  text-align: center;
+}
+.shares tr:nth-child(even) {
+  background-color: rgba(230,230,230,1);
+}
+.shares td:nth-child(1) {
+  text-align: left;
+  font-style: italic;
+}
+.shares td:nth-child(2),
+.shares td:nth-child(3),
+.shares td:nth-child(4),
+.shares td:nth-child(5),
+.shares td:nth-child(6),
+.shares td:nth-child(7),
+.shares td:nth-child(8),
+.shares td:nth-child(9) {
+  font-feature-settings: "kern" 1, "rlig" 1, "liga" 1, "tnum" 1, "lnum" 1, "ss14" 0, "calt" 1;
+  width: 1rem;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  padding-left:1rem;
+}
+
+.year-list {
+  text-indent: -3rem;
+  text-indent: 3rem hanging each-line;
+}
+
+.subheading {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+}
+
+.subheading-sc {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'opsz' 9;
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1;
+}
+
+.smcp {
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
+}
+
+.smcp em {
+  font-style: italic;
+  font-feature-settings: "kern"1, "rlig"1, "smcp"1, "c2sc"1, "liga"1, "calt"1, "ss07"1;
+}
+
+.allcaps {
+  text-transform: uppercase;
+  font-feature-settings: "kern"1, "rlig"1, "liga"1, "calt"1, "cpsp"1;
+}
+
+.sinf {
+  font-feature-settings: "rlig"1, "sinf"1, "kern"1;
+}
+
+.sups {
+  font-feature-settings: "rlig"1, "sups"1, "kern"1;
+}
+
+.numr {
+  font-feature-settings: "rlig"1, "numr"1, "kern"1;
+}
+
+.dnom {
+  font-feature-settings: "rlig"1, "dnom"1, "kern"1;
+}
+
+.frac {
+  font-feature-settings: "rlig"1, "frac"1, "kern"1;
+}
+
+.lnum {
+  font-feature-settings: "rlig"1, "lnum"1, "case"1, "kern"1;
+}
+
+.column {
+float: left;
+width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
