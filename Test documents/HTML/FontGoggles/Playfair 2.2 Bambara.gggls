@@ -16,7 +16,9 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "cv01": true
+    },
     "varLocation": {
       "opsz": 14.359999656677246,
       "wght": 537.5680541992188,
@@ -44,7 +46,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
