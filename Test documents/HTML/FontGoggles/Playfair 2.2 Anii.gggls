@@ -8,7 +8,7 @@
     }
   ],
   "textSettings": {
-    "text": "ɔ̂lɔɩ̀ Ʊʊkǝʊɖŋǝ̂kʼʊtɩ ́ɖâfʊ̂rabɛrɛcs Pǝ̂rǝ Ʊyɛʊ aɖe tɩ kʼɩ na ta bɛrɛ",
+    "text": "ɔ̂lɔɩ̀ Ʊʊkǝʊɖŋǝ̂kʼʊtɩ ́ɖâfʊ̂rabɛrɛcs Pǝ̂rǝ Ʊyɛʊ aɖe tɩ kʼɩ na ta bɛrɛ fʊ̂ra gɩfɔlɩ Ɖooɖooɖo bʊja ajɩwa",
     "textFilePath": null,
     "textFileIndex": 0,
     "shouldApplyBiDi": true,
@@ -16,7 +16,9 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "cv01": true
+    },
     "varLocation": {
       "opsz": 14.399999618530273,
       "wght": 537.5680541992188,
@@ -44,7 +46,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
