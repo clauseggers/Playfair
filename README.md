@@ -1,5 +1,3 @@
-# Download the 2.100-RC-3 font binaries here https://github.com/clauseggers/Playfair/tree/5ce16a618c8952b896311f75294e10e3db5fc009/fonts
-
 ![**Playfair 2.1** banner](Images/Playfair2_1_banner.svg)
 <!---![**Playfair 2.1** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_1_banner.svg)--->
 
