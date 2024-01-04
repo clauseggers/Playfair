@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 
 def generate_gggls_template(language, iso_3, alphabet):
     template = {
@@ -47,6 +48,7 @@ def save_gggls_file(file_path, content):
 
 def main():
     input_csv_file = 'GF_SSA_alphabets.csv'  # Replace with the actual path to your CSV file
+    output_directory = 'FontGoggles'
 
     with open(input_csv_file, newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
@@ -55,11 +57,16 @@ def main():
                 language = row[0].strip()
                 iso_3 = row[2].strip()
                 alphabet = row[3].strip()  # Add this line
-
+                
                 gggls_template = generate_gggls_template(language, iso_3, alphabet)  # Update this line
-
-                filename = f"Playfair_2-2_{language}_{iso_3}.gggls"
-                save_gggls_file(filename, gggls_template)
+                
+                # Replace file-name spaces with underscores
+                filename = f"Playfair_2-2_{language.replace(' ', '_')}_{iso_3}.gggls"
+                
+                # Save the file in the FontGoggles directory
+                filepath = os.path.join(output_directory, filename)
+                save_gggls_file(filepath, gggls_template)
+                
                 print(f"Row {i}: File '{filename}' generated successfully.")
             except Exception as e:
                 print(f"Row {i}: Error processing row - {e}")
