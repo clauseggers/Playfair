@@ -1,8 +1,15 @@
 #!/bin/zsh
 
+# Exit if not on MacOS
+os=$(uname -s)
+if [ "$os" != "Darwin" ]; then
+  echo "This script requires FontGoggles witch is only available for MacOS"
+  exit 0
+fi
+
 # Check if the user provided a four-character argument with only letters and numbers
 if [[ $# -ne 1 || ${#1} -ne 4 || ! "$1" =~ ^[[:alnum:]]+$ ]]; then
-  echo "Usage: $0 <four-character>"
+  echo "Pass a four character Unicode hex value to this script as an argument."
   exit 1
 fi
 
