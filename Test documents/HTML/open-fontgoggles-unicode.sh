@@ -3,7 +3,7 @@
 # Exit if not on MacOS
 os=$(uname -s)
 if [ "$os" != "Darwin" ]; then
-  echo "This script requires FontGoggles witch is only available for MacOS"
+  echo "This script requires FontGoggles which is only available for MacOS"
   exit 0
 fi
 
