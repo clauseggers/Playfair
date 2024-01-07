@@ -17,7 +17,6 @@ fi
 search_term=$1
 
 # Search for files in child directories with the provided argument using ripgrep
-#files=$(rg "\\\u$search_term" --glob '*.gggls' --null | awk -v RS='\0' '{print $1}')
 files=$(find . -type f -name "*.gggls" -exec rg -l --null "$search_term" {} + | tr '\n' '\0')
 
 # Check if any matching files were found
