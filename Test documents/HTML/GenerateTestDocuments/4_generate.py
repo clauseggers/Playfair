@@ -56,7 +56,7 @@ with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
             .replace('%CORPUS%', corpus)
 
         # Write the HTML content to a new file
-        output_file_path = os.path.join(output_dir, f"{iso_639_3}_Playfair_2-2_test_document.html")
+        output_file_path = os.path.join(output_dir, f"{iso_639_3}_{language_long_name.replace(' ', '_')}_Playfair_2-2_test_document.html")
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
             output_file.write(html_content)
 
