@@ -1,0 +1,55 @@
+html {
+  text-rendering: geometricPrecision;
+  font-kerning: normal;
+}
+
+body {
+  font-family: "Playfair";
+  font-size: 1.1rem;
+  font-style: normal;
+  line-height: 120%;
+  background-color: #ffffff;
+  color: #000000;
+
+  font-variation-settings: "wght" 400, "wdth" 100, "opsz" 9;
+
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  text-align: left;
+  height: 100%;
+
+  font-feature-settings: "calt"1, "kern"1, "rlig"1, "dlig"0, "liga"1, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0, "ss14"0, "ss15"0;
+
+  hanging-punctuation: first allow-end last;
+}
+
+p {
+  text-indent: 0;
+  margin: 0;
+  hyphens: auto;
+}
+
+em {
+  font-style: italic;
+  font-feature-settings: "calt"1, "kern"1, "rlig"1, "dlig"0, "liga"1, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0, "ss14"0, "ss15"0;
+}
+
+.headline {
+  font-variation-settings: 'wght' 620, 'wdth' 100, 'opsz' 48;
+  font-style: normal;
+  text-indent: 0;
+  font-size: 5rem;
+  line-height: 100%;
+  display: block;
+  margin-bottom: 4rem;
+  hyphens: none;
+  font-feature-settings: "calt"1, "kern"1, "rlig"1, "dlig"0, "liga"1, "ss01"0, "ss02"0,  "ss03"0, "ss04"0, "ss05"0, "ss06"0, "ss07"0, "ss08"0, "ss09"0, "ss10"0, "ss11"0, "ss12"0, "ss13"0, "ss14"0, "ss15"0;
+}
+
+.abecedarium {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-indent: 0;
+}
