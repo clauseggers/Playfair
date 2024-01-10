@@ -27,5 +27,5 @@ def process_files_in_directory(directory):
 if __name__ == "__main__":
     # Replace 'your_directory_path' with the actual path to your directory containing the txt files
     directory_path = 'ssa_languages'
-    
+
     process_files_in_directory(directory_path)

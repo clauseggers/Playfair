@@ -27,6 +27,6 @@ def process_files(directory_path):
 if __name__ == "__main__":
     # Replace 'your_directory_path' with the path to your directory containing TXT files
     your_directory_path = 'ssa_languages'
-    
+
     process_files(your_directory_path)
     print("Header removal complete.")
