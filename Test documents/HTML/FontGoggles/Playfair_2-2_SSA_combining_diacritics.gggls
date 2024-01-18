@@ -20,15 +20,12 @@
     "shouldApplyBiDi": true,
     "direction": null,
     "script": "latn",
-    "language": "NSM ",
+    "language": null,
     "alignment": null,
-    "features": {
-      "cv01": true
-    },
+    "features": {},
     "varLocation": {
       "opsz": 12.314756393432617,
-      "wght": 484.8880615234375,
-      "wdth": 103.46995544433594
+      "wght": 484.8880615234375
     },
     "relativeFontSize": 0.7,
     "relativeHBaseline": 0.25,
@@ -38,8 +35,8 @@
   },
   "uiSettings": {
     "windowPosition": [
-      156.0,
-      256.0,
+      110.0,
+      82.0,
       2335.0,
       815.0
     ],
@@ -47,7 +44,7 @@
     "fontListShowFontFileName": true,
     "characterListVisible": false,
     "characterListSize": 98.0,
-    "glyphListVisible": false,
+    "glyphListVisible": true,
     "glyphListSize": 226.0,
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
