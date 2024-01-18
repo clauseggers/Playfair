@@ -48,7 +48,7 @@ def save_gggls_file(file_path, content):
 
 def main():
     input_csv_file = 'GF_SSA_alphabets.csv'  # Replace with the actual path to your CSV file
-    output_directory = 'FontGoggles'
+    output_directory = 'FontGogglesSSA'
 
     with open(input_csv_file, newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
