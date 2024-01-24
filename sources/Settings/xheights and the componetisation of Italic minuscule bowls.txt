@@ -1,0 +1,7 @@
+xheights and the componetisation of Italic minuscule bowls. In order to flip and mirror bowls the ‘stem’ and ‘#entry’/‘#exit’ anchors must be placed exactly midway between the baseline and the xheight. This enables the use of the bowls directly in glyphs where they must be flipped and mirrored, while still being able to access the ‘Smart’ properties.
+
+Normal xheight 512
+Half xheight 256
+
+Black xheight 520
+Half xheight 260
