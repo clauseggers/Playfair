@@ -16,7 +16,9 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "cv01": true
+    },
     "varLocation": {
       "opsz": 15.707453727722168,
       "wght": 661.053466796875,
@@ -30,10 +32,10 @@
   },
   "uiSettings": {
     "windowPosition": [
-      701.0,
-      242.0,
+      774.0,
+      288.0,
       1242.0,
-      951.0
+      884.0
     ],
     "fontListItemSize": 378,
     "fontListShowFontFileName": true,
@@ -44,7 +46,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
