@@ -8,7 +8,7 @@
     }
   ],
   "textSettings": {
-    "text": "fi fl ffi ffl fh ffh fk ffk fj ffj fü ffü fä ffä fï ffï ſi ſſi ſſi fſ ſf ",
+    "text": "The fi fl ffi ffl fh ffh fk ffk fj ffj fü ffü fä ffä fï ffï ſi ſſi ſſi fſ ſf ",
     "textFilePath": null,
     "textFileIndex": 0,
     "shouldApplyBiDi": true,
@@ -16,7 +16,9 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "ss10": true
+    },
     "varLocation": {
       "opsz": 12.0,
       "wght": 446.99542236328125,
@@ -44,7 +46,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
