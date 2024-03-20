@@ -1,0 +1,50 @@
+{
+  "fonts": [
+    {
+      "path": "../PlayfairRomanVF.woff2"
+    },
+    {
+      "path": "../PlayfairItalicVF.woff2"
+    }
+  ],
+  "textSettings": {
+    "text": "a᷇a᷅a᷄a᷆",
+    "textFilePath": null,
+    "textFileIndex": 0,
+    "shouldApplyBiDi": true,
+    "direction": null,
+    "script": "latn",
+    "language": "MUH",
+    "alignment": null,
+    "features": {},
+    "varLocation": {
+      "opsz": 12.0,
+      "wght": 447.0,
+      "wdth": 100.0
+    },
+    "relativeFontSize": 0.7,
+    "relativeHBaseline": 0.25,
+    "relativeVBaseline": 0.5,
+    "relativeMargin": 0.1,
+    "enableColor": true
+  },
+  "uiSettings": {
+    "windowPosition": [
+      403.0,
+      515.0,
+      1743.0,
+      540.0
+    ],
+    "fontListItemSize": 189,
+    "fontListShowFontFileName": true,
+    "characterListVisible": false,
+    "characterListSize": 575.5,
+    "glyphListVisible": false,
+    "glyphListSize": 226.0,
+    "compileOutputVisible": false,
+    "compileOutputSize": 80.0,
+    "formattingOptionsVisible": true,
+    "feaVarTabSelection": "variations",
+    "showHiddenAxes": false
+  }
+}
