@@ -17,7 +17,11 @@
     "language": null,
     "alignment": null,
     "features": {},
-    "varLocation": {},
+    "varLocation": {
+      "opsz": 8.0,
+      "wght": 450.0,
+      "wdth": 100.0
+    },
     "relativeFontSize": 0.7,
     "relativeHBaseline": 0.25,
     "relativeVBaseline": 0.5,
@@ -40,7 +44,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "features",
+    "feaVarTabSelection": "variations",
     "showHiddenAxes": false
   }
 }
