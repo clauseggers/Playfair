@@ -1,6 +1,16 @@
 ![**Playfair 2.1** banner](Images/Playfair2_1_banner.svg)
 <!---![**Playfair 2.1** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_1_banner.svg)--->
 
+I have prepared a number of specimen pages that shows Playfair in context.  
+[A sample of the many combinations of axes and other font features available](https://playfair2.forthehearts.net/Playfair2_Words.html)  
+[A dictionary​​​​​​](https://playfair2.forthehearts.net/Playfair2_Dictionary.html)  
+[A newspaper](https://playfair2.forthehearts.net/Playfair2_Newspaper.html)  
+[A stage play](https://playfair2.forthehearts.net/Playfair2_Play.html)  
+[A scientific paper](https://playfair2.forthehearts.net/Playfair2_Scientific_paper_ENG.html)  
+[Legislation](https://playfair2.forthehearts.net/Playfair2_Legal_FAO.html)  
+[The entirety of Darwin’s ‘On the Origin of Species’](https://playfair2.forthehearts.net/Playfair2_Origin_of_Species.html)  
+[The Open Font License agreement](https://playfair2.forthehearts.net/Playfair2_License.html)  
+
 **Playfair 2.1** extends and improves on Playfair Display. Playfair 2.1 is now a three axes variable font. This means that you, the designer, can choose any combination of width, weight, and optical size contained within these design extrema.
 
 **Playfair 2.1** is well suited for general purpose typesetting. It has an extra large x-height and short des­cend­ers. Because it is now a *variable font,* you the designer can seamlessly interpolate Playfair in three dimensions:
