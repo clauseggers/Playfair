@@ -18,10 +18,13 @@
     "alignment": null,
     "features": {
       "ss10": true,
-      "calt": true
+      "calt": true,
+      "liga": true
     },
     "varLocation": {
-      "wght": 694.78173828125
+      "opsz": 12.0,
+      "wght": 440.0,
+      "wdth": 100.0
     },
     "relativeFontSize": 0.7,
     "relativeHBaseline": 0.25,
@@ -40,12 +43,12 @@
     "fontListShowFontFileName": true,
     "characterListVisible": false,
     "characterListSize": 98.0,
-    "glyphListVisible": true,
+    "glyphListVisible": false,
     "glyphListSize": 226.0,
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
