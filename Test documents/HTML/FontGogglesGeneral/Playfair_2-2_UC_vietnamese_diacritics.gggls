@@ -21,14 +21,13 @@
       "kern": true,
       "calt": true,
       "mark": true,
-      "mkmk": true
+      "mkmk": true,
+      "c2sc": false
     },
     "varLocation": {
-      "opsz": 12.0,
-      "wght": 440.0,
-      "wdth": 100.0
+      "wght": 900.0
     },
-    "relativeFontSize": 0.847974624633789,
+    "relativeFontSize": 0.7614733123779297,
     "relativeHBaseline": 0.25,
     "relativeVBaseline": 0.5,
     "relativeMargin": 0.1,
@@ -36,12 +35,12 @@
   },
   "uiSettings": {
     "windowPosition": [
-      140.0,
-      217.0,
+      130.0,
+      113.0,
       2176.0,
       674.0
     ],
-    "fontListItemSize": 150,
+    "fontListItemSize": 189,
     "fontListShowFontFileName": true,
     "characterListVisible": false,
     "characterListSize": 557.5,
@@ -50,7 +49,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
