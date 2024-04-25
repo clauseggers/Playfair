@@ -17,11 +17,9 @@
     "language": null,
     "alignment": null,
     "features": {
-      "smcp": false,
-      "c2sc": false
+      "c2sc": true
     },
     "varLocation": {
-      "opsz": 12.0,
       "wght": 440.0,
       "wdth": 100.0
     },
@@ -33,21 +31,21 @@
   },
   "uiSettings": {
     "windowPosition": [
-      508.0,
-      143.0,
-      1461.0,
-      657.0
+      2663.0,
+      267.0,
+      2176.0,
+      1000.0
     ],
-    "fontListItemSize": 150,
+    "fontListItemSize": 378,
     "fontListShowFontFileName": true,
     "characterListVisible": false,
     "characterListSize": 98.0,
-    "glyphListVisible": true,
+    "glyphListVisible": false,
     "glyphListSize": 353.0,
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "features",
+    "feaVarTabSelection": "variations",
     "showHiddenAxes": false
   }
 }
