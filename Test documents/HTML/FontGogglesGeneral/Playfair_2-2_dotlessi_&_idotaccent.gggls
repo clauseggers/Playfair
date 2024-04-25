@@ -16,7 +16,10 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "smcp": false,
+      "c2sc": false
+    },
     "varLocation": {
       "opsz": 12.0,
       "wght": 440.0,
@@ -30,9 +33,9 @@
   },
   "uiSettings": {
     "windowPosition": [
-      495.0,
-      131.0,
-      1581.0,
+      508.0,
+      143.0,
+      1461.0,
       657.0
     ],
     "fontListItemSize": 150,
@@ -40,7 +43,7 @@
     "characterListVisible": false,
     "characterListSize": 98.0,
     "glyphListVisible": true,
-    "glyphListSize": 226.0,
+    "glyphListSize": 353.0,
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
