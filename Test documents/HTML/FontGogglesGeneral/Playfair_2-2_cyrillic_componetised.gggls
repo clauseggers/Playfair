@@ -8,15 +8,17 @@
     }
   ],
   "textSettings": {
-    "text": "ДЛЏЦЩШПНҢӉИГҐЮЉЊѢЬЪЫФУЖҖКЌҚнңӊпцщшџигыъючмютгґувфлљњьъѣяүжҗѫкқќ",
+    "text": "ДЛЏЦЩШПНҢӉИГҐЮЉЊѢЬЪЫФУЖҖКЌҚЋЂнңӊпцщшџигыъючмютгґувфлљњьъѣяүжҗѫкқќ",
     "textFilePath": null,
     "textFileIndex": 0,
     "shouldApplyBiDi": true,
     "direction": null,
     "script": "cyrl",
-    "language": "BGR ",
+    "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "c2sc": false
+    },
     "varLocation": {
       "opsz": 6.756503582000732,
       "wght": 900.0,
@@ -44,7 +46,7 @@
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }
