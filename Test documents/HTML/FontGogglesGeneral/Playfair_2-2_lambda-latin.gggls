@@ -16,10 +16,12 @@
     "script": null,
     "language": null,
     "alignment": null,
-    "features": {},
+    "features": {
+      "smcp": false,
+      "c2sc": false
+    },
     "varLocation": {
-      "wght": 891.6386108398438,
-      "wdth": 101.59586334228516
+      "wght": 843.5035400390625
     },
     "relativeFontSize": 0.7,
     "relativeHBaseline": 0.25,
@@ -29,9 +31,9 @@
   },
   "uiSettings": {
     "windowPosition": [
-      145.0,
-      209.0,
-      2335.0,
+      649.0,
+      246.0,
+      1485.0,
       500.0
     ],
     "fontListItemSize": 150,
