@@ -33,11 +33,12 @@ pos = (577,0);
 ref = _2ndTittle;
 },
 {
-pos = (-243,0);
+anchor = "^exit";
+pos = (305,0);
 ref = a;
 }
 );
-width = 331;
+width = 849;
 },
 {
 layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
@@ -68,11 +69,12 @@ pos = (669,0);
 ref = _2ndTittle;
 },
 {
-pos = (-298,0);
+anchor = "^exit";
+pos = (369,0);
 ref = a;
 }
 );
-width = 390;
+width = 1019;
 },
 {
 layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
@@ -88,7 +90,8 @@ ref = "_part.LC-baseline-stroke";
 },
 {
 piece = {
-Wide = 167.73019;
+Narrow = 0;
+Wide = 200;
 };
 pos = (3,0);
 ref = "_part.LC-ascender-left-side-hook";
@@ -98,15 +101,16 @@ pos = (-13,0);
 ref = "_part.LC-f-bar";
 },
 {
-pos = (596,0);
+pos = (645,0);
 ref = _2ndTittle;
 },
 {
-pos = (-250,0);
+anchor = "^exit";
+pos = (355,0);
 ref = a;
 }
 );
-width = 336;
+width = 938;
 },
 {
 layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
@@ -123,7 +127,7 @@ ref = "_part.LC-baseline-stroke";
 {
 piece = {
 Narrow = 0;
-Wide = 187.42636;
+Wide = 200;
 };
 pos = (5,0);
 ref = "_part.LC-ascender-left-side-hook";
@@ -133,15 +137,16 @@ pos = (-7,0);
 ref = "_part.LC-f-bar";
 },
 {
-pos = (703,0);
+pos = (718,0);
 ref = _2ndTittle;
 },
 {
-pos = (-277,0);
+anchor = "^exit";
+pos = (413,0);
 ref = a;
 }
 );
-width = 409;
+width = 1078;
 },
 {
 layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
@@ -172,11 +177,12 @@ pos = (700,0);
 ref = _2ndTittle;
 },
 {
-pos = (-205,0);
+anchor = "^exit";
+pos = (422,0);
 ref = a;
 }
 );
-width = 492;
+width = 1069;
 },
 {
 layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
@@ -207,11 +213,12 @@ pos = (885,0);
 ref = _2ndTittle;
 },
 {
-pos = (-287,0);
+anchor = "^exit";
+pos = (510,0);
 ref = a;
 }
 );
-width = 594;
+width = 1323;
 },
 {
 layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
@@ -242,11 +249,12 @@ pos = (674,0);
 ref = _2ndTittle;
 },
 {
-pos = (-219,0);
+anchor = "^exit";
+pos = (399,0);
 ref = a;
 }
 );
-width = 426;
+width = 1011;
 },
 {
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
@@ -277,11 +285,12 @@ pos = (799,0);
 ref = _2ndTittle;
 },
 {
-pos = (-265,0);
+anchor = "^exit";
+pos = (480,0);
 ref = a;
 }
 );
-width = 497;
+width = 1197;
 }
 );
 metricLeft = f;
