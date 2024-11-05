@@ -5,6 +5,12 @@ kernLeft = KO_f;
 kernRight = KO_f;
 layers = (
 {
+anchors = (
+{
+name = "#exit";
+pos = (280,0);
+}
+);
 background = {
 anchors = (
 {
@@ -98,6 +104,12 @@ ref = "_LC-tail-descender";
 width = 351;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (350,0);
+}
+);
 background = {
 anchors = (
 {
@@ -231,6 +243,12 @@ ref = "_LC-tail-descender";
 width = 421;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (340,0);
+}
+);
 background = {
 anchors = (
 {
@@ -340,6 +358,12 @@ ref = "_LC-tail-descender";
 width = 407;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (300,0);
+}
+);
 background = {
 anchors = (
 {
@@ -449,6 +473,12 @@ ref = "_LC-tail-descender";
 width = 365;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (410,0);
+}
+);
 background = {
 anchors = (
 {
@@ -566,6 +596,12 @@ ref = "_LC-tail-descender";
 width = 477;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (450,0);
+}
+);
 background = {
 anchors = (
 {
@@ -699,6 +735,12 @@ ref = "_LC-tail-descender";
 width = 521;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (380,0);
+}
+);
 background = {
 anchors = (
 {
@@ -808,6 +850,12 @@ ref = "_LC-tail-descender";
 width = 454;
 },
 {
+anchors = (
+{
+name = "#exit";
+pos = (533,0);
+}
+);
 background = {
 anchors = (
 {
