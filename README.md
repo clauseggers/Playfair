@@ -77,4 +77,4 @@ Abaza, Belarusian, Bulgarian, Chinese Buriat, Crimean Tatar, Dungan, Erzya, Halh
 ![**Playfair 2.2** animation](Images/Playfair2_n-n.svg)
 <!---![**Playfair 2.2** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_n-n.svg)--->
 
-**Playfair 2.2** is designed by **[Claus Eggers Sørensen](http://forthehearts.net/)** in 2005–2024, and is published under the [SIL Open Font License Version 1.1](https://github.com/clauseggers/Playfair-Display/blob/master/OFL.txt).
+**The Playfair typeface** was designed by **[Claus Eggers Sørensen](http://forthehearts.net/)** in 2005–2024, and is published under the [SIL Open Font License Version 1.1](https://github.com/clauseggers/Playfair-Display/blob/master/OFL.txt).
