@@ -1,5 +1,3 @@
-# Download the 2.100-RC-3 font binaries here https://github.com/clauseggers/Playfair/tree/5ce16a618c8952b896311f75294e10e3db5fc009/fonts
-
 ![**Playfair 2.1** banner](Images/Playfair2_1_banner.svg)
 <!---![**Playfair 2.1** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_1_banner.svg)--->
 
@@ -26,7 +24,7 @@ I have prepared a number of specimen pages that shows Playfair in context.
 ![**Playfair 2.1** animation](Images/Playfair2_a-z.svg)
 <!---![**Playfair 2.1** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_a-z.svg)--->
 
-The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the the horizontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
+The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the horizontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
 
 The **weight** axis adds a second dimension by allowing you to seamlessly change from a light regular to a dark black.
 
