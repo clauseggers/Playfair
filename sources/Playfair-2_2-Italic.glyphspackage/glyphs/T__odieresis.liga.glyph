@@ -1,0 +1,243 @@
+{
+color = 5;
+glyphname = T_odieresis.liga;
+kernLeft = KO_T;
+kernRight = KO_T_odieresis.liga;
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (532,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (545,0);
+ref = o;
+},
+{
+pos = (547,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (529,-8);
+ref = o;
+}
+);
+width = 1023;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (581,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (519,0);
+ref = o;
+},
+{
+alignment = -1;
+pos = (523,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (549,0);
+ref = o;
+}
+);
+width = 1131;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (619,0);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (653,0);
+ref = o;
+}
+);
+width = 1231;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (571,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (545,0);
+ref = o;
+},
+{
+pos = (573,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (571,0);
+ref = o;
+}
+);
+width = 1159;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (684,0);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (673,0);
+ref = o;
+}
+);
+width = 1351;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (641,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (521,0);
+ref = o;
+},
+{
+alignment = -1;
+pos = (525,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (631,0);
+ref = o;
+}
+);
+width = 1273;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (706,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (545,0);
+ref = o;
+},
+{
+pos = (573,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (701,0);
+ref = o;
+}
+);
+width = 1401;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (796,0);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (521,0);
+ref = o;
+},
+{
+alignment = -1;
+pos = (525,0);
+ref = dieresiscomb;
+}
+);
+};
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (811,0);
+ref = o;
+}
+);
+width = 1596;
+}
+);
+metricLeft = T;
+metricRight = odieresis;
+}

@@ -1,0 +1,158 @@
+{
+glyphname = omacrongrave.smcp;
+kernLeft = KO_o.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (98,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (101,52);
+ref = gravecomb.case;
+}
+);
+width = 750;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (132,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (114,52);
+ref = gravecomb.case;
+}
+);
+width = 880;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (86,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (128,52);
+ref = gravecomb.case;
+}
+);
+width = 824;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (125,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (167,52);
+ref = gravecomb.case;
+}
+);
+width = 1009;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (117,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (112,52);
+ref = gravecomb.case;
+}
+);
+width = 790;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (164,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (144,52);
+ref = gravecomb.case;
+}
+);
+width = 985;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (87,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (97,52);
+ref = gravecomb.case;
+}
+);
+width = 809;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = o.smcp;
+},
+{
+anchor = top_low_1;
+pos = (146,-120);
+ref = macroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (144,52);
+ref = gravecomb.case;
+}
+);
+width = 1036;
+}
+);
+}

@@ -1,0 +1,230 @@
+{
+color = 8;
+glyphname = ringcomb.smcp;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (133,608);
+},
+{
+name = top;
+pos = (133,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (133,643);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 266;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (165,608);
+},
+{
+name = top;
+pos = (165,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (165,643);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 329;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (191,608);
+},
+{
+name = top;
+pos = (191,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (191,643);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 361;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (146,608);
+},
+{
+name = top;
+pos = (146,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (146,643);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 293;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (163,608);
+},
+{
+name = top;
+pos = (163,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (163,643);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (136,608);
+},
+{
+name = top;
+pos = (136,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (136,643);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 272;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (186,608);
+},
+{
+name = top;
+pos = (186,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (186,643);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 353;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (197,608);
+},
+{
+name = top;
+pos = (197,828);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (197,643);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = ringcomb.case;
+}
+);
+width = 373;
+}
+);
+metricLeft = ringcomb;
+metricRight = ringcomb;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

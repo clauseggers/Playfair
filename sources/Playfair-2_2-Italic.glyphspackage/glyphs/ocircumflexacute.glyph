@@ -1,0 +1,161 @@
+{
+color = 5;
+glyphname = ocircumflexacute;
+kernLeft = "KO_io-cy";
+kernRight = KO_odieresis;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (51,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (302,160);
+ref = acutecomb.viet;
+}
+);
+width = 494;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (66,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (353,160);
+ref = acutecomb.viet;
+}
+);
+width = 582;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (56,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (340,160);
+ref = acutecomb.viet;
+}
+);
+width = 578;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (61,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (341,160);
+ref = acutecomb.viet;
+}
+);
+width = 588;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (97,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (416,160);
+ref = acutecomb.viet;
+}
+);
+width = 678;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (61,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (380,160);
+ref = acutecomb.viet;
+}
+);
+width = 642;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (79,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (417,160);
+ref = acutecomb.viet;
+}
+);
+width = 700;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = o;
+},
+{
+anchor = top;
+pos = (96,0);
+ref = _circumflexcomb.viet.narrow;
+},
+{
+anchor = right;
+pos = (459,160);
+ref = acutecomb.viet;
+}
+);
+width = 785;
+}
+);
+unicode = 7889;
+}

@@ -1,0 +1,180 @@
+{
+color = 5;
+glyphname = questiondown.smcp;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (513,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (514,608);
+ref = question.smcp;
+}
+);
+width = 487;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (516,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (516,608);
+ref = question.smcp;
+}
+);
+width = 489;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (618,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (619,608);
+ref = question.smcp;
+}
+);
+width = 592;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (553,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (554,608);
+ref = question.smcp;
+}
+);
+width = 529;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (620,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (620,608);
+ref = question.smcp;
+}
+);
+width = 593;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (618,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (618,608);
+ref = question.smcp;
+}
+);
+width = 593;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (731,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (731,608);
+ref = question.smcp;
+}
+);
+width = 706;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (736,608);
+ref = question.smcp;
+}
+);
+};
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (736,608);
+ref = question.smcp;
+}
+);
+width = 711;
+}
+);
+metricLeft = "=|question.smcp";
+metricRight = "=|question.smcp";
+userData = {
+KernOnSpecialSpacing = {
+};
+};
+}

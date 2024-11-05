@@ -1,0 +1,152 @@
+{
+color = 5;
+glyphname = dong;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (121,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (266,368);
+ref = strokeshortcomb;
+}
+);
+width = 535;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (160,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (266,349);
+ref = strokeshortcomb;
+}
+);
+width = 645;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (149,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (297,368);
+ref = strokeshortcomb;
+}
+);
+width = 631;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (131,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (284,368);
+ref = strokeshortcomb;
+}
+);
+width = 604;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (182,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (283,349);
+ref = strokeshortcomb;
+}
+);
+width = 747;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (169,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (299,349);
+ref = strokeshortcomb;
+}
+);
+width = 745;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (181,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (277,368);
+ref = strokeshortcomb;
+}
+);
+width = 737;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "d-lowered";
+},
+{
+pos = (218,0);
+ref = macronbelowcomb;
+},
+{
+anchor = barRight;
+pos = (358,349);
+ref = strokeshortcomb;
+}
+);
+width = 897;
+}
+);
+note = "Switch to the lowered version in small opticals.";
+unicode = 8363;
+}

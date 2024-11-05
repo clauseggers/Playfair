@@ -1,0 +1,127 @@
+{
+color = 5;
+glyphname = "yeru-cy.smcp";
+kernLeft = KO_e.smcp;
+kernRight = KO_i.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (563,0);
+ref = i.smcp;
+}
+);
+width = 899;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (634,0);
+ref = i.smcp;
+}
+);
+width = 1151;
+},
+{
+background = {
+shapes = (
+{
+pos = (6,0);
+ref = "softsign-cy.smcp";
+},
+{
+pos = (731,0);
+ref = i.smcp;
+}
+);
+};
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (662,-1);
+ref = i.smcp;
+}
+);
+width = 1060;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (674,0);
+ref = i.smcp;
+}
+);
+width = 1094;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (728,0);
+ref = i.smcp;
+}
+);
+width = 1335;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (711,0);
+ref = i.smcp;
+}
+);
+width = 1178;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (804,0);
+ref = i.smcp;
+}
+);
+width = 1290;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "softsign-cy.smcp";
+},
+{
+pos = (863,0);
+ref = i.smcp;
+}
+);
+width = 1456;
+}
+);
+metricLeft = i.smcp;
+metricRight = i.smcp;
+note = "Spacing too wide. Have to eventually unlock fixed position and set manually.";
+}

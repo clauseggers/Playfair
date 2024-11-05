@@ -1,0 +1,515 @@
+{
+color = 5;
+glyphname = "longs-fina.ligature";
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (-3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-5,0);
+ref = _longsbar;
+}
+);
+width = 331;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (8,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (6,0);
+ref = _longsbar;
+}
+);
+width = 492;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (10,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (20,0);
+ref = _longsbar;
+}
+);
+width = 594;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = _longsbar;
+}
+);
+width = 336;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (5,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-7,0);
+ref = _longsbar;
+}
+);
+width = 409;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (9,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (1,0);
+ref = _longsbar;
+}
+);
+width = 390;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = _longsbar;
+}
+);
+width = 426;
+},
+{
+guides = (
+{
+angle = 90;
+pos = (91,0);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (6,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-3,0);
+ref = _longsbar;
+}
+);
+width = 497;
+},
+{
+associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "E9ECD8AE-83A8-437E-9104-D9976681D0F5";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (-3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-5,0);
+ref = _longsbar;
+}
+);
+width = 331;
+},
+{
+associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "3F7EBB5D-9E27-418B-A18C-DC7EBD64503E";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (9,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (1,0);
+ref = _longsbar;
+}
+);
+width = 390;
+},
+{
+associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "BF028195-1D37-413E-B7C9-BAEB313E2098";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = _longsbar;
+}
+);
+width = 336;
+},
+{
+associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "8FC9435A-77DE-4263-83AF-6C1CE0584EEA";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (5,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-7,0);
+ref = _longsbar;
+}
+);
+width = 409;
+},
+{
+associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "F312AA24-47B5-4EAF-922B-9AE4958ECCBE";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (8,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (6,0);
+ref = _longsbar;
+}
+);
+width = 492;
+},
+{
+associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "51556394-E88D-44E8-B2FD-CE905393CEE9";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (10,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (20,0);
+ref = _longsbar;
+}
+);
+width = 594;
+},
+{
+associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "BFE40DF8-7DC5-4500-ABC8-BAFC9A344448";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = _longsbar;
+}
+);
+width = 426;
+},
+{
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+guides = (
+{
+angle = 90;
+pos = (81,0);
+}
+);
+layerId = "86BD73A9-2786-4E38-A090-68333E5E1DD5";
+name = "6 Feb 24 at 11:01";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Wide = 100;
+};
+pos = (6,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-3,0);
+ref = _longsbar;
+}
+);
+width = 497;
+}
+);
+metricLeft = n;
+}

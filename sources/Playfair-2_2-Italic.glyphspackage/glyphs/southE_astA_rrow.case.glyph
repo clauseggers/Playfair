@@ -1,0 +1,184 @@
+{
+color = 5;
+glyphname = southEastArrow.case;
+layers = (
+{
+guides = (
+{
+pos = (-79,357);
+},
+{
+pos = (-79,655);
+},
+{
+pos = (-79,59);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+alignment = 3;
+pos = (25,90);
+ref = southEastArrow;
+}
+);
+width = 738;
+},
+{
+guides = (
+{
+pos = (-74,357);
+},
+{
+pos = (-74,655);
+},
+{
+pos = (-74,59);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+alignment = 3;
+pos = (23,84);
+ref = southEastArrow;
+}
+);
+width = 794;
+},
+{
+guides = (
+{
+pos = (-59,355);
+},
+{
+pos = (-59,653);
+},
+{
+pos = (-59,57);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+alignment = 3;
+pos = (25,88);
+ref = southEastArrow;
+}
+);
+width = 747;
+},
+{
+guides = (
+{
+pos = (-18,355);
+},
+{
+pos = (-18,653);
+},
+{
+pos = (-18,57);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+alignment = 3;
+pos = (23,81);
+ref = southEastArrow;
+}
+);
+width = 699;
+},
+{
+guides = (
+{
+pos = (-81,356);
+},
+{
+pos = (-81,59);
+},
+{
+pos = (-81,655);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+alignment = 3;
+pos = (25,89);
+ref = southEastArrow;
+}
+);
+width = 738;
+},
+{
+guides = (
+{
+pos = (-86,356);
+},
+{
+pos = (-86,59);
+},
+{
+pos = (-86,655);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+alignment = 3;
+pos = (23,82);
+ref = southEastArrow;
+}
+);
+width = 769;
+},
+{
+guides = (
+{
+pos = (-71,356);
+},
+{
+pos = (-71,59);
+},
+{
+pos = (-71,655);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+alignment = 3;
+pos = (25,89);
+ref = southEastArrow;
+}
+);
+width = 738;
+},
+{
+guides = (
+{
+pos = (-77,356);
+},
+{
+pos = (-77,59);
+},
+{
+pos = (-77,655);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+alignment = 3;
+pos = (23,81);
+ref = southEastArrow;
+}
+);
+width = 769;
+}
+);
+metricLeft = "=northEastArrow.case";
+metricRight = "=northEastArrow.case";
+}

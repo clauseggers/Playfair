@@ -1,0 +1,198 @@
+{
+color = 5;
+glyphname = commaabovecomb.smcp;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (125,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (125,385);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+alignment = 3;
+pos = (0,915);
+ref = commaaccentcomb;
+}
+);
+width = 260;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (142,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (142,385);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+alignment = 3;
+pos = (0,930);
+ref = commaaccentcomb;
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (165,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (165,385);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+alignment = 3;
+pos = (0,930);
+ref = commaaccentcomb;
+}
+);
+width = 330;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (138,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (138,385);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+alignment = 3;
+pos = (0,915);
+ref = commaaccentcomb;
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (159,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (159,385);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+alignment = 3;
+pos = (0,915);
+ref = commaaccentcomb;
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (151,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (151,385);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+alignment = 3;
+pos = (0,915);
+ref = commaaccentcomb;
+}
+);
+width = 313;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (143,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (143,385);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+alignment = 3;
+pos = (0,940);
+ref = commaaccentcomb;
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (166,608);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (166,385);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+alignment = 3;
+pos = (0,940);
+ref = commaaccentcomb;
+}
+);
+width = 333;
+}
+);
+metricLeft = "=|comma";
+metricRight = "=|comma";
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,1281 @@
+{
+color = 5;
+glyphname = "tshe-cy.smcp";
+kernLeft = KO_t.smcp;
+layers = (
+{
+background = {
+guides = (
+{
+angle = 74.4;
+pos = (624,175);
+},
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (151,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (902,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (624,175);
+},
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (151,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (902,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 875;
+},
+{
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+pos = (-114,364);
+},
+{
+angle = 74.4207;
+pos = (347,156);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (92,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (997,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+pos = (-114,364);
+},
+{
+angle = 74.4207;
+pos = (347,156);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (92,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (997,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 970;
+},
+{
+background = {
+guides = (
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (314,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (195,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1048,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (314,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (195,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1048,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1021;
+},
+{
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (455,288);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (219,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (107,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (999,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (455,288);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (219,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (107,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (999,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 974;
+},
+{
+background = {
+guides = (
+{
+pos = (-79,403);
+},
+{
+pos = (-57,364);
+},
+{
+angle = 74.4;
+pos = (404,156);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (312,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (125,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1152,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-79,403);
+},
+{
+pos = (-57,364);
+},
+{
+angle = 74.4;
+pos = (404,156);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (312,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (125,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1152,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1125;
+},
+{
+background = {
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (490,348);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (245,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (103,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1123,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (490,348);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (245,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (103,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1123,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1098;
+},
+{
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (491,97);
+},
+{
+angle = 74.4;
+pos = (791,87);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (304,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (174,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1215,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (491,97);
+},
+{
+angle = 74.4;
+pos = (791,87);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (304,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (174,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1215,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1190;
+},
+{
+background = {
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (549,279);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (325,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (146,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1347,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (549,279);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (325,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 50;
+};
+pos = (146,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1347,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1322;
+},
+{
+associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+angle = 74.4;
+pos = (624,175);
+},
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (151,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (902,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (624,175);
+},
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "241E00D8-B217-4834-ACA4-4FF833C9530C";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (151,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (902,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 875;
+},
+{
+associatedMasterId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (314,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (195,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1048,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-87,376);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "75CDD47D-804E-4E4C-A387-B86A50888992";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (314,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (195,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1048,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1021;
+},
+{
+associatedMasterId = "19651320-9895-44C9-9F41-285CE0F17596";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (455,288);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (219,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (107,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (999,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (455,288);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "FDA5A162-049B-4814-A338-D032419EE884";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (219,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (107,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (999,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 974;
+},
+{
+associatedMasterId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (491,97);
+},
+{
+angle = 74.4;
+pos = (791,87);
+},
+{
+pos = (226,339);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (304,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (174,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1215,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+angle = 74.4;
+pos = (491,97);
+},
+{
+angle = 74.4;
+pos = (791,87);
+},
+{
+pos = (226,339);
+}
+);
+layerId = "DDE6BEDA-8CA8-4787-8AC9-ECBA01656FF8";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (304,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (174,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1215,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1190;
+},
+{
+associatedMasterId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-136,403);
+},
+{
+pos = (-114,364);
+},
+{
+angle = 74.4207;
+pos = (347,156);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (92,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (997,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-136,403);
+},
+{
+pos = (-114,364);
+},
+{
+angle = 74.4207;
+pos = (347,156);
+}
+);
+layerId = "9DB5A8E4-1A5D-45EC-B22C-5261929C16D5";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (252,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (92,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (997,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 970;
+},
+{
+associatedMasterId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-79,403);
+},
+{
+pos = (-57,364);
+},
+{
+angle = 74.4;
+pos = (404,156);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (312,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (125,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1152,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-79,403);
+},
+{
+pos = (-57,364);
+},
+{
+angle = 74.4;
+pos = (404,156);
+}
+);
+layerId = "382B3EE7-13FF-46FC-8E16-1CF17D723E2A";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (312,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (125,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1152,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1125;
+},
+{
+associatedMasterId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (490,348);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (245,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (103,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1123,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (490,348);
+}
+);
+layerId = "1365679F-089F-432B-81ED-616FAB875D28";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (245,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (103,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1123,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1098;
+},
+{
+associatedMasterId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+},
+{
+}
+);
+};
+background = {
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (549,279);
+}
+);
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+pos = (325,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (146,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1347,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+};
+guides = (
+{
+pos = (-77,403);
+},
+{
+pos = (-55,364);
+},
+{
+angle = 74.4;
+pos = (549,279);
+}
+);
+layerId = "5613C970-5F2D-44D7-8564-3781A5A1F5C9";
+name = "10 Jul 24 at 11:31";
+shapes = (
+{
+ref = "_SMCP-T-top-stroke-swash";
+},
+{
+piece = {
+Asymmetry = 100;
+};
+pos = (325,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+piece = {
+ShortRightSerif = 100;
+};
+pos = (146,0);
+ref = "_part.UC-T-lower-stem";
+},
+{
+angle = 180;
+pos = (1347,608);
+ref = "_SMCP-che-cy-curve";
+}
+);
+width = 1322;
+}
+);
+metricLeft = t.smcp;
+metricRight = "=|che-cy.smcp";
+}

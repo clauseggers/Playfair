@@ -1,0 +1,228 @@
+{
+color = 5;
+glyphname = tbar;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,421,l),
+(73,401,l),
+(384,401,l),
+(387,421,l)
+);
+},
+{
+pos = (34,0);
+ref = t;
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (23,246);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-9,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 355;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (18,246);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-9,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 470;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(81,421,l),
+(75,401,l),
+(432,401,l),
+(438,421,l)
+);
+},
+{
+pos = (41,0);
+ref = t;
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (32,246);
+},
+{
+angle = 74.4;
+pos = (373,190);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (6,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 442;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-24,246);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-51,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 365;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,401,l),
+(426,421,l),
+(69,421,l),
+(63,401,l)
+);
+},
+{
+pos = (29,0);
+ref = t;
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (20,246);
+},
+{
+angle = 74.4;
+pos = (361,190);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-10,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 566;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-51,0);
+},
+{
+angle = 74.4;
+pos = (417,0);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-30,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 540;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-6,246);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-34,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 467;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-63,0);
+},
+{
+angle = 74.4;
+pos = (487,0);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-21,0);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 679;
+}
+);
+metricLeft = t;
+metricRight = t;
+unicode = 359;
+}

@@ -1,0 +1,192 @@
+{
+color = 4;
+glyphname = logicalnot;
+kernLeft = KO_minus;
+layers = (
+{
+guides = (
+{
+pos = (33,266);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,61,l),
+(574,266,l),
+(73,266,l),
+(73,265,l),
+(573,265,l),
+(573,61,l)
+);
+}
+);
+width = 647;
+},
+{
+guides = (
+{
+pos = (33,305);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,50,l),
+(574,305,l),
+(73,305,l),
+(73,225,l),
+(488,225,l),
+(488,50,l)
+);
+}
+);
+width = 647;
+},
+{
+guides = (
+{
+pos = (33,305);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,50,l),
+(574,305,l),
+(73,305,l),
+(73,225,l),
+(488,225,l),
+(488,50,l)
+);
+}
+);
+width = 647;
+},
+{
+guides = (
+{
+pos = (33,266);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,61,l),
+(564,266,l),
+(63,266,l),
+(63,265,l),
+(563,265,l),
+(563,61,l)
+);
+}
+);
+width = 627;
+},
+{
+guides = (
+{
+pos = (33,266);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,61,l),
+(564,266,l),
+(63,266,l),
+(63,265,l),
+(563,265,l),
+(563,61,l)
+);
+}
+);
+width = 627;
+},
+{
+guides = (
+{
+pos = (33,266);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(589,61,l),
+(589,266,l),
+(88,266,l),
+(88,265,l),
+(588,265,l),
+(588,61,l)
+);
+}
+);
+width = 677;
+},
+{
+guides = (
+{
+pos = (33,305);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,50,l),
+(564,305,l),
+(63,305,l),
+(63,225,l),
+(478,225,l),
+(478,50,l)
+);
+}
+);
+width = 627;
+},
+{
+guides = (
+{
+pos = (33,305);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,50,l),
+(564,305,l),
+(63,305,l),
+(63,225,l),
+(478,225,l),
+(478,50,l)
+);
+}
+);
+width = 627;
+}
+);
+metricLeft = minus;
+metricRight = minus;
+unicode = 172;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

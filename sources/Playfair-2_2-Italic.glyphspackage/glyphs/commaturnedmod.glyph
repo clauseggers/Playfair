@@ -1,0 +1,153 @@
+{
+color = 5;
+glyphname = commaturnedmod;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 264;
+},
+{
+associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+layerId = "EDB67FC8-E96C-440D-986C-4D8A0F85E40B";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 316;
+},
+{
+associatedMasterId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+layerId = "4FEC243B-C36A-44EC-A09D-53AC0BD497C7";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 310;
+},
+{
+associatedMasterId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+layerId = "058DB3D3-708F-4760-B207-A2019508B4F5";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 281;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 357;
+},
+{
+associatedMasterId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+layerId = "DCB0B879-59D5-4DF7-A0A5-9785D24B2BD7";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 377;
+},
+{
+associatedMasterId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+layerId = "E4257011-1B70-4E25-AAA9-D42597B97789";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 347;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 448;
+},
+{
+associatedMasterId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+layerId = "B5DC2FB7-5DBD-4AB8-99E4-411D589A06E7";
+shapes = (
+{
+pos = (4,0);
+ref = quoteleft;
+}
+);
+width = 261;
+}
+);
+metricLeft = "=|comma";
+metricRight = "=|comma";
+unicode = 699;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

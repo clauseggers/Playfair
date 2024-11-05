@@ -1,0 +1,215 @@
+{
+color = 5;
+glyphname = commercialMinusSign;
+layers = (
+{
+guides = (
+{
+pos = (362,722);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-42,616);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (130,0);
+ref = period;
+}
+);
+width = 340;
+},
+{
+guides = (
+{
+pos = (396,722);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-61,566);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (168,0);
+ref = period;
+}
+);
+width = 421;
+},
+{
+guides = (
+{
+pos = (409,722);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-52,566);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (209,0);
+ref = period;
+}
+);
+width = 526;
+},
+{
+guides = (
+{
+pos = (367,722);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-60,568);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (112,0);
+ref = period;
+}
+);
+width = 333;
+},
+{
+guides = (
+{
+pos = (367,722);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-76,568);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (137,0);
+ref = period;
+}
+);
+width = 406;
+},
+{
+guides = (
+{
+pos = (397,722);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-47,616);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (166,0);
+ref = period;
+}
+);
+width = 416;
+},
+{
+guides = (
+{
+pos = (367,722);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-48,554);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (161,0);
+ref = period;
+}
+);
+width = 415;
+},
+{
+guides = (
+{
+pos = (374,722);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+alignment = 1;
+ref = slash;
+},
+{
+anchor = ascender;
+pos = (-40,544);
+ref = period;
+},
+{
+anchor = baseline;
+pos = (211,0);
+ref = period;
+}
+);
+width = 539;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 8274;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,158 @@
+{
+glyphname = ecircumflexhookabove.smcp;
+kernRight = KO_e.smcp;
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (82,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (275,-2);
+ref = hookabovecomb.case;
+}
+);
+width = 593;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (134,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (324,18);
+ref = hookabovecomb.case;
+}
+);
+width = 724;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (207,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (410,18);
+ref = hookabovecomb.case;
+}
+);
+width = 896;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (76,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (296,20);
+ref = hookabovecomb.case;
+}
+);
+width = 620;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (130,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (380,20);
+ref = hookabovecomb.case;
+}
+);
+width = 739;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (119,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (352,-2);
+ref = hookabovecomb.case;
+}
+);
+width = 711;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (79,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (315,20);
+ref = hookabovecomb.case;
+}
+);
+width = 659;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+ref = e.smcp;
+},
+{
+anchor = top_low_1;
+pos = (146,-120);
+ref = circumflexcomb.case;
+},
+{
+anchor = right;
+pos = (385,20);
+ref = hookabovecomb.case;
+}
+);
+width = 847;
+}
+);
+}

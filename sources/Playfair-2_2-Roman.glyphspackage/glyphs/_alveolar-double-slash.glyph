@@ -1,0 +1,186 @@
+{
+color = 4;
+export = 0;
+glyphname = "_alveolar-double-slash";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (198,386);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+alignment = -1;
+pos = (26,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+pos = (0,-82);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 395;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (229,386);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+alignment = -1;
+pos = (25,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+pos = (1,-83);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 458;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (208,386);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+alignment = -1;
+pos = (35,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+pos = (1,-84);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 415;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (237,386);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+alignment = -1;
+pos = (30,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+pos = (0,-84);
+ref = "_LC-tbar-overlay";
+}
+);
+width = 475;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (227,386);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+alignment = -1;
+pos = (5,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+ref = "_LC-tbar-overlay";
+}
+);
+width = 454;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (282,386);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+alignment = -1;
+pos = (-10,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+ref = "_LC-tbar-overlay";
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (237,386);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+alignment = -1;
+pos = (35,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+ref = "_LC-tbar-overlay";
+}
+);
+width = 475;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (273,386);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+alignment = -1;
+pos = (30,0);
+ref = "_LC-t-bar";
+},
+{
+alignment = -1;
+ref = "_LC-tbar-overlay";
+}
+);
+width = 546;
+}
+);
+metricRight = "=|";
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

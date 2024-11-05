@@ -1,0 +1,175 @@
+{
+color = 5;
+glyphname = "ii-cy";
+kernLeft = KO_n;
+kernRight = "KO_ii-cy";
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (312,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (140,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 613;
+},
+{
+guides = (
+{
+pos = (103,104);
+},
+{
+pos = (103,399);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+metricLeft = "=n+10";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (316,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (174,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 758;
+},
+{
+guides = (
+{
+pos = (208,104);
+},
+{
+pos = (208,399);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+metricLeft = "=n+30";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (402,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (224,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 928;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (310,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (215,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 643;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (385,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (241,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 773;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (375,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (169,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 727;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+metricLeft = "=n+5";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (327,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (205,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 720;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+metricLeft = "=n+10";
+shapes = (
+{
+ref = "_LC-en-cy_upper";
+},
+{
+anchor = "#exit";
+pos = (429,0);
+ref = "_part.LC-baseline-stroke";
+},
+{
+pos = (247,0);
+ref = "_LC-ii-cy-bar";
+}
+);
+width = 881;
+}
+);
+metricLeft = n;
+metricRight = "=|";
+unicode = 1080;
+}

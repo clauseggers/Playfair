@@ -1,0 +1,136 @@
+{
+color = 5;
+glyphname = "zhe-cy.smcp";
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+metricLeft = "=|ka-cy.smcp+20";
+metricRight = "=ka-cy.smcp+20";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (304,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 937;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+metricLeft = "=|ka-cy.smcp+30";
+metricRight = "=ka-cy.smcp+30";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (388,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1169;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+metricLeft = "=|ka-cy.smcp+20";
+metricRight = "=ka-cy.smcp+20";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (316,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1023;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+metricLeft = "=|ka-cy.smcp+30";
+metricRight = "=ka-cy.smcp+30";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (380,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1211;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+metricLeft = "=|ka-cy.smcp+20";
+metricRight = "=ka-cy.smcp+20";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+piece = {
+TopLeftSerif = 80;
+TopRightSerif = 80;
+};
+pos = (352,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1215;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+metricLeft = "=|ka-cy.smcp+30";
+metricRight = "=ka-cy.smcp+30";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+piece = {
+TopLeftSerif = 80;
+TopRightSerif = 80;
+};
+pos = (411,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1425;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+metricLeft = "=|ka-cy.smcp+20";
+metricRight = "=ka-cy.smcp+20";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (332,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1115;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+metricLeft = "=|ka-cy.smcp+30";
+metricRight = "=ka-cy.smcp+30";
+shapes = (
+{
+ref = "_SMCP-zhe-cy-wings";
+},
+{
+pos = (427,0);
+ref = "_part.SMCP-stem";
+}
+);
+width = 1421;
+}
+);
+metricLeft = "=|ka-cy.smcp";
+metricRight = "ka-cy.smcp";
+}

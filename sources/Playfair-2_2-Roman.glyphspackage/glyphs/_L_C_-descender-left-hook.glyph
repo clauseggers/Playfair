@@ -1,0 +1,366 @@
+{
+color = 4;
+export = 0;
+glyphname = "_LC-descender-left-hook";
+layers = (
+{
+anchors = (
+{
+name = "#entry";
+pos = (251,256);
+},
+{
+name = _stem;
+pos = (251,256);
+},
+{
+name = bottom;
+pos = (200,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (30,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,-231,l),
+(341,256,l),
+(251,256,l),
+(251,-231,l)
+);
+}
+);
+width = 420;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (316,256);
+},
+{
+name = _stem;
+pos = (316,256);
+},
+{
+name = bottom;
+pos = (240,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (31,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(406,-231,l),
+(406,256,l),
+(316,256,l),
+(316,-231,l)
+);
+}
+);
+width = 504;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (237,260);
+},
+{
+name = _stem;
+pos = (237,260);
+},
+{
+name = bottom;
+pos = (197,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (48,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+closed = 1;
+nodes = (
+(417,-231,l),
+(417,260,l),
+(237,260,l),
+(237,-231,l)
+);
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (275,260);
+},
+{
+name = _stem;
+pos = (275,260);
+},
+{
+name = bottom;
+pos = (217,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (31,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,-231,l),
+(455,260,l),
+(275,260,l),
+(275,-231,l)
+);
+}
+);
+width = 538;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (260,256);
+},
+{
+name = _stem;
+pos = (260,256);
+},
+{
+name = bottom;
+pos = (170,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (39,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,-231,l),
+(350,256,l),
+(260,256,l),
+(260,-231,l)
+);
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (300,256);
+},
+{
+name = _stem;
+pos = (300,256);
+},
+{
+name = bottom;
+pos = (187,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (41,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,-231,l),
+(390,256,l),
+(300,256,l),
+(300,-231,l)
+);
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (257,260);
+},
+{
+name = _stem;
+pos = (257,260);
+},
+{
+name = bottom;
+pos = (197,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (48,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(437,-231,l),
+(437,260,l),
+(257,260,l),
+(257,-231,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (291,260);
+},
+{
+name = _stem;
+pos = (291,260);
+},
+{
+name = bottom;
+pos = (197,-231);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (39,143);
+}
+);
+hints = (
+{
+name = "_cap.LC-upper-hook-left";
+options = 2;
+origin = (0,3);
+scale = (0.5,1);
+type = Cap;
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,-231,l),
+(471,260,l),
+(291,260,l),
+(291,-231,l)
+);
+}
+);
+width = 562;
+}
+);
+metricRight = "=_part.LC-j-descender";
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

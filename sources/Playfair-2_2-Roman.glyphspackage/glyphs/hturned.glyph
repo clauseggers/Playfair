@@ -1,0 +1,319 @@
+{
+color = 5;
+glyphname = hturned;
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (301,512);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (442,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (381,-4);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (606,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 607;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (352,512);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (532,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (471,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (722,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 722;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (333,520);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (450,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (389,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (676,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 675;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (388,520);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (516,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (455,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (768,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 770;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (442,512);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (527,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (457,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (753,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 753;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (526,512);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (644,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (573,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (911,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 911;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (393,520);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 95;
+};
+pos = (466,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (398,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -50;
+};
+pos = (715,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 714;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+anchor = "#exit";
+angle = 180;
+piece = {
+Depth = -100;
+};
+pos = (452,520);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (587,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (518,0);
+ref = "_part.LC-descender-outstroke";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (864,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 864;
+}
+);
+unicode = 613;
+}

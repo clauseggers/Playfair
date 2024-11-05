@@ -1,0 +1,364 @@
+{
+color = 4;
+export = 0;
+glyphname = "_LC-ligature-udieresis";
+layers = (
+{
+anchors = (
+{
+name = "#exit";
+pos = (496,256);
+},
+{
+name = _bar;
+pos = (110,512);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,256,l),
+(496,526,l),
+(468,516,o),
+(432,512,o),
+(370,512,c),
+(323,511,l),
+(386,511,o),
+(406,494,o),
+(406,441,cs),
+(406,256,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(377,511,l),
+(377,512,l),
+(30,512,l),
+(30,511,l)
+);
+}
+);
+width = 526;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (570,256);
+},
+{
+name = _bar;
+pos = (130,512);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(570,256,l),
+(570,526,l),
+(538,516,o),
+(496,512,o),
+(429,512,c),
+(379,511,l),
+(450,511,o),
+(480,495,o),
+(480,431,cs),
+(480,256,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(448,511,l),
+(448,512,l),
+(30,512,l),
+(30,511,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (597,260);
+},
+{
+name = _bar;
+pos = (90,520);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(597,260,l),
+(597,530,l),
+(549,523,o),
+(506,520,o),
+(461,520,c),
+(350,519,l),
+(399,519,o),
+(417,503,o),
+(417,446,cs),
+(417,260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(477,519,l),
+(477,520,l),
+(30,520,l),
+(30,519,l)
+);
+}
+);
+width = 627;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (662,260);
+},
+{
+name = _bar;
+pos = (110,520);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(662,260,l),
+(662,530,l),
+(611,523,o),
+(566,520,o),
+(508,520,c),
+(401,519,l),
+(459,519,o),
+(482,495,o),
+(482,436,cs),
+(482,260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(529,519,l),
+(529,520,l),
+(30,520,l),
+(30,519,l)
+);
+}
+);
+width = 692;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (626,256);
+},
+{
+name = _bar;
+pos = (170,512);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(626,256,l),
+(626,526,l),
+(586,517,o),
+(535,512,o),
+(468,512,c),
+(400,442,l),
+(511,442,o),
+(536,422,o),
+(536,332,cs),
+(536,256,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(567,442,l),
+(567,512,l),
+(30,512,l),
+(30,442,l)
+);
+}
+);
+width = 656;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (755,256);
+},
+{
+name = _bar;
+pos = (198,512);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(755,256,l),
+(755,526,l),
+(713,517,o),
+(649,512,o),
+(583,512,c),
+(522,442,l),
+(643,442,o),
+(665,424,o),
+(665,327,cs),
+(665,256,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(675,442,l),
+(675,512,l),
+(30,512,l),
+(30,442,l)
+);
+}
+);
+width = 785;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (660,260);
+},
+{
+name = _bar;
+pos = (120,520);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(660,260,l),
+(660,530,l),
+(610,523,o),
+(556,520,o),
+(489,520,c),
+(394,450,l),
+(458,450,o),
+(480,429,o),
+(480,368,cs),
+(480,260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(537,450,l),
+(537,520,l),
+(30,520,l),
+(30,450,l)
+);
+}
+);
+width = 690;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (744,260);
+},
+{
+name = _bar;
+pos = (139,520);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+partSelection = {
+LongRight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(744,260,l),
+(744,530,l),
+(692,523,o),
+(634,520,o),
+(564,520,c),
+(460,450,l),
+(541,450,o),
+(564,429,o),
+(564,353,cs),
+(564,260,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(602,450,l),
+(602,520,l),
+(30,520,l),
+(30,450,l)
+);
+}
+);
+width = 774;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = LongRight;
+topValue = 100;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}
