@@ -1,4 +1,4 @@
-![**Playfair 2.2** banner](Images/Playfair_2_2_banner.svg)
+![**Playfair 2.2** banner](Images/Playfair_2_2_banner.svg?)
 <!---![**Playfair 2.2** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair_2_2_banner.svg)--->
 
 I have prepared a number of specimen pages that shows Playfair in context.  
