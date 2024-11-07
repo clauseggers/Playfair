@@ -2,12 +2,7 @@
 <!---![**Playfair 2.2** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair_2_2_banner.svg)--->
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif) ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 
-<p align="center">
-  <img alt="Light" src="Images/playfair_glyphs_roman.gif" width="99%">
-  <img alt="Dark" src="Images/playfair_glyphs_italic.gif" width="99%">
-</p>
-
-<img src="Images/playfair_glyphs_roman.gif" width="98%"/> <img src="Images/playfair_glyphs_italic.gif" width="98%"/>
+| <img src="Images/playfair_glyphs_roman.gif" width="98%" /> | <img src="Images/playfair_glyphs_italic.gif" width="98%" /> |
 
 I have prepared a number of specimen pages that shows Playfair in context.
 [A sample of the many combinations of axes and other font features available](https://playfair2.forthehearts.net/Playfair2_Words.html)
