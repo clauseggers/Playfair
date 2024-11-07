@@ -3,8 +3,8 @@
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif) ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 
 <p align="center">
-  <img alt="Light" src="Images/playfair_glyphs_roman.gif" width="45%">
-  <img alt="Dark" src="Images/playfair_glyphs_italic.gif" width="45%">
+  <img alt="Light" src="Images/playfair_glyphs_roman.gif" width="99%">
+  <img alt="Dark" src="Images/playfair_glyphs_italic.gif" width="99%">
 </p>
 
 <img src="Images/playfair_glyphs_roman.gif" width="98%"/> <img src="Images/playfair_glyphs_italic.gif" width="98%"/>
