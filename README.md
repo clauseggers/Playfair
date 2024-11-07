@@ -2,7 +2,7 @@
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif) ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 
 <div style="text-align: center;">
-    <img src="Images/playfair_glyphs_roman.gif" style="width: 1000%; display: block;">
+    <img src="Images/playfair_glyphs_roman.gif" style="width: 50%; display: block;"><img src="Images/playfair_glyphs_italic.gif" style="width: 50%; display: block;">
 </div>
 
 
