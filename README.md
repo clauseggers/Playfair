@@ -2,8 +2,8 @@
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif)![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 
 <p>
-    <img src="https://raw.githubusercontent.com/clauseggers/Playfair/two_dot_two/Images/playfair_glyphs_roman.gif" hspace="0" >
-    <img src="https://github.com/clauseggers/Playfair/blob/two_dot_two/Images/playfair_glyphs_italic.gif" hspace="0" >
+    <img src="https://raw.githubusercontent.com/clauseggers/Playfair/two_dot_two/Images/playfair_glyphs_roman.gif" >
+    <img src="https://github.com/clauseggers/Playfair/blob/two_dot_two/Images/playfair_glyphs_italic.gif" >
 </p>
 
 I have prepared a number of specimen pages that shows Playfair in context.
