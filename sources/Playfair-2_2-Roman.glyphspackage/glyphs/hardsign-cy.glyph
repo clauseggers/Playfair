@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 0;
 glyphname = "hardsign-cy";
 kernRight = "KO_softsign-cy";
 layers = (
@@ -73,11 +73,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (202,0);
+pos = (112,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 726;
+width = 636;
 },
 {
 background = {
@@ -149,11 +149,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (182,1);
+pos = (92,1);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 776;
+width = 686;
 },
 {
 background = {
@@ -225,11 +225,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (187,0);
+pos = (97,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 914;
+width = 824;
 },
 {
 background = {
@@ -301,11 +301,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (329,0);
+pos = (149,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 915;
+width = 735;
 },
 {
 background = {
@@ -377,11 +377,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (334,0);
+pos = (154,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1019;
+width = 839;
 },
 {
 background = {
@@ -453,11 +453,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (216,0);
+pos = (126,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 830;
+width = 740;
 },
 {
 background = {
@@ -529,11 +529,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (320,-1);
+pos = (140,-1);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 936;
+width = 756;
 },
 {
 background = {
@@ -605,11 +605,11 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (338,0);
+pos = (158,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1085;
+width = 905;
 }
 );
 metricLeft = "te-cy";
