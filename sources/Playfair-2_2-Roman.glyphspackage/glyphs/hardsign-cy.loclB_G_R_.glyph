@@ -65,11 +65,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (98,0);
+anchor = "^exit";
+pos = (188,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 546;
+width = 636;
 },
 {
 background = {
@@ -134,11 +135,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (137,0);
+anchor = "^exit";
+pos = (227,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 661;
+width = 751;
 },
 {
 background = {
@@ -203,11 +205,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (15,0);
+anchor = "^exit";
+pos = (195,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 555;
+width = 735;
 },
 {
 background = {
@@ -272,11 +275,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (49,0);
+anchor = "^exit";
+pos = (229,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 659;
+width = 839;
 },
 {
 background = {
@@ -341,11 +345,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (148,1);
+anchor = "^exit";
+pos = (238,1);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 616;
+width = 706;
 },
 {
 background = {
@@ -410,11 +415,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (195,0);
+anchor = "^exit";
+pos = (285,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 758;
+width = 848;
 },
 {
 background = {
@@ -479,11 +485,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (36,-1);
+anchor = "^exit";
+pos = (216,-1);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 576;
+width = 756;
 },
 {
 background = {
@@ -548,11 +555,12 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-pos = (84,0);
+anchor = "^exit";
+pos = (264,0);
 ref = "_LC-softsign-cy-loclBGR-bowl";
 }
 );
-width = 725;
+width = 905;
 }
 );
 metricLeft = "=|ge-cy";

@@ -8,6 +8,10 @@ anchors = (
 {
 name = "#exit";
 pos = (218,256);
+},
+{
+name = "^exit";
+pos = (308,256);
 }
 );
 background = {
@@ -74,6 +78,10 @@ anchors = (
 {
 name = "#exit";
 pos = (268,257);
+},
+{
+name = "^exit";
+pos = (358,257);
 }
 );
 hints = (
@@ -114,6 +122,10 @@ anchors = (
 {
 name = "#exit";
 pos = (315,256);
+},
+{
+name = "^exit";
+pos = (405,256);
 }
 );
 hints = (
@@ -154,6 +166,10 @@ anchors = (
 {
 name = "#exit";
 pos = (225,260);
+},
+{
+name = "^exit";
+pos = (405,260);
 }
 );
 background = {
@@ -220,6 +236,10 @@ anchors = (
 {
 name = "#exit";
 pos = (259,260);
+},
+{
+name = "^exit";
+pos = (439,260);
 }
 );
 hints = (
@@ -260,6 +280,10 @@ anchors = (
 {
 name = "#exit";
 pos = (257,256);
+},
+{
+name = "^exit";
+pos = (347,256);
 }
 );
 background = {
@@ -326,6 +350,10 @@ anchors = (
 {
 name = "#exit";
 pos = (246,259);
+},
+{
+name = "^exit";
+pos = (426,259);
 }
 );
 hints = (
@@ -366,6 +394,10 @@ anchors = (
 {
 name = "#exit";
 pos = (294,260);
+},
+{
+name = "^exit";
+pos = (474,260);
 }
 );
 hints = (
