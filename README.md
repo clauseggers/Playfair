@@ -2,7 +2,6 @@
 <!---![**Playfair 2.2** banner](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair_2_2_banner.svg)--->
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif)
 <!---![**Playfair 2.2** Roman glyph repertoire animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/playfair_glyphs_roman.gif)--->
-
 ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 <!---![**Playfair 2.2** Italic glyph repertoire animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/playfair_glyphs_italic.gif)--->
 
