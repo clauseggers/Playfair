@@ -3,8 +3,7 @@
 ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif) ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)
 
 <section>
-  <img src="Images/playfair_glyphs_roman.gif" width="90%">
-  <img src="Images/playfair_glyphs_italic.gif" width="90%">
+  <img src="Images/playfair_glyphs_roman.gif" width="90%"><img src="Images/playfair_glyphs_italic.gif" width="90%">
 </section>
 
 I have prepared a number of specimen pages that shows Playfair in context.
