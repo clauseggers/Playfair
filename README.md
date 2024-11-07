@@ -1,7 +1,6 @@
 ![**Playfair 2.2** banner](Images/Playfair_2_2_banner.svg?)
 
-| ![**Playfair 2.2** Roman glyph repertoire animation](Images/playfair_glyphs_roman.gif)  | ![**Playfair 2.2** Italic glyph repertoire animation](Images/playfair_glyphs_italic.gif)  |
-|---|---|
+![**Playfair 2.2** Glyph repertoire animation](Images/playfair_glyph_repertroire_rom_ita.gif)
 
 I have prepared a number of specimen pages that shows Playfair in context.
 [A sample of the many combinations of axes and other font features available](https://playfair2.forthehearts.net/Playfair2_Words.html)
