@@ -3,6 +3,7 @@
 ![**Playfair 2.2** Glyph repertoire animation](Images/playfair_glyph_repertroire_rom_ita.gif)
 
 I have prepared a number of specimen pages that shows Playfair in context.
+
 [A sample of the many combinations of axes and other font features available](https://playfair2.forthehearts.net/Playfair2_Words.html)  
 [A dictionary​​​​​​](https://playfair2.forthehearts.net/Playfair2_Dictionary.html)  
 [A newspaper](https://playfair2.forthehearts.net/Playfair2_Newspaper.html)  
