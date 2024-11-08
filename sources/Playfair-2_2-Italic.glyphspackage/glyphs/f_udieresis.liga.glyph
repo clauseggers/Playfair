@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = f_udieresis.liga;
 kernLeft = KO_f;
 kernRight = KO_u;
@@ -143,11 +143,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-46,0);
+anchor = "#exit";
+pos = (606,0);
 ref = udieresis;
 }
 );
-width = 609;
+width = 1579;
 },
 {
 associatedMasterId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
@@ -172,11 +173,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-28,0);
+anchor = "#exit";
+pos = (523,0);
 ref = udieresis;
 }
 );
-width = 521;
+width = 1338;
 },
 {
 associatedMasterId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
@@ -201,11 +203,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-65,0);
+anchor = "#exit";
+pos = (483,0);
 ref = udieresis;
 }
 );
-width = 477;
+width = 1321;
 },
 {
 associatedMasterId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
@@ -230,11 +233,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-56,0);
+anchor = "#exit";
+pos = (423,0);
 ref = udieresis;
 }
 );
-width = 421;
+width = 1144;
 },
 {
 associatedMasterId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
@@ -259,11 +263,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-19,0);
+anchor = "#exit";
+pos = (453,0);
 ref = udieresis;
 }
 );
-width = 454;
+width = 1252;
 },
 {
 associatedMasterId = "19651320-9895-44C9-9F41-285CE0F17596";
@@ -288,11 +293,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-12,0);
+anchor = "#exit";
+pos = (373,0);
 ref = udieresis;
 }
 );
-width = 365;
+width = 1023;
 },
 {
 associatedMasterId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
@@ -317,11 +323,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-14,0);
+anchor = "#exit";
+pos = (413,0);
 ref = udieresis;
 }
 );
-width = 407;
+width = 1110;
 },
 {
 associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
@@ -358,11 +365,12 @@ shapes = (
 ref = f;
 },
 {
-pos = (-6,0);
+anchor = "#exit";
+pos = (353,0);
 ref = udieresis;
 }
 );
-width = 351;
+width = 932;
 }
 );
 metricLeft = f;
