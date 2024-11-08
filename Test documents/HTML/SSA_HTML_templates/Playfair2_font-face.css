@@ -1,26 +1,26 @@
 /* Use the variable font WOFF2 */
 @font-face {
   font-family: 'Playfair';
-  src: url('PlayfairRomanVF.woff2') format('truetype');
+  src: url('../../../fonts/VF-WOFF2/PlayfairRomanVF.woff2') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Playfair';
-  src: url('PlayfairItalicVF.woff2') format('truetype');
+  src: url('../../../fonts/VF-WOFF2/PlayfairItalicVF.woff2') format('truetype');
   font-style: italic;
 }
 
 /* Use the variable font TTFs */
 /* @font-face {
   font-family: 'Playfair';
-  src: url('PlayfairRomanVF.ttf') format('truetype');
+  src: url('../../../fonts/VF-WOFF2/PlayfairRomanVF.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Playfair';
-  src: url('PlayfairItalicVF.ttf') format('truetype');
+  src: url('../../../fonts/VF-WOFF2/PlayfairItalicVF.ttf') format('truetype');
   font-style: italic;
 } */
 

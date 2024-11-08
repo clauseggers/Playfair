@@ -5,8 +5,8 @@ import os
 def generate_gggls_template(language, iso_3, alphabet):
     template = {
         "fonts": [
-            {"path": "../PlayfairRomanVF.woff2"},
-            {"path": "../PlayfairItalicVF.woff2"}
+            {"path": "../../../fonts/VF-WOFF2/PlayfairRomanVF.woff2"},
+            {"path": "../../../fonts/VF-WOFF2/PlayfairItalicVF.woff2"}
         ],
         "textSettings": {
             "text": alphabet,  # Change this line
@@ -57,16 +57,16 @@ def main():
                 language = row[0].strip()
                 iso_3 = row[2].strip()
                 alphabet = row[3].strip()  # Add this line
-                
+
                 gggls_template = generate_gggls_template(language, iso_3, alphabet)  # Update this line
-                
+
                 # Replace file-name spaces with underscores
                 filename = f"Playfair_2-2_{language.replace(' ', '_')}_{iso_3}.gggls"
-                
+
                 # Save the file in the FontGoggles directory
                 filepath = os.path.join(output_directory, filename)
                 save_gggls_file(filepath, gggls_template)
-                
+
                 print(f"Row {i}: File '{filename}' generated successfully.")
             except Exception as e:
                 print(f"Row {i}: Error processing row - {e}")
