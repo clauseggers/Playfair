@@ -1,0 +1,196 @@
+{
+color = 5;
+glyphname = exclam.smcp;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (283,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (3,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 256;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (348,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (-1,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 322;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (331,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (1,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 304;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (328,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (-7,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 289;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (403,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (1,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 376;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (450,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (-16,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 410;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (387,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (-7,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 354;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (518,608);
+ref = exclamdown.smcp;
+}
+);
+};
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+alignment = 1;
+ref = period;
+},
+{
+pos = (-19,0);
+ref = "_SMCP-exclam-upper";
+}
+);
+width = 479;
+}
+);
+metricLeft = exclam;
+metricRight = exclam;
+userData = {
+KernOnSpecialSpacing = {
+};
+};
+}

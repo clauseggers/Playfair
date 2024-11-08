@@ -1,0 +1,50 @@
+{
+  "fonts": [
+    {
+      "path": "../PlayfairRomanVF.woff2"
+    },
+    {
+      "path": "../PlayfairItalicVF.woff2"
+    }
+  ],
+  "textSettings": {
+    "text": "a A b B c C d D e E \u00eb \u00cb f F g G h H i I \u00ef \u00cf j J k K l L m M n N \u014b \u014a o O \u00f6 \u00d6 \u0254 \u0186 p P r R s S t T u U w W y Y z Z \ua78c \ua78b",
+    "textFilePath": null,
+    "textFileIndex": 0,
+    "shouldApplyBiDi": true,
+    "direction": null,
+    "script": "latn",
+    "language": "BEX",
+    "alignment": null,
+    "features": {},
+    "varLocation": {
+      "opsz": 12,
+      "wght": 400,
+      "wdth": 100
+    },
+    "relativeFontSize": 0.7,
+    "relativeHBaseline": 0.25,
+    "relativeVBaseline": 0.5,
+    "relativeMargin": 0.1,
+    "enableColor": true
+  },
+  "uiSettings": {
+    "windowPosition": [
+      129.0,
+      597.0,
+      2335.0,
+      500.0
+    ],
+    "fontListItemSize": 150,
+    "fontListShowFontFileName": true,
+    "characterListVisible": false,
+    "characterListSize": 575.5,
+    "glyphListVisible": false,
+    "glyphListSize": 226.0,
+    "compileOutputVisible": false,
+    "compileOutputSize": 80.0,
+    "formattingOptionsVisible": true,
+    "feaVarTabSelection": "variations",
+    "showHiddenAxes": false
+  }
+}

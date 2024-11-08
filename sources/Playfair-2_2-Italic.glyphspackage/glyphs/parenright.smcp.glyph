@@ -1,0 +1,193 @@
+{
+color = 5;
+glyphname = parenright.smcp;
+kernLeft = KO_parenright.smcp;
+layers = (
+{
+guides = (
+{
+angle = 74.4;
+pos = (296,-17);
+},
+{
+pos = (448,662);
+},
+{
+pos = (247,-58);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+angle = 180;
+pos = (412,604);
+ref = parenleft.smcp;
+}
+);
+width = 386;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (313,-17);
+},
+{
+pos = (465,662);
+},
+{
+pos = (264,-58);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+angle = 180;
+pos = (429,604);
+ref = parenleft.smcp;
+}
+);
+width = 403;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (360,-17);
+},
+{
+pos = (512,662);
+},
+{
+pos = (311,-58);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+angle = 180;
+pos = (476,604);
+ref = parenleft.smcp;
+}
+);
+width = 450;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (285,-17);
+},
+{
+pos = (236,-58);
+},
+{
+pos = (437,662);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+angle = 180;
+pos = (438,604);
+ref = parenleft.smcp;
+}
+);
+width = 414;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (447,-17);
+},
+{
+pos = (599,662);
+},
+{
+pos = (398,-58);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+angle = 180;
+pos = (563,604);
+ref = parenleft.smcp;
+}
+);
+width = 537;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (434,-17);
+},
+{
+pos = (586,662);
+},
+{
+pos = (385,-58);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+angle = 180;
+pos = (550,604);
+ref = parenleft.smcp;
+}
+);
+width = 527;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (384,-17);
+},
+{
+pos = (335,-58);
+},
+{
+pos = (536,662);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+angle = 180;
+pos = (537,604);
+ref = parenleft.smcp;
+}
+);
+width = 513;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (495,-17);
+},
+{
+pos = (647,662);
+},
+{
+pos = (446,-58);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+angle = 180;
+pos = (611,604);
+ref = parenleft.smcp;
+}
+);
+width = 588;
+}
+);
+metricLeft = "=|parenleft.smcp";
+metricRight = "=|parenleft.smcp";
+}

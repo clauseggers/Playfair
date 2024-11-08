@@ -1,0 +1,28 @@
+/* Use the variable font WOFF2 */
+@font-face {
+  font-family: 'Playfair';
+  src: url('../PlayfairRomanVF.woff2') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../PlayfairItalicVF.woff2') format('truetype');
+  font-style: italic;
+}
+
+/* Use the variable font TTFs */
+/* @font-face {
+  font-family: 'Playfair';
+  src: url('PlayfairRomanVF.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('PlayfairItalicVF.ttf') format('truetype');
+  font-style: italic;
+} */
+
+/* Google Fonts does not provide all OpenType features, and consequently not all glyphs*/
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..900;1,5..1200,87.5..112.5,300..900&display=swap'); */

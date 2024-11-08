@@ -1,0 +1,233 @@
+{
+color = 8;
+glyphname = brevecomb.smcp;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (208,608);
+},
+{
+name = top;
+pos = (207,743);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (209,643);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 418;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (232,608);
+},
+{
+name = top;
+pos = (231,743);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (233,643);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 467;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (253,608);
+},
+{
+name = top;
+pos = (253,743);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (187,643);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 506;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (247,608);
+},
+{
+name = top;
+pos = (246,751);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (247,643);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 494;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (272,608);
+},
+{
+name = top;
+pos = (271,751);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (272,643);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 543;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (241,608);
+},
+{
+name = top;
+pos = (240,743);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (242,643);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 484;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (249,608);
+},
+{
+name = top;
+pos = (248,751);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (249,643);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 498;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (274,608);
+},
+{
+name = top;
+pos = (274,751);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (258,643);
+},
+{
+pos = (-70,669);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+alignment = 3;
+pos = (0,-100);
+ref = brevecomb.case;
+}
+);
+width = 547;
+}
+);
+metricLeft = brevecomb;
+metricRight = brevecomb;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

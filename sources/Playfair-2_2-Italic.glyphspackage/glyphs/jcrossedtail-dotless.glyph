@@ -1,0 +1,343 @@
+{
+color = 5;
+glyphname = "jcrossedtail-dotless";
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (153,256);
+},
+{
+name = top;
+pos = (217,512);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (153,256);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (1,0);
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-152,-4);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 301;
+},
+{
+anchors = (
+{
+name = center;
+pos = (184,256);
+},
+{
+name = top;
+pos = (229,512);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (184,256);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-146,-4);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = center;
+pos = (173,260);
+},
+{
+name = top;
+pos = (222,520);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (173,260);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-169,0);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 342;
+},
+{
+anchors = (
+{
+name = center;
+pos = (212,260);
+},
+{
+name = top;
+pos = (242,520);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (212,260);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-161,0);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 409;
+},
+{
+anchors = (
+{
+name = center;
+pos = (224,256);
+},
+{
+name = top;
+pos = (236,512);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (224,256);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-200,-4);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 403;
+},
+{
+anchors = (
+{
+name = center;
+pos = (255,256);
+},
+{
+name = top;
+pos = (263,512);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (255,256);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-232,-4);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 440;
+},
+{
+anchors = (
+{
+name = center;
+pos = (245,260);
+},
+{
+name = top;
+pos = (265,520);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (245,260);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-31,0);
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-147,0);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 422;
+},
+{
+anchors = (
+{
+name = center;
+pos = (300,260);
+},
+{
+name = top;
+pos = (305,520);
+}
+);
+background = {
+anchors = (
+{
+name = center;
+pos = (300,260);
+}
+);
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-26,0);
+ref = "_LC-j-descender";
+}
+);
+};
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "_LC-xheight-left-instroke";
+},
+{
+anchor = stem;
+pos = (-166,0);
+ref = "_LC-j-descender-crossed-tail";
+}
+);
+width = 514;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

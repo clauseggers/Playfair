@@ -1,0 +1,378 @@
+{
+color = 5;
+glyphname = f_udieresis.liga;
+kernLeft = KO_f;
+kernRight = KO_u;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (11,0);
+ref = f;
+},
+{
+pos = (362,0);
+ref = udieresis;
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (291,0);
+ref = u;
+}
+);
+width = 870;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (324,0);
+ref = u;
+}
+);
+width = 1021;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (335,0);
+ref = u;
+}
+);
+width = 985;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (365,0);
+ref = u;
+}
+);
+width = 1164;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (326,0);
+ref = u;
+}
+);
+width = 1047;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (369,0);
+ref = u;
+}
+);
+width = 1207;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (370,0);
+ref = u;
+}
+);
+width = 1185;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = f__dieresis.ligature;
+},
+{
+pos = (430,0);
+ref = u;
+}
+);
+width = 1403;
+},
+{
+associatedMasterId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "2C01CA05-A406-491C-913F-1D09149F2379";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (606,0);
+ref = udieresis;
+}
+);
+width = 1579;
+},
+{
+associatedMasterId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "2C2D244C-3F7A-460A-A220-D621667306C8";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (523,0);
+ref = udieresis;
+}
+);
+width = 1338;
+},
+{
+associatedMasterId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "D05041BF-EC90-4541-B6D6-75859D928797";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (483,0);
+ref = udieresis;
+}
+);
+width = 1321;
+},
+{
+associatedMasterId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "07D0F556-3B6D-42EE-B106-06F4B6925E8A";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (423,0);
+ref = udieresis;
+}
+);
+width = 1144;
+},
+{
+associatedMasterId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "7978FFD7-E21A-4D13-94DA-AFD1D57C6842";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (453,0);
+ref = udieresis;
+}
+);
+width = 1252;
+},
+{
+associatedMasterId = "19651320-9895-44C9-9F41-285CE0F17596";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "08D77BBE-51FB-4C87-BDAC-A3F6CACA360B";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (373,0);
+ref = udieresis;
+}
+);
+width = 1023;
+},
+{
+associatedMasterId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+layerId = "DCBD823A-187C-44EB-B548-95113962B4CE";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (413,0);
+ref = udieresis;
+}
+);
+width = 1110;
+},
+{
+associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+min = 97;
+},
+{
+},
+{
+}
+);
+};
+background = {
+shapes = (
+{
+pos = (892,0);
+ref = f;
+},
+{
+pos = (1243,0);
+ref = udieresis;
+}
+);
+};
+layerId = "6170B354-1196-4FCD-8F55-76E0940A6995";
+name = "30 Jan 22, 12:57";
+shapes = (
+{
+ref = f;
+},
+{
+anchor = "#exit";
+pos = (353,0);
+ref = udieresis;
+}
+);
+width = 932;
+}
+);
+metricLeft = f;
+metricRight = udieresis;
+}

@@ -1,0 +1,229 @@
+{
+color = 5;
+glyphname = cent;
+layers = (
+{
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (220,0);
+ref = "_cent-bar";
+}
+);
+width = 447;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,708,l),
+(94,-181,l),
+(116,-181,l),
+(365,708,l)
+);
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (210,0);
+ref = "_cent-bar";
+}
+);
+width = 531;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,-181,l),
+(217,18,l),
+(195,18,l),
+(139,-181,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,519,l),
+(410,708,l),
+(388,708,l),
+(335,519,l)
+);
+},
+{
+ref = c;
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (247,0);
+ref = "_cent-bar";
+}
+);
+width = 522;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (132,-181);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (248,0);
+ref = "_cent-bar";
+}
+);
+width = 516;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (252,0);
+ref = "_cent-bar";
+}
+);
+width = 619;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,708,l),
+(94,-181,l),
+(116,-181,l),
+(365,708,l)
+);
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (242,0);
+ref = "_cent-bar";
+}
+);
+width = 594;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (132,-181);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (288,0);
+ref = "_cent-bar";
+}
+);
+width = 621;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,708,l),
+(94,-181,l),
+(116,-181,l),
+(365,708,l)
+);
+}
+);
+};
+guides = (
+{
+angle = 74.4;
+pos = (94,-181);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (292,0);
+ref = "_cent-bar";
+}
+);
+width = 722;
+}
+);
+unicode = 162;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

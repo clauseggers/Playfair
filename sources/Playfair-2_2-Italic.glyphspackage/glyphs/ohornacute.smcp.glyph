@@ -1,0 +1,114 @@
+{
+glyphname = ohornacute.smcp;
+kernLeft = KO_o.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (248,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 750;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (230,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 790;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (310,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 880;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (276,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 824;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (305,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 985;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (251,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 809;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (354,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 1009;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = ohorn.smcp;
+},
+{
+pos = (344,-100);
+ref = acutecomb.case.viet;
+}
+);
+width = 1036;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+};
+};
+}

@@ -1,0 +1,205 @@
+{
+color = 4;
+glyphname = minute;
+layers = (
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (172,0);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+closed = 1;
+nodes = (
+(301,708,l),
+(180,708,l),
+(44,410,l),
+(45,410,l)
+);
+}
+);
+width = 310;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (220,0);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(301,708,l),
+(180,708,l),
+(26,421,l),
+(80,391,l)
+);
+}
+);
+width = 310;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (240,0);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+closed = 1;
+nodes = (
+(370,708,l),
+(238,708,l),
+(41,421,l),
+(94,381,l)
+);
+}
+);
+width = 384;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (250,0);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,708,l),
+(150,708,l),
+(34,410,l),
+(35,410,l)
+);
+}
+);
+width = 360;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (267,0);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,708,l),
+(193,708,l),
+(42,410,l),
+(43,410,l)
+);
+}
+);
+width = 416;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (203,0);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(349,708,l),
+(222,708,l),
+(57,413,l),
+(58,413,l)
+);
+}
+);
+width = 362;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (270,0);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,708,l),
+(150,708,l),
+(34,410,l),
+(90,384,l)
+);
+}
+);
+width = 360;
+},
+{
+anchors = (
+{
+name = "^entry";
+},
+{
+name = "^exit";
+pos = (295,0);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+closed = 1;
+nodes = (
+(436,708,l),
+(211,708,l),
+(49,420,l),
+(99,384,l)
+);
+}
+);
+width = 440;
+}
+);
+unicode = 8242;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

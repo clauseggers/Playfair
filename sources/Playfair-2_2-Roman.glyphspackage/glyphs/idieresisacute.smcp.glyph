@@ -1,0 +1,158 @@
+{
+glyphname = idieresisacute.smcp;
+kernLeft = KO_i.smcp;
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-28,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (117,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 335;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-35,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (147,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 393;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-49,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (148,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 393;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-51,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (167,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 453;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (8,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (183,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 513;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (24,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (229,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 605;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-32,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (152,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 453;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+ref = i.smcp;
+},
+{
+anchor = top_low_2;
+pos = (-12,-140);
+ref = dieresiscomb.narrow.case;
+},
+{
+anchor = top_low_4;
+pos = (204,12);
+ref = acutecomb.case.viet;
+}
+);
+width = 569;
+}
+);
+}

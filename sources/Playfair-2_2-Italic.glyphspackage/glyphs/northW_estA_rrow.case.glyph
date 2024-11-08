@@ -1,0 +1,184 @@
+{
+color = 5;
+glyphname = northWestArrow.case;
+layers = (
+{
+guides = (
+{
+pos = (-80,357);
+},
+{
+pos = (-80,655);
+},
+{
+pos = (-80,59);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+alignment = 3;
+pos = (24,86);
+ref = northWestArrow;
+}
+);
+width = 739;
+},
+{
+guides = (
+{
+pos = (-73,357);
+},
+{
+pos = (-73,655);
+},
+{
+pos = (-73,59);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+alignment = 3;
+pos = (27,97);
+ref = northWestArrow;
+}
+);
+width = 795;
+},
+{
+guides = (
+{
+pos = (-73,355);
+},
+{
+pos = (-73,653);
+},
+{
+pos = (-73,57);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+alignment = 3;
+pos = (23,83);
+ref = northWestArrow;
+}
+);
+width = 748;
+},
+{
+guides = (
+{
+pos = (-123,355);
+},
+{
+pos = (-123,653);
+},
+{
+pos = (-123,57);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+alignment = 3;
+pos = (37,133);
+ref = northWestArrow;
+}
+);
+width = 701;
+},
+{
+guides = (
+{
+pos = (-86,356);
+},
+{
+pos = (-86,59);
+},
+{
+pos = (-86,655);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+alignment = 3;
+pos = (23,83);
+ref = northWestArrow;
+}
+);
+width = 739;
+},
+{
+guides = (
+{
+pos = (-82,356);
+},
+{
+pos = (-82,59);
+},
+{
+pos = (-82,655);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+alignment = 3;
+pos = (27,98);
+ref = northWestArrow;
+}
+);
+width = 768;
+},
+{
+guides = (
+{
+pos = (-82,356);
+},
+{
+pos = (-82,59);
+},
+{
+pos = (-82,655);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+alignment = 3;
+pos = (23,83);
+ref = northWestArrow;
+}
+);
+width = 739;
+},
+{
+guides = (
+{
+pos = (-95,356);
+},
+{
+pos = (-95,59);
+},
+{
+pos = (-95,655);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+alignment = 3;
+pos = (37,134);
+ref = northWestArrow;
+}
+);
+width = 769;
+}
+);
+metricLeft = "=|northEastArrow.case";
+metricRight = "=|northEastArrow.case";
+}

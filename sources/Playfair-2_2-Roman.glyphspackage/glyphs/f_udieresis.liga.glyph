@@ -1,0 +1,450 @@
+{
+color = 5;
+glyphname = f_udieresis.liga;
+kernLeft = KO_f;
+kernRight = KO_fi;
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (7,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (577,0);
+ref = _2ndTittle;
+},
+{
+pos = (-5,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (737,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (601,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (901,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 902;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (9,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (669,0);
+ref = _2ndTittle;
+},
+{
+pos = (1,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (882,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (720,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1072,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1072;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (645,0);
+ref = _2ndTittle;
+},
+{
+pos = (-13,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (778,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (670,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1004,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1003;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (5,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (718,0);
+ref = _2ndTittle;
+},
+{
+pos = (-7,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (886,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (752,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1138,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1140;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (8,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (700,0);
+ref = _2ndTittle;
+},
+{
+pos = (6,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (893,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (677,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1119,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1119;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (10,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (885,0);
+ref = _2ndTittle;
+},
+{
+pos = (20,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (1111,512);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (852,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1378,512);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1378;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (674,0);
+ref = _2ndTittle;
+},
+{
+pos = (-13,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 95;
+};
+pos = (827,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (682,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1076,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1075;
+},
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (6,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (799,0);
+ref = _2ndTittle;
+},
+{
+pos = (-3,0);
+ref = "_LC-ligature-udieresis";
+},
+{
+angle = 180;
+piece = {
+Thinning = -100;
+Width = 130;
+};
+pos = (1012,520);
+ref = "_part.LC-n-shoulder-top";
+},
+{
+anchor = "#exit";
+pos = (837,0);
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+anchor = stem;
+angle = 180;
+piece = {
+Depth = -100;
+NarrowSerif = -80;
+};
+pos = (1289,520);
+ref = "_part.LC-baseline-right-outserif";
+}
+);
+width = 1289;
+}
+);
+metricLeft = f;
+metricRight = u;
+}

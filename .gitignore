@@ -21,6 +21,7 @@ glyphs_ttf*/
 *.keyshape
 Backup/
 !fonts/**
+'Test documents'/HTML/*.woff2
 
 # OS generated files #
 ######################
@@ -32,3 +33,5 @@ Backup/
 .AppleDouble
 .LSOverride
 
+# Ad hoc test documents
+Test documents/HTML/Playfair Text TTF-VF.html

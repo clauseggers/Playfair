@@ -1,0 +1,672 @@
+{
+color = 5;
+glyphname = _f_ydieresis.ligature;
+layers = (
+{
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+name = "Agate Black SemiExpanded";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (6,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-3,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (799,0);
+ref = _2ndTittle;
+},
+{
+pos = (375,0);
+ref = y;
+}
+);
+width = 1188;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+name = "Agate Black SemiCondensed";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (674,0);
+ref = _2ndTittle;
+},
+{
+pos = (308,0);
+ref = y;
+}
+);
+width = 990;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+name = "Agate SemiExpanded";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (10,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (20,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (885,0);
+ref = _2ndTittle;
+},
+{
+pos = (513,0);
+ref = y;
+}
+);
+width = 1311;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+name = "Agate SemiCondensed";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (8,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (6,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (700,0);
+ref = _2ndTittle;
+},
+{
+pos = (413,0);
+ref = y;
+}
+);
+width = 1060;
+},
+{
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+name = "Needlepoint Black SemiExpanded";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (5,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-7,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (718,0);
+ref = _2ndTittle;
+},
+{
+pos = (388,0);
+ref = y;
+}
+);
+width = 1060;
+},
+{
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+name = "Needlepoint Black SemiCondensed";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (645,0);
+ref = _2ndTittle;
+},
+{
+pos = (344,0);
+ref = y;
+}
+);
+width = 912;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+name = "Needlepoint SemiExpanded";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (9,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (1,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (669,0);
+ref = _2ndTittle;
+},
+{
+pos = (372,0);
+ref = y;
+}
+);
+width = 961;
+},
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+name = "Needlepoint SemiCondensed";
+shapes = (
+{
+anchor = stem;
+piece = {
+LeftSerifWidth = 100;
+RightSerifWidth = 100;
+RightWide = 200;
+};
+ref = "_part.LC-baseline-stroke";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (7,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-5,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (577,0);
+ref = _2ndTittle;
+},
+{
+pos = (318,0);
+ref = y;
+}
+);
+width = 824;
+},
+{
+associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "667E6125-08FB-4276-A6B6-4BDD0AE68489";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (7,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-5,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (577,0);
+ref = _2ndTittle;
+},
+{
+pos = (318,0);
+ref = y;
+}
+);
+width = 824;
+},
+{
+associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "773AFF14-57FF-40A5-9D53-C2A3CD9A25D8";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (9,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (1,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (669,0);
+ref = _2ndTittle;
+},
+{
+pos = (372,0);
+ref = y;
+}
+);
+width = 961;
+},
+{
+associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "BD0ABC14-D2B4-4178-A32D-B5655CF1EF33";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (645,0);
+ref = _2ndTittle;
+},
+{
+pos = (344,0);
+ref = y;
+}
+);
+width = 912;
+},
+{
+associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "D5A28916-C9A4-4C81-9754-CA1DD4787AC4";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (5,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-7,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (718,0);
+ref = _2ndTittle;
+},
+{
+pos = (388,0);
+ref = y;
+}
+);
+width = 1060;
+},
+{
+associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "D8F01462-8499-486B-BD1D-A738173A2658";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (8,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (6,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (700,0);
+ref = _2ndTittle;
+},
+{
+pos = (413,0);
+ref = y;
+}
+);
+width = 1060;
+},
+{
+associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "CFB98123-BCFA-4C32-B3B7-72C219D46055";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (10,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (20,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (885,0);
+ref = _2ndTittle;
+},
+{
+pos = (513,0);
+ref = y;
+}
+);
+width = 1311;
+},
+{
+associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "F7C79B10-0EC7-4AFD-AEAB-7EDCE835361F";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (3,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+pos = (-13,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (674,0);
+ref = _2ndTittle;
+},
+{
+pos = (308,0);
+ref = y;
+}
+);
+width = 990;
+},
+{
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "74B4CB8B-ECB2-4F07-9E6C-F75FA9A68BFC";
+name = "28 Jan 22, 18:20";
+shapes = (
+{
+anchor = stem;
+piece = {
+Depth = 0;
+};
+ref = "_part.LC-baseline-right-outserif";
+},
+{
+piece = {
+Narrow = 0;
+Wide = 200;
+};
+pos = (6,0);
+ref = "_part.LC-ascender-left-side-hook";
+},
+{
+piece = {
+LongRight = 0;
+};
+pos = (-3,0);
+ref = "_part.LC-f-bar";
+},
+{
+pos = (799,0);
+ref = _2ndTittle;
+},
+{
+pos = (375,0);
+ref = y;
+}
+);
+width = 1188;
+}
+);
+metricLeft = f;
+metricRight = ydieresis;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+};
+};
+}

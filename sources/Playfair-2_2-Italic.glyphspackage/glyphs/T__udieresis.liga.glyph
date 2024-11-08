@@ -1,0 +1,259 @@
+{
+color = 5;
+glyphname = T_udieresis.liga;
+kernLeft = KO_T;
+kernRight = KO_T_udieresis.liga;
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (550,0);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = center;
+pos = (358,354);
+},
+{
+name = top;
+pos = (462,708);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,2,o),
+(187,3,o),
+(260,3,cs),
+(330,3,o),
+(378,2,o),
+(407,0,c),
+(407,1,l),
+(304,6,o),
+(316,40,o),
+(332,97,cs),
+(487,653,l),
+(401,679,l),
+(239,97,ls),
+(219,24,o),
+(203,12,o),
+(112,1,c),
+(112,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(169,479,o),
+(190,499,o),
+(190,526,cs),
+(190,573,o),
+(125,605,o),
+(125,635,cs),
+(125,660,o),
+(172,674,o),
+(256,674,cs),
+(435,674,o),
+(544,620,o),
+(670,620,cs),
+(773,620,o),
+(836,651,o),
+(836,708,cs),
+(836,739,o),
+(817,757,o),
+(791,757,cs),
+(708,757,o),
+(754,621,o),
+(672,621,cs),
+(583,621,o),
+(459,722,o),
+(300,722,cs),
+(182,722,o),
+(88,646,o),
+(88,549,cs),
+(88,505,o),
+(108,479,o),
+(141,479,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1018,647,o),
+(1045,673,o),
+(1045,703,cs),
+(1045,732,o),
+(1023,755,o),
+(997,755,cs),
+(964,755,o),
+(937,729,o),
+(937,699,cs),
+(937,670,o),
+(959,647,o),
+(985,647,cs)
+);
+},
+{
+alignment = -1;
+pos = (519,0);
+ref = u;
+}
+);
+};
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (495,0);
+ref = u;
+}
+);
+width = 1074;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (634,0);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (515,0);
+ref = u;
+}
+);
+width = 1236;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (658,0);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (589,0);
+ref = u;
+}
+);
+width = 1286;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (592,0);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (567,0);
+ref = u;
+}
+);
+width = 1217;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (736,0);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (619,0);
+ref = u;
+}
+);
+width = 1457;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (696,0);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (567,0);
+ref = u;
+}
+);
+width = 1382;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (738,0);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (647,0);
+ref = u;
+}
+);
+width = 1446;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (850,0);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "T_odieresis-corpus";
+},
+{
+pos = (747,0);
+ref = u;
+}
+);
+width = 1720;
+}
+);
+metricLeft = T;
+metricRight = udieresis;
+}

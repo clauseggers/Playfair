@@ -1,0 +1,181 @@
+{
+color = 9;
+export = 0;
+glyphname = "_LC-umod-stroke-overlay";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (339,270);
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+closed = 1;
+nodes = (
+(584,268,l),
+(584,269,l),
+(92,269,l),
+(92,268,l)
+);
+}
+);
+width = 676;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (387,270);
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(683,269,l),
+(683,270,l),
+(103,270,l),
+(103,269,l)
+);
+}
+);
+width = 785;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (357,270);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+closed = 1;
+nodes = (
+(621,268,l),
+(621,269,l),
+(96,270,l),
+(96,269,l)
+);
+}
+);
+width = 717;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (416,270);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+closed = 1;
+nodes = (
+(728,269,l),
+(728,270,l),
+(108,270,l),
+(108,269,l)
+);
+}
+);
+width = 836;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (404,270);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(704,246,l),
+(704,292,l),
+(105,292,l),
+(105,246,l)
+);
+}
+);
+width = 809;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (480,270);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+closed = 1;
+nodes = (
+(841,246,l),
+(841,292,l),
+(120,292,l),
+(120,246,l)
+);
+}
+);
+width = 961;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (379,270);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(660,246,l),
+(660,292,l),
+(100,292,l),
+(100,246,l)
+);
+}
+);
+width = 760;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (464,270);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+closed = 1;
+nodes = (
+(811,246,l),
+(811,292,l),
+(117,292,l),
+(117,246,l)
+);
+}
+);
+width = 928;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

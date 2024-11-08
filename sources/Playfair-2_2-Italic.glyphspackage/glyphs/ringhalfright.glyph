@@ -1,0 +1,209 @@
+{
+color = 8;
+glyphname = ringhalfright;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (453,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-8,513);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+angle = 180;
+pos = (453,1304);
+ref = ringhalfleft;
+}
+);
+width = 232;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (483,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-26,513);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+angle = 180;
+pos = (483,1304);
+ref = ringhalfleft;
+}
+);
+width = 262;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (482,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (0,513);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+angle = 180;
+pos = (482,1306);
+ref = ringhalfleft;
+}
+);
+width = 263;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (525,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-14,513);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+angle = 180;
+pos = (525,1307);
+ref = ringhalfleft;
+}
+);
+width = 305;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (465,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-55,512);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+angle = 180;
+pos = (465,1329);
+ref = ringhalfleft;
+}
+);
+width = 237;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (500,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-92,512);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+angle = 180;
+pos = (500,1329);
+ref = ringhalfleft;
+}
+);
+width = 272;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (473,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (1,512);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+angle = 180;
+pos = (473,1331);
+ref = ringhalfleft;
+}
+);
+width = 246;
+},
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (518,1331);
+ref = ringhalfleft;
+}
+);
+};
+guides = (
+{
+pos = (-23,512);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+angle = 180;
+pos = (518,1332);
+ref = ringhalfleft;
+}
+);
+width = 291;
+}
+);
+metricLeft = "=|ringhalfleft";
+metricRight = "=|ringhalfleft";
+unicode = 702;
+}

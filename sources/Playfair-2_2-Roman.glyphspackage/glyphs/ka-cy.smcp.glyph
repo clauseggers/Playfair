@@ -1,0 +1,142 @@
+{
+color = 5;
+glyphname = "ka-cy.smcp";
+kernLeft = KO_i.smcp;
+layers = (
+{
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (170,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 651;
+},
+{
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (188,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 808;
+},
+{
+guides = (
+{
+pos = (337,363);
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (261,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 763;
+},
+{
+guides = (
+{
+pos = (336,363);
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (290,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 895;
+},
+{
+guides = (
+{
+pos = (63,280);
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (239,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 869;
+},
+{
+guides = (
+{
+pos = (20,280);
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (281,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 1057;
+},
+{
+guides = (
+{
+pos = (-47,280);
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (242,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 821;
+},
+{
+guides = (
+{
+pos = (-9,280);
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+ref = "_part.SMCP-stem";
+},
+{
+pos = (290,0);
+ref = "_SMCP-ka-cy-wings";
+}
+);
+width = 1016;
+}
+);
+metricLeft = "ii-cy.smcp";
+}

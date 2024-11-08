@@ -1,0 +1,166 @@
+{
+color = 5;
+glyphname = thook.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (207,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (106,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 653;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (249,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (130,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 755;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (193,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (81,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 714;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (290,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (160,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 909;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (243,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (83,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 727;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (302,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (115,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 843;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (260,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (118,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 843;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "_SMCP-t-hook-top-stroke";
+},
+{
+piece = {
+Asymmetry = 0;
+};
+pos = (324,0);
+ref = "_part.SMCP-T-upper-stroke";
+},
+{
+pos = (145,0);
+ref = "_part.UC-T-lower-stem";
+}
+);
+width = 962;
+}
+);
+}

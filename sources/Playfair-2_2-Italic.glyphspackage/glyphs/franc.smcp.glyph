@@ -1,0 +1,181 @@
+{
+color = 5;
+glyphname = franc.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-34,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-69,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 550;
+},
+{
+guides = (
+{
+angle = 74.4;
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (37,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (2,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 654;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-28,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-63,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 663;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-33,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-68,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 612;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (20,0);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (23,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-12,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 779;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-30,0);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-78,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-113,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 639;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-39,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-74,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 744;
+},
+{
+guides = (
+{
+angle = 74.4;
+pos = (-30,0);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = "ge-cy.smcp";
+},
+{
+anchor = "top-franc";
+pos = (-43,-23);
+ref = strokeshortoverlaycomb.case;
+},
+{
+anchor = "bottom-franc";
+pos = (-78,-148);
+ref = strokeshortoverlaycomb.case;
+}
+);
+width = 805;
+}
+);
+}

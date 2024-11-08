@@ -1,0 +1,183 @@
+{
+color = 4;
+export = 0;
+glyphname = "_LC-ge-cy-bar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (250,256);
+}
+);
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+name = "Agate SemiExpanded";
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,220,l),
+(479,290,l),
+(40,290,l),
+(20,220,l)
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (265,260);
+}
+);
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+name = "Agate Black SemiCondensed";
+shapes = (
+{
+closed = 1;
+nodes = (
+(489,220,l),
+(508,290,l),
+(39,290,l),
+(19,220,l)
+);
+}
+);
+width = 530;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (299,260);
+}
+);
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+name = "Agate Black SemiExpanded";
+shapes = (
+{
+closed = 1;
+nodes = (
+(558,220,l),
+(576,290,l),
+(39,290,l),
+(19,220,l)
+);
+}
+);
+width = 599;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (202,256);
+}
+);
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+name = "Needlepoint SemiCondensed";
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,255,l),
+(374,256,l),
+(30,256,l),
+(30,255,l)
+);
+}
+);
+width = 404;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (230,256);
+}
+);
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+name = "Needlepoint SemiExpanded";
+shapes = (
+{
+closed = 1;
+nodes = (
+(430,254,l),
+(430,255,l),
+(30,255,l),
+(30,254,l)
+);
+}
+);
+width = 461;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (237,260);
+}
+);
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+name = "Needlepoint Black SemiCondensed";
+shapes = (
+{
+closed = 1;
+nodes = (
+(444,260,l),
+(444,261,l),
+(30,261,l),
+(30,260,l)
+);
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (276,260);
+}
+);
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+name = "Needlepoint Black SemiExpanded";
+shapes = (
+{
+closed = 1;
+nodes = (
+(522,260,l),
+(522,261,l),
+(30,261,l),
+(30,260,l)
+);
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (222,256);
+}
+);
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+name = "Agate SemiCondensed";
+shapes = (
+{
+closed = 1;
+nodes = (
+(404,220,l),
+(423,290,l),
+(39,290,l),
+(20,220,l)
+);
+}
+);
+width = 444;
+}
+);
+}

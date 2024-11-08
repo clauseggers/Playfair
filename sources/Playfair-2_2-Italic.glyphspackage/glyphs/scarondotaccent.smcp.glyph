@@ -1,0 +1,158 @@
+{
+glyphname = scarondotaccent.smcp;
+kernRight = KO_s.smcp;
+layers = (
+{
+layerId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (22,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (132,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 553;
+},
+{
+layerId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (39,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (149,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 651;
+},
+{
+layerId = "19651320-9895-44C9-9F41-285CE0F17596";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (25,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (151,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 621;
+},
+{
+layerId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (55,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (176,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 757;
+},
+{
+layerId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (41,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (135,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 604;
+},
+{
+layerId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (71,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (163,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 720;
+},
+{
+layerId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (19,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (91,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 624;
+},
+{
+layerId = "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE";
+shapes = (
+{
+ref = s.smcp;
+},
+{
+anchor = top;
+pos = (66,-100);
+ref = caroncomb.case;
+},
+{
+anchor = top_low_3;
+pos = (131,72);
+ref = _dotaccentcomb.case.light;
+}
+);
+width = 781;
+}
+);
+}

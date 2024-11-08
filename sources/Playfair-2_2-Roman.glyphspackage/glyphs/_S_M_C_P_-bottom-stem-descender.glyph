@@ -1,0 +1,377 @@
+{
+color = 4;
+export = 0;
+glyphname = "_SMCP-bottom-stem-descender";
+layers = (
+{
+anchors = (
+{
+name = "^entry";
+pos = (111,0);
+},
+{
+name = _stem;
+pos = (111,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (111,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,-228,l),
+(204,-231,l),
+(204,250,l),
+(111,250,l),
+(111,-231,l)
+);
+}
+);
+width = 312;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (129,0);
+},
+{
+name = _stem;
+pos = (129,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (129,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(175,-228,l),
+(222,-231,l),
+(222,250,l),
+(129,250,l),
+(129,-231,l)
+);
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (101,0);
+},
+{
+name = _stem;
+pos = (101,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (101,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,-228,l),
+(294,-231,l),
+(294,250,l),
+(101,250,l),
+(101,-231,l)
+);
+}
+);
+width = 378;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (120,0);
+},
+{
+name = _stem;
+pos = (120,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (120,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+closed = 1;
+nodes = (
+(221,-228,l),
+(313,-231,l),
+(313,250,l),
+(120,250,l),
+(120,-231,l)
+);
+}
+);
+width = 424;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (171,0);
+},
+{
+name = _stem;
+pos = (171,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (171,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,-228,l),
+(264,-231,l),
+(264,250,l),
+(171,250,l),
+(171,-231,l)
+);
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (196,0);
+},
+{
+name = _stem;
+pos = (196,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (196,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+closed = 1;
+nodes = (
+(243,-228,l),
+(289,-231,l),
+(289,250,l),
+(196,250,l),
+(196,-231,l)
+);
+}
+);
+width = 455;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (131,0);
+},
+{
+name = _stem;
+pos = (131,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (131,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,-228,l),
+(324,-231,l),
+(324,250,l),
+(131,250,l),
+(131,-231,l)
+);
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = "^entry";
+pos = (168,0);
+},
+{
+name = _stem;
+pos = (168,250);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (168,-120);
+},
+{
+angle = 90;
+pos = (168,-120);
+}
+);
+hints = (
+{
+name = "_corner.UC-serif";
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_corner.UC-serif";
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+closed = 1;
+nodes = (
+(266,-228,l),
+(361,-231,l),
+(361,250,l),
+(168,250,l),
+(168,-231,l)
+);
+}
+);
+width = 499;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}
