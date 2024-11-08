@@ -22,15 +22,9 @@ I have prepared a number of specimen pages that shows Playfair in context.
 - *Weights* from Normal to Black
 - *Optical sizes* from Agate to Needlepoint
 
-![**Playfair 2.2** animation](Images/Playfair2_a-z.svg)
-<!---![**Playfair 2.2** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_a-z.svg)--->
-
 The optical size axis is the most extreme of the axes. Along that axis you can seamlessly change the letterforms from the extremely small Agate to the extremely big Needlepoint. The Agate has a very low contrast between the thickest and thinnest parts of its strokes, in fact the contrast is even slightly negative, meaning the horizontal strokes are heavier than the vertical strokes. At the other end the Needlepoint is as high contrast as practically possible. The thinnest strokes are but a single unit wide, meaning that if you were to typeset in 1000 points using a Needlepoint weight, the resulting thinnest strokes would be one point wide.
 
 The **weight** axis adds a second dimension by allowing you to seamlessly change from a light regular to a dark black.
-
-![**Playfair 2.2** animation](Images/Playfair2_cyrillic.svg)
-<!---![**Playfair 2.2** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_cyrillic.svg)--->
 
 **Playfair 2.2** has been designed with context-dependant alternate designs of some glyphs. These alternates are automatically applied based on the *optical size, the width, and the weight* of the text.
 
@@ -59,9 +53,6 @@ The third axis allows you to seamlessly change from Semi-Condensed to Semi-Expan
 - An expanded range of currency symbols.
 - Special tabular versions of punctuation and currency symbols for table use with tabular figures.
 
-![**Playfair 2.2** animation](Images/Playfair2_g-two.svg)
-<!---![**Playfair 2.2** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_g-two.svg)--->
-
 <!---
 Go to **[Google Web­fonts to use Play­fair 2.2 as a web­font](http://www.google.com/fonts/specimen/Playfair2)**.
 --->
@@ -75,8 +66,5 @@ Abidji, Abron, Abua, Acheron, Achinese, Achuar-Shiwiar, Acoli, Adangme, Adara, A
 
 **Playfair 2.2 supports the following Cyrillic-script languages**
 Abaza, Belarusian, Bulgarian, Chinese Buriat, Crimean Tatar, Dungan, Erzya, Halh Mongolian, Kalmyk, Karachay-Balkar, Kazakh, Kirghiz, Kumyk, Macedonian, Moksha, Mongolian Buriat, Montenegrin, Nogai, Russian, Russian Buriat, Rusyn, Serbian, Tatar, Tuvinian, and Ukrainian.
-
-![**Playfair 2.2** animation](Images/Playfair2_n-n.svg)
-<!---![**Playfair 2.2** animation](https://rawgithub.com/clauseggers/playfair-Display/master/Images/Playfair2_n-n.svg)--->
 
 **The Playfair typeface** was designed by **[Claus Eggers Sørensen](http://forthehearts.net/)** in 2005–2024, and is published under the [SIL Open Font License Version 1.1](https://github.com/clauseggers/Playfair-Display/blob/master/OFL.txt).
