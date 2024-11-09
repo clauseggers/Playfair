@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (41,0);
 }
 );
@@ -21,7 +21,7 @@ width = 182;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (50,0);
 }
 );
@@ -37,7 +37,7 @@ width = 174;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (51,0);
 }
 );
@@ -53,7 +53,7 @@ width = 193;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (-5,0);
 }
 );
@@ -69,7 +69,7 @@ width = 246;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (39,0);
 }
 );
@@ -85,7 +85,7 @@ width = 258;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (56,0);
 }
 );
@@ -101,7 +101,7 @@ width = 176;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (55,0);
 }
 );
@@ -117,7 +117,7 @@ width = 204;
 {
 anchors = (
 {
-name = "#entry";
+name = "^entry";
 pos = (50,0);
 }
 );
