@@ -15,6 +15,10 @@ name = Ldot;
 pos = (368,332);
 },
 {
+name = "^exit";
+pos = (210,0);
+},
+{
 name = bottom;
 pos = (106,0);
 },
@@ -28,11 +32,11 @@ pos = (243,512);
 },
 {
 name = top;
-pos = (270,773);
+pos = (269,771);
 },
 {
 name = topright;
-pos = (314,773);
+pos = (313,771);
 }
 );
 background = {
@@ -156,6 +160,10 @@ pos = (200,0);
 {
 name = Ldot;
 pos = (453,332);
+},
+{
+name = "^exit";
+pos = (316,0);
 },
 {
 name = bottom;
@@ -299,6 +307,10 @@ name = Ldot;
 pos = (396,332);
 },
 {
+name = "^exit";
+pos = (265,0);
+},
+{
 name = bottom;
 pos = (147,0);
 },
@@ -312,11 +324,11 @@ pos = (270,512);
 },
 {
 name = top;
-pos = (298,773);
+pos = (297,771);
 },
 {
 name = topright;
-pos = (341,773);
+pos = (340,771);
 }
 );
 background = {
@@ -440,6 +452,10 @@ name = Ldot;
 pos = (432,311);
 },
 {
+name = "^exit";
+pos = (255,0);
+},
+{
 name = bottom;
 pos = (118,0);
 },
@@ -453,11 +469,11 @@ pos = (313,520);
 },
 {
 name = top;
-pos = (295,773);
+pos = (294,771);
 },
 {
 name = topright;
-pos = (388,773);
+pos = (387,771);
 }
 );
 background = {
@@ -579,6 +595,10 @@ pos = (225,0);
 {
 name = Ldot;
 pos = (520,332);
+},
+{
+name = "^exit";
+pos = (374,0);
 },
 {
 name = bottom;
@@ -984,6 +1004,10 @@ name = Ldot;
 pos = (551,311);
 },
 {
+name = "^exit";
+pos = (377,0);
+},
+{
 name = bottom;
 pos = (141,0);
 },
@@ -1267,6 +1291,10 @@ name = Ldot;
 pos = (467,311);
 },
 {
+name = "^exit";
+pos = (324,0);
+},
+{
 name = bottom;
 pos = (168,0);
 },
@@ -1280,11 +1308,11 @@ pos = (345,520);
 },
 {
 name = top;
-pos = (327,773);
+pos = (326,771);
 },
 {
 name = topright;
-pos = (421,773);
+pos = (420,771);
 }
 );
 background = {
@@ -1400,6 +1428,10 @@ pos = (319,0);
 {
 name = Ldot;
 pos = (589,311);
+},
+{
+name = "^exit";
+pos = (467,0);
 },
 {
 name = bottom;
