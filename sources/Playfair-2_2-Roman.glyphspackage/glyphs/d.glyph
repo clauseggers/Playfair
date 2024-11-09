@@ -5,6 +5,12 @@ kernLeft = KO_d;
 kernRight = KO_l;
 layers = (
 {
+anchors = (
+{
+name = "^exit";
+pos = (569,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -33,6 +39,12 @@ ref = "_LC-ascender-right-inserif";
 width = 599;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (602,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -61,6 +73,12 @@ ref = "_LC-ascender-right-inserif";
 width = 692;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (733,0);
+}
+);
 guides = (
 {
 pos = (144,137);
@@ -92,6 +110,12 @@ ref = "_LC-ascender-right-inserif";
 width = 858;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (583,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -120,6 +144,12 @@ ref = "_LC-ascender-right-inserif";
 width = 623;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (690,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -148,6 +178,12 @@ ref = "_LC-ascender-right-inserif";
 width = 740;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (647,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -176,6 +212,12 @@ ref = "_LC-ascender-right-inserif";
 width = 713;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (603,0);
+}
+);
 guides = (
 {
 angle = 90;
@@ -204,6 +246,12 @@ ref = "_LC-ascender-right-inserif";
 width = 643;
 },
 {
+anchors = (
+{
+name = "^exit";
+pos = (743,0);
+}
+);
 guides = (
 {
 angle = 90;
