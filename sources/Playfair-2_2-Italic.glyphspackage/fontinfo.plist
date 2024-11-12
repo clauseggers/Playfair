@@ -389,8 +389,8 @@ code = "lookup ccmp_DFLT_1 {
 
 lookup ccmp_Other_1 {
 	lookupflag 0;
-	@Markscomb = [brevecomb-cy dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb candraBinducomb breveinvertedcomb commaturnedabovecomb commaabovecomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb macronbelowcomb slashshortcomb dotaboverightcomb doublemacronbelowcomb acutemacroncomb gravemacroncomb macronacutecomb macrongravecomb acutecomb.loclPLK dieresiscomb.narrow];
-	@MarkscombCase = [brevecomb-cy.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case candraBinducomb.case breveinvertedcomb.case commaturnedabovecomb.case commaabovecomb.case cedillacomb.case ogonekcomb.case circumflexbelowcomb.case brevebelowcomb.case macronbelowcomb.case slashshortcomb.case dotaboverightcomb.case doublemacronbelowcomb.case acutemacroncomb.case gravemacroncomb.case macronacutecomb.case macrongravecomb.case acutecomb.loclPLK.case dieresiscomb.narrow.case];
+	@Markscomb = [brevecomb-cy dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb candraBinducomb breveinvertedcomb commaturnedabovecomb commaabovecomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb macronbelowcomb dotaboverightcomb doublemacronbelowcomb acutemacroncomb gravemacroncomb macronacutecomb macrongravecomb acutecomb.loclPLK dieresiscomb.narrow];
+	@MarkscombCase = [brevecomb-cy.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case candraBinducomb.case breveinvertedcomb.case commaturnedabovecomb.case commaabovecomb.case cedillacomb.case ogonekcomb.case circumflexbelowcomb.case brevebelowcomb.case macronbelowcomb.case dotaboverightcomb.case doublemacronbelowcomb.case acutemacroncomb.case gravemacroncomb.case macronacutecomb.case macrongravecomb.case acutecomb.loclPLK.case dieresiscomb.narrow.case];
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
 
@@ -2271,7 +2271,6 @@ sub macroncomb by macroncomb.case;
 sub hookabovecomb by hookabovecomb.case;
 sub cedillacomb by cedillacomb.case;
 sub ogonekcomb by ogonekcomb.case;
-sub slashshortcomb by slashshortcomb.case;
 sub acutecomb.loclPLK by acutecomb.loclPLK.case;
 sub zero by zero.lf;
 sub one by one.lf;
