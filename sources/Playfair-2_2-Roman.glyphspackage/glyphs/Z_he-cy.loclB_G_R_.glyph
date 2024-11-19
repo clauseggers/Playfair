@@ -7,7 +7,7 @@ layers = (
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (310,0);
@@ -20,11 +20,7 @@ metricLeft = "=|Ka-cy+20";
 metricRight = "=Ka-cy+20";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-pos = (349,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1031;
@@ -33,7 +29,7 @@ width = 1031;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (366,0);
@@ -46,17 +42,7 @@ metricLeft = "=|Ka-cy+20";
 metricRight = "=Ka-cy+20";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-piece = {
-BottomLeftSerif = 60;
-BottomRightSerif = 60;
-TopLeftSerif = 60;
-TopRightSerif = 60;
-};
-pos = (330,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1171;
@@ -65,7 +51,7 @@ width = 1171;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (451,0);
@@ -78,17 +64,7 @@ metricLeft = "=|Ka-cy+30";
 metricRight = "=Ka-cy+30";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-piece = {
-BottomLeftSerif = 70;
-BottomRightSerif = 70;
-TopLeftSerif = 70;
-TopRightSerif = 70;
-};
-pos = (421,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1445;
@@ -97,7 +73,7 @@ width = 1445;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (346,0);
@@ -110,11 +86,7 @@ metricLeft = "=|Ka-cy+20";
 metricRight = "=Ka-cy+20";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-pos = (312,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1027;
@@ -123,7 +95,7 @@ width = 1027;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (407,0);
@@ -136,11 +108,7 @@ metricLeft = "=|Ka-cy+30";
 metricRight = "=Ka-cy+30";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-pos = (363,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1189;
@@ -149,7 +117,7 @@ width = 1189;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (372,0);
@@ -162,11 +130,7 @@ metricLeft = "=|Ka-cy+30";
 metricRight = "=Ka-cy+30";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-pos = (363,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1117;
@@ -175,7 +139,7 @@ width = 1117;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (321,0);
@@ -188,17 +152,7 @@ metricLeft = "=|Ka-cy+20";
 metricRight = "=Ka-cy+20";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-piece = {
-BottomLeftSerif = 50;
-BottomRightSerif = 50;
-TopLeftSerif = 50;
-TopRightSerif = 50;
-};
-pos = (309,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1083;
@@ -207,7 +161,7 @@ width = 1083;
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (412,0);
@@ -220,17 +174,7 @@ metricLeft = "=|Ka-cy+30";
 metricRight = "=Ka-cy+30";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
-},
-{
-piece = {
-BottomLeftSerif = 50;
-BottomRightSerif = 50;
-TopLeftSerif = 60;
-TopRightSerif = 60;
-};
-pos = (390,0);
-ref = "_part.UC-stem";
+ref = "Zhe-cy";
 }
 );
 width = 1361;
@@ -388,7 +332,7 @@ metricRight = "=Ka-cy+20";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (358,0);
@@ -529,7 +473,7 @@ metricRight = "=Ka-cy+30";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (373,0);
@@ -691,7 +635,7 @@ metricRight = "=Ka-cy+20";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (312,0);
@@ -832,7 +776,7 @@ metricRight = "=Ka-cy+30";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (363,0);
@@ -973,7 +917,7 @@ metricRight = "=Ka-cy+20";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1118,7 +1062,7 @@ metricRight = "=Ka-cy+30";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1263,7 +1207,7 @@ metricRight = "=Ka-cy+20";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1408,7 +1352,7 @@ metricRight = "=Ka-cy+30";
 name = "21 Apr 23 at 13:35";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1426,7 +1370,7 @@ associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (310,0);
@@ -1440,7 +1384,7 @@ metricRight = "=Ka-cy+20";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (349,0);
@@ -1454,7 +1398,7 @@ associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (372,0);
@@ -1468,7 +1412,7 @@ metricRight = "=Ka-cy+30";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (363,0);
@@ -1482,7 +1426,7 @@ associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (346,0);
@@ -1496,7 +1440,7 @@ metricRight = "=Ka-cy+20";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (312,0);
@@ -1510,7 +1454,7 @@ associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (407,0);
@@ -1524,7 +1468,7 @@ metricRight = "=Ka-cy+30";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (363,0);
@@ -1538,7 +1482,7 @@ associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (366,0);
@@ -1552,7 +1496,7 @@ metricRight = "=Ka-cy+20";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1572,7 +1516,7 @@ associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (451,0);
@@ -1586,7 +1530,7 @@ metricRight = "=Ka-cy+30";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1606,7 +1550,7 @@ associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (321,0);
@@ -1620,7 +1564,7 @@ metricRight = "=Ka-cy+20";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {
@@ -1640,7 +1584,7 @@ associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
 background = {
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 pos = (412,0);
@@ -1654,7 +1598,7 @@ metricRight = "=Ka-cy+30";
 name = "13 Jul 24 at 16:34";
 shapes = (
 {
-ref = "_UC-Zhe-cy.loclBGR-wings";
+ref = "_UC-Zhe-cy-wings";
 },
 {
 piece = {

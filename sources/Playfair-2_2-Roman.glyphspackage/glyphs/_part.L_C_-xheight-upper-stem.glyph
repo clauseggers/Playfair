@@ -712,6 +712,59 @@ nodes = (
 }
 );
 width = 392;
+},
+{
+anchors = (
+{
+name = "#exit";
+pos = (136,260);
+},
+{
+name = _baselineMiddle;
+pos = (226,0);
+},
+{
+name = stem;
+pos = (136,260);
+},
+{
+name = top;
+pos = (226,520);
+}
+);
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+hints = (
+{
+name = "_corner.LC-serif";
+origin = (0,1);
+scale = (0.7,1);
+type = Corner;
+},
+{
+name = "_corner.LC-serif";
+origin = (0,3);
+scale = (-0.7,1);
+type = Corner;
+}
+);
+layerId = "6CD126B4-67EB-4009-9AB6-9F7C24E85237";
+name = NarrowNarrow;
+partSelection = {
+NarrowNarrow = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,260,l),
+(316,520,l),
+(226,517,l),
+(136,520,l),
+(136,260,l)
+);
+}
+);
+width = 452;
 }
 );
 partsSettings = (

@@ -14,7 +14,7 @@ pos = (180,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 695;
+width = 723;
 },
 {
 layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
@@ -27,7 +27,7 @@ pos = (209,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 801;
+width = 795;
 },
 {
 layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
@@ -40,7 +40,7 @@ pos = (271,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 836;
+width = 795;
 },
 {
 layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
@@ -53,14 +53,15 @@ pos = (300,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 958;
+width = 904;
 },
 {
 layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
 shapes = (
 {
 piece = {
-TopRightSerif = 80;
+BottomRightSerif = 60;
+TopRightSerif = 60;
 };
 ref = "_part.UC-stem";
 },
@@ -69,12 +70,16 @@ pos = (239,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 816;
+width = 842;
 },
 {
 layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
 shapes = (
 {
+piece = {
+BottomRightSerif = 60;
+TopRightSerif = 60;
+};
 ref = "_part.UC-stem";
 },
 {
@@ -82,12 +87,16 @@ pos = (281,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 985;
+width = 1025;
 },
 {
 layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
 shapes = (
 {
+piece = {
+BottomRightSerif = 60;
+TopRightSerif = 60;
+};
 ref = "_part.UC-stem";
 },
 {
@@ -95,10 +104,118 @@ pos = (261,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 864;
+width = 801;
 },
 {
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+shapes = (
+{
+piece = {
+BottomRightSerif = 60;
+TopRightSerif = 60;
+};
+ref = "_part.UC-stem";
+},
+{
+pos = (300,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 990;
+},
+{
+associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "B3EAE1F8-4533-4F01-9A93-9CA21E582081";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+ref = "_part.UC-stem";
+},
+{
+pos = (180,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 723;
+},
+{
+associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "43F70DA8-C427-4CB0-A8DF-82F98C006231";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+ref = "_part.UC-stem";
+},
+{
+pos = (209,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 795;
+},
+{
+associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "CF0837FE-86ED-4310-80D1-141AC4A884B2";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+ref = "_part.UC-stem";
+},
+{
+pos = (271,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 795;
+},
+{
+associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "C8371171-E2A9-4103-B5D4-5D662871E6E2";
+name = "19 Nov 24 at 12:50";
 shapes = (
 {
 ref = "_part.UC-stem";
@@ -108,7 +225,123 @@ pos = (300,0);
 ref = "_UC-Kadescender-cy-wing";
 }
 );
-width = 1021;
+width = 904;
+},
+{
+associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "BBC1D363-04A5-4DE8-96D2-FB08F9C8A042";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+piece = {
+TopRightSerif = 60;
+};
+ref = "_part.UC-stem";
+},
+{
+pos = (239,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 842;
+},
+{
+associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "5A1D0693-43BF-4D49-83B0-2AEBA7A2B2D9";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+piece = {
+TopRightSerif = 60;
+};
+ref = "_part.UC-stem";
+},
+{
+pos = (281,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 1025;
+},
+{
+associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "68DEE7A1-EC7F-445A-B5B9-627446149E3E";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+piece = {
+TopRightSerif = 60;
+};
+ref = "_part.UC-stem";
+},
+{
+pos = (261,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 801;
+},
+{
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+attr = {
+axisRules = (
+{
+max = 400;
+},
+{
+},
+{
+}
+);
+};
+layerId = "83CC71FF-AF83-4A58-A007-5A9BD12F788B";
+name = "19 Nov 24 at 12:50";
+shapes = (
+{
+piece = {
+TopRightSerif = 60;
+};
+ref = "_part.UC-stem";
+},
+{
+pos = (300,0);
+ref = "_UC-Kadescender-cy-wing";
+}
+);
+width = 990;
 }
 );
 metricLeft = "En-cy";
