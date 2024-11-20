@@ -38,8 +38,9 @@ type = Corner;
 );
 layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -90,8 +91,9 @@ type = Corner;
 );
 layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -142,8 +144,9 @@ type = Corner;
 );
 layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -194,8 +197,9 @@ type = Corner;
 );
 layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -246,8 +250,9 @@ type = Corner;
 );
 layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -298,8 +303,9 @@ type = Corner;
 );
 layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -350,8 +356,9 @@ type = Corner;
 );
 layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -402,8 +409,9 @@ type = Corner;
 );
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -454,10 +462,11 @@ type = Corner;
 }
 );
 layerId = "23784309-6845-476A-83CA-880FBF3420B4";
-name = NarrowSerif;
+name = NarrowNormal;
 partSelection = {
-NarrowSerif = 1;
+NarrowNormal = 1;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -508,10 +517,11 @@ type = Corner;
 }
 );
 layerId = "2A9B8AF0-79BC-4EC7-B40A-247200FBD5C0";
-name = NarrowSerif;
+name = NarrowNormal;
 partSelection = {
-NarrowSerif = 1;
+NarrowNormal = 1;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -562,10 +572,11 @@ type = Corner;
 }
 );
 layerId = "F7BEE44F-BDBC-4ABE-B913-5C90AC7299C7";
-name = NarrowSerif;
+name = NarrowNormal;
 partSelection = {
-NarrowSerif = 1;
+NarrowNormal = 1;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -616,10 +627,11 @@ type = Corner;
 }
 );
 layerId = "E847220C-08B9-422F-A3A5-254A131385A1";
-name = NarrowSerif;
+name = NarrowNormal;
 partSelection = {
-NarrowSerif = 1;
+NarrowNormal = 1;
 NarrowNarrow = 2;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -672,8 +684,9 @@ type = Corner;
 layerId = "4330AE0D-EFD4-477F-BD37-657C70DFAC40";
 name = NarrowNarrow;
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 1;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -726,8 +739,9 @@ type = Corner;
 layerId = "1F24850B-F4D6-4002-BB1D-D01CC7070C66";
 name = NarrowNarrow;
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 1;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -780,8 +794,9 @@ type = Corner;
 layerId = "22A4D7FF-6BB3-45B8-B27A-43262A77A6DA";
 name = NarrowNarrow;
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 1;
+NormalNarrow = 2;
 };
 shapes = (
 {
@@ -834,8 +849,229 @@ type = Corner;
 layerId = "AA575A8B-EE64-40C5-A030-F4E8314846E1";
 name = NarrowNarrow;
 partSelection = {
-NarrowSerif = 2;
+NarrowNormal = 2;
 NarrowNarrow = 1;
+NormalNarrow = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,3,l),
+(316,0,l),
+(316,260,l),
+(136,260,l),
+(136,0,l)
+);
+}
+);
+width = 452;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (40,0);
+},
+{
+name = "#exit";
+pos = (266,256);
+},
+{
+name = "^exit";
+pos = (266,0);
+},
+{
+name = _stem;
+pos = (176,256);
+}
+);
+associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+hints = (
+{
+name = "_corner.LC-serif";
+origin = (0,4);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = "_corner.LC-serif";
+origin = (0,1);
+scale = (0.6,-1);
+type = Corner;
+}
+);
+layerId = "49B61ED9-7DC9-41DE-BBFE-86EE39ACEBE2";
+name = NormalNarrow;
+partSelection = {
+NarrowNormal = 2;
+NarrowNarrow = 2;
+NormalNarrow = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(221,3,l),
+(266,0,l),
+(266,256,l),
+(176,256,l),
+(176,0,l)
+);
+}
+);
+width = 442;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (55,0);
+},
+{
+name = "#exit";
+pos = (308,256);
+},
+{
+name = "^exit";
+pos = (308,0);
+},
+{
+name = _stem;
+pos = (218,256);
+}
+);
+associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+hints = (
+{
+name = "_corner.LC-serif";
+origin = (0,4);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = "_corner.LC-serif";
+origin = (0,1);
+scale = (0.6,-1);
+type = Corner;
+}
+);
+layerId = "A0E4EE93-9824-4A45-8AD1-8A4C19946700";
+name = NormalNarrow;
+partSelection = {
+NarrowNormal = 2;
+NarrowNarrow = 2;
+NormalNarrow = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,3,l),
+(308,0,l),
+(308,256,l),
+(218,256,l),
+(218,0,l)
+);
+}
+);
+width = 526;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (20,0);
+},
+{
+name = "#exit";
+pos = (286,260);
+},
+{
+name = "^exit";
+pos = (286,0);
+},
+{
+name = _stem;
+pos = (106,260);
+}
+);
+associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+hints = (
+{
+name = "_corner.LC-serif";
+origin = (0,4);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = "_corner.LC-serif";
+origin = (0,1);
+scale = (0.5,-1);
+type = Corner;
+}
+);
+layerId = "12D96A28-1AF4-4AE6-9F71-775303DC9D2A";
+name = NormalNarrow;
+partSelection = {
+NarrowNormal = 2;
+NarrowNarrow = 2;
+NormalNarrow = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(196,3,l),
+(286,0,l),
+(286,260,l),
+(106,260,l),
+(106,0,l)
+);
+}
+);
+width = 392;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (32,0);
+},
+{
+name = "#exit";
+pos = (316,260);
+},
+{
+name = "^exit";
+pos = (316,0);
+},
+{
+name = _stem;
+pos = (136,260);
+}
+);
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+hints = (
+{
+name = "_corner.LC-serif";
+origin = (0,4);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = "_corner.LC-serif";
+origin = (0,1);
+scale = (0.8,-1);
+type = Corner;
+}
+);
+layerId = "4DB94C3C-812A-4397-8834-18D578227DC1";
+name = NormalNarrow;
+partSelection = {
+NarrowNormal = 2;
+NarrowNarrow = 2;
+NormalNarrow = 1;
 };
 shapes = (
 {
@@ -855,12 +1091,17 @@ width = 452;
 partsSettings = (
 {
 bottomValue = 50;
-name = NarrowSerif;
+name = NarrowNormal;
 topValue = 100;
 },
 {
 bottomValue = 50;
 name = NarrowNarrow;
+topValue = 100;
+},
+{
+bottomValue = 50;
+name = NormalNarrow;
 topValue = 100;
 }
 );

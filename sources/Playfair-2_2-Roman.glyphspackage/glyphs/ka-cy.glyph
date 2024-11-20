@@ -256,6 +256,9 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NormalNarrow = 50;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
@@ -391,6 +394,11 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NarrowNarrow = 100;
+NarrowNormal = 100;
+NormalNarrow = 50;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
@@ -919,6 +927,9 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NormalNarrow = 50;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
@@ -1033,6 +1044,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+angle = 90;
+pos = (419,-130);
+}
+);
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
 shapes = (
 {
@@ -1043,6 +1060,9 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NormalNarrow = 50;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
@@ -1924,6 +1944,9 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NormalNarrow = 100;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
@@ -2067,6 +2090,9 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
+piece = {
+NormalNarrow = 52.13723;
+};
 ref = "_part.LC-baseline-lower-stem";
 },
 {
