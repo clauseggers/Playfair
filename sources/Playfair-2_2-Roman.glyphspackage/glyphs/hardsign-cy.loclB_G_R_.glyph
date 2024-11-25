@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "hardsign-cy.loclBGR";
 layers = (
 {
@@ -21,12 +21,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (188,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (120,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (711,512);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 636;
+width = 711;
 },
 {
 background = {
@@ -47,12 +58,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (227,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (135,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (839,512);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 751;
+width = 839;
 },
 {
 background = {
@@ -73,12 +95,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (195,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (151,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (772,520);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 735;
+width = 772;
 },
 {
 background = {
@@ -99,12 +132,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (229,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (161,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (894,520);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 839;
+width = 894;
 },
 {
 background = {
@@ -125,12 +169,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (238,1);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (100,1);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (784,513);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 706;
+width = 784;
 },
 {
 background = {
@@ -151,12 +206,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (285,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (107,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (955,512);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 848;
+width = 955;
 },
 {
 background = {
@@ -177,12 +243,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (216,-1);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (142,-1);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (783,519);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 756;
+width = 783;
 },
 {
 background = {
@@ -203,12 +280,23 @@ shapes = (
 ref = "_LC-hardsign-cy-upper";
 },
 {
-anchor = "^exit";
-pos = (264,0);
-ref = "_LC-softsign-cy-loclBGR-bowl";
+anchor = stem;
+pos = (164,0);
+ref = "_LC-baseline-left-instroke";
+},
+{
+angle = 180;
+piece = {
+ExtremelyLowered = 1;
+Lowered = 0;
+LoweredReversed = 100;
+ThinningBottom = -100;
+};
+pos = (973,520);
+ref = "_part.LC-left-bowl";
 }
 );
-width = 905;
+width = 973;
 }
 );
 metricLeft = "=|ge-cy";
