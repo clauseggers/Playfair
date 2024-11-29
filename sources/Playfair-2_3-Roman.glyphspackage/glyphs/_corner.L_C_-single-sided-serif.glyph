@@ -338,8 +338,8 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(136,354,l),
-(136,421,o),
+(136,364,l),
+(136,424,o),
 (119,442,o),
 (64,447,cs),
 (32,450,l),
@@ -1374,6 +1374,159 @@ nodes = (
 }
 );
 width = 375;
+},
+{
+anchors = (
+{
+name = left;
+pos = (176,380);
+},
+{
+name = origin;
+pos = (176,512);
+},
+{
+name = right;
+pos = (266,512);
+}
+);
+associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+attr = {
+coordinates = (
+100,
+20
+);
+};
+guides = (
+{
+angle = 90;
+pos = (53,148);
+}
+);
+layerId = "149D8E81-5BF5-4F25-BE20-5036E3BD2EE0";
+name = "29 Nov 24 at 15:34";
+shapes = (
+{
+closed = 0;
+nodes = (
+(176,380,l),
+(176,414,o),
+(160,431,o),
+(125,435,cs),
+(40,442,l),
+(40,512,l),
+(58,511,o),
+(83,510,o),
+(108,510,cs),
+(175,510,o),
+(226,515,o),
+(266,524,c)
+);
+}
+);
+width = 296;
+},
+{
+anchors = (
+{
+name = left;
+pos = (218,375);
+},
+{
+name = origin;
+pos = (218,512);
+},
+{
+name = right;
+pos = (308,512);
+}
+);
+associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+attr = {
+coordinates = (
+100,
+20
+);
+};
+guides = (
+{
+angle = 90;
+pos = (73,148);
+}
+);
+layerId = "49F8AD5B-66CB-4F76-977A-C483F0C9A026";
+name = "29 Nov 24 at 15:35";
+shapes = (
+{
+closed = 0;
+nodes = (
+(218,375,l),
+(218,413,o),
+(199,428,o),
+(146,433,cs),
+(55,442,l),
+(55,512,l),
+(74,511,o),
+(102,510,o),
+(136,510,cs),
+(200,510,o),
+(264,515,o),
+(308,524,c)
+);
+}
+);
+width = 338;
+},
+{
+anchors = (
+{
+name = left;
+pos = (136,384);
+},
+{
+name = origin;
+pos = (136,520);
+},
+{
+name = right;
+pos = (316,520);
+}
+);
+associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+attr = {
+coordinates = (
+100,
+20
+);
+};
+guides = (
+{
+angle = 90;
+pos = (-189,143);
+}
+);
+layerId = "1F7F6C1D-B6E7-4B4C-BA8C-C322A598C290";
+name = "29 Nov 24 at 15:41";
+shapes = (
+{
+closed = 0;
+nodes = (
+(136,384,l),
+(136,429,o),
+(119,442,o),
+(64,447,cs),
+(32,450,l),
+(32,520,l),
+(62,519,o),
+(82,518,o),
+(136,518,cs),
+(212,518,o),
+(268,523,o),
+(316,531,c)
+);
+}
+);
+width = 346;
 }
 );
 metricLeft = "_corner.LC-serif";
