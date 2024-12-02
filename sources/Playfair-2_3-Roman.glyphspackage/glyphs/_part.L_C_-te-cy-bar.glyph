@@ -7,9 +7,41 @@ layers = (
 anchors = (
 {
 name = xheight;
-pos = (286,520);
+pos = (346,520);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (346,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(762,448,l),
+(762,516,l),
+(110,516,l),
+(110,448,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -33,22 +65,54 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(702,448,l),
-(702,516,l),
+(822,448,l),
+(822,516,l),
 (50,516,l),
 (50,448,l)
 );
 }
 );
-width = 752;
+width = 872;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (224,512);
+pos = (264,512);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (264,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(541,508,l),
+(541,509,l),
+(77,509,l),
+(77,508,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -72,22 +136,54 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(501,508,l),
-(501,509,l),
+(581,508,l),
+(581,509,l),
 (37,509,l),
 (37,508,l)
 );
 }
 );
-width = 538;
+width = 618;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (263,512);
+pos = (313,512);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (313,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,508,l),
+(620,509,l),
+(96,509,l),
+(96,508,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -111,22 +207,54 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(570,508,l),
-(570,509,l),
+(670,508,l),
+(670,509,l),
 (46,509,l),
 (46,508,l)
 );
 }
 );
-width = 616;
+width = 716;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (188,520);
+pos = (228,520);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (228,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(575,516,l),
+(575,517,l),
+(61,517,l),
+(61,516,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -150,22 +278,54 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(535,516,l),
-(535,517,l),
+(615,516,l),
+(615,517,l),
 (21,517,l),
 (21,516,l)
 );
 }
 );
-width = 556;
+width = 636;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (229,520);
+pos = (279,520);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (279,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(664,516,l),
+(664,517,l),
+(74,517,l),
+(74,516,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -189,22 +349,55 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(614,516,l),
-(614,517,l),
+(714,516,l),
+(714,517,l),
 (24,517,l),
 (24,516,l)
 );
 }
 );
-width = 638;
+width = 738;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (247,512);
+pos = (287,512);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (287,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (0.6,1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-0.6,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(567,440,l),
+(567,508,l),
+(97,508,l),
+(97,440,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -229,22 +422,54 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(527,440,l),
-(527,508,l),
+(607,440,l),
+(607,508,l),
 (57,508,l),
 (57,440,l)
 );
 }
 );
-width = 584;
+width = 664;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (319,512);
+pos = (369,512);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (369,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(702,440,l),
+(702,508,l),
+(126,508,l),
+(126,440,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -268,22 +493,55 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(652,440,l),
-(652,508,l),
+(752,440,l),
+(752,508,l),
 (76,508,l),
 (76,440,l)
 );
 }
 );
-width = 728;
+width = 828;
 },
 {
 anchors = (
 {
 name = xheight;
-pos = (198,520);
+pos = (254,520);
 }
 );
+background = {
+anchors = (
+{
+name = xheight;
+pos = (254,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (0.8,1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-0.8,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,448,l),
+(601,516,l),
+(87,516,l),
+(87,448,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -308,14 +566,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(545,448,l),
-(545,516,l),
-(31,516,l),
-(31,448,l)
+(651,448,l),
+(651,516,l),
+(37,516,l),
+(37,448,l)
 );
 }
 );
-width = 576;
+width = 688;
 },
 {
 anchors = (
@@ -325,6 +583,39 @@ pos = (224,512);
 }
 );
 associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (224,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.7);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(501,508,l),
+(501,509,l),
+(37,509,l),
+(37,508,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -367,6 +658,39 @@ pos = (263,512);
 }
 );
 associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (263,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.7);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(570,508,l),
+(570,509,l),
+(46,509,l),
+(46,508,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -409,6 +733,39 @@ pos = (188,520);
 }
 );
 associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (188,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.7);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(535,516,l),
+(535,517,l),
+(21,517,l),
+(21,516,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -451,6 +808,39 @@ pos = (229,520);
 }
 );
 associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (229,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.7);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(614,516,l),
+(614,517,l),
+(24,517,l),
+(24,516,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -493,6 +883,39 @@ pos = (247,512);
 }
 );
 associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (247,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(527,440,l),
+(527,508,l),
+(57,508,l),
+(57,440,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -535,6 +958,39 @@ pos = (319,512);
 }
 );
 associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (319,512);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(652,440,l),
+(652,508,l),
+(76,508,l),
+(76,440,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -577,6 +1033,39 @@ pos = (198,520);
 }
 );
 associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (198,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(545,448,l),
+(545,516,l),
+(31,516,l),
+(31,448,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
@@ -619,6 +1108,39 @@ pos = (286,520);
 }
 );
 associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
+background = {
+anchors = (
+{
+name = xheight;
+pos = (286,520);
+}
+);
+hints = (
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (1,0.1);
+type = Cap;
+},
+{
+name = "_cap.LC-beak";
+options = 2;
+scale = (-1,1);
+type = Cap;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(702,448,l),
+(702,516,l),
+(50,516,l),
+(50,448,l)
+);
+}
+);
+};
 hints = (
 {
 name = "_cap.LC-beak";
