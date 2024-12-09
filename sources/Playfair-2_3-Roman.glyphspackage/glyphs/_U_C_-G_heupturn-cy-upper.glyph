@@ -26,12 +26,17 @@ name = "top-franc";
 pos = (210,411);
 }
 );
+guides = (
+{
+pos = (397,853);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (1,0.7);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -81,12 +86,17 @@ name = "top-franc";
 pos = (279,411);
 }
 );
+guides = (
+{
+pos = (397,832);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -136,12 +146,17 @@ name = "top-franc";
 pos = (318,411);
 }
 );
+guides = (
+{
+pos = (397,832);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -191,12 +206,17 @@ name = "top-franc";
 pos = (235,411);
 }
 );
+guides = (
+{
+pos = (397,861);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.6,0.5);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -246,12 +266,17 @@ name = "top-franc";
 pos = (235,411);
 }
 );
+guides = (
+{
+pos = (397,861);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.6,0.5);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -301,12 +326,17 @@ name = "top-franc";
 pos = (252,411);
 }
 );
+guides = (
+{
+pos = (397,853);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (1,0.7);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -356,12 +386,17 @@ name = "top-franc";
 pos = (235,411);
 }
 );
+guides = (
+{
+pos = (397,832);
+}
+);
 hints = (
 {
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1);
+scale = (2,1);
 type = Cap;
 },
 {
@@ -414,6 +449,9 @@ pos = (293,411);
 guides = (
 {
 pos = (388,832);
+},
+{
+pos = (397,832);
 }
 );
 hints = (
@@ -421,7 +459,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1);
+scale = (2,1);
 type = Cap;
 },
 {
