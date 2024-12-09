@@ -67,6 +67,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,671);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -78,7 +83,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -104,7 +109,7 @@ nodes = (
 );
 }
 );
-width = 461;
+width = 497;
 },
 {
 anchors = (
@@ -170,6 +175,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,671);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -181,7 +191,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -207,7 +217,7 @@ nodes = (
 );
 }
 );
-width = 540;
+width = 564;
 },
 {
 anchors = (
@@ -273,6 +283,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,671);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -284,7 +299,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -310,7 +325,7 @@ nodes = (
 );
 }
 );
-width = 658;
+width = 690;
 },
 {
 anchors = (
@@ -376,6 +391,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,679);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -387,7 +407,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -413,7 +433,7 @@ nodes = (
 );
 }
 );
-width = 494;
+width = 528;
 },
 {
 anchors = (
@@ -479,6 +499,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,679);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -490,7 +515,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -516,7 +541,7 @@ nodes = (
 );
 }
 );
-width = 605;
+width = 644;
 },
 {
 anchors = (
@@ -582,6 +607,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,671);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -593,7 +623,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -619,7 +649,7 @@ nodes = (
 );
 }
 );
-width = 559;
+width = 587;
 },
 {
 anchors = (
@@ -685,6 +715,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,679);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -696,7 +731,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -722,7 +757,7 @@ nodes = (
 );
 }
 );
-width = 525;
+width = 557;
 },
 {
 anchors = (
@@ -788,6 +823,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (360,679);
+}
+);
 hints = (
 {
 name = "_corner.LC-serif";
@@ -799,7 +839,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (1,-1);
+scale = (2,-1);
 type = Cap;
 }
 );
@@ -825,7 +865,7 @@ nodes = (
 );
 }
 );
-width = 645;
+width = 686;
 }
 );
 metricLeft = "=_corner.LC-serif";
