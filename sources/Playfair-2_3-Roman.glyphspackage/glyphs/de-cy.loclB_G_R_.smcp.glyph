@@ -43,18 +43,69 @@ shapes = (
 ref = "_UC-De-cy-descender";
 },
 {
-pos = (71,0);
+pos = (68,0);
 ref = "_SMCP-De-cy-upper.loclBGR";
 },
 {
-pos = (454,0);
+pos = (451,0);
 ref = "_UC-descender-cy";
 }
 );
-width = 797;
+width = 794;
 },
 {
 layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
+shapes = (
+{
+ref = "_UC-De-cy-descender";
+},
+{
+pos = (76,0);
+ref = "_SMCP-De-cy-upper.loclBGR";
+},
+{
+pos = (561,0);
+ref = "_UC-descender-cy";
+}
+);
+width = 922;
+},
+{
+layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
+shapes = (
+{
+ref = "_UC-De-cy-descender";
+},
+{
+pos = (92,0);
+ref = "_SMCP-De-cy-upper.loclBGR";
+},
+{
+pos = (380,0);
+ref = "_UC-descender-cy";
+}
+);
+width = 777;
+},
+{
+layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
+shapes = (
+{
+ref = "_UC-De-cy-descender";
+},
+{
+pos = (116,0);
+ref = "_SMCP-De-cy-upper.loclBGR";
+},
+{
+pos = (507,0);
+ref = "_UC-descender-cy";
+}
+);
+width = 953;
+},
+{
+layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
 shapes = (
 {
 ref = "_UC-De-cy-descender";
@@ -64,62 +115,11 @@ pos = (80,0);
 ref = "_SMCP-De-cy-upper.loclBGR";
 },
 {
-pos = (565,0);
+pos = (371,0);
 ref = "_UC-descender-cy";
 }
 );
-width = 926;
-},
-{
-layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
-shapes = (
-{
-ref = "_UC-De-cy-descender";
-},
-{
-pos = (94,0);
-ref = "_SMCP-De-cy-upper.loclBGR";
-},
-{
-pos = (382,0);
-ref = "_UC-descender-cy";
-}
-);
-width = 779;
-},
-{
-layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
-shapes = (
-{
-ref = "_UC-De-cy-descender";
-},
-{
-pos = (120,0);
-ref = "_SMCP-De-cy-upper.loclBGR";
-},
-{
-pos = (511,0);
-ref = "_UC-descender-cy";
-}
-);
-width = 957;
-},
-{
-layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
-shapes = (
-{
-ref = "_UC-De-cy-descender";
-},
-{
-pos = (82,0);
-ref = "_SMCP-De-cy-upper.loclBGR";
-},
-{
-pos = (373,0);
-ref = "_UC-descender-cy";
-}
-);
-width = 815;
+width = 813;
 },
 {
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
@@ -128,15 +128,15 @@ shapes = (
 ref = "_UC-De-cy-descender";
 },
 {
-pos = (110,0);
+pos = (107,0);
 ref = "_SMCP-De-cy-upper.loclBGR";
 },
 {
-pos = (459,0);
+pos = (456,0);
 ref = "_UC-descender-cy";
 }
 );
-width = 964;
+width = 961;
 }
 );
 metricLeft = "De-cy.loclBGR";

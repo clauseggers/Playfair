@@ -47,7 +47,7 @@ nodes = (
 };
 guides = (
 {
-pos = (-33,-158);
+pos = (475,-159);
 }
 );
 hints = (
@@ -117,7 +117,7 @@ nodes = (
 };
 guides = (
 {
-pos = (-33,-158);
+pos = (475,-159);
 }
 );
 hints = (
@@ -125,7 +125,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.5,0.8);
+scale = (0.5,0.79);
 type = Cap;
 }
 );
@@ -147,19 +147,19 @@ width = 593;
 anchors = (
 {
 name = baseline;
-pos = (363,0);
+pos = (360,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (349,0);
+pos = (346,0);
 }
 );
 guides = (
 {
-pos = (-32,-159);
+pos = (-35,-159);
 }
 );
 hints = (
@@ -174,20 +174,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(472,0,l),
-(472,1,l),
-(349,1,ls),
-(260,1,o),
-(127,1,o),
-(37,4,c),
-(37,0,l)
+(469,0,l),
+(469,1,l),
+(346,1,ls),
+(257,1,o),
+(124,1,o),
+(34,4,c),
+(34,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-32,-159);
+pos = (472,-159);
 }
 );
 hints = (
@@ -195,7 +195,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.6,0.91);
+scale = (0.6,0.55);
 type = Cap;
 }
 );
@@ -204,32 +204,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(532,3,l),
-(532,4,l),
-(37,4,l),
-(37,3,l)
+(529,3,l),
+(529,4,l),
+(34,4,l),
+(34,3,l)
 );
 }
 );
-width = 562;
+width = 559;
 },
 {
 anchors = (
 {
 name = baseline;
-pos = (455,0);
+pos = (451,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (405,0);
+pos = (401,0);
 }
 );
 guides = (
 {
-pos = (-33,-159);
+pos = (-37,-159);
 }
 );
 hints = (
@@ -244,20 +244,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(560,0,l),
-(560,1,l),
-(405,1,ls),
-(302,1,o),
-(150,1,o),
-(43,4,c),
-(43,0,l)
+(556,0,l),
+(556,1,l),
+(401,1,ls),
+(298,1,o),
+(146,1,o),
+(39,4,c),
+(39,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-33,-159);
+pos = (471,-159);
 }
 );
 hints = (
@@ -265,7 +265,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.6,0.9);
+scale = (0.6,0.55);
 type = Cap;
 }
 );
@@ -274,32 +274,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(660,3,l),
-(660,4,l),
-(43,4,l),
-(43,3,l)
+(656,3,l),
+(656,4,l),
+(39,4,l),
+(39,3,l)
 );
 }
 );
-width = 650;
+width = 646;
 },
 {
 anchors = (
 {
 name = baseline;
-pos = (529,0);
+pos = (527,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (369,0);
+pos = (367,0);
 }
 );
 guides = (
 {
-pos = (-29,-159);
+pos = (-31,-159);
 }
 );
 hints = (
@@ -314,20 +314,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(524,0,l),
-(524,70,l),
-(369,70,ls),
-(276,70,o),
-(142,70,o),
-(47,73,c),
-(47,0,l)
+(522,0,l),
+(522,70,l),
+(367,70,ls),
+(274,70,o),
+(140,70,o),
+(45,73,c),
+(45,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-29,-159);
+pos = (473,-159);
 }
 );
 hints = (
@@ -335,7 +335,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1.73);
+scale = (0.7,1.7);
 type = Cap;
 }
 );
@@ -344,32 +344,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(604,3,l),
-(604,73,l),
-(47,73,l),
-(47,3,l)
+(602,3,l),
+(602,73,l),
+(45,73,l),
+(45,3,l)
 );
 }
 );
-width = 634;
+width = 632;
 },
 {
 anchors = (
 {
 name = baseline;
-pos = (638,0);
+pos = (634,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (428,0);
+pos = (424,0);
 }
 );
 guides = (
 {
-pos = (-27,-159);
+pos = (-31,-159);
 }
 );
 hints = (
@@ -384,20 +384,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(645,0,l),
-(645,70,l),
-(428,70,ls),
-(254,70,o),
-(142,71,o),
-(61,73,c),
-(61,0,l)
+(641,0,l),
+(641,70,l),
+(424,70,ls),
+(250,70,o),
+(138,71,o),
+(57,73,c),
+(57,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-27,-159);
+pos = (471,-159);
 }
 );
 hints = (
@@ -405,7 +405,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1.72);
+scale = (0.7,1.7);
 type = Cap;
 }
 );
@@ -414,32 +414,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(705,3,l),
-(705,73,l),
-(61,73,l),
-(61,3,l)
+(701,3,l),
+(701,73,l),
+(57,73,l),
+(57,3,l)
 );
 }
 );
-width = 735;
+width = 731;
 },
 {
 anchors = (
 {
 name = baseline;
-pos = (523,0);
+pos = (521,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (403,0);
+pos = (401,0);
 }
 );
 guides = (
 {
-pos = (-31,-159);
+pos = (-33,-159);
 }
 );
 hints = (
@@ -454,20 +454,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(607,0,l),
-(607,70,l),
-(403,70,ls),
-(300,70,o),
-(145,70,o),
-(41,73,c),
-(41,0,l)
+(605,0,l),
+(605,70,l),
+(401,70,ls),
+(298,70,o),
+(143,70,o),
+(39,73,c),
+(39,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-31,-159);
+pos = (473,-159);
 }
 );
 hints = (
@@ -475,7 +475,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1.74);
+scale = (0.7,1.44);
 type = Cap;
 }
 );
@@ -484,32 +484,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(697,3,l),
-(697,73,l),
-(41,73,l),
-(41,3,l)
+(695,3,l),
+(695,73,l),
+(39,73,l),
+(39,3,l)
 );
 }
 );
-width = 727;
+width = 725;
 },
 {
 anchors = (
 {
 name = baseline;
-pos = (623,0);
+pos = (620,0);
 }
 );
 background = {
 anchors = (
 {
 name = _baseline;
-pos = (416,0);
+pos = (413,0);
 }
 );
 guides = (
 {
-pos = (-30,-159);
+pos = (-33,-159);
 }
 );
 hints = (
@@ -524,20 +524,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(713,0,l),
-(713,70,l),
-(416,70,ls),
-(313,70,o),
-(161,70,o),
-(56,73,c),
-(56,0,l)
+(710,0,l),
+(710,70,l),
+(413,70,ls),
+(310,70,o),
+(158,70,o),
+(53,73,c),
+(53,0,l)
 );
 }
 );
 };
 guides = (
 {
-pos = (-30,-159);
+pos = (472,-159);
 }
 );
 hints = (
@@ -545,7 +545,7 @@ hints = (
 name = "_cap.UC-beak";
 options = 2;
 origin = (0,2);
-scale = (0.7,1.74);
+scale = (0.7,1.44);
 type = Cap;
 }
 );
@@ -554,14 +554,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(803,3,l),
-(803,73,l),
-(56,73,l),
-(56,3,l)
+(800,3,l),
+(800,73,l),
+(53,73,l),
+(53,3,l)
 );
 }
 );
-width = 833;
+width = 830;
 }
 );
 metricLeft = T;
