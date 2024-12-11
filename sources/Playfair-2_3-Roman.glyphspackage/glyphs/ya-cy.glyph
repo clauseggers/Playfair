@@ -5,6 +5,12 @@ kernLeft = "KO_ya-cy";
 kernRight = "KO_ii-cy";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (278,512);
+}
+);
 background = {
 shapes = (
 {
@@ -171,6 +177,12 @@ nodes = (
 width = 555;
 },
 {
+anchors = (
+{
+name = top;
+pos = (344,512);
+}
+);
 background = {
 shapes = (
 {
@@ -337,6 +349,12 @@ nodes = (
 width = 688;
 },
 {
+anchors = (
+{
+name = top;
+pos = (417,512);
+}
+);
 background = {
 shapes = (
 {
@@ -503,6 +521,12 @@ nodes = (
 width = 833;
 },
 {
+anchors = (
+{
+name = top;
+pos = (302,520);
+}
+);
 background = {
 shapes = (
 {
@@ -669,6 +693,12 @@ nodes = (
 width = 603;
 },
 {
+anchors = (
+{
+name = top;
+pos = (359,520);
+}
+);
 background = {
 shapes = (
 {
@@ -835,6 +865,12 @@ nodes = (
 width = 717;
 },
 {
+anchors = (
+{
+name = top;
+pos = (315,512);
+}
+);
 background = {
 shapes = (
 {
@@ -1001,6 +1037,12 @@ nodes = (
 width = 630;
 },
 {
+anchors = (
+{
+name = top;
+pos = (336,520);
+}
+);
 background = {
 shapes = (
 {
@@ -1167,6 +1209,12 @@ nodes = (
 width = 671;
 },
 {
+anchors = (
+{
+name = top;
+pos = (409,520);
+}
+);
 background = {
 shapes = (
 {
@@ -1333,6 +1381,12 @@ nodes = (
 width = 817;
 },
 {
+anchors = (
+{
+name = top;
+pos = (409,520);
+}
+);
 associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
 attr = {
 axisRules = (
@@ -1503,6 +1557,12 @@ nodes = (
 width = 817;
 },
 {
+anchors = (
+{
+name = top;
+pos = (336,520);
+}
+);
 associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
 attr = {
 axisRules = (
@@ -1673,6 +1733,12 @@ nodes = (
 width = 671;
 },
 {
+anchors = (
+{
+name = top;
+pos = (417,512);
+}
+);
 associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
 attr = {
 axisRules = (
@@ -1843,6 +1909,12 @@ nodes = (
 width = 833;
 },
 {
+anchors = (
+{
+name = top;
+pos = (344,512);
+}
+);
 associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
 attr = {
 axisRules = (
@@ -2013,6 +2085,12 @@ nodes = (
 width = 688;
 },
 {
+anchors = (
+{
+name = top;
+pos = (359,520);
+}
+);
 associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
 attr = {
 axisRules = (
@@ -2183,6 +2261,12 @@ nodes = (
 width = 717;
 },
 {
+anchors = (
+{
+name = top;
+pos = (302,520);
+}
+);
 associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
 attr = {
 axisRules = (
@@ -2353,6 +2437,12 @@ nodes = (
 width = 603;
 },
 {
+anchors = (
+{
+name = top;
+pos = (315,512);
+}
+);
 associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
 attr = {
 axisRules = (
@@ -2523,6 +2613,12 @@ nodes = (
 width = 630;
 },
 {
+anchors = (
+{
+name = top;
+pos = (277,512);
+}
+);
 associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
 attr = {
 axisRules = (
