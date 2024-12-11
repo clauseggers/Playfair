@@ -5,6 +5,12 @@ kernLeft = KO_u;
 kernRight = KO_u;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (466,512);
+}
+);
 background = {
 shapes = (
 {
@@ -49,6 +55,12 @@ ref = "_LC-yeru-cy-stem";
 width = 790;
 },
 {
+anchors = (
+{
+name = top;
+pos = (532,512);
+}
+);
 background = {
 shapes = (
 {
@@ -93,6 +105,12 @@ ref = "_LC-yeru-cy-stem";
 width = 921;
 },
 {
+anchors = (
+{
+name = top;
+pos = (531,512);
+}
+);
 background = {
 shapes = (
 {
@@ -137,6 +155,12 @@ ref = "_LC-yeru-cy-stem";
 width = 920;
 },
 {
+anchors = (
+{
+name = top;
+pos = (533,520);
+}
+);
 background = {
 shapes = (
 {
@@ -181,6 +205,12 @@ ref = "_LC-yeru-cy-stem";
 width = 920;
 },
 {
+anchors = (
+{
+name = top;
+pos = (602,512);
+}
+);
 background = {
 shapes = (
 {
@@ -225,6 +255,12 @@ ref = "_LC-yeru-cy-stem";
 width = 1062;
 },
 {
+anchors = (
+{
+name = top;
+pos = (605,520);
+}
+);
 background = {
 shapes = (
 {
@@ -268,6 +304,12 @@ ref = "_LC-yeru-cy-stem";
 width = 1064;
 },
 {
+anchors = (
+{
+name = top;
+pos = (613,520);
+}
+);
 background = {
 shapes = (
 {
@@ -311,6 +353,12 @@ ref = "_LC-yeru-cy-stem";
 width = 1079;
 },
 {
+anchors = (
+{
+name = top;
+pos = (712,520);
+}
+);
 background = {
 shapes = (
 {

@@ -5,6 +5,12 @@ kernLeft = KO_n;
 kernRight = KO_o;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (449,512);
+}
+);
 background = {
 shapes = (
 {
@@ -29,6 +35,12 @@ ref = "_yu-cy-o";
 width = 756;
 },
 {
+anchors = (
+{
+name = top;
+pos = (528,512);
+}
+);
 background = {
 shapes = (
 {
@@ -53,6 +65,12 @@ ref = "_yu-cy-o";
 width = 914;
 },
 {
+anchors = (
+{
+name = top;
+pos = (511,512);
+}
+);
 background = {
 shapes = (
 {
@@ -77,6 +95,12 @@ ref = "_yu-cy-o";
 width = 880;
 },
 {
+anchors = (
+{
+name = top;
+pos = (523,520);
+}
+);
 background = {
 shapes = (
 {
@@ -101,6 +125,12 @@ ref = "_yu-cy-o";
 width = 899;
 },
 {
+anchors = (
+{
+name = top;
+pos = (596,512);
+}
+);
 background = {
 shapes = (
 {
@@ -125,6 +155,12 @@ ref = "_yu-cy-o";
 width = 1050;
 },
 {
+anchors = (
+{
+name = top;
+pos = (571,520);
+}
+);
 background = {
 shapes = (
 {
@@ -149,6 +185,12 @@ ref = "_yu-cy-o";
 width = 995;
 },
 {
+anchors = (
+{
+name = top;
+pos = (605,520);
+}
+);
 background = {
 shapes = (
 {
@@ -173,6 +215,12 @@ ref = "_yu-cy-o";
 width = 1063;
 },
 {
+anchors = (
+{
+name = top;
+pos = (669,520);
+}
+);
 background = {
 shapes = (
 {
