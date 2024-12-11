@@ -397,6 +397,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (336,512);
+}
+);
 background = {
 guides = (
 {
@@ -971,6 +977,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (352,512);
+}
+);
 background = {
 guides = (
 {
@@ -1573,6 +1585,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (395,512);
+}
+);
 background = {
 guides = (
 {
@@ -2115,6 +2133,12 @@ nodes = (
 width = 591;
 },
 {
+anchors = (
+{
+name = top;
+pos = (359,520);
+}
+);
 background = {
 guides = (
 {
@@ -2697,6 +2721,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (376,512);
+}
+);
 background = {
 guides = (
 {
@@ -2857,7 +2887,7 @@ nodes = (
 (217,132,ls),
 (251,182,o),
 (276,199,o),
-(327,206,c),
+(327,208,c),
 (262,232,l),
 (200,213,o),
 (169,196,o),
@@ -3271,6 +3301,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (368,520);
+}
+);
 background = {
 guides = (
 {
@@ -3845,6 +3881,12 @@ nodes = (
 width = 591;
 },
 {
+anchors = (
+{
+name = top;
+pos = (400,520);
+}
+);
 background = {
 guides = (
 {
@@ -4427,6 +4469,12 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (448,520);
+}
+);
 background = {
 guides = (
 {
