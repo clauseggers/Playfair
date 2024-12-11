@@ -84,11 +84,11 @@ angle = 90;
 pos = (868,201);
 },
 {
-pos = (-21,-162);
-},
-{
 angle = 90;
 pos = (30,2);
+},
+{
+pos = (475,-159);
 }
 );
 hints = (
@@ -102,6 +102,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -212,11 +213,11 @@ angle = 90;
 pos = (215,73);
 },
 {
-pos = (-21,-162);
-},
-{
 angle = 90;
 pos = (31,2);
+},
+{
+pos = (-21,-159);
 }
 );
 hints = (
@@ -230,6 +231,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -340,11 +342,11 @@ angle = 90;
 pos = (266,73);
 },
 {
-pos = (-21,-162);
-},
-{
 angle = 90;
 pos = (30,0);
+},
+{
+pos = (-21,-159);
 }
 );
 hints = (
@@ -358,6 +360,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -468,11 +471,11 @@ angle = 90;
 pos = (285,73);
 },
 {
-pos = (-21,-162);
-},
-{
 angle = 90;
 pos = (15,-2);
+},
+{
+pos = (-21,-159);
 }
 );
 hints = (
@@ -486,6 +489,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -604,11 +608,11 @@ angle = 90;
 pos = (195,73);
 },
 {
-pos = (-21,-162);
-},
-{
 angle = 90;
 pos = (30,0);
+},
+{
+pos = (-21,-159);
 }
 );
 hints = (
@@ -622,6 +626,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -732,7 +737,7 @@ angle = 90;
 pos = (213,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 },
 {
 angle = 90;
@@ -750,6 +755,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -860,7 +866,7 @@ angle = 90;
 pos = (257,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 },
 {
 angle = 90;
@@ -878,6 +884,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -988,7 +995,7 @@ angle = 90;
 pos = (279,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 },
 {
 angle = 90;
@@ -1006,6 +1013,7 @@ type = Corner;
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
+scale = (1,0.97);
 type = Cap;
 },
 {
@@ -1119,7 +1127,7 @@ angle = 90;
 pos = (868,201);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1127,7 +1135,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.47,1);
+scale = (0.47,0.97);
 type = Cap;
 }
 );
@@ -1223,7 +1231,7 @@ angle = 90;
 pos = (215,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1231,7 +1239,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.48,1);
+scale = (0.48,0.97);
 type = Cap;
 }
 );
@@ -1327,7 +1335,7 @@ angle = 90;
 pos = (266,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1335,7 +1343,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );
@@ -1431,7 +1439,7 @@ angle = 90;
 pos = (285,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1439,7 +1447,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );
@@ -1543,7 +1551,7 @@ angle = 90;
 pos = (195,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1551,7 +1559,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );
@@ -1647,7 +1655,7 @@ angle = 90;
 pos = (213,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1655,7 +1663,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );
@@ -1751,7 +1759,7 @@ angle = 90;
 pos = (257,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1759,7 +1767,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );
@@ -1855,7 +1863,7 @@ angle = 90;
 pos = (279,73);
 },
 {
-pos = (-21,-162);
+pos = (-21,-159);
 }
 );
 hints = (
@@ -1863,7 +1871,7 @@ hints = (
 name = "_cap.LC-beak";
 options = 2;
 origin = (1,0);
-scale = (0.8,1);
+scale = (0.8,0.97);
 type = Cap;
 }
 );

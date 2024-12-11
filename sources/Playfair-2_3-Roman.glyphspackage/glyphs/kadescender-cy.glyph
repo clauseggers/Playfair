@@ -88,6 +88,11 @@ ref = "_part._LC-k-legs";
 width = 890;
 },
 {
+guides = (
+{
+pos = (475,-159);
+}
+);
 layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
 shapes = (
 {
@@ -109,7 +114,7 @@ piece = {
 WideTop = 100;
 descender = 1;
 };
-pos = (220,4);
+pos = (220,0);
 ref = "_part._LC-k-legs";
 }
 );
@@ -347,7 +352,7 @@ NoInnerSerif = 1;
 WideTop = 100;
 descender = 1;
 };
-pos = (220,4);
+pos = (220,0);
 ref = "_part._LC-k-legs";
 }
 );
