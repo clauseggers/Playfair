@@ -4,6 +4,12 @@ glyphname = "ya-cy.loclBGR";
 kernRight = KO_n;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (336,512);
+}
+);
 background = {
 guides = (
 {
@@ -167,9 +173,15 @@ nodes = (
 );
 }
 );
-width = 531;
+width = 530;
 },
 {
+anchors = (
+{
+name = top;
+pos = (352,512);
+}
+);
 background = {
 guides = (
 {
@@ -368,6 +380,12 @@ nodes = (
 width = 648;
 },
 {
+anchors = (
+{
+name = top;
+pos = (395,512);
+}
+);
 background = {
 guides = (
 {
@@ -531,9 +549,15 @@ nodes = (
 );
 }
 );
-width = 648;
+width = 647;
 },
 {
+anchors = (
+{
+name = top;
+pos = (359,520);
+}
+);
 background = {
 guides = (
 {
@@ -705,9 +729,15 @@ nodes = (
 );
 }
 );
-width = 604;
+width = 603;
 },
 {
+anchors = (
+{
+name = top;
+pos = (376,512);
+}
+);
 background = {
 guides = (
 {
@@ -874,6 +904,12 @@ nodes = (
 width = 725;
 },
 {
+anchors = (
+{
+name = top;
+pos = (368,520);
+}
+);
 background = {
 guides = (
 {
@@ -1072,6 +1108,12 @@ nodes = (
 width = 716;
 },
 {
+anchors = (
+{
+name = top;
+pos = (400,520);
+}
+);
 background = {
 guides = (
 {
@@ -1246,6 +1288,12 @@ nodes = (
 width = 713;
 },
 {
+anchors = (
+{
+name = top;
+pos = (448,520);
+}
+);
 background = {
 guides = (
 {
@@ -1441,7 +1489,7 @@ nodes = (
 );
 }
 );
-width = 859;
+width = 858;
 },
 {
 associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
