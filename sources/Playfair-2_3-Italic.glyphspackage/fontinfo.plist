@@ -1,5 +1,5 @@
 {
-.appVersion = "3331";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -592,6 +592,9 @@ code = "#Arrows
 	sub @tabularOldStyleFigures colon' @tabularOldStyleFigures by colon.figures.tosf.ss14;
 	sub @tabularLiningFigures colon' @tabularLiningFigures by colon.figures.tf.ss14;
 	sub @smcpFigures colon' @smcpFigures by colon.figures.smcp;
+
+# Avoid collisions for f atilde pairs
+	sub f atilde' by atilde.narrow;
 ";
 notes = "Keep in sync with Roman";
 tag = calt;

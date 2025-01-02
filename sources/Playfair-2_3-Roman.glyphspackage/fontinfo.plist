@@ -1,5 +1,5 @@
 {
-.appVersion = "3331";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -641,6 +641,14 @@ code = "#Arrows
 
 # Using glyphs predicates to position double-stacked top diacritics lower
 #	pos @Lowercase @CombiningLowerCaseTopAccents' dieresiscomb macroncomb <0 -200 0 -200>;
+
+# Avoid collisions for f atilde pairs
+lookup narrow_f {
+	sub f' atilde by f.narrow;
+} narrow_f;
+lookup narrow_atilde {
+	sub f.narrow atilde' by atilde.narrow ;
+} narrow_atilde;
 ";
 notes = "Keep in sync with Italic";
 tag = calt;
