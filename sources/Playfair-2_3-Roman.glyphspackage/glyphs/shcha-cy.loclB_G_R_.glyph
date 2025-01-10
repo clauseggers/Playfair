@@ -281,12 +281,12 @@ piece = {
 Thinning = -100;
 Width = 95;
 };
-pos = (885,512);
+pos = (884,512);
 ref = "_part.LC-n-shoulder-top";
 },
 {
 anchor = "#exit";
-pos = (729,0);
+pos = (728,0);
 ref = "_LC-descender-cy-serifless";
 },
 {
@@ -295,11 +295,11 @@ angle = 180;
 piece = {
 NarrowSerif = -80;
 };
-pos = (1075,512);
+pos = (1074,512);
 ref = "_part.LC-baseline-right-outserif";
 }
 );
-width = 1087;
+width = 1086;
 },
 {
 background = {
@@ -877,12 +877,12 @@ piece = {
 Thinning = -100;
 Width = 130;
 };
-pos = (1030,512);
+pos = (1029,512);
 ref = "_part.LC-n-shoulder-top";
 },
 {
 anchor = "#exit";
-pos = (866,0);
+pos = (865,0);
 ref = "_LC-descender-cy-serifless";
 },
 {
@@ -891,11 +891,11 @@ angle = 180;
 piece = {
 NarrowSerif = -80;
 };
-pos = (1297,512);
+pos = (1296,512);
 ref = "_part.LC-baseline-right-outserif";
 }
 );
-width = 1305;
+width = 1304;
 },
 {
 background = {
@@ -1026,12 +1026,12 @@ piece = {
 Thinning = -100;
 Width = 75;
 };
-pos = (743,520);
+pos = (744,520);
 ref = "_part.LC-n-shoulder-top";
 },
 {
 anchor = "#exit";
-pos = (628,0);
+pos = (629,0);
 ref = "_LC-descender-cy-serifless";
 },
 {
@@ -1040,11 +1040,11 @@ angle = 180;
 piece = {
 NarrowSerif = -80;
 };
-pos = (992,520);
+pos = (993,520);
 ref = "_part.LC-baseline-right-outserif";
 }
 );
-width = 1010;
+width = 1011;
 },
 {
 background = {
@@ -1175,12 +1175,12 @@ piece = {
 Thinning = -100;
 Width = 110;
 };
-pos = (964,520);
+pos = (965,520);
 ref = "_part.LC-n-shoulder-top";
 },
 {
 anchor = "#exit";
-pos = (826,0);
+pos = (827,0);
 ref = "_LC-descender-cy-serifless";
 },
 {
@@ -1189,11 +1189,11 @@ angle = 180;
 piece = {
 NarrowSerif = -80;
 };
-pos = (1241,520);
+pos = (1242,520);
 ref = "_part.LC-baseline-right-outserif";
 }
 );
-width = 1262;
+width = 1263;
 },
 {
 associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
@@ -1241,11 +1241,11 @@ shapes = (
 ref = "sha-cy.loclBGR";
 },
 {
-pos = (1075,0);
+pos = (1074,0);
 ref = "uc-descender-cy.loclBGR";
 }
 );
-width = 1326;
+width = 1325;
 },
 {
 associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
@@ -1345,11 +1345,11 @@ shapes = (
 ref = "sha-cy.loclBGR";
 },
 {
-pos = (1297,0);
+pos = (1296,0);
 ref = "uc-descender-cy.loclBGR";
 }
 );
-width = 1589;
+width = 1588;
 },
 {
 associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
@@ -1371,11 +1371,11 @@ shapes = (
 ref = "sha-cy.loclBGR";
 },
 {
-pos = (991,0);
+pos = (992,0);
 ref = "uc-descender-cy.loclBGR";
 }
 );
-width = 1302;
+width = 1303;
 },
 {
 associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
@@ -1397,11 +1397,11 @@ shapes = (
 ref = "sha-cy.loclBGR";
 },
 {
-pos = (1241,0);
+pos = (1242,0);
 ref = "uc-descender-cy.loclBGR";
 }
 );
-width = 1608;
+width = 1609;
 }
 );
 metricLeft = u;
