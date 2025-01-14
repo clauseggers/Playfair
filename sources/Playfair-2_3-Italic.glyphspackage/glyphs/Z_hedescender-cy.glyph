@@ -153,11 +153,11 @@ shapes = (
 ref = "_UC-Zhedescender-cy-wings";
 },
 {
-pos = (312,0);
+pos = (372,0);
 ref = "_part.UC-stem";
 }
 );
-width = 990;
+width = 1050;
 },
 {
 background = {
@@ -317,11 +317,11 @@ shapes = (
 ref = "_UC-Zhedescender-cy-wings";
 },
 {
-pos = (363,0);
+pos = (426,0);
 ref = "_part.UC-stem";
 }
 );
-width = 1161;
+width = 1224;
 },
 {
 background = {
@@ -472,11 +472,11 @@ shapes = (
 ref = "_UC-Zhedescender-cy-wings";
 },
 {
-pos = (355,0);
+pos = (375,0);
 ref = "_part.UC-stem";
 }
 );
-width = 1146;
+width = 1166;
 },
 {
 background = {
@@ -789,11 +789,11 @@ piece = {
 TopLeftSerif = 70;
 TopRightSerif = 70;
 };
-pos = (231,0);
+pos = (254,0);
 ref = "_part.UC-stem";
 }
 );
-width = 1001;
+width = 1024;
 },
 {
 background = {
@@ -957,11 +957,11 @@ piece = {
 TopLeftSerif = 70;
 TopRightSerif = 70;
 };
-pos = (258,0);
+pos = (280,0);
 ref = "_part.UC-stem";
 }
 );
-width = 1154;
+width = 1176;
 },
 {
 background = {
@@ -1124,6 +1124,7 @@ ref = "_UC-Zhedescender-cy-wings";
 piece = {
 BottomLeftSerif = 80;
 BottomRightSerif = 80;
+TopRightSerif = 80;
 };
 pos = (343,0);
 ref = "_part.UC-stem";
@@ -1292,6 +1293,7 @@ ref = "_UC-Zhedescender-cy-wings";
 piece = {
 BottomLeftSerif = 80;
 BottomRightSerif = 80;
+TopRightSerif = 80;
 };
 pos = (399,0);
 ref = "_part.UC-stem";
