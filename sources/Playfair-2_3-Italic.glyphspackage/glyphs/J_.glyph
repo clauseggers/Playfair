@@ -135,7 +135,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (94,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (238,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 666;
@@ -287,7 +291,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (93,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (229,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 666;
@@ -439,7 +447,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (118,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (285,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 784;
@@ -567,7 +579,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (64,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (264,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 735;
@@ -718,8 +734,12 @@ shapes = (
 ref = "_UC-J-upper";
 },
 {
-pos = (108,0);
-ref = "_UC-J-descender";
+pos = (107,0);
+ref = "_part.UC-J-descender";
+},
+{
+pos = (282,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 784;
@@ -871,7 +891,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (47,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (235,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 776;
@@ -999,7 +1023,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (103,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (333,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 900;
@@ -1151,7 +1179,11 @@ ref = "_UC-J-upper";
 },
 {
 pos = (86,0);
-ref = "_UC-J-descender";
+ref = "_part.UC-J-descender";
+},
+{
+pos = (311,0);
+ref = "_UC-J-upper-stroke";
 }
 );
 width = 934;
