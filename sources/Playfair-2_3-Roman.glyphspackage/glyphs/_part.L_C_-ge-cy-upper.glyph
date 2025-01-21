@@ -27,7 +27,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.3);
 type = Cap;
@@ -53,8 +52,8 @@ closed = 1;
 nodes = (
 (423,508,l),
 (423,509,l),
-(150,509,l),
-(150,508,l)
+(140,509,l),
+(140,508,l)
 );
 }
 );
@@ -84,7 +83,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 type = Cap;
 }
@@ -109,8 +107,8 @@ closed = 1;
 nodes = (
 (493,441,l),
 (493,509,l),
-(220,509,l),
-(220,441,l)
+(210,509,l),
+(210,441,l)
 );
 }
 );
@@ -140,7 +138,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 type = Cap;
 }
@@ -165,8 +162,8 @@ closed = 1;
 nodes = (
 (598,441,l),
 (598,509,l),
-(263,509,l),
-(263,441,l)
+(253,509,l),
+(253,441,l)
 );
 }
 );
@@ -196,7 +193,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.5);
 type = Cap;
@@ -222,8 +218,8 @@ closed = 1;
 nodes = (
 (456,516,l),
 (456,517,l),
-(166,517,l),
-(166,516,l)
+(156,517,l),
+(156,516,l)
 );
 }
 );
@@ -253,7 +249,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.5);
 type = Cap;
@@ -279,8 +274,8 @@ closed = 1;
 nodes = (
 (561,516,l),
 (561,517,l),
-(195,517,l),
-(195,516,l)
+(185,517,l),
+(185,516,l)
 );
 }
 );
@@ -310,7 +305,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.3);
 type = Cap;
@@ -336,8 +330,8 @@ closed = 1;
 nodes = (
 (511,508,l),
 (511,509,l),
-(177,509,l),
-(177,508,l)
+(167,509,l),
+(167,508,l)
 );
 }
 );
@@ -367,7 +361,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 type = Cap;
 }
@@ -392,8 +385,8 @@ closed = 1;
 nodes = (
 (486,449,l),
 (486,517,l),
-(196,517,l),
-(196,449,l)
+(186,517,l),
+(186,449,l)
 );
 }
 );
@@ -423,7 +416,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 type = Cap;
 }
@@ -448,8 +440,8 @@ closed = 1;
 nodes = (
 (592,449,l),
 (592,517,l),
-(226,517,l),
-(226,449,l)
+(216,517,l),
+(216,449,l)
 );
 }
 );
@@ -480,7 +472,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.3);
 type = Cap;
@@ -507,8 +498,8 @@ closed = 1;
 nodes = (
 (423,508,l),
 (423,509,l),
-(150,509,l),
-(150,508,l)
+(140,509,l),
+(140,508,l)
 );
 }
 );
@@ -539,7 +530,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.3);
 type = Cap;
@@ -566,8 +556,8 @@ closed = 1;
 nodes = (
 (511,508,l),
 (511,509,l),
-(177,509,l),
-(177,508,l)
+(167,509,l),
+(167,508,l)
 );
 }
 );
@@ -598,7 +588,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.5);
 type = Cap;
@@ -625,8 +614,8 @@ closed = 1;
 nodes = (
 (456,516,l),
 (456,517,l),
-(166,517,l),
-(166,516,l)
+(156,517,l),
+(156,516,l)
 );
 }
 );
@@ -657,7 +646,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,1.5);
 type = Cap;
@@ -684,8 +672,8 @@ closed = 1;
 nodes = (
 (561,516,l),
 (561,517,l),
-(195,517,l),
-(195,516,l)
+(185,517,l),
+(185,516,l)
 );
 }
 );
@@ -716,7 +704,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,0.5);
 type = Cap;
@@ -743,8 +730,8 @@ closed = 1;
 nodes = (
 (493,441,l),
 (493,509,l),
-(220,509,l),
-(220,441,l)
+(210,509,l),
+(210,441,l)
 );
 }
 );
@@ -775,7 +762,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,0.5);
 type = Cap;
@@ -802,8 +788,8 @@ closed = 1;
 nodes = (
 (598,441,l),
 (598,509,l),
-(263,509,l),
-(263,441,l)
+(253,509,l),
+(253,441,l)
 );
 }
 );
@@ -834,7 +820,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,0.5);
 type = Cap;
@@ -861,8 +846,8 @@ closed = 1;
 nodes = (
 (486,449,l),
 (486,517,l),
-(196,517,l),
-(196,449,l)
+(186,517,l),
+(186,449,l)
 );
 }
 );
@@ -893,7 +878,6 @@ type = Corner;
 },
 {
 name = "_cap.LC-beak";
-options = 2;
 origin = (1,0);
 scale = (1,0.5);
 type = Cap;
@@ -920,8 +904,8 @@ closed = 1;
 nodes = (
 (592,449,l),
 (592,517,l),
-(226,517,l),
-(226,449,l)
+(216,517,l),
+(216,449,l)
 );
 }
 );
