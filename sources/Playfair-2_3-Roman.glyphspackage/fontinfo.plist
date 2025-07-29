@@ -1,5 +1,5 @@
 {
-.appVersion = "3414";
+.appVersion = "3420";
 .formatVersion = 3;
 axes = (
 {
@@ -4871,6 +4871,22 @@ bar10.afrc
 {
 name = Filter;
 value = "RemoveOverlap; include:bar2.afrc,bar3.afrc,bar4.afrc,bar5.afrc,bar6.afrc,bar7.afrc,bar8.afrc,bar9.afrc,bar10.afrc";
+},
+{
+name = "Axis Values";
+value = "opsz; 5.0=Micro, 6.0=Minuscule, 7.0=Miniature, 8.0=Caption, 12.0=Pica*, 16.0=SubHeading, 21.0=Trumpet, 32.0=Headline, 48.0=Display, 72.0=Titling, 96.0=Hairline, 1200.0=Needlepoint";
+},
+{
+name = "Axis Values";
+value = "wdth; 88.0=SemiCondensed, 100.0=Normal*, 113.0=SemiExpanded";
+},
+{
+name = "Axis Values";
+value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExtraBold, 900.0=Black";
+},
+{
+name = "Axis Values";
+value = "ital; 0.0>1.0=Roman*";
 }
 );
 name = Roman;

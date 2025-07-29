@@ -1,0 +1,1 @@
+Glyphs contains a long standing bug that malforms the STAT table in variable fonts. The current workaround is the `Read and Write STAT` script in `mekkablue > Post Production`. Run it after export, then edit the parameters in the variable font setting in `Font > Exports`. Then run the script again. And after each export!
