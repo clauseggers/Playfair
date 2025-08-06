@@ -4936,15 +4936,15 @@ value = "RemoveOverlap; include:bar2.afrc,bar3.afrc,bar4.afrc,bar5.afrc,bar6.afr
 },
 {
 name = "Axis Values";
-value = "opsz; 5.0=Micro, 6.0=Minuscule, 7.0=Miniature, 8.0=Caption, 12.0=Pica*, 16.0=SubHeading, 21.0=Trumpet, 32.0=Headline, 48.0=Display, 72.0=Titling, 96.0=Hairline, 1200.0=Needlepoint";
+value = "opsz; 5.0=Micro, 6.0=Minuscule, 7.0=Miniature, 8.0=Caption, 12.0=Pica*, 16.0=SubHead, 21.0=Trumpet, 32.0=Headline, 48.0=Display, 72.0=Titling, 96.0=Hairline, 1200.0=Needlepoint";
 },
 {
 name = "Axis Values";
-value = "wdth; 88.0=SemiCondensed, 100.0=Normal*, 113.0=SemiExpanded";
+value = "wdth; 88.0=SemiCond, 100.0=Normal*, 113.0=SemiExp";
 },
 {
 name = "Axis Values";
-value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExtraBold, 900.0=Black";
+value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExBold, 900.0=Black";
 },
 {
 name = "Axis Values";
@@ -4988,7 +4988,7 @@ Location = 360;
 instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 1;
 };
-name = "Micro SemiCondensed SemiLight";
+name = "Micro SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -5021,7 +5021,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.07407;
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.92593;
 };
-name = "Micro SemiCondensed";
+name = "Micro SemiCond";
 widthClass = 4;
 },
 {
@@ -5053,7 +5053,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.21296;
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.78704;
 };
-name = "Micro SemiCondensed Medium";
+name = "Micro SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -5086,7 +5086,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.35185;
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.64815;
 };
-name = "Micro SemiCondensed SemiBold";
+name = "Micro SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -5120,8 +5120,8 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.46296;
 };
 isBold = 1;
-linkStyle = "Micro SemiCondensed";
-name = "Micro SemiCondensed Bold";
+linkStyle = "Micro SemiCond";
+name = "Micro SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -5154,7 +5154,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.72222;
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.27778;
 };
-name = "Micro SemiCondensed ExtraBold";
+name = "Micro SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -5186,7 +5186,7 @@ Location = 900;
 instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 1;
 };
-name = "Micro SemiCondensed Black";
+name = "Micro SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -5390,7 +5390,7 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.20062;
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.20062;
 };
-name = "Micro ExtraBold";
+name = "Micro ExBold";
 weightClass = 800;
 },
 {
@@ -5453,7 +5453,7 @@ Location = 360;
 instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 1;
 };
-name = "Micro SemiExpanded SemiLight";
+name = "Micro SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -5486,7 +5486,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.92593;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.07407;
 };
-name = "Micro SemiExpanded";
+name = "Micro SemiExp";
 widthClass = 6;
 },
 {
@@ -5518,7 +5518,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.78704;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.21296;
 };
-name = "Micro SemiExpanded Medium";
+name = "Micro SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -5551,7 +5551,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.64815;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.35185;
 };
-name = "Micro SemiExpanded SemiBold";
+name = "Micro SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -5585,8 +5585,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.53704;
 };
 isBold = 1;
-linkStyle = "Micro SemiExpanded";
-name = "Micro SemiExpanded Bold";
+linkStyle = "Micro SemiExp";
+name = "Micro SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -5619,7 +5619,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.27778;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.72222;
 };
-name = "Micro SemiExpanded ExtraBold";
+name = "Micro SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -5651,7 +5651,7 @@ Location = 900;
 instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 1;
 };
-name = "Micro SemiExpanded Black";
+name = "Micro SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -5684,7 +5684,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.83682;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.16318;
 };
-name = "Minuscule SemiCondensed SemiLight";
+name = "Minuscule SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -5719,7 +5719,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.15109;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.01209;
 };
-name = "Minuscule SemiCondensed";
+name = "Minuscule SemiCond";
 widthClass = 4;
 },
 {
@@ -5753,7 +5753,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.12843;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.03475;
 };
-name = "Minuscule SemiCondensed Medium";
+name = "Minuscule SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -5788,7 +5788,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.10576;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.05742;
 };
-name = "Minuscule SemiCondensed SemiBold";
+name = "Minuscule SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -5824,8 +5824,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.08763;
 };
 isBold = 1;
-linkStyle = "Minuscule SemiCondensed";
-name = "Minuscule SemiCondensed Bold";
+linkStyle = "Minuscule SemiCond";
+name = "Minuscule SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -5860,7 +5860,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.04533;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.11785;
 };
-name = "Minuscule SemiCondensed ExtraBold";
+name = "Minuscule SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -5893,7 +5893,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.83682;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.16318;
 };
-name = "Minuscule SemiCondensed Black";
+name = "Minuscule SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -6119,7 +6119,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.03274;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.08512;
 };
-name = "Minuscule ExtraBold";
+name = "Minuscule ExBold";
 weightClass = 800;
 },
 {
@@ -6185,7 +6185,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.83682;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.16318;
 };
-name = "Minuscule SemiExpanded SemiLight";
+name = "Minuscule SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -6220,7 +6220,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.01209;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.06199;
 };
-name = "Minuscule SemiExpanded";
+name = "Minuscule SemiExp";
 widthClass = 6;
 },
 {
@@ -6254,7 +6254,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.03475;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.17821;
 };
-name = "Minuscule SemiExpanded Medium";
+name = "Minuscule SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -6289,7 +6289,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.05742;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.29444;
 };
-name = "Minuscule SemiExpanded SemiBold";
+name = "Minuscule SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -6325,8 +6325,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.4494;
 };
 isBold = 1;
-linkStyle = "Minuscule SemiExpanded";
-name = "Minuscule SemiExpanded Bold";
+linkStyle = "Minuscule SemiExp";
+name = "Minuscule SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -6361,7 +6361,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.11785;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.60437;
 };
-name = "Minuscule SemiExpanded ExtraBold";
+name = "Minuscule SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -6394,7 +6394,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.16318;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.83682;
 };
-name = "Minuscule SemiExpanded Black";
+name = "Minuscule SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -6427,7 +6427,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.73222;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.26778;
 };
-name = "Miniature SemiCondensed SemiLight";
+name = "Miniature SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -6462,7 +6462,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.24795;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.01984;
 };
-name = "Miniature SemiCondensed";
+name = "Miniature SemiCond";
 widthClass = 4;
 },
 {
@@ -6496,7 +6496,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.21075;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.05703;
 };
-name = "Miniature SemiCondensed Medium";
+name = "Miniature SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -6531,7 +6531,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.17356;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.09422;
 };
-name = "Miniature SemiCondensed SemiBold";
+name = "Miniature SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -6567,8 +6567,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.14381;
 };
 isBold = 1;
-linkStyle = "Miniature SemiCondensed";
-name = "Miniature SemiCondensed Bold";
+linkStyle = "Miniature SemiCond";
+name = "Miniature SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -6603,7 +6603,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.07438;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.1934;
 };
-name = "Miniature SemiCondensed ExtraBold";
+name = "Miniature SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -6636,7 +6636,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.73222;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.26778;
 };
-name = "Miniature SemiCondensed Black";
+name = "Miniature SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -6862,7 +6862,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.05372;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.13968;
 };
-name = "Miniature ExtraBold";
+name = "Miniature ExBold";
 weightClass = 800;
 },
 {
@@ -6928,7 +6928,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.73222;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.26778;
 };
-name = "Miniature SemiExpanded SemiLight";
+name = "Miniature SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -6963,7 +6963,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.01984;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.05424;
 };
-name = "Miniature SemiExpanded";
+name = "Miniature SemiExp";
 widthClass = 6;
 },
 {
@@ -6997,7 +6997,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.05703;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.15594;
 };
-name = "Miniature SemiExpanded Medium";
+name = "Miniature SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -7032,7 +7032,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.09422;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.25763;
 };
-name = "Miniature SemiExpanded SemiBold";
+name = "Miniature SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -7068,8 +7068,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.39323;
 };
 isBold = 1;
-linkStyle = "Miniature SemiExpanded";
-name = "Miniature SemiExpanded Bold";
+linkStyle = "Miniature SemiExp";
+name = "Miniature SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -7104,7 +7104,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.1934;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.52882;
 };
-name = "Miniature SemiExpanded ExtraBold";
+name = "Miniature SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -7137,7 +7137,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.26778;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.73222;
 };
-name = "Miniature SemiExpanded Black";
+name = "Miniature SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -7170,7 +7170,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.66946;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.33054;
 };
-name = "Caption SemiCondensed SemiLight";
+name = "Caption SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -7205,7 +7205,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.30606;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.02448;
 };
-name = "Caption SemiCondensed";
+name = "Caption SemiCond";
 widthClass = 4;
 },
 {
@@ -7239,7 +7239,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.26015;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.07039;
 };
-name = "Caption SemiCondensed Medium";
+name = "Caption SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -7274,7 +7274,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.21424;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.1163;
 };
-name = "Caption SemiCondensed SemiBold";
+name = "Caption SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -7310,8 +7310,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.17751;
 };
 isBold = 1;
-linkStyle = "Caption SemiCondensed";
-name = "Caption SemiCondensed Bold";
+linkStyle = "Caption SemiCond";
+name = "Caption SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -7346,7 +7346,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.09182;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.23873;
 };
-name = "Caption SemiCondensed ExtraBold";
+name = "Caption SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -7379,7 +7379,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.66946;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.33054;
 };
-name = "Caption SemiCondensed Black";
+name = "Caption SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -7605,7 +7605,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.06631;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.17241;
 };
-name = "Caption ExtraBold";
+name = "Caption ExBold";
 weightClass = 800;
 },
 {
@@ -7671,7 +7671,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.66946;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.33054;
 };
-name = "Caption SemiExpanded SemiLight";
+name = "Caption SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -7706,7 +7706,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.02448;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.04959;
 };
-name = "Caption SemiExpanded";
+name = "Caption SemiExp";
 widthClass = 6;
 },
 {
@@ -7740,7 +7740,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.07039;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.14257;
 };
-name = "Caption SemiExpanded Medium";
+name = "Caption SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -7775,7 +7775,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.1163;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.23555;
 };
-name = "Caption SemiExpanded SemiBold";
+name = "Caption SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -7811,8 +7811,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.35952;
 };
 isBold = 1;
-linkStyle = "Caption SemiExpanded";
-name = "Caption SemiExpanded Bold";
+linkStyle = "Caption SemiExp";
+name = "Caption SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -7847,7 +7847,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.23873;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.4835;
 };
-name = "Caption SemiExpanded ExtraBold";
+name = "Caption SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -7880,7 +7880,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.33054;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.66946;
 };
-name = "Caption SemiExpanded Black";
+name = "Caption SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -7913,7 +7913,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.54393;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.45607;
 };
-name = "Regular SemiCondensed SemiLight";
+name = "Pica SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -7948,7 +7948,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.42228;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.03378;
 };
-name = "Regular SemiCondensed";
+name = "Pica SemiCond";
 widthClass = 4;
 },
 {
@@ -7982,7 +7982,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.35894;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.09713;
 };
-name = "Regular SemiCondensed Medium";
+name = "Pica SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -8017,7 +8017,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.2956;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.16047;
 };
-name = "Regular SemiCondensed SemiBold";
+name = "Pica SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -8053,8 +8053,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.24492;
 };
 isBold = 1;
-linkStyle = "Regular SemiCondensed";
-name = "Regular SemiCondensed Bold";
+linkStyle = "Pica SemiCond";
+name = "Pica SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -8089,7 +8089,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.12669;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.32938;
 };
-name = "Regular SemiCondensed ExtraBold";
+name = "Pica SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -8122,7 +8122,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.54393;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.45607;
 };
-name = "Regular SemiCondensed Black";
+name = "Pica SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -8157,7 +8157,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.39284;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.32938;
 };
-name = "Regular SemiLight";
+name = "Pica SemiLight";
 weightClass = 360;
 },
 {
@@ -8195,7 +8195,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.30498;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.0244;
 };
-name = Regular;
+name = Pica;
 },
 {
 axesValues = (
@@ -8232,7 +8232,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.25924;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.07015;
 };
-name = "Regular Medium";
+name = "Pica Medium";
 weightClass = 500;
 },
 {
@@ -8270,7 +8270,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.21349;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.11589;
 };
-name = "Regular SemiBold";
+name = "Pica SemiBold";
 weightClass = 600;
 },
 {
@@ -8309,8 +8309,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.17689;
 };
 isBold = 1;
-linkStyle = Regular;
-name = "Regular Bold";
+linkStyle = Pica;
+name = "Pica Bold";
 weightClass = 700;
 },
 {
@@ -8348,7 +8348,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.09149;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.23789;
 };
-name = "Regular ExtraBold";
+name = "Pica ExBold";
 weightClass = 800;
 },
 {
@@ -8382,7 +8382,7 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.15109;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.32938;
 };
-name = "Regular Black";
+name = "Pica Black";
 weightClass = 900;
 },
 {
@@ -8414,7 +8414,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.54393;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.45607;
 };
-name = "Regular SemiExpanded SemiLight";
+name = "Pica SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -8449,7 +8449,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.03378;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.04029;
 };
-name = "Regular SemiExpanded";
+name = "Pica SemiExp";
 widthClass = 6;
 },
 {
@@ -8483,7 +8483,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.09713;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.11584;
 };
-name = "Regular SemiExpanded Medium";
+name = "Pica SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -8518,7 +8518,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.16047;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.19138;
 };
-name = "Regular SemiExpanded SemiBold";
+name = "Pica SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -8554,8 +8554,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.29211;
 };
 isBold = 1;
-linkStyle = "Regular SemiExpanded";
-name = "Regular SemiExpanded Bold";
+linkStyle = "Pica SemiExp";
+name = "Pica SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -8590,7 +8590,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.32938;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.39284;
 };
-name = "Regular SemiExpanded ExtraBold";
+name = "Pica SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -8623,7 +8623,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.45607;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.54393;
 };
-name = "Regular SemiExpanded Black";
+name = "Pica SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -8656,7 +8656,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.46862;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.53138;
 };
-name = "SubHeading SemiCondensed SemiLight";
+name = "SubHead SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -8691,7 +8691,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.49202;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.03936;
 };
-name = "SubHeading SemiCondensed";
+name = "SubHead SemiCond";
 widthClass = 4;
 },
 {
@@ -8725,7 +8725,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.41822;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.11316;
 };
-name = "SubHeading SemiCondensed Medium";
+name = "SubHead SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -8760,7 +8760,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.34441;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.18697;
 };
-name = "SubHeading SemiCondensed SemiBold";
+name = "SubHead SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -8796,8 +8796,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.28537;
 };
 isBold = 1;
-linkStyle = "SubHeading SemiCondensed";
-name = "SubHeading SemiCondensed Bold";
+linkStyle = "SubHead SemiCond";
+name = "SubHead SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -8832,7 +8832,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.14761;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.38377;
 };
-name = "SubHeading SemiCondensed ExtraBold";
+name = "SubHead SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -8865,7 +8865,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.46862;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.53138;
 };
-name = "SubHeading SemiCondensed Black";
+name = "SubHead SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -8900,7 +8900,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.33845;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.38377;
 };
-name = "SubHeading SemiLight";
+name = "SubHead SemiLight";
 weightClass = 360;
 },
 {
@@ -8938,7 +8938,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.35535;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.02843;
 };
-name = SubHeading;
+name = SubHead;
 },
 {
 axesValues = (
@@ -8975,7 +8975,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.30205;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.08173;
 };
-name = "SubHeading Medium";
+name = "SubHead Medium";
 weightClass = 500;
 },
 {
@@ -9013,7 +9013,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.24874;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.13503;
 };
-name = "SubHeading SemiBold";
+name = "SubHead SemiBold";
 weightClass = 600;
 },
 {
@@ -9052,8 +9052,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.2061;
 };
 isBold = 1;
-linkStyle = SubHeading;
-name = "SubHeading Bold";
+linkStyle = SubHead;
+name = "SubHead Bold";
 weightClass = 700;
 },
 {
@@ -9091,7 +9091,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.1066;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.27717;
 };
-name = "SubHeading ExtraBold";
+name = "SubHead ExBold";
 weightClass = 800;
 },
 {
@@ -9125,7 +9125,7 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.13017;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.38377;
 };
-name = "SubHeading Black";
+name = "SubHead Black";
 weightClass = 900;
 },
 {
@@ -9157,7 +9157,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.46862;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.53138;
 };
-name = "SubHeading SemiExpanded SemiLight";
+name = "SubHead SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -9192,7 +9192,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.03936;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.03471;
 };
-name = "SubHeading SemiExpanded";
+name = "SubHead SemiExp";
 widthClass = 6;
 },
 {
@@ -9226,7 +9226,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.11316;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.0998;
 };
-name = "SubHeading SemiExpanded Medium";
+name = "SubHead SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -9261,7 +9261,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.18697;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.16488;
 };
-name = "SubHeading SemiExpanded SemiBold";
+name = "SubHead SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -9297,8 +9297,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.25167;
 };
 isBold = 1;
-linkStyle = "SubHeading SemiExpanded";
-name = "SubHeading SemiExpanded Bold";
+linkStyle = "SubHead SemiExp";
+name = "SubHead SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -9333,7 +9333,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.38377;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.33845;
 };
-name = "SubHeading SemiExpanded ExtraBold";
+name = "SubHead SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -9366,7 +9366,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.53138;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.46862;
 };
-name = "SubHeading SemiExpanded Black";
+name = "SubHead SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -9399,7 +9399,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.41841;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.58159;
 };
-name = "Trumpet SemiCondensed SemiLight";
+name = "Trumpet SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -9434,7 +9434,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.53851;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.04308;
 };
-name = "Trumpet SemiCondensed";
+name = "Trumpet SemiCond";
 widthClass = 4;
 },
 {
@@ -9468,7 +9468,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.45773;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.12386;
 };
-name = "Trumpet SemiCondensed Medium";
+name = "Trumpet SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -9503,7 +9503,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.37696;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.20463;
 };
-name = "Trumpet SemiCondensed SemiBold";
+name = "Trumpet SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -9539,8 +9539,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.31234;
 };
 isBold = 1;
-linkStyle = "Trumpet SemiCondensed";
-name = "Trumpet SemiCondensed Bold";
+linkStyle = "Trumpet SemiCond";
+name = "Trumpet SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -9575,7 +9575,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.16155;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.42004;
 };
-name = "Trumpet SemiCondensed ExtraBold";
+name = "Trumpet SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -9608,7 +9608,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.41841;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.58159;
 };
-name = "Trumpet SemiCondensed Black";
+name = "Trumpet SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -9834,7 +9834,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.11668;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.30336;
 };
-name = "Trumpet ExtraBold";
+name = "Trumpet ExBold";
 weightClass = 800;
 },
 {
@@ -9900,7 +9900,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.41841;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.58159;
 };
-name = "Trumpet SemiExpanded SemiLight";
+name = "Trumpet SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -9935,7 +9935,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.04308;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.03099;
 };
-name = "Trumpet SemiExpanded";
+name = "Trumpet SemiExp";
 widthClass = 6;
 },
 {
@@ -9969,7 +9969,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.12386;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.08911;
 };
-name = "Trumpet SemiExpanded Medium";
+name = "Trumpet SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -10004,7 +10004,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.20463;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.14722;
 };
-name = "Trumpet SemiExpanded SemiBold";
+name = "Trumpet SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -10040,8 +10040,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.2247;
 };
 isBold = 1;
-linkStyle = "Trumpet SemiExpanded";
-name = "Trumpet SemiExpanded Bold";
+linkStyle = "Trumpet SemiExp";
+name = "Trumpet SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -10076,7 +10076,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.42004;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.30219;
 };
-name = "Trumpet SemiExpanded ExtraBold";
+name = "Trumpet SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -10109,7 +10109,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.58159;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.41841;
 };
-name = "Trumpet SemiExpanded Black";
+name = "Trumpet SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -10142,7 +10142,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.33473;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.66527;
 };
-name = "Headline SemiCondensed SemiLight";
+name = "Headline SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -10177,7 +10177,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.61599;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.04928;
 };
-name = "Headline SemiCondensed";
+name = "Headline SemiCond";
 widthClass = 4;
 },
 {
@@ -10211,7 +10211,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.52359;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.14168;
 };
-name = "Headline SemiCondensed Medium";
+name = "Headline SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -10246,7 +10246,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.43119;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.23408;
 };
-name = "Headline SemiCondensed SemiBold";
+name = "Headline SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -10282,8 +10282,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.35728;
 };
 isBold = 1;
-linkStyle = "Headline SemiCondensed";
-name = "Headline SemiCondensed Bold";
+linkStyle = "Headline SemiCond";
+name = "Headline SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -10318,7 +10318,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.1848;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.48047;
 };
-name = "Headline SemiCondensed ExtraBold";
+name = "Headline SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -10351,7 +10351,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.33473;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.66527;
 };
-name = "Headline SemiCondensed Black";
+name = "Headline SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -10577,7 +10577,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.13347;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.34701;
 };
-name = "Headline ExtraBold";
+name = "Headline ExBold";
 weightClass = 800;
 },
 {
@@ -10643,7 +10643,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.33473;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.66527;
 };
-name = "Headline SemiExpanded SemiLight";
+name = "Headline SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -10678,7 +10678,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.04928;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.02479;
 };
-name = "Headline SemiExpanded";
+name = "Headline SemiExp";
 widthClass = 6;
 },
 {
@@ -10712,7 +10712,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.14168;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.07128;
 };
-name = "Headline SemiExpanded Medium";
+name = "Headline SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -10747,7 +10747,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.23408;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.11777;
 };
-name = "Headline SemiExpanded SemiBold";
+name = "Headline SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -10783,8 +10783,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.17976;
 };
 isBold = 1;
-linkStyle = "Headline SemiExpanded";
-name = "Headline SemiExpanded Bold";
+linkStyle = "Headline SemiExp";
+name = "Headline SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -10819,7 +10819,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.48047;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.24175;
 };
-name = "Headline SemiExpanded ExtraBold";
+name = "Headline SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -10852,7 +10852,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.66527;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.33473;
 };
-name = "Headline SemiExpanded Black";
+name = "Headline SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -10885,7 +10885,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.25105;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.74895;
 };
-name = "Display SemiCondensed SemiLight";
+name = "Display SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -10920,7 +10920,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.69348;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.05548;
 };
-name = "Display SemiCondensed";
+name = "Display SemiCond";
 widthClass = 4;
 },
 {
@@ -10954,7 +10954,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.58945;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.1595;
 };
-name = "Display SemiCondensed Medium";
+name = "Display SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -10989,7 +10989,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.48543;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.26352;
 };
-name = "Display SemiCondensed SemiBold";
+name = "Display SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -11025,8 +11025,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.40222;
 };
 isBold = 1;
-linkStyle = "Display SemiCondensed";
-name = "Display SemiCondensed Bold";
+linkStyle = "Display SemiCond";
+name = "Display SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -11061,7 +11061,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.20804;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.54091;
 };
-name = "Display SemiCondensed ExtraBold";
+name = "Display SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -11094,7 +11094,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.25105;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.74895;
 };
-name = "Display SemiCondensed Black";
+name = "Display SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -11320,7 +11320,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.15025;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.39066;
 };
-name = "Display ExtraBold";
+name = "Display ExBold";
 weightClass = 800;
 },
 {
@@ -11386,7 +11386,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.25105;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.74895;
 };
-name = "Display SemiExpanded SemiLight";
+name = "Display SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -11421,7 +11421,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.05548;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.0186;
 };
-name = "Display SemiExpanded";
+name = "Display SemiExp";
 widthClass = 6;
 },
 {
@@ -11455,7 +11455,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.1595;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.05346;
 };
-name = "Display SemiExpanded Medium";
+name = "Display SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -11490,7 +11490,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.26352;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.08833;
 };
-name = "Display SemiExpanded SemiBold";
+name = "Display SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -11526,8 +11526,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.13482;
 };
 isBold = 1;
-linkStyle = "Display SemiExpanded";
-name = "Display SemiExpanded Bold";
+linkStyle = "Display SemiExp";
+name = "Display SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -11562,7 +11562,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.54091;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.18131;
 };
-name = "Display SemiExpanded ExtraBold";
+name = "Display SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -11595,7 +11595,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.74895;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.25105;
 };
-name = "Display SemiExpanded Black";
+name = "Display SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -11628,7 +11628,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.1841;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.8159;
 };
-name = "Titling SemiCondensed SemiLight";
+name = "Titling SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -11663,7 +11663,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.75546;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.06044;
 };
-name = "Titling SemiCondensed";
+name = "Titling SemiCond";
 widthClass = 4;
 },
 {
@@ -11697,7 +11697,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.64214;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.17376;
 };
-name = "Titling SemiCondensed Medium";
+name = "Titling SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -11732,7 +11732,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.52882;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.28708;
 };
-name = "Titling SemiCondensed SemiBold";
+name = "Titling SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -11768,8 +11768,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.43817;
 };
 isBold = 1;
-linkStyle = "Titling SemiCondensed";
-name = "Titling SemiCondensed Bold";
+linkStyle = "Titling SemiCond";
+name = "Titling SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -11804,7 +11804,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.22664;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.58926;
 };
-name = "Titling SemiCondensed ExtraBold";
+name = "Titling SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -11837,7 +11837,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.1841;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.8159;
 };
-name = "Titling SemiCondensed Black";
+name = "Titling SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -12063,7 +12063,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.16368;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.42558;
 };
-name = "Titling ExtraBold";
+name = "Titling ExBold";
 weightClass = 800;
 },
 {
@@ -12129,7 +12129,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.1841;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.8159;
 };
-name = "Titling SemiExpanded SemiLight";
+name = "Titling SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -12164,7 +12164,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.06044;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.01364;
 };
-name = "Titling SemiExpanded";
+name = "Titling SemiExp";
 widthClass = 6;
 },
 {
@@ -12198,7 +12198,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.17376;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.03921;
 };
-name = "Titling SemiExpanded Medium";
+name = "Titling SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -12233,7 +12233,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.28708;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.06478;
 };
-name = "Titling SemiExpanded SemiBold";
+name = "Titling SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -12269,8 +12269,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.09887;
 };
 isBold = 1;
-linkStyle = "Titling SemiExpanded";
-name = "Titling SemiExpanded Bold";
+linkStyle = "Titling SemiExp";
+name = "Titling SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -12305,7 +12305,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.58926;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.13296;
 };
-name = "Titling SemiExpanded ExtraBold";
+name = "Titling SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -12338,7 +12338,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.8159;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.1841;
 };
-name = "Titling SemiExpanded Black";
+name = "Titling SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -12371,7 +12371,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.15063;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.84937;
 };
-name = "Hairline SemiCondensed SemiLight";
+name = "Hairline SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -12406,7 +12406,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.78646;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.06292;
 };
-name = "Hairline SemiCondensed";
+name = "Hairline SemiCond";
 widthClass = 4;
 },
 {
@@ -12440,7 +12440,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.66849;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.18088;
 };
-name = "Hairline SemiCondensed Medium";
+name = "Hairline SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -12475,7 +12475,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.55052;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.29885;
 };
-name = "Hairline SemiCondensed SemiBold";
+name = "Hairline SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -12511,8 +12511,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.45614;
 };
 isBold = 1;
-linkStyle = "Hairline SemiCondensed";
-name = "Hairline SemiCondensed Bold";
+linkStyle = "Hairline SemiCond";
+name = "Hairline SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -12547,7 +12547,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.23594;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.61344;
 };
-name = "Hairline SemiCondensed ExtraBold";
+name = "Hairline SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -12580,7 +12580,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.15063;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.84937;
 };
-name = "Hairline SemiCondensed Black";
+name = "Hairline SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -12806,7 +12806,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.1704;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.44304;
 };
-name = "Hairline ExtraBold";
+name = "Hairline ExBold";
 weightClass = 800;
 },
 {
@@ -12872,7 +12872,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.15063;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.84937;
 };
-name = "Hairline SemiExpanded SemiLight";
+name = "Hairline SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -12907,7 +12907,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.06292;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.01116;
 };
-name = "Hairline SemiExpanded";
+name = "Hairline SemiExp";
 widthClass = 6;
 },
 {
@@ -12941,7 +12941,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.18088;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.03208;
 };
-name = "Hairline SemiExpanded Medium";
+name = "Hairline SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -12976,7 +12976,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.29885;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.053;
 };
-name = "Hairline SemiExpanded SemiBold";
+name = "Hairline SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -13012,8 +13012,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.08089;
 };
 isBold = 1;
-linkStyle = "Hairline SemiExpanded";
-name = "Hairline SemiExpanded Bold";
+linkStyle = "Hairline SemiExp";
+name = "Hairline SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -13048,7 +13048,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.61344;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.10879;
 };
-name = "Hairline SemiExpanded ExtraBold";
+name = "Hairline SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -13081,7 +13081,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.84937;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.15063;
 };
-name = "Hairline SemiExpanded Black";
+name = "Hairline SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -13113,7 +13113,7 @@ Location = 360;
 instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 1;
 };
-name = "Needlepoint SemiCondensed SemiLight";
+name = "Needlepoint SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -13146,7 +13146,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.92593;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.07407;
 };
-name = "Needlepoint SemiCondensed";
+name = "Needlepoint SemiCond";
 widthClass = 4;
 },
 {
@@ -13178,7 +13178,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.78704;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.21296;
 };
-name = "Needlepoint SemiCondensed Medium";
+name = "Needlepoint SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -13211,7 +13211,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.64815;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.35185;
 };
-name = "Needlepoint SemiCondensed SemiBold";
+name = "Needlepoint SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -13245,8 +13245,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.53704;
 };
 isBold = 1;
-linkStyle = "Needlepoint SemiCondensed";
-name = "Needlepoint SemiCondensed Bold";
+linkStyle = "Needlepoint SemiCond";
+name = "Needlepoint SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -13279,7 +13279,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.27778;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.72222;
 };
-name = "Needlepoint SemiCondensed ExtraBold";
+name = "Needlepoint SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -13311,7 +13311,7 @@ Location = 900;
 instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 1;
 };
-name = "Needlepoint SemiCondensed Black";
+name = "Needlepoint SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -13515,7 +13515,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.20062;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.5216;
 };
-name = "Needlepoint ExtraBold";
+name = "Needlepoint ExBold";
 weightClass = 800;
 },
 {
@@ -13578,7 +13578,7 @@ Location = 360;
 instanceInterpolations = {
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 1;
 };
-name = "Needlepoint SemiExpanded SemiLight";
+name = "Needlepoint SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -13611,7 +13611,7 @@ instanceInterpolations = {
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.92593;
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.07407;
 };
-name = "Needlepoint SemiExpanded";
+name = "Needlepoint SemiExp";
 widthClass = 6;
 },
 {
@@ -13643,7 +13643,7 @@ instanceInterpolations = {
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.78704;
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.21296;
 };
-name = "Needlepoint SemiExpanded Medium";
+name = "Needlepoint SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -13676,7 +13676,7 @@ instanceInterpolations = {
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.64815;
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.35185;
 };
-name = "Needlepoint SemiExpanded SemiBold";
+name = "Needlepoint SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -13710,8 +13710,8 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.53704;
 };
 isBold = 1;
-linkStyle = "Needlepoint SemiExpanded";
-name = "Needlepoint SemiExpanded Bold";
+linkStyle = "Needlepoint SemiExp";
+name = "Needlepoint SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -13744,7 +13744,7 @@ instanceInterpolations = {
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.27778;
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.72222;
 };
-name = "Needlepoint SemiExpanded ExtraBold";
+name = "Needlepoint SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -13776,7 +13776,7 @@ Location = 900;
 instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 1;
 };
-name = "Needlepoint SemiExpanded Black";
+name = "Needlepoint SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 }

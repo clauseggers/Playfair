@@ -7,8 +7,8 @@ Executing this script will delete all existing instances (save for the VF instan
 200>6:Minuscule
 325>7:Miniature
 400>8:Caption
-550>12:Italic*
-640>16:SubHeading
+550>12:Pica*
+640>16:SubHead
 700>21:Trumpet
 800>32:Headline
 900>48:Display
@@ -17,17 +17,17 @@ Executing this script will delete all existing instances (save for the VF instan
 1200>1200:Needlepoint
 
 #Width:wdth
-95>88|4:SemiCondensed
-100>100|5:Italic*
-113>113|6:SemiExpanded
+95>88|4:SemiCond
+100>100|5:Normal*
+113>113|6:SemiExp
 
 #Weight:wght
 360>360:SemiLight
-400>400:Italic*
+400>400:Normal*
 475>500:Medium
 550>600:SemiBold
 650>700:Bold
-750>800:ExtraBold
+750>800:ExBold
 900>900:Black
 
 #Italic:ital

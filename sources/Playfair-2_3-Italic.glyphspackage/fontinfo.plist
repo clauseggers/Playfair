@@ -4586,15 +4586,15 @@ value = "RemoveOverlap; include:bar2.afrc,bar3.afrc,bar4.afrc,bar5.afrc,bar6.afr
 },
 {
 name = "Axis Values";
-value = "opsz; 5.0=Micro, 6.0=Minuscule, 7.0=Miniature, 8.0=Caption, 12.0=Pica*, 16.0=SubHeading, 21.0=Trumpet, 32.0=Headline, 48.0=Display, 72.0=Titling, 96.0=Hairline, 1200.0=Needlepoint";
+value = "opsz; 5.0=Micro, 6.0=Minuscule, 7.0=Miniature, 8.0=Caption, 12.0=Pica*, 16.0=SubHead, 21.0=Trumpet, 32.0=Headline, 48.0=Display, 72.0=Titling, 96.0=Hairline, 1200.0=Needlepoint";
 },
 {
 name = "Axis Values";
-value = "wdth; 88.0=SemiCondensed, 100.0=Normal*, 113.0=SemiExpanded";
+value = "wdth; 88.0=SemiCond, 100.0=Normal*, 113.0=SemiExp";
 },
 {
 name = "Axis Values";
-value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExtraBold, 900.0=Black";
+value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExBold, 900.0=Black";
 },
 {
 name = "Axis Values";
@@ -4638,8 +4638,8 @@ instanceInterpolations = {
 "4637ED20-F3CC-4D04-82BF-886AF47DA6B7" = 1;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed SemiLight";
-name = "Micro SemiCondensed SemiLight Italic";
+linkStyle = "Micro SemiCond SemiLight";
+name = "Micro SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -4678,8 +4678,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.07407;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed";
-name = "Micro SemiCondensed Italic";
+linkStyle = "Micro SemiCond";
+name = "Micro SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -4717,8 +4717,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.21296;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed Medium";
-name = "Micro SemiCondensed Medium Italic";
+linkStyle = "Micro SemiCond Medium";
+name = "Micro SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -4757,8 +4757,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.35185;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed SemiBold";
-name = "Micro SemiCondensed SemiBold Italic";
+linkStyle = "Micro SemiCond SemiBold";
+name = "Micro SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -4798,8 +4798,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Micro SemiCondensed";
-name = "Micro SemiCondensed Bold Italic";
+linkStyle = "Micro SemiCond";
+name = "Micro SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -4838,8 +4838,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.72222;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed ExtraBold";
-name = "Micro SemiCondensed ExtraBold Italic";
+linkStyle = "Micro SemiCond ExBold";
+name = "Micro SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -4877,8 +4877,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 1;
 };
 isItalic = 1;
-linkStyle = "Micro SemiCondensed Black";
-name = "Micro SemiCondensed Black Italic";
+linkStyle = "Micro SemiCond Black";
+name = "Micro SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -5122,8 +5122,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.5216;
 };
 isItalic = 1;
-linkStyle = "Micro ExtraBold";
-name = "Micro ExtraBold Italic";
+linkStyle = "Micro ExBold";
+name = "Micro ExBold Italic";
 weightClass = 800;
 },
 {
@@ -5199,8 +5199,8 @@ instanceInterpolations = {
 "1F135AE2-2C2A-4A39-A9C7-F637F318501B" = 1;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded SemiLight";
-name = "Micro SemiExpanded SemiLight Italic";
+linkStyle = "Micro SemiExp SemiLight";
+name = "Micro SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -5239,8 +5239,8 @@ instanceInterpolations = {
 "1F135AE2-2C2A-4A39-A9C7-F637F318501B" = 0.92593;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded";
-name = "Micro SemiExpanded Italic";
+linkStyle = "Micro SemiExp";
+name = "Micro SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -5278,8 +5278,8 @@ instanceInterpolations = {
 "1F135AE2-2C2A-4A39-A9C7-F637F318501B" = 0.78704;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded Medium";
-name = "Micro SemiExpanded Medium Italic";
+linkStyle = "Micro SemiExp Medium";
+name = "Micro SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -5318,8 +5318,8 @@ instanceInterpolations = {
 "1F135AE2-2C2A-4A39-A9C7-F637F318501B" = 0.64815;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded SemiBold";
-name = "Micro SemiExpanded SemiBold Italic";
+linkStyle = "Micro SemiExp SemiBold";
+name = "Micro SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -5359,8 +5359,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Micro SemiExpanded";
-name = "Micro SemiExpanded Bold Italic";
+linkStyle = "Micro SemiExp";
+name = "Micro SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -5399,8 +5399,8 @@ instanceInterpolations = {
 "1F135AE2-2C2A-4A39-A9C7-F637F318501B" = 0.27778;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded ExtraBold";
-name = "Micro SemiExpanded ExtraBold Italic";
+linkStyle = "Micro SemiExp ExBold";
+name = "Micro SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -5438,8 +5438,8 @@ instanceInterpolations = {
 "1C7E9FC1-FC8D-462F-A78D-B91E7BB50AFE" = 1;
 };
 isItalic = 1;
-linkStyle = "Micro SemiExpanded Black";
-name = "Micro SemiExpanded Black Italic";
+linkStyle = "Micro SemiExp Black";
+name = "Micro SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -5478,8 +5478,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.16318;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed SemiLight";
-name = "Minuscule SemiCondensed SemiLight Italic";
+linkStyle = "Minuscule SemiCond SemiLight";
+name = "Minuscule SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -5520,8 +5520,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.15109;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed";
-name = "Minuscule SemiCondensed Italic";
+linkStyle = "Minuscule SemiCond";
+name = "Minuscule SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -5561,8 +5561,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.12843;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed Medium";
-name = "Minuscule SemiCondensed Medium Italic";
+linkStyle = "Minuscule SemiCond Medium";
+name = "Minuscule SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -5603,8 +5603,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.10576;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed SemiBold";
-name = "Minuscule SemiCondensed SemiBold Italic";
+linkStyle = "Minuscule SemiCond SemiBold";
+name = "Minuscule SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -5646,8 +5646,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed";
-name = "Minuscule SemiCondensed Bold Italic";
+linkStyle = "Minuscule SemiCond";
+name = "Minuscule SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -5688,8 +5688,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.04533;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed ExtraBold";
-name = "Minuscule SemiCondensed ExtraBold Italic";
+linkStyle = "Minuscule SemiCond ExBold";
+name = "Minuscule SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -5728,8 +5728,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.83682;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiCondensed Black";
-name = "Minuscule SemiCondensed Black Italic";
+linkStyle = "Minuscule SemiCond Black";
+name = "Minuscule SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -5995,8 +5995,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03274;
 };
 isItalic = 1;
-linkStyle = "Minuscule ExtraBold";
-name = "Minuscule ExtraBold Italic";
+linkStyle = "Minuscule ExBold";
+name = "Minuscule ExBold Italic";
 weightClass = 800;
 },
 {
@@ -6075,8 +6075,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.16318;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded SemiLight";
-name = "Minuscule SemiExpanded SemiLight Italic";
+linkStyle = "Minuscule SemiExp SemiLight";
+name = "Minuscule SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -6117,8 +6117,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.01209;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded";
-name = "Minuscule SemiExpanded Italic";
+linkStyle = "Minuscule SemiExp";
+name = "Minuscule SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -6158,8 +6158,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03475;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded Medium";
-name = "Minuscule SemiExpanded Medium Italic";
+linkStyle = "Minuscule SemiExp Medium";
+name = "Minuscule SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -6200,8 +6200,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.05742;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded SemiBold";
-name = "Minuscule SemiExpanded SemiBold Italic";
+linkStyle = "Minuscule SemiExp SemiBold";
+name = "Minuscule SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -6243,8 +6243,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded";
-name = "Minuscule SemiExpanded Bold Italic";
+linkStyle = "Minuscule SemiExp";
+name = "Minuscule SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -6285,8 +6285,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.11785;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded ExtraBold";
-name = "Minuscule SemiExpanded ExtraBold Italic";
+linkStyle = "Minuscule SemiExp ExBold";
+name = "Minuscule SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -6325,8 +6325,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.16318;
 };
 isItalic = 1;
-linkStyle = "Minuscule SemiExpanded Black";
-name = "Minuscule SemiExpanded Black Italic";
+linkStyle = "Minuscule SemiExp Black";
+name = "Minuscule SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -6365,8 +6365,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.26778;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed SemiLight";
-name = "Miniature SemiCondensed SemiLight Italic";
+linkStyle = "Miniature SemiCond SemiLight";
+name = "Miniature SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -6407,8 +6407,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.24795;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed";
-name = "Miniature SemiCondensed Italic";
+linkStyle = "Miniature SemiCond";
+name = "Miniature SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -6448,8 +6448,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.21075;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed Medium";
-name = "Miniature SemiCondensed Medium Italic";
+linkStyle = "Miniature SemiCond Medium";
+name = "Miniature SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -6490,8 +6490,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.17356;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed SemiBold";
-name = "Miniature SemiCondensed SemiBold Italic";
+linkStyle = "Miniature SemiCond SemiBold";
+name = "Miniature SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -6533,8 +6533,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed";
-name = "Miniature SemiCondensed Bold Italic";
+linkStyle = "Miniature SemiCond";
+name = "Miniature SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -6575,8 +6575,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.07438;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed ExtraBold";
-name = "Miniature SemiCondensed ExtraBold Italic";
+linkStyle = "Miniature SemiCond ExBold";
+name = "Miniature SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -6615,8 +6615,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.73222;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiCondensed Black";
-name = "Miniature SemiCondensed Black Italic";
+linkStyle = "Miniature SemiCond Black";
+name = "Miniature SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -6882,8 +6882,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.05372;
 };
 isItalic = 1;
-linkStyle = "Miniature ExtraBold";
-name = "Miniature ExtraBold Italic";
+linkStyle = "Miniature ExBold";
+name = "Miniature ExBold Italic";
 weightClass = 800;
 },
 {
@@ -6962,8 +6962,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.26778;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded SemiLight";
-name = "Miniature SemiExpanded SemiLight Italic";
+linkStyle = "Miniature SemiExp SemiLight";
+name = "Miniature SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -7004,8 +7004,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.01984;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded";
-name = "Miniature SemiExpanded Italic";
+linkStyle = "Miniature SemiExp";
+name = "Miniature SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -7045,8 +7045,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.05703;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded Medium";
-name = "Miniature SemiExpanded Medium Italic";
+linkStyle = "Miniature SemiExp Medium";
+name = "Miniature SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -7087,8 +7087,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.09422;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded SemiBold";
-name = "Miniature SemiExpanded SemiBold Italic";
+linkStyle = "Miniature SemiExp SemiBold";
+name = "Miniature SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -7130,8 +7130,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded";
-name = "Miniature SemiExpanded Bold Italic";
+linkStyle = "Miniature SemiExp";
+name = "Miniature SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -7172,8 +7172,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.1934;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded ExtraBold";
-name = "Miniature SemiExpanded ExtraBold Italic";
+linkStyle = "Miniature SemiExp ExBold";
+name = "Miniature SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -7212,8 +7212,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.26778;
 };
 isItalic = 1;
-linkStyle = "Miniature SemiExpanded Black";
-name = "Miniature SemiExpanded Black Italic";
+linkStyle = "Miniature SemiExp Black";
+name = "Miniature SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -7252,8 +7252,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.33054;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed SemiLight";
-name = "Caption SemiCondensed SemiLight Italic";
+linkStyle = "Caption SemiCond SemiLight";
+name = "Caption SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -7294,8 +7294,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.30606;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed";
-name = "Caption SemiCondensed Italic";
+linkStyle = "Caption SemiCond";
+name = "Caption SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -7335,8 +7335,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.26015;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed Medium";
-name = "Caption SemiCondensed Medium Italic";
+linkStyle = "Caption SemiCond Medium";
+name = "Caption SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -7377,8 +7377,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.21424;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed SemiBold";
-name = "Caption SemiCondensed SemiBold Italic";
+linkStyle = "Caption SemiCond SemiBold";
+name = "Caption SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -7420,8 +7420,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Caption SemiCondensed";
-name = "Caption SemiCondensed Bold Italic";
+linkStyle = "Caption SemiCond";
+name = "Caption SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -7462,8 +7462,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.09182;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed ExtraBold";
-name = "Caption SemiCondensed ExtraBold Italic";
+linkStyle = "Caption SemiCond ExBold";
+name = "Caption SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -7502,8 +7502,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.66946;
 };
 isItalic = 1;
-linkStyle = "Caption SemiCondensed Black";
-name = "Caption SemiCondensed Black Italic";
+linkStyle = "Caption SemiCond Black";
+name = "Caption SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -7769,8 +7769,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.06631;
 };
 isItalic = 1;
-linkStyle = "Caption ExtraBold";
-name = "Caption ExtraBold Italic";
+linkStyle = "Caption ExBold";
+name = "Caption ExBold Italic";
 weightClass = 800;
 },
 {
@@ -7849,8 +7849,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.33054;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded SemiLight";
-name = "Caption SemiExpanded SemiLight Italic";
+linkStyle = "Caption SemiExp SemiLight";
+name = "Caption SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -7891,8 +7891,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.02448;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded";
-name = "Caption SemiExpanded Italic";
+linkStyle = "Caption SemiExp";
+name = "Caption SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -7932,8 +7932,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.07039;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded Medium";
-name = "Caption SemiExpanded Medium Italic";
+linkStyle = "Caption SemiExp Medium";
+name = "Caption SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -7974,8 +7974,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.1163;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded SemiBold";
-name = "Caption SemiExpanded SemiBold Italic";
+linkStyle = "Caption SemiExp SemiBold";
+name = "Caption SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -8017,8 +8017,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Caption SemiExpanded";
-name = "Caption SemiExpanded Bold Italic";
+linkStyle = "Caption SemiExp";
+name = "Caption SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -8059,8 +8059,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.23873;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded ExtraBold";
-name = "Caption SemiExpanded ExtraBold Italic";
+linkStyle = "Caption SemiExp ExBold";
+name = "Caption SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -8099,8 +8099,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.33054;
 };
 isItalic = 1;
-linkStyle = "Caption SemiExpanded Black";
-name = "Caption SemiExpanded Black Italic";
+linkStyle = "Caption SemiExp Black";
+name = "Caption SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -8139,8 +8139,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed SemiLight";
-name = "Italic SemiCondensed SemiLight Italic";
+linkStyle = "Pica SemiCond SemiLight";
+name = "Pica SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -8181,8 +8181,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.42228;
 };
 isItalic = 1;
-linkStyle = SemiCondensed;
-name = "Italic SemiCondensed Italic";
+linkStyle = "Pica SemiCond";
+name = "Pica SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -8222,8 +8222,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.35894;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed Medium";
-name = "Italic SemiCondensed Medium Italic";
+linkStyle = "Pica SemiCond Medium";
+name = "Pica SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -8264,8 +8264,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.2956;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed SemiBold";
-name = "Italic SemiCondensed SemiBold Italic";
+linkStyle = "Pica SemiCond SemiBold";
+name = "Pica SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -8307,8 +8307,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Italic SemiCondensed";
-name = "Italic SemiCondensed Bold Italic";
+linkStyle = "Pica SemiCond";
+name = "Pica SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -8349,8 +8349,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.12669;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed ExtraBold";
-name = "Italic SemiCondensed ExtraBold Italic";
+linkStyle = "Pica SemiCond ExBold";
+name = "Pica SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -8389,8 +8389,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.54393;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed Black";
-name = "Italic SemiCondensed Black Italic";
+linkStyle = "Pica SemiCond Black";
+name = "Pica SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -8431,8 +8431,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.32938;
 };
 isItalic = 1;
-linkStyle = SemiLight;
-name = "Italic SemiLight Italic";
+linkStyle = "Pica SemiLight";
+name = "Pica SemiLight Italic";
 weightClass = 360;
 },
 {
@@ -8476,8 +8476,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.00938;
 };
 isItalic = 1;
-linkStyle = Regular;
-name = "Italic Italic";
+linkStyle = Pica;
+name = "Pica Italic";
 },
 {
 axesValues = (
@@ -8520,8 +8520,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.02698;
 };
 isItalic = 1;
-linkStyle = Medium;
-name = "Italic Medium Italic";
+linkStyle = "Pica Medium";
+name = "Pica Medium Italic";
 weightClass = 500;
 },
 {
@@ -8565,8 +8565,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.04457;
 };
 isItalic = 1;
-linkStyle = SemiBold;
-name = "Italic SemiBold Italic";
+linkStyle = "Pica SemiBold";
+name = "Pica SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -8611,8 +8611,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Italic;
-name = "Italic Bold Italic";
+linkStyle = Pica;
+name = "Pica Bold Italic";
 weightClass = 700;
 },
 {
@@ -8656,8 +8656,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.09149;
 };
 isItalic = 1;
-linkStyle = ExtraBold;
-name = "Italic ExtraBold Italic";
+linkStyle = "Pica ExBold";
+name = "Pica ExBold Italic";
 weightClass = 800;
 },
 {
@@ -8697,8 +8697,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.12669;
 };
 isItalic = 1;
-linkStyle = Black;
-name = "Italic Black Italic";
+linkStyle = "Pica Black";
+name = "Pica Black Italic";
 weightClass = 900;
 },
 {
@@ -8736,8 +8736,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded SemiLight";
-name = "Italic SemiExpanded SemiLight Italic";
+linkStyle = "Pica SemiExp SemiLight";
+name = "Pica SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -8778,8 +8778,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03378;
 };
 isItalic = 1;
-linkStyle = SemiExpanded;
-name = "Italic SemiExpanded Italic";
+linkStyle = "Pica SemiExp";
+name = "Pica SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -8819,8 +8819,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.09713;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded Medium";
-name = "Italic SemiExpanded Medium Italic";
+linkStyle = "Pica SemiExp Medium";
+name = "Pica SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -8861,8 +8861,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.16047;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded SemiBold";
-name = "Italic SemiExpanded SemiBold Italic";
+linkStyle = "Pica SemiExp SemiBold";
+name = "Pica SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -8904,8 +8904,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Italic SemiExpanded";
-name = "Italic SemiExpanded Bold Italic";
+linkStyle = "Pica SemiExp";
+name = "Pica SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -8946,8 +8946,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.32938;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded ExtraBold";
-name = "Italic SemiExpanded ExtraBold Italic";
+linkStyle = "Pica SemiExp ExBold";
+name = "Pica SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -8986,8 +8986,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded Black";
-name = "Italic SemiExpanded Black Italic";
+linkStyle = "Pica SemiExp Black";
+name = "Pica SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -9026,8 +9026,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.53138;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed SemiLight";
-name = "SubHeading SemiCondensed SemiLight Italic";
+linkStyle = "SubHead SemiCond SemiLight";
+name = "SubHead SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -9068,8 +9068,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.49202;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed";
-name = "SubHeading SemiCondensed Italic";
+linkStyle = "SubHead SemiCond";
+name = "SubHead SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -9109,8 +9109,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.41822;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed Medium";
-name = "SubHeading SemiCondensed Medium Italic";
+linkStyle = "SubHead SemiCond Medium";
+name = "SubHead SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -9151,8 +9151,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.34441;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed SemiBold";
-name = "SubHeading SemiCondensed SemiBold Italic";
+linkStyle = "SubHead SemiCond SemiBold";
+name = "SubHead SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -9194,8 +9194,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed";
-name = "SubHeading SemiCondensed Bold Italic";
+linkStyle = "SubHead SemiCond";
+name = "SubHead SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -9236,8 +9236,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.14761;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed ExtraBold";
-name = "SubHeading SemiCondensed ExtraBold Italic";
+linkStyle = "SubHead SemiCond ExBold";
+name = "SubHead SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -9276,8 +9276,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.46862;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiCondensed Black";
-name = "SubHeading SemiCondensed Black Italic";
+linkStyle = "SubHead SemiCond Black";
+name = "SubHead SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -9318,8 +9318,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.38377;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiLight";
-name = "SubHeading SemiLight Italic";
+linkStyle = "SubHead SemiLight";
+name = "SubHead SemiLight Italic";
 weightClass = 360;
 },
 {
@@ -9363,8 +9363,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.01093;
 };
 isItalic = 1;
-linkStyle = SubHeading;
-name = "SubHeading Italic";
+linkStyle = SubHead;
+name = "SubHead Italic";
 },
 {
 axesValues = (
@@ -9407,8 +9407,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03143;
 };
 isItalic = 1;
-linkStyle = "SubHeading Medium";
-name = "SubHeading Medium Italic";
+linkStyle = "SubHead Medium";
+name = "SubHead Medium Italic";
 weightClass = 500;
 },
 {
@@ -9452,8 +9452,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.05194;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiBold";
-name = "SubHeading SemiBold Italic";
+linkStyle = "SubHead SemiBold";
+name = "SubHead SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -9498,8 +9498,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SubHeading;
-name = "SubHeading Bold Italic";
+linkStyle = SubHead;
+name = "SubHead Bold Italic";
 weightClass = 700;
 },
 {
@@ -9543,8 +9543,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.1066;
 };
 isItalic = 1;
-linkStyle = "SubHeading ExtraBold";
-name = "SubHeading ExtraBold Italic";
+linkStyle = "SubHead ExBold";
+name = "SubHead ExBold Italic";
 weightClass = 800;
 },
 {
@@ -9584,8 +9584,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.14761;
 };
 isItalic = 1;
-linkStyle = "SubHeading Black";
-name = "SubHeading Black Italic";
+linkStyle = "SubHead Black";
+name = "SubHead Black Italic";
 weightClass = 900;
 },
 {
@@ -9623,8 +9623,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.53138;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded SemiLight";
-name = "SubHeading SemiExpanded SemiLight Italic";
+linkStyle = "SubHead SemiExp SemiLight";
+name = "SubHead SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -9665,8 +9665,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03936;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded";
-name = "SubHeading SemiExpanded Italic";
+linkStyle = "SubHead SemiExp";
+name = "SubHead SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -9706,8 +9706,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.11316;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded Medium";
-name = "SubHeading SemiExpanded Medium Italic";
+linkStyle = "SubHead SemiExp Medium";
+name = "SubHead SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -9748,8 +9748,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.18697;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded SemiBold";
-name = "SubHeading SemiExpanded SemiBold Italic";
+linkStyle = "SubHead SemiExp SemiBold";
+name = "SubHead SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -9791,8 +9791,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded";
-name = "SubHeading SemiExpanded Bold Italic";
+linkStyle = "SubHead SemiExp";
+name = "SubHead SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -9833,8 +9833,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.38377;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded ExtraBold";
-name = "SubHeading SemiExpanded ExtraBold Italic";
+linkStyle = "SubHead SemiExp ExBold";
+name = "SubHead SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -9873,8 +9873,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.53138;
 };
 isItalic = 1;
-linkStyle = "SubHeading SemiExpanded Black";
-name = "SubHeading SemiExpanded Black Italic";
+linkStyle = "SubHead SemiExp Black";
+name = "SubHead SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -9913,8 +9913,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.58159;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed SemiLight";
-name = "Trumpet SemiCondensed SemiLight Italic";
+linkStyle = "Trumpet SemiCond SemiLight";
+name = "Trumpet SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -9955,8 +9955,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.53851;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed";
-name = "Trumpet SemiCondensed Italic";
+linkStyle = "Trumpet SemiCond";
+name = "Trumpet SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -9996,8 +9996,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.45773;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed Medium";
-name = "Trumpet SemiCondensed Medium Italic";
+linkStyle = "Trumpet SemiCond Medium";
+name = "Trumpet SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -10038,8 +10038,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.37696;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed SemiBold";
-name = "Trumpet SemiCondensed SemiBold Italic";
+linkStyle = "Trumpet SemiCond SemiBold";
+name = "Trumpet SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -10081,8 +10081,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed";
-name = "Trumpet SemiCondensed Bold Italic";
+linkStyle = "Trumpet SemiCond";
+name = "Trumpet SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -10123,8 +10123,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.16155;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed ExtraBold";
-name = "Trumpet SemiCondensed ExtraBold Italic";
+linkStyle = "Trumpet SemiCond ExBold";
+name = "Trumpet SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -10163,8 +10163,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.41841;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiCondensed Black";
-name = "Trumpet SemiCondensed Black Italic";
+linkStyle = "Trumpet SemiCond Black";
+name = "Trumpet SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -10430,8 +10430,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.11668;
 };
 isItalic = 1;
-linkStyle = "Trumpet ExtraBold";
-name = "Trumpet ExtraBold Italic";
+linkStyle = "Trumpet ExBold";
+name = "Trumpet ExBold Italic";
 weightClass = 800;
 },
 {
@@ -10510,8 +10510,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.58159;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded SemiLight";
-name = "Trumpet SemiExpanded SemiLight Italic";
+linkStyle = "Trumpet SemiExp SemiLight";
+name = "Trumpet SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -10552,8 +10552,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.04308;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded";
-name = "Trumpet SemiExpanded Italic";
+linkStyle = "Trumpet SemiExp";
+name = "Trumpet SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -10593,8 +10593,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.12386;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded Medium";
-name = "Trumpet SemiExpanded Medium Italic";
+linkStyle = "Trumpet SemiExp Medium";
+name = "Trumpet SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -10635,8 +10635,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.20463;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded SemiBold";
-name = "Trumpet SemiExpanded SemiBold Italic";
+linkStyle = "Trumpet SemiExp SemiBold";
+name = "Trumpet SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -10678,8 +10678,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded";
-name = "Trumpet SemiExpanded Bold Italic";
+linkStyle = "Trumpet SemiExp";
+name = "Trumpet SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -10720,8 +10720,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.42004;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded ExtraBold";
-name = "Trumpet SemiExpanded ExtraBold Italic";
+linkStyle = "Trumpet SemiExp ExBold";
+name = "Trumpet SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -10760,8 +10760,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.58159;
 };
 isItalic = 1;
-linkStyle = "Trumpet SemiExpanded Black";
-name = "Trumpet SemiExpanded Black Italic";
+linkStyle = "Trumpet SemiExp Black";
+name = "Trumpet SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -10800,8 +10800,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.66527;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed SemiLight";
-name = "Headline SemiCondensed SemiLight Italic";
+linkStyle = "Headline SemiCond SemiLight";
+name = "Headline SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -10842,8 +10842,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.61599;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed";
-name = "Headline SemiCondensed Italic";
+linkStyle = "Headline SemiCond";
+name = "Headline SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -10883,8 +10883,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.52359;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed Medium";
-name = "Headline SemiCondensed Medium Italic";
+linkStyle = "Headline SemiCond Medium";
+name = "Headline SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -10925,8 +10925,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.43119;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed SemiBold";
-name = "Headline SemiCondensed SemiBold Italic";
+linkStyle = "Headline SemiCond SemiBold";
+name = "Headline SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -10968,8 +10968,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Headline SemiCondensed";
-name = "Headline SemiCondensed Bold Italic";
+linkStyle = "Headline SemiCond";
+name = "Headline SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -11010,8 +11010,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.1848;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed ExtraBold";
-name = "Headline SemiCondensed ExtraBold Italic";
+linkStyle = "Headline SemiCond ExBold";
+name = "Headline SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -11050,8 +11050,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.33473;
 };
 isItalic = 1;
-linkStyle = "Headline SemiCondensed Black";
-name = "Headline SemiCondensed Black Italic";
+linkStyle = "Headline SemiCond Black";
+name = "Headline SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -11317,8 +11317,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.13347;
 };
 isItalic = 1;
-linkStyle = "Headline ExtraBold";
-name = "Headline ExtraBold Italic";
+linkStyle = "Headline ExBold";
+name = "Headline ExBold Italic";
 weightClass = 800;
 },
 {
@@ -11397,8 +11397,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.66527;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded SemiLight";
-name = "Headline SemiExpanded SemiLight Italic";
+linkStyle = "Headline SemiExp SemiLight";
+name = "Headline SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -11439,8 +11439,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.04928;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded";
-name = "Headline SemiExpanded Italic";
+linkStyle = "Headline SemiExp";
+name = "Headline SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -11480,8 +11480,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.14168;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded Medium";
-name = "Headline SemiExpanded Medium Italic";
+linkStyle = "Headline SemiExp Medium";
+name = "Headline SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -11522,8 +11522,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.23408;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded SemiBold";
-name = "Headline SemiExpanded SemiBold Italic";
+linkStyle = "Headline SemiExp SemiBold";
+name = "Headline SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -11565,8 +11565,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Headline SemiExpanded";
-name = "Headline SemiExpanded Bold Italic";
+linkStyle = "Headline SemiExp";
+name = "Headline SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -11607,8 +11607,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.48047;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded ExtraBold";
-name = "Headline SemiExpanded ExtraBold Italic";
+linkStyle = "Headline SemiExp ExBold";
+name = "Headline SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -11647,8 +11647,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.66527;
 };
 isItalic = 1;
-linkStyle = "Headline SemiExpanded Black";
-name = "Headline SemiExpanded Black Italic";
+linkStyle = "Headline SemiExp Black";
+name = "Headline SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -11687,8 +11687,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.74895;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed SemiLight";
-name = "Display SemiCondensed SemiLight Italic";
+linkStyle = "Display SemiCond SemiLight";
+name = "Display SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -11729,8 +11729,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.69348;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed";
-name = "Display SemiCondensed Italic";
+linkStyle = "Display SemiCond";
+name = "Display SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -11770,8 +11770,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.58945;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed Medium";
-name = "Display SemiCondensed Medium Italic";
+linkStyle = "Display SemiCond Medium";
+name = "Display SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -11812,8 +11812,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.48543;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed SemiBold";
-name = "Display SemiCondensed SemiBold Italic";
+linkStyle = "Display SemiCond SemiBold";
+name = "Display SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -11855,8 +11855,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Display SemiCondensed";
-name = "Display SemiCondensed Bold Italic";
+linkStyle = "Display SemiCond";
+name = "Display SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -11897,8 +11897,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.20804;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed ExtraBold";
-name = "Display SemiCondensed ExtraBold Italic";
+linkStyle = "Display SemiCond ExBold";
+name = "Display SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -11937,8 +11937,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.25105;
 };
 isItalic = 1;
-linkStyle = "Display SemiCondensed Black";
-name = "Display SemiCondensed Black Italic";
+linkStyle = "Display SemiCond Black";
+name = "Display SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -12204,8 +12204,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.15025;
 };
 isItalic = 1;
-linkStyle = "Display ExtraBold";
-name = "Display ExtraBold Italic";
+linkStyle = "Display ExBold";
+name = "Display ExBold Italic";
 weightClass = 800;
 },
 {
@@ -12284,8 +12284,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.74895;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded SemiLight";
-name = "Display SemiExpanded SemiLight Italic";
+linkStyle = "Display SemiExp SemiLight";
+name = "Display SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -12326,8 +12326,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.05548;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded";
-name = "Display SemiExpanded Italic";
+linkStyle = "Display SemiExp";
+name = "Display SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -12367,8 +12367,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.1595;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded Medium";
-name = "Display SemiExpanded Medium Italic";
+linkStyle = "Display SemiExp Medium";
+name = "Display SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -12409,8 +12409,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.26352;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded SemiBold";
-name = "Display SemiExpanded SemiBold Italic";
+linkStyle = "Display SemiExp SemiBold";
+name = "Display SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -12452,8 +12452,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Display SemiExpanded";
-name = "Display SemiExpanded Bold Italic";
+linkStyle = "Display SemiExp";
+name = "Display SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -12494,8 +12494,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.54091;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded ExtraBold";
-name = "Display SemiExpanded ExtraBold Italic";
+linkStyle = "Display SemiExp ExBold";
+name = "Display SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -12534,8 +12534,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.74895;
 };
 isItalic = 1;
-linkStyle = "Display SemiExpanded Black";
-name = "Display SemiExpanded Black Italic";
+linkStyle = "Display SemiExp Black";
+name = "Display SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -12574,8 +12574,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.8159;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed SemiLight";
-name = "Titling SemiCondensed SemiLight Italic";
+linkStyle = "Titling SemiCond SemiLight";
+name = "Titling SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -12616,8 +12616,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.75546;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed";
-name = "Titling SemiCondensed Italic";
+linkStyle = "Titling SemiCond";
+name = "Titling SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -12657,8 +12657,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.64214;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed Medium";
-name = "Titling SemiCondensed Medium Italic";
+linkStyle = "Titling SemiCond Medium";
+name = "Titling SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -12699,8 +12699,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.52882;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed SemiBold";
-name = "Titling SemiCondensed SemiBold Italic";
+linkStyle = "Titling SemiCond SemiBold";
+name = "Titling SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -12742,8 +12742,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Titling SemiCondensed";
-name = "Titling SemiCondensed Bold Italic";
+linkStyle = "Titling SemiCond";
+name = "Titling SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -12784,8 +12784,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.22664;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed ExtraBold";
-name = "Titling SemiCondensed ExtraBold Italic";
+linkStyle = "Titling SemiCond ExBold";
+name = "Titling SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -12824,8 +12824,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.1841;
 };
 isItalic = 1;
-linkStyle = "Titling SemiCondensed Black";
-name = "Titling SemiCondensed Black Italic";
+linkStyle = "Titling SemiCond Black";
+name = "Titling SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -13091,8 +13091,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.16368;
 };
 isItalic = 1;
-linkStyle = "Titling ExtraBold";
-name = "Titling ExtraBold Italic";
+linkStyle = "Titling ExBold";
+name = "Titling ExBold Italic";
 weightClass = 800;
 },
 {
@@ -13171,8 +13171,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.8159;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded SemiLight";
-name = "Titling SemiExpanded SemiLight Italic";
+linkStyle = "Titling SemiExp SemiLight";
+name = "Titling SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -13213,8 +13213,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.06044;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded";
-name = "Titling SemiExpanded Italic";
+linkStyle = "Titling SemiExp";
+name = "Titling SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -13254,8 +13254,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.17376;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded Medium";
-name = "Titling SemiExpanded Medium Italic";
+linkStyle = "Titling SemiExp Medium";
+name = "Titling SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -13296,8 +13296,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.28708;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded SemiBold";
-name = "Titling SemiExpanded SemiBold Italic";
+linkStyle = "Titling SemiExp SemiBold";
+name = "Titling SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -13339,8 +13339,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Titling SemiExpanded";
-name = "Titling SemiExpanded Bold Italic";
+linkStyle = "Titling SemiExp";
+name = "Titling SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -13381,8 +13381,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.58926;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded ExtraBold";
-name = "Titling SemiExpanded ExtraBold Italic";
+linkStyle = "Titling SemiExp ExBold";
+name = "Titling SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -13421,8 +13421,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.8159;
 };
 isItalic = 1;
-linkStyle = "Titling SemiExpanded Black";
-name = "Titling SemiExpanded Black Italic";
+linkStyle = "Titling SemiExp Black";
+name = "Titling SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -13461,8 +13461,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.84937;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed SemiLight";
-name = "Hairline SemiCondensed SemiLight Italic";
+linkStyle = "Hairline SemiCond SemiLight";
+name = "Hairline SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -13503,8 +13503,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.78646;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed";
-name = "Hairline SemiCondensed Italic";
+linkStyle = "Hairline SemiCond";
+name = "Hairline SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -13544,8 +13544,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.66849;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed Medium";
-name = "Hairline SemiCondensed Medium Italic";
+linkStyle = "Hairline SemiCond Medium";
+name = "Hairline SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -13586,8 +13586,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.55052;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed SemiBold";
-name = "Hairline SemiCondensed SemiBold Italic";
+linkStyle = "Hairline SemiCond SemiBold";
+name = "Hairline SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -13629,8 +13629,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed";
-name = "Hairline SemiCondensed Bold Italic";
+linkStyle = "Hairline SemiCond";
+name = "Hairline SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -13671,8 +13671,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.23594;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed ExtraBold";
-name = "Hairline SemiCondensed ExtraBold Italic";
+linkStyle = "Hairline SemiCond ExBold";
+name = "Hairline SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -13711,8 +13711,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.15063;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiCondensed Black";
-name = "Hairline SemiCondensed Black Italic";
+linkStyle = "Hairline SemiCond Black";
+name = "Hairline SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -13978,8 +13978,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.1704;
 };
 isItalic = 1;
-linkStyle = "Hairline ExtraBold";
-name = "Hairline ExtraBold Italic";
+linkStyle = "Hairline ExBold";
+name = "Hairline ExBold Italic";
 weightClass = 800;
 },
 {
@@ -14058,8 +14058,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.84937;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded SemiLight";
-name = "Hairline SemiExpanded SemiLight Italic";
+linkStyle = "Hairline SemiExp SemiLight";
+name = "Hairline SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -14100,8 +14100,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.06292;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded";
-name = "Hairline SemiExpanded Italic";
+linkStyle = "Hairline SemiExp";
+name = "Hairline SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -14141,8 +14141,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.18088;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded Medium";
-name = "Hairline SemiExpanded Medium Italic";
+linkStyle = "Hairline SemiExp Medium";
+name = "Hairline SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -14183,8 +14183,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.29885;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded SemiBold";
-name = "Hairline SemiExpanded SemiBold Italic";
+linkStyle = "Hairline SemiExp SemiBold";
+name = "Hairline SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -14226,8 +14226,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded";
-name = "Hairline SemiExpanded Bold Italic";
+linkStyle = "Hairline SemiExp";
+name = "Hairline SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -14268,8 +14268,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.61344;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded ExtraBold";
-name = "Hairline SemiExpanded ExtraBold Italic";
+linkStyle = "Hairline SemiExp ExBold";
+name = "Hairline SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -14308,8 +14308,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.84937;
 };
 isItalic = 1;
-linkStyle = "Hairline SemiExpanded Black";
-name = "Hairline SemiExpanded Black Italic";
+linkStyle = "Hairline SemiExp Black";
+name = "Hairline SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -14347,8 +14347,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 1;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed SemiLight";
-name = "Needlepoint SemiCondensed SemiLight Italic";
+linkStyle = "Needlepoint SemiCond SemiLight";
+name = "Needlepoint SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -14387,8 +14387,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.92593;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed";
-name = "Needlepoint SemiCondensed Italic";
+linkStyle = "Needlepoint SemiCond";
+name = "Needlepoint SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -14426,8 +14426,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.78704;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed Medium";
-name = "Needlepoint SemiCondensed Medium Italic";
+linkStyle = "Needlepoint SemiCond Medium";
+name = "Needlepoint SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -14466,8 +14466,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.64815;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed SemiBold";
-name = "Needlepoint SemiCondensed SemiBold Italic";
+linkStyle = "Needlepoint SemiCond SemiBold";
+name = "Needlepoint SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -14507,8 +14507,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed";
-name = "Needlepoint SemiCondensed Bold Italic";
+linkStyle = "Needlepoint SemiCond";
+name = "Needlepoint SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -14547,8 +14547,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.27778;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed ExtraBold";
-name = "Needlepoint SemiCondensed ExtraBold Italic";
+linkStyle = "Needlepoint SemiCond ExBold";
+name = "Needlepoint SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -14586,8 +14586,8 @@ instanceInterpolations = {
 "19651320-9895-44C9-9F41-285CE0F17596" = 1;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiCondensed Black";
-name = "Needlepoint SemiCondensed Black Italic";
+linkStyle = "Needlepoint SemiCond Black";
+name = "Needlepoint SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -14831,8 +14831,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.20062;
 };
 isItalic = 1;
-linkStyle = "Needlepoint ExtraBold";
-name = "Needlepoint ExtraBold Italic";
+linkStyle = "Needlepoint ExBold";
+name = "Needlepoint ExBold Italic";
 weightClass = 800;
 },
 {
@@ -14908,8 +14908,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 1;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded SemiLight";
-name = "Needlepoint SemiExpanded SemiLight Italic";
+linkStyle = "Needlepoint SemiExp SemiLight";
+name = "Needlepoint SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -14948,8 +14948,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.07407;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded";
-name = "Needlepoint SemiExpanded Italic";
+linkStyle = "Needlepoint SemiExp";
+name = "Needlepoint SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -14987,8 +14987,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.21296;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded Medium";
-name = "Needlepoint SemiExpanded Medium Italic";
+linkStyle = "Needlepoint SemiExp Medium";
+name = "Needlepoint SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -15027,8 +15027,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.35185;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded SemiBold";
-name = "Needlepoint SemiExpanded SemiBold Italic";
+linkStyle = "Needlepoint SemiExp SemiBold";
+name = "Needlepoint SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -15068,8 +15068,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded";
-name = "Needlepoint SemiExpanded Bold Italic";
+linkStyle = "Needlepoint SemiExp";
+name = "Needlepoint SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -15108,8 +15108,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.72222;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded ExtraBold";
-name = "Needlepoint SemiExpanded ExtraBold Italic";
+linkStyle = "Needlepoint SemiExp ExBold";
+name = "Needlepoint SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -15147,8 +15147,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 1;
 };
 isItalic = 1;
-linkStyle = "Needlepoint SemiExpanded Black";
-name = "Needlepoint SemiExpanded Black Italic";
+linkStyle = "Needlepoint SemiExp Black";
+name = "Needlepoint SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 }
