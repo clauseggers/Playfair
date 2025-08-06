@@ -1,5 +1,5 @@
 {
-.appVersion = "3421";
+.appVersion = "3422";
 .formatVersion = 3;
 axes = (
 {
@@ -4952,6 +4952,12 @@ value = "ital; 0.0>1.0=Roman*";
 }
 );
 name = Roman;
+properties = (
+{
+key = variationsPostScriptNamePrefix;
+value = Playfair;
+}
+);
 type = variable;
 },
 {
