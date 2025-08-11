@@ -1,34 +1,20 @@
-# fontmake directories
-master_ufo/
-variable_oft/
-variable_ttf/
-master_otf/
-master_ttf/
-glyphs_ttf/
-master_ufo*/
-variable_oft*/
-variable_ttf*/
-master_otf*/
-master_ttf*/
-glyphs_ttf*/
+# Font binaries #
+#################
+fonts
+!fonts/VF-TTF/*.ttf
+!fonts/VF-WOFF2/*.woff2
 
-# FontTools artefacts
-*.ttx
-
+# Glyphs.app #
+##############
 *(Autosaved)*
-*.pyc
-*.idlk
-*.ai
-*.pdf
-*.zip
-*.keyshape
-Backup/
-!fonts/**
-fonts/*.zip
-'Test documents'/HTML/*.woff2
 
-# OS generated files #
-######################
+# Test documents #
+##################
+test_documents/*.ttf
+test_documents/*.woff2
+
+# MacOS generated files #
+#########################
 .DS_Store
 ._.DS_Store
 .DS_Store?
@@ -37,10 +23,8 @@ fonts/*.zip
 .AppleDouble
 .LSOverride
 
-# Ad hoc test documents
-Test documents/HTML/Playfair Text TTF-VF.html
-
-### VisualStudioCode ###
+# VisualStudioCode #
+####################
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -48,14 +32,16 @@ Test documents/HTML/Playfair Text TTF-VF.html
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Local History for Visual Studio Code
+# Local History for Visual Studio Code #
+########################################
 .history/
 
-# Built Visual Studio Code Extensions
+# Built Visual Studio Code Extensions #
+#######################################
 *.vsix
 
-### VisualStudioCode Patch ###
+# VisualStudioCode Patch #
+##########################
 # Ignore all local history of files
 .history
 .ionide
-
