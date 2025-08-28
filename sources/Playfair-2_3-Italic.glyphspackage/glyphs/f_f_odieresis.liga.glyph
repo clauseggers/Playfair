@@ -2,7 +2,7 @@
 color = 5;
 glyphname = f_f_odieresis.liga;
 kernLeft = KO_f;
-kernRight = KO_odieresis;
+kernRight = KO_oacute;
 layers = (
 {
 background = {
@@ -389,11 +389,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (955,0);
+pos = (992,0);
 ref = odieresis;
 }
 );
-width = 1740;
+width = 1777;
 },
 {
 associatedMasterId = "5936EB7C-5C81-433B-ABAB-ADB37EE98828";
@@ -501,11 +501,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (863,0);
+pos = (911,0);
 ref = odieresis;
 }
 );
-width = 1505;
+width = 1553;
 },
 {
 associatedMasterId = "1F135AE2-2C2A-4A39-A9C7-F637F318501B";
@@ -613,11 +613,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (826,0);
+pos = (859,0);
 ref = odieresis;
 }
 );
-width = 1504;
+width = 1537;
 },
 {
 associatedMasterId = "4637ED20-F3CC-4D04-82BF-886AF47DA6B7";
@@ -719,11 +719,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (706,0);
+pos = (743,0);
 ref = odieresis;
 }
 );
-width = 1288;
+width = 1325;
 },
 {
 associatedMasterId = "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2";
@@ -831,11 +831,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (799,0);
+pos = (837,0);
 ref = odieresis;
 }
 );
-width = 1499;
+width = 1537;
 },
 {
 associatedMasterId = "19651320-9895-44C9-9F41-285CE0F17596";
@@ -943,11 +943,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (644,0);
+pos = (679,0);
 ref = odieresis;
 }
 );
-width = 1232;
+width = 1267;
 },
 {
 associatedMasterId = "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64";
@@ -1055,11 +1055,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (715,0);
+pos = (729,0);
 ref = odieresis;
 }
 );
-width = 1293;
+width = 1307;
 },
 {
 associatedMasterId = "8A8107C8-C076-4746-AE01-7D15750BBEFC";
@@ -1167,11 +1167,11 @@ shapes = (
 ref = f_f.liga;
 },
 {
-pos = (651,0);
+pos = (628,0);
 ref = odieresis;
 }
 );
-width = 1145;
+width = 1122;
 }
 );
 metricLeft = f;
