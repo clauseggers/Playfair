@@ -167,7 +167,7 @@ ref = "_LC-el-cy-upper";
 {
 anchor = stem;
 piece = {
-NarrowNormal = 50;
+NarrowNormal = 60;
 };
 pos = (280,0);
 ref = "_part.LC-baseline-lower-stem";
@@ -253,7 +253,7 @@ ref = "_LC-el-cy-upper";
 {
 anchor = stem;
 piece = {
-NarrowNormal = 60;
+NarrowNormal = 75;
 };
 pos = (284,0);
 ref = "_part.LC-baseline-lower-stem";
@@ -588,7 +588,9 @@ ref = "_LC-el-cy-upper";
 {
 anchor = stem;
 piece = {
-NarrowNormal = 50;
+NarrowNarrow = 100;
+NarrowNormal = 100;
+NormalNarrow = 100;
 };
 pos = (241,0);
 ref = "_part.LC-baseline-lower-stem";

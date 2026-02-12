@@ -66,13 +66,13 @@ name = hr00;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -82,8 +82,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(86,3,o),
-(143,62,o),
+(67,0,l,{
+name = hr00;
+}),
+(121,63,o),
+(155,202,o),
 (150,509,c),
 (148,508,l),
 (357,508,l),
@@ -94,12 +97,9 @@ nodes = (
 (401,509,l),
 (191,509,l),
 (149,512,l),
-(142,62,o),
-(86,5,o),
-(47,4,c),
-(47,3,l,{
-name = hr00;
-})
+(154,197,o),
+(122,30,o),
+(13,0,c)
 );
 }
 );
@@ -166,13 +166,13 @@ nodes = (
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -182,8 +182,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(180,-12,o),
-(239,117,o),
+(178,62,l),
+(221,142,o),
+(242,261,o),
 (246,449,c),
 (226,442,l),
 (401,442,l),
@@ -194,10 +195,9 @@ nodes = (
 (426,509,l),
 (222,509,l),
 (176,512,l),
-(173,121,o),
-(117,70,o),
-(52,70,c),
-(37,-12,l)
+(173,191,o),
+(151,112,o),
+(42,70,c)
 );
 }
 );
@@ -264,13 +264,13 @@ nodes = (
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -280,8 +280,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(206,-11,o),
-(265,118,o),
+(196,58,l),
+(245,136,o),
+(268,254,o),
 (272,449,c),
 (252,442,l),
 (511,442,l),
@@ -292,10 +293,9 @@ nodes = (
 (536,509,l),
 (248,509,l),
 (202,512,l),
-(199,122,o),
-(142,71,o),
-(77,71,c),
-(63,-11,l)
+(200,210,o),
+(168,99,o),
+(57,71,c)
 );
 }
 );
@@ -333,6 +333,13 @@ name = "_corner.LC-serif";
 options = 1;
 scale = (-1,1);
 type = Corner;
+},
+{
+name = "_corner.LC-serif-el-cy";
+options = 1;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
 }
 );
 shapes = (
@@ -356,19 +363,33 @@ nodes = (
 (2,1,c),
 (2,0,l)
 );
+},
+{
+closed = 0;
+nodes = (
+(139,520,l),
+(122,119,o),
+(85,5,o),
+(38,4,c),
+(38,3,l),
+(86,3,o),
+(123,119,o),
+(140,517,c),
+(137,516,l)
+);
 }
 );
 };
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -378,9 +399,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(86,3,o),
-(123,119,o),
-(140,517,c),
+(56,0,l,{
+name = hr00;
+}),
+(110,64,o),
+(144,206,o),
+(139,517,c),
 (137,516,l),
 (314,516,l),
 (312,517,l),
@@ -389,11 +413,10 @@ nodes = (
 (492,520,l),
 (402,517,l),
 (235,517,l),
-(139,520,l),
-(122,119,o),
-(85,5,o),
-(38,4,c),
-(38,3,l)
+(138,520,l),
+(143,201,o),
+(117,21,o),
+(-18,0,c)
 );
 }
 );
@@ -431,6 +454,13 @@ name = "_corner.LC-serif";
 options = 1;
 scale = (-1,1);
 type = Corner;
+},
+{
+name = "_corner.LC-serif-el-cy";
+options = 1;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
 }
 );
 shapes = (
@@ -454,19 +484,33 @@ nodes = (
 (38,1,c),
 (38,0,l)
 );
+},
+{
+closed = 0;
+nodes = (
+(179,520,l),
+(162,119,o),
+(126,6,o),
+(38,4,c),
+(38,3,l),
+(126,3,o),
+(163,119,o),
+(180,517,c),
+(177,516,l)
+);
 }
 );
 };
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -476,9 +520,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(126,3,o),
-(163,119,o),
-(180,517,c),
+(96,0,l,{
+name = hr00;
+}),
+(150,64,o),
+(184,206,o),
+(179,517,c),
 (177,516,l),
 (384,516,l),
 (382,517,l),
@@ -487,11 +534,10 @@ nodes = (
 (562,520,l),
 (472,517,l),
 (275,517,l),
-(179,520,l),
-(162,119,o),
-(126,6,o),
-(38,4,c),
-(38,3,l)
+(178,520,l),
+(183,201,o),
+(154,21,o),
+(22,0,c)
 );
 }
 );
@@ -529,6 +575,13 @@ name = "_corner.LC-serif";
 options = 1;
 scale = (-1,1);
 type = Corner;
+},
+{
+name = "_corner.LC-serif-el-cy";
+options = 1;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
 }
 );
 shapes = (
@@ -554,19 +607,35 @@ nodes = (
 name = hr00;
 })
 );
+},
+{
+closed = 0;
+nodes = (
+(173,512,l),
+(166,62,o),
+(106,6,o),
+(60,4,c),
+(60,3,l,{
+name = hr00;
+}),
+(105,3,o),
+(167,62,o),
+(174,509,c),
+(172,508,l)
+);
 }
 );
 };
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -576,8 +645,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(105,3,o),
-(167,62,o),
+(91,0,l,{
+name = hr00;
+}),
+(145,63,o),
+(179,202,o),
 (174,509,c),
 (172,508,l),
 (425,508,l),
@@ -588,12 +660,9 @@ nodes = (
 (469,509,l),
 (216,509,l),
 (173,512,l),
-(166,62,o),
-(106,6,o),
-(60,4,c),
-(60,3,l,{
-name = hr00;
-})
+(178,197,o),
+(149,30,o),
+(37,0,c)
 );
 }
 );
@@ -660,13 +729,13 @@ nodes = (
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -676,8 +745,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(122,-10,o),
-(173,81,o),
+(122,63,l),
+(159,129,o),
+(178,249,o),
 (184,457,c),
 (176,450,l),
 (325,450,l),
@@ -688,10 +758,9 @@ nodes = (
 (401,517,l),
 (213,517,l),
 (112,520,l),
-(105,170,o),
-(83,71,o),
-(9,71,c),
-(-15,-10,l)
+(105,185,o),
+(86,102,o),
+(-21,71,c)
 );
 }
 );
@@ -758,13 +827,13 @@ nodes = (
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,8);
+origin = (0,9);
 type = Corner;
 },
 {
 name = "_corner.LC-serif-el-cy";
 options = 1;
-origin = (0,11);
+origin = (0,12);
 scale = (-1,1);
 type = Corner;
 }
@@ -774,8 +843,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(172,-12,o),
-(221,100,o),
+(163,58,l),
+(205,124,o),
+(226,244,o),
 (232,457,c),
 (224,450,l),
 (445,450,l),
@@ -786,10 +856,9 @@ nodes = (
 (521,517,l),
 (261,517,l),
 (160,520,l),
-(152,170,o),
-(125,70,o),
-(41,70,c),
-(24,-12,l)
+(153,209,o),
+(125,104,o),
+(1,70,c)
 );
 }
 );
