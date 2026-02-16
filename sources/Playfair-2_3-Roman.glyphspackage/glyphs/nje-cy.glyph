@@ -112,7 +112,7 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (311,0);
@@ -230,14 +230,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (316,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 910;
+width = 900;
 },
 {
 background = {
@@ -348,14 +348,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (402,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1087;
+width = 1129;
 },
 {
 background = {
@@ -466,14 +466,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (311,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 877;
+width = 867;
 },
 {
 background = {
@@ -584,14 +584,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (383,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1008;
+width = 988;
 },
 {
 background = {
@@ -702,14 +702,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
-ShortSerif = 50;
+LoweredBowl = 50;
+ShortSerif = 100;
 };
 pos = (375,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 973;
+width = 969;
 },
 {
 background = {
@@ -820,14 +820,14 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (328,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 924;
+width = 914;
 },
 {
 background = {
@@ -938,28 +938,17 @@ ref = "_LC-en-cy-bar";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (429,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1090;
+width = 1176;
 },
 {
 associatedMasterId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1080,17 +1069,6 @@ width = 835;
 },
 {
 associatedMasterId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1211,17 +1189,6 @@ width = 973;
 },
 {
 associatedMasterId = "F497C50F-30EB-4580-9148-0005B36D0333";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1342,17 +1309,6 @@ width = 877;
 },
 {
 associatedMasterId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1473,17 +1429,6 @@ width = 1008;
 },
 {
 associatedMasterId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1604,17 +1549,6 @@ width = 910;
 },
 {
 associatedMasterId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1735,17 +1669,6 @@ width = 1087;
 },
 {
 associatedMasterId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {
@@ -1866,17 +1789,6 @@ width = 924;
 },
 {
 associatedMasterId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
-attr = {
-axisRules = (
-{
-max = 400;
-},
-{
-},
-{
-}
-);
-};
 background = {
 shapes = (
 {

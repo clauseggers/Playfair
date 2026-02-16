@@ -78,7 +78,7 @@ ref = "_part.LC-xheight-upper-stem";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 80;
 ShortSerif = 100;
 };
 ref = "_part.LC-softsign-cy-bowl";
@@ -159,10 +159,14 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 50;
+ShortSerif = 100;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 594;
+width = 584;
 },
 {
 background = {
@@ -236,10 +240,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 50;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 685;
+width = 687;
 },
 {
 background = {
@@ -314,10 +321,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 566;
+width = 556;
 },
 {
 background = {
@@ -392,10 +402,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 625;
+width = 605;
 },
 {
 background = {
@@ -469,10 +482,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 598;
+width = 578;
 },
 {
 background = {
@@ -547,10 +563,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 50;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 596;
+width = 586;
 },
 {
 background = {
@@ -624,10 +643,13 @@ shapes = (
 ref = "_part.LC-xheight-upper-stem";
 },
 {
+piece = {
+LoweredBowl = 50;
+};
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 661;
+width = 747;
 }
 );
 metricLeft = "ii-cy";

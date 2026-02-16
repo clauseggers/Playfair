@@ -100,7 +100,7 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 80;
 ShortSerif = 100;
 };
 pos = (270,0);
@@ -204,14 +204,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 50;
 };
 pos = (280,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 874;
+width = 864;
 },
 {
 background = {
@@ -308,14 +308,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 70;
 };
 pos = (284,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 969;
+width = 995;
 },
 {
 background = {
@@ -412,14 +412,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 80;
 ShortSerif = 100;
 };
 pos = (301,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 867;
+width = 857;
 },
 {
 background = {
@@ -516,14 +516,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 80;
 ShortSerif = 100;
 };
 pos = (346,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 971;
+width = 951;
 },
 {
 background = {
@@ -620,14 +620,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 80;
 ShortSerif = 100;
 };
 pos = (337,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 935;
+width = 915;
 },
 {
 background = {
@@ -724,14 +724,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 70;
 };
 pos = (241,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 837;
+width = 827;
 },
 {
 background = {
@@ -828,14 +828,14 @@ ref = "_LC-el-cy-upper";
 },
 {
 piece = {
-LoweredBowl = 100;
+LoweredBowl = 50;
 ShortSerif = 100;
 };
 pos = (387,0);
 ref = "_part.LC-softsign-cy-bowl";
 }
 );
-width = 1048;
+width = 1134;
 }
 );
 metricLeft = "el-cy";
