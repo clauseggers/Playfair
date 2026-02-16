@@ -167,13 +167,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (278,0);
+pos = (281,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (278,0);
+piece = {
+ThinStem = 1;
+};
+pos = (281,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -339,16 +343,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (298,0);
+pos = (301,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (298,0);
+pos = (301,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -514,16 +520,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (364,0);
+pos = (367,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (364,0);
+pos = (367,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -689,16 +697,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (279,0);
+pos = (284,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (279,0);
+pos = (284,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -864,13 +874,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (332,0);
+pos = (337,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (332,0);
+piece = {
+ThinStem = 1;
+};
+pos = (337,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1036,13 +1050,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (310,0);
+pos = (313,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (310,0);
+piece = {
+ThinStem = 1;
+};
+pos = (313,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1208,16 +1226,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (299,0);
+pos = (304,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (299,0);
+pos = (304,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1383,16 +1403,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (383,0);
+pos = (388,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (383,0);
+pos = (388,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1572,13 +1594,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (278,0);
+pos = (281,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (278,0);
+piece = {
+ThinStem = 1;
+};
+pos = (281,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1758,13 +1784,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (310,0);
+pos = (313,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (310,0);
+piece = {
+ThinStem = 1;
+};
+pos = (313,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -1944,16 +1974,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (279,0);
+pos = (284,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (279,0);
+pos = (284,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -2133,13 +2165,17 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (332,0);
+pos = (337,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (332,0);
+piece = {
+ThinStem = 1;
+};
+pos = (337,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -2319,16 +2355,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (298,0);
+pos = (301,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (298,0);
+pos = (301,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -2508,16 +2546,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (364,0);
+pos = (367,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (364,0);
+pos = (367,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -2697,16 +2737,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (299,0);
+pos = (304,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 60;
+ThinStem = 1;
 };
-pos = (299,0);
+pos = (304,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -2886,16 +2928,18 @@ ref = "_part._zhe-cy-wings";
 {
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (383,0);
+pos = (388,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
 piece = {
 NarrowNarrow = 100;
+ThinStem = 1;
 };
-pos = (383,0);
+pos = (388,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
