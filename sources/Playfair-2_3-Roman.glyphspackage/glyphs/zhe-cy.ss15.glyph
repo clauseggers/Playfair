@@ -24,13 +24,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (279,0);
+pos = (282,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (279,0);
+piece = {
+ThinStem = 1;
+};
+pos = (282,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -56,13 +60,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (320,0);
+pos = (323,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (320,0);
+piece = {
+ThinStem = 1;
+};
+pos = (323,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -88,13 +96,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (304,0);
+pos = (309,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (304,0);
+piece = {
+ThinStem = 1;
+};
+pos = (309,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -120,13 +132,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (354,0);
+pos = (359,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (354,0);
+piece = {
+ThinStem = 1;
+};
+pos = (359,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -152,13 +168,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (254,0);
+pos = (257,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (254,0);
+piece = {
+ThinStem = 1;
+};
+pos = (257,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -184,13 +204,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (321,0);
+pos = (324,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (321,0);
+piece = {
+ThinStem = 1;
+};
+pos = (324,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -216,13 +240,17 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 {
 piece = {
 NarrowNarrow = 50;
+ThinStem = 1;
 };
-pos = (277,0);
+pos = (282,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (277,0);
+piece = {
+ThinStem = 1;
+};
+pos = (282,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
@@ -247,14 +275,19 @@ ref = "_part.LC-zhe-cy-wings_ss15";
 },
 {
 piece = {
-NarrowNarrow = 50;
+NarrowNarrow = 100;
+NormalNarrow = 100;
+ThinStem = 1;
 };
-pos = (353,0);
+pos = (358,0);
 ref = "_part.LC-xheight-upper-stem";
 },
 {
 anchor = stem;
-pos = (353,0);
+piece = {
+ThinStem = 1;
+};
+pos = (358,0);
 ref = "_part.LC-baseline-lower-stem";
 }
 );
