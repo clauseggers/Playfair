@@ -78,6 +78,9 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 pos = (84,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
@@ -159,6 +162,9 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
+piece = {
+LoweredBowl = 70;
+};
 pos = (20,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
@@ -240,7 +246,10 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
-pos = (15,0);
+piece = {
+LoweredBowl = 70;
+};
+pos = (91,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
 );
@@ -321,6 +330,9 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 pos = (91,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
@@ -402,6 +414,9 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 pos = (119,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
@@ -483,6 +498,9 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
+piece = {
+LoweredBowl = 80;
+};
 pos = (83,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
@@ -564,7 +582,10 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
-pos = (104,0);
+piece = {
+LoweredBowl = 70;
+};
+pos = (91,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
 );
@@ -645,7 +666,10 @@ shapes = (
 ref = "_UC-Hardsign-cy-stem";
 },
 {
-pos = (144,0);
+piece = {
+LoweredBowl = 70;
+};
+pos = (91,0);
 ref = "_part.UC-Softsign-cy-bowl";
 }
 );
