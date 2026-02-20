@@ -7,6 +7,10 @@ layers = (
 {
 anchors = (
 {
+name = "#exit";
+pos = (195,0);
+},
+{
 name = "^exit";
 pos = (271,0);
 },
@@ -35,6 +39,10 @@ guides = (
 {
 angle = 90;
 pos = (229,0);
+},
+{
+angle = 90;
+pos = (195,-47);
 }
 );
 layerId = "DF17D77B-A5C4-4843-826A-BC0F1C4CB224";
@@ -55,6 +63,10 @@ width = 301;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (266,0);
+},
 {
 name = "^exit";
 pos = (352,0);
@@ -83,7 +95,7 @@ pos = (316,773);
 guides = (
 {
 angle = 90;
-pos = (372,0);
+pos = (266,-47);
 }
 );
 layerId = "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7";
@@ -104,6 +116,10 @@ width = 442;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (308,0);
+},
 {
 name = "^exit";
 pos = (401,0);
@@ -133,6 +149,10 @@ guides = (
 {
 angle = 90;
 pos = (473,0);
+},
+{
+angle = 90;
+pos = (308,-47);
 }
 );
 layerId = "2895B92B-45F5-4972-B85C-1A160E6E6488";
@@ -153,6 +173,10 @@ width = 526;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (257,0);
+},
 {
 name = "^exit";
 pos = (293,0);
@@ -182,6 +206,10 @@ guides = (
 {
 angle = 90;
 pos = (265,0);
+},
+{
+angle = 90;
+pos = (257,-47);
 }
 );
 layerId = "F497C50F-30EB-4580-9148-0005B36D0333";
@@ -202,6 +230,10 @@ width = 333;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (283,0);
+},
 {
 name = "^exit";
 pos = (338,0);
@@ -231,6 +263,10 @@ guides = (
 {
 angle = 90;
 pos = (306,0);
+},
+{
+angle = 90;
+pos = (283,-47);
 }
 );
 layerId = "41FE8A15-28AA-4FFF-A503-D6748EB37864";
@@ -251,6 +287,10 @@ width = 388;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (221,0);
+},
 {
 name = "^exit";
 pos = (286,0);
@@ -280,6 +320,10 @@ guides = (
 {
 angle = 90;
 pos = (286,0);
+},
+{
+angle = 90;
+pos = (221,-47);
 }
 );
 layerId = "2AEC198B-4747-4E5F-80A7-B5A71C2761F9";
@@ -300,6 +344,10 @@ width = 352;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (286,0);
+},
 {
 name = "^exit";
 pos = (352,0);
@@ -329,6 +377,10 @@ guides = (
 {
 angle = 90;
 pos = (315,0);
+},
+{
+angle = 90;
+pos = (286,-47);
 }
 );
 layerId = "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A";
@@ -349,6 +401,10 @@ width = 392;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (314,0);
+},
 {
 name = "^exit";
 pos = (378,0);
@@ -378,6 +434,10 @@ guides = (
 {
 angle = 90;
 pos = (370,0);
+},
+{
+angle = 90;
+pos = (314,-47);
 }
 );
 layerId = "58AEE805-6805-4A0B-A273-5ABBCB55D365";
