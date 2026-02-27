@@ -1,5 +1,5 @@
 {
-.appVersion = "3516";
+.appVersion = "3517";
 .formatVersion = 3;
 axes = (
 {
@@ -4948,10 +4948,6 @@ value = "wdth; 88.0=SemiCond, 100.0=Normal*, 113.0=SemiExp";
 {
 name = "Axis Values";
 value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExBold, 900.0=Black";
-},
-{
-name = "Axis Values";
-value = "ital; 0>1=Roman*";
 }
 );
 name = Roman;
