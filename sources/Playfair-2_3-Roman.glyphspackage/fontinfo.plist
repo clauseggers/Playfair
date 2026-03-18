@@ -2489,6 +2489,13 @@ tag = liga;
 code = "sub f idotaccent by fi;
 sub longs idotaccent by longs_i.liga;
 
+# For f_f_f ligatures
+lookup triple_f {
+sub f' f f by f_init.ligature;
+sub f_init.ligature f' f by f_medi.ligature;
+sub f_init.ligature f_medi.ligature f' by f_fina.ligature;
+} triple_f;
+
 # For f_f_x ligatures
 lookup double_f {
 sub f' [f_adieresis.liga f_idieresis.liga f_igrave.liga f_odieresis.liga f_thorn.liga f_b.liga f_h.liga fi f_j.liga f_k.liga fl f_udieresis.liga f_ydieresis.liga f_t.liga] by f_init.ligature;
@@ -2500,7 +2507,7 @@ lookup first_f {
 	sub f' f by f_init.ligature;
 } first_f;
 lookup second_f {
-	sub f_init.ligature f' by f-fina.ligature ;
+	sub f_init.ligature f' by f_fina.ligature ;
 } second_f;
 
 # For longs_longs_x ligatures
@@ -28875,7 +28882,7 @@ three.lf = 77;
 threesuperior = 131;
 two.lf = 94;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 87;
 aacute = 0;
 adieresis = 52;
@@ -47516,7 +47523,7 @@ three.lf = 77;
 threesuperior = 132;
 two.lf = 97;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 98;
 aacute = 0;
 adieresis = 41;
@@ -66157,7 +66164,7 @@ three.lf = 136;
 threesuperior = 164;
 two.lf = 147;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 177;
 aacute = 113;
 adieresis = 142;
@@ -84798,7 +84805,7 @@ three.lf = 108;
 threesuperior = 136;
 two.lf = 123;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 125;
 aacute = 0;
 adieresis = 107;
@@ -103440,7 +103447,7 @@ three.lf = 58;
 threesuperior = 56;
 two.lf = 38;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 72;
 aacute = 0;
 adieresis = 37;
@@ -122083,7 +122090,7 @@ three.lf = 57;
 threesuperior = 106;
 two.lf = 55;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 93;
 aacute = -26;
 adieresis = 8;
@@ -140727,7 +140734,7 @@ three.lf = 65;
 threesuperior = 80;
 two.lf = 75;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 89;
 aacute = 16;
 adieresis = 65;
@@ -159386,7 +159393,7 @@ three.lf = 100;
 threesuperior = 144;
 two.lf = 118;
 };
-"f-fina.ligature" = {
+f_fina.ligature = {
 Z = 124;
 aacute = 46;
 adieresis = 117;

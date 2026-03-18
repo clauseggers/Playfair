@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = f_init.ligature;
+glyphname = f_medi.ligature;
 kernLeft = KO_f;
 layers = (
 {
@@ -427,23 +427,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "0E9A9D6C-2BA9-40CE-BC67-50449411931A";
-name = "18 Mar 26 at 11.53";
+layerId = "C52DF141-BCDB-4640-8C6A-583F39DCF74A";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(150,3,l),
+(120,2,o),
+(135,3,o),
+(150,3,c),
 (195,0,l),
 (195,575,ls),
 (195,719,o),
@@ -490,23 +487,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "9E702476-42A1-4B44-B29F-40F92F33830E";
-name = "18 Mar 26 at 11.53";
+layerId = "80AF2B7F-6350-422E-8240-87A0FB6D4B0E";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(176,3,l),
+(146,2,o),
+(161,3,o),
+(176,3,c),
 (221,0,l),
 (221,565,ls),
 (221,713,o),
@@ -553,23 +547,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "383BCE49-8521-4F75-A5E8-58C946A8B393";
-name = "18 Mar 26 at 11.53";
+layerId = "108118AF-6A0D-4591-9CF7-66E380E12F0F";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(167,3,l),
+(107,2,o),
+(137,3,o),
+(167,3,c),
 (257,0,l),
 (257,599,ls),
 (257,716,o),
@@ -616,23 +607,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.2,1);
 type = Corner;
 }
 );
-layerId = "0DB156CC-D84F-41CF-A4BF-C73F4B05F1AE";
-name = "18 Mar 26 at 11.53";
+layerId = "F5163BA1-2B44-4390-83C0-3806AA7133B9";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(193,3,l),
+(133,2,o),
+(163,3,o),
+(193,3,c),
 (283,0,l),
 (283,579,ls),
 (283,714,o),
@@ -679,23 +667,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "B8063291-4D3B-43D0-AF9A-198551AA8C7C";
-name = "18 Mar 26 at 11.53";
+layerId = "1FD04DC4-2074-441F-8D70-F953D03B7B07";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(221,3,l),
+(191,2,o),
+(206,3,o),
+(221,3,c),
 (266,0,l),
 (266,539,ls),
 (266,661,o),
@@ -742,23 +727,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "8F4B4473-CB8F-443D-8B3F-3AC4190C351B";
-name = "18 Mar 26 at 11.53";
+layerId = "8533B642-4AF9-48E9-A3A5-A986F3CE8BD1";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(263,3,l),
+(233,2,o),
+(248,3,o),
+(263,3,c),
 (308,0,l),
 (308,537,ls),
 (308,657,o),
@@ -805,23 +787,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "5B9D25EC-3E67-4C64-8FDF-6E1457EF0213";
-name = "18 Mar 26 at 11.53";
+layerId = "205FDD99-7CE7-4523-98B7-79F69688A837";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(197,3,l),
+(137,2,o),
+(167,3,o),
+(197,3,c),
 (287,0,l),
 (287,596,ls),
 (287,677,o),
@@ -868,23 +847,20 @@ max = 400;
 hints = (
 {
 name = "_corner.LC-serif";
-origin = (0,16);
-type = Corner;
-},
-{
-name = "_corner.LC-serif";
-origin = (0,1);
-scale = (-1.4,1);
+origin = (0,3);
+scale = (-1.5,1);
 type = Corner;
 }
 );
-layerId = "807505CE-5C35-44E5-87FE-F4D83ED99D34";
-name = "18 Mar 26 at 11.53";
+layerId = "73F16A97-4C15-4082-8AF5-53E17A736FE7";
+name = "8 Jan 24 at 11:19";
 shapes = (
 {
 closed = 1;
 nodes = (
-(226,3,l),
+(166,2,o),
+(196,3,o),
+(226,3,c),
 (316,0,l),
 (316,568,ls),
 (316,669,o),
