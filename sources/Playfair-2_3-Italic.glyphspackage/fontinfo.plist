@@ -4631,6 +4631,10 @@ value = "wdth; 88.0=SemiCond, 100.0=Normal*, 113.0=SemiExp";
 {
 name = "Axis Values";
 value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExBold, 900.0=Black";
+},
+{
+name = "Axis Values";
+value = "ital; 1.0=Italic";
 }
 );
 name = Italic;
@@ -4657,10 +4661,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4695,10 +4695,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4733,10 +4729,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4772,10 +4764,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4811,10 +4799,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4851,10 +4835,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4890,10 +4870,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4928,10 +4904,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -4966,10 +4938,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5005,10 +4973,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5045,10 +5009,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5085,10 +5045,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5126,10 +5082,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5166,10 +5118,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5204,10 +5152,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5242,10 +5186,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5280,10 +5220,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5319,10 +5255,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5358,10 +5290,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5398,10 +5326,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5437,10 +5361,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5475,10 +5395,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5514,10 +5430,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5554,10 +5466,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5595,10 +5503,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5636,10 +5540,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5678,10 +5578,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5719,10 +5615,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5758,10 +5650,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5798,10 +5686,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5841,10 +5725,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5885,10 +5765,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5929,10 +5805,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -5974,10 +5846,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6018,10 +5886,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6058,10 +5922,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6097,10 +5957,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6137,10 +5993,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6178,10 +6030,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6219,10 +6067,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6261,10 +6105,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6302,10 +6142,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6341,10 +6177,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6380,10 +6212,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6420,10 +6248,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6461,10 +6285,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6502,10 +6322,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6544,10 +6360,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6585,10 +6397,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6624,10 +6432,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6664,10 +6468,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6707,10 +6507,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6751,10 +6547,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6795,10 +6587,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6840,10 +6628,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6884,10 +6668,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6924,10 +6704,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -6963,10 +6739,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7003,10 +6775,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7044,10 +6812,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7085,10 +6849,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7127,10 +6887,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7168,10 +6924,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7207,10 +6959,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7246,10 +6994,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7286,10 +7030,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7327,10 +7067,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7368,10 +7104,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7410,10 +7142,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7451,10 +7179,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7490,10 +7214,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7530,10 +7250,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7573,10 +7289,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7617,10 +7329,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7661,10 +7369,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7706,10 +7410,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7750,10 +7450,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7790,10 +7486,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7829,10 +7521,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7869,10 +7557,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7910,10 +7594,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7951,10 +7631,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -7993,10 +7669,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8034,10 +7706,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8073,10 +7741,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8086,8 +7750,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond SemiLight";
-name = "Pica SemiCond SemiLight Italic";
+linkStyle = "SemiCond SemiLight";
+name = "SemiCond SemiLight Italic";
 weightClass = 360;
 widthClass = 4;
 },
@@ -8112,10 +7776,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8127,8 +7787,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.42228;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond";
-name = "Pica SemiCond Italic";
+linkStyle = SemiCond;
+name = "SemiCond Italic";
 widthClass = 4;
 },
 {
@@ -8152,10 +7812,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8167,8 +7823,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.35894;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond Medium";
-name = "Pica SemiCond Medium Italic";
+linkStyle = "SemiCond Medium";
+name = "SemiCond Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -8193,10 +7849,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8208,8 +7860,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.2956;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond SemiBold";
-name = "Pica SemiCond SemiBold Italic";
+linkStyle = "SemiCond SemiBold";
+name = "SemiCond SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -8234,10 +7886,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8250,8 +7898,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Pica SemiCond";
-name = "Pica SemiCond Bold Italic";
+linkStyle = SemiCond;
+name = "SemiCond Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -8276,10 +7924,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8291,8 +7935,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.12669;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond ExBold";
-name = "Pica SemiCond ExBold Italic";
+linkStyle = "SemiCond ExBold";
+name = "SemiCond ExBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -8317,10 +7961,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8330,8 +7970,8 @@ instanceInterpolations = {
 "5936EB7C-5C81-433B-ABAB-ADB37EE98828" = 0.54393;
 };
 isItalic = 1;
-linkStyle = "Pica SemiCond Black";
-name = "Pica SemiCond Black Italic";
+linkStyle = "SemiCond Black";
+name = "SemiCond Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -8356,10 +7996,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8371,8 +8007,8 @@ instanceInterpolations = {
 "8A8107C8-C076-4746-AE01-7D15750BBEFC" = 0.32938;
 };
 isItalic = 1;
-linkStyle = "Pica SemiLight";
-name = "Pica SemiLight Italic";
+linkStyle = SemiLight;
+name = "SemiLight Italic";
 weightClass = 360;
 },
 {
@@ -8396,10 +8032,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8415,8 +8047,7 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.00938;
 };
 isItalic = 1;
-linkStyle = Pica;
-name = "Pica Italic";
+name = Italic;
 },
 {
 axesValues = (
@@ -8439,10 +8070,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8458,8 +8085,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.02698;
 };
 isItalic = 1;
-linkStyle = "Pica Medium";
-name = "Pica Medium Italic";
+linkStyle = Medium;
+name = "Medium Italic";
 weightClass = 500;
 },
 {
@@ -8483,10 +8110,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8502,8 +8125,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.04457;
 };
 isItalic = 1;
-linkStyle = "Pica SemiBold";
-name = "Pica SemiBold Italic";
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -8527,10 +8150,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8547,8 +8166,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Pica;
-name = "Pica Bold Italic";
+linkStyle = Bold;
+name = "Bold Italic";
 weightClass = 700;
 },
 {
@@ -8572,10 +8191,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8591,8 +8206,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.09149;
 };
 isItalic = 1;
-linkStyle = "Pica ExBold";
-name = "Pica ExBold Italic";
+linkStyle = ExBold;
+name = "ExBold Italic";
 weightClass = 800;
 },
 {
@@ -8616,10 +8231,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8631,8 +8242,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.12669;
 };
 isItalic = 1;
-linkStyle = "Pica Black";
-name = "Pica Black Italic";
+linkStyle = Black;
+name = "Black Italic";
 weightClass = 900;
 },
 {
@@ -8656,10 +8267,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8669,8 +8276,8 @@ instanceInterpolations = {
 "5E6FC44F-063A-4BB8-8A6A-56847DCA2C64" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp SemiLight";
-name = "Pica SemiExp SemiLight Italic";
+linkStyle = "SemiExp SemiLight";
+name = "SemiExp SemiLight Italic";
 weightClass = 360;
 widthClass = 6;
 },
@@ -8695,10 +8302,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8710,8 +8313,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.03378;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp";
-name = "Pica SemiExp Italic";
+linkStyle = SemiExp;
+name = "SemiExp Italic";
 widthClass = 6;
 },
 {
@@ -8735,10 +8338,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8750,8 +8349,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.09713;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp Medium";
-name = "Pica SemiExp Medium Italic";
+linkStyle = "SemiExp Medium";
+name = "SemiExp Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -8776,10 +8375,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8791,8 +8386,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.16047;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp SemiBold";
-name = "Pica SemiExp SemiBold Italic";
+linkStyle = "SemiExp SemiBold";
+name = "SemiExp SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -8817,10 +8412,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8833,8 +8424,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = "Pica SemiExp";
-name = "Pica SemiExp Bold Italic";
+linkStyle = SemiExp;
+name = "SemiExp Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -8859,10 +8450,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8874,8 +8461,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.32938;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp ExBold";
-name = "Pica SemiExp ExBold Italic";
+linkStyle = "SemiExp ExBold";
+name = "SemiExp ExBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -8900,10 +8487,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8913,8 +8496,8 @@ instanceInterpolations = {
 "DBDC962B-575F-4FAA-B6DE-86A7E0EB6EB2" = 0.45607;
 };
 isItalic = 1;
-linkStyle = "Pica SemiExp Black";
-name = "Pica SemiExp Black Italic";
+linkStyle = "SemiExp Black";
+name = "SemiExp Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -8939,10 +8522,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -8978,10 +8557,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9018,10 +8593,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9059,10 +8630,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9100,10 +8667,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9142,10 +8705,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9183,10 +8742,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9222,10 +8777,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9262,10 +8813,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9305,10 +8852,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9349,10 +8892,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9393,10 +8932,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9438,10 +8973,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9482,10 +9013,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9522,10 +9049,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9561,10 +9084,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9601,10 +9120,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9642,10 +9157,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9683,10 +9194,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9725,10 +9232,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9766,10 +9269,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9805,10 +9304,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9844,10 +9339,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9884,10 +9375,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9925,10 +9412,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -9966,10 +9449,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10008,10 +9487,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10049,10 +9524,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10088,10 +9559,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10128,10 +9595,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10171,10 +9634,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10215,10 +9674,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10259,10 +9714,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10304,10 +9755,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10348,10 +9795,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10388,10 +9831,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10427,10 +9866,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10467,10 +9902,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10508,10 +9939,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10549,10 +9976,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10591,10 +10014,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10632,10 +10051,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10671,10 +10086,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10710,10 +10121,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10750,10 +10157,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10791,10 +10194,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10832,10 +10231,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10874,10 +10269,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10915,10 +10306,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10954,10 +10341,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -10994,10 +10377,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11037,10 +10416,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11081,10 +10456,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11125,10 +10496,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11170,10 +10537,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11214,10 +10577,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11254,10 +10613,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11293,10 +10648,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11333,10 +10684,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11374,10 +10721,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11415,10 +10758,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11457,10 +10796,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11498,10 +10833,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11537,10 +10868,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11576,10 +10903,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11616,10 +10939,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11657,10 +10976,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11698,10 +11013,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11740,10 +11051,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11781,10 +11088,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11820,10 +11123,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11860,10 +11159,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11903,10 +11198,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11947,10 +11238,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -11991,10 +11278,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12036,10 +11319,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12080,10 +11359,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12120,10 +11395,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12159,10 +11430,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12199,10 +11466,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12240,10 +11503,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12281,10 +11540,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12323,10 +11578,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12364,10 +11615,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12403,10 +11650,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12442,10 +11685,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12482,10 +11721,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12523,10 +11758,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12564,10 +11795,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12606,10 +11833,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12647,10 +11870,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12686,10 +11905,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12726,10 +11941,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12769,10 +11980,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12813,10 +12020,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12857,10 +12060,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12902,10 +12101,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12946,10 +12141,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -12986,10 +12177,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13025,10 +12212,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13065,10 +12248,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13106,10 +12285,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13147,10 +12322,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13189,10 +12360,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13230,10 +12397,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13269,10 +12432,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13308,10 +12467,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13348,10 +12503,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13389,10 +12540,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13430,10 +12577,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13472,10 +12615,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13513,10 +12652,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13552,10 +12687,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13592,10 +12723,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13635,10 +12762,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13679,10 +12802,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13723,10 +12842,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13768,10 +12883,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13812,10 +12923,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13852,10 +12959,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13891,10 +12994,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13931,10 +13030,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -13972,10 +13067,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14013,10 +13104,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14055,10 +13142,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14096,10 +13179,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14135,10 +13214,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14173,10 +13248,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14211,10 +13282,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14250,10 +13317,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14289,10 +13352,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14329,10 +13388,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14368,10 +13423,6 @@ Location = 88;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14406,10 +13457,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14444,10 +13491,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14483,10 +13526,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14523,10 +13562,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14563,10 +13598,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14604,10 +13635,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14644,10 +13671,6 @@ Location = 100;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14682,10 +13705,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 360;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14720,10 +13739,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14758,10 +13773,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 500;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14797,10 +13808,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14836,10 +13843,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14876,10 +13879,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }
@@ -14915,10 +13914,6 @@ Location = 113;
 {
 Axis = Weight;
 Location = 900;
-},
-{
-Axis = Italic;
-Location = 1;
 }
 );
 }

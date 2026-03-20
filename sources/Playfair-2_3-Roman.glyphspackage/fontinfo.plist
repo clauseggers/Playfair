@@ -4955,6 +4955,10 @@ value = "wdth; 88.0=SemiCond, 100.0=Normal*, 113.0=SemiExp";
 {
 name = "Axis Values";
 value = "wght; 360.0=SemiLight, 400.0>700.0=Normal*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExBold, 900.0=Black";
+},
+{
+name = "Axis Values";
+value = "ital; 0.0>1.0=Roman*";
 }
 );
 name = Roman;
@@ -7919,7 +7923,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.54393;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.45607;
 };
-name = "Pica SemiCond SemiLight";
+name = "SemiCond SemiLight";
 weightClass = 360;
 widthClass = 4;
 },
@@ -7954,7 +7958,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.42228;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.03378;
 };
-name = "Pica SemiCond";
+name = SemiCond;
 widthClass = 4;
 },
 {
@@ -7988,7 +7992,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.35894;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.09713;
 };
-name = "Pica SemiCond Medium";
+name = "SemiCond Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -8023,7 +8027,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.2956;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.16047;
 };
-name = "Pica SemiCond SemiBold";
+name = "SemiCond SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -8059,8 +8063,8 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.24492;
 };
 isBold = 1;
-linkStyle = "Pica SemiCond";
-name = "Pica SemiCond Bold";
+linkStyle = SemiCond;
+name = "SemiCond Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -8095,7 +8099,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.12669;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.32938;
 };
-name = "Pica SemiCond ExBold";
+name = "SemiCond ExBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -8128,7 +8132,7 @@ instanceInterpolations = {
 "29EF49B2-C370-4E88-B36E-A4ACD23E3F3A" = 0.54393;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.45607;
 };
-name = "Pica SemiCond Black";
+name = "SemiCond Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -8163,7 +8167,7 @@ instanceInterpolations = {
 "7300F074-2CFD-43CC-B20F-1BF1EAE6C2C7" = 0.39284;
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.32938;
 };
-name = "Pica SemiLight";
+name = SemiLight;
 weightClass = 360;
 },
 {
@@ -8201,7 +8205,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.30498;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.0244;
 };
-name = Pica;
+name = Regular;
 },
 {
 axesValues = (
@@ -8238,7 +8242,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.25924;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.07015;
 };
-name = "Pica Medium";
+name = Medium;
 weightClass = 500;
 },
 {
@@ -8276,7 +8280,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.21349;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.11589;
 };
-name = "Pica SemiBold";
+name = SemiBold;
 weightClass = 600;
 },
 {
@@ -8315,8 +8319,7 @@ instanceInterpolations = {
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.17689;
 };
 isBold = 1;
-linkStyle = Pica;
-name = "Pica Bold";
+name = Bold;
 weightClass = 700;
 },
 {
@@ -8354,7 +8357,7 @@ instanceInterpolations = {
 "DF17D77B-A5C4-4843-826A-BC0F1C4CB224" = 0.09149;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.23789;
 };
-name = "Pica ExBold";
+name = ExBold;
 weightClass = 800;
 },
 {
@@ -8388,7 +8391,7 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.15109;
 "F497C50F-30EB-4580-9148-0005B36D0333" = 0.32938;
 };
-name = "Pica Black";
+name = Black;
 weightClass = 900;
 },
 {
@@ -8420,7 +8423,7 @@ instanceInterpolations = {
 "2895B92B-45F5-4972-B85C-1A160E6E6488" = 0.54393;
 "2AEC198B-4747-4E5F-80A7-B5A71C2761F9" = 0.45607;
 };
-name = "Pica SemiExp SemiLight";
+name = "SemiExp SemiLight";
 weightClass = 360;
 widthClass = 6;
 },
@@ -8455,7 +8458,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.03378;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.04029;
 };
-name = "Pica SemiExp";
+name = SemiExp;
 widthClass = 6;
 },
 {
@@ -8489,7 +8492,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.09713;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.11584;
 };
-name = "Pica SemiExp Medium";
+name = "SemiExp Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -8524,7 +8527,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.16047;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.19138;
 };
-name = "Pica SemiExp SemiBold";
+name = "SemiExp SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -8560,8 +8563,8 @@ instanceInterpolations = {
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.29211;
 };
 isBold = 1;
-linkStyle = "Pica SemiExp";
-name = "Pica SemiExp Bold";
+linkStyle = SemiExp;
+name = "SemiExp Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -8596,7 +8599,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.32938;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.39284;
 };
-name = "Pica SemiExp ExBold";
+name = "SemiExp ExBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -8629,7 +8632,7 @@ instanceInterpolations = {
 "41FE8A15-28AA-4FFF-A503-D6748EB37864" = 0.45607;
 "58AEE805-6805-4A0B-A273-5ABBCB55D365" = 0.54393;
 };
-name = "Pica SemiExp Black";
+name = "SemiExp Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -28882,6 +28885,17 @@ three.lf = 77;
 threesuperior = 131;
 two.lf = 94;
 };
+f.smcp = {
+a.smcp = -58;
+ae.smcp = -79;
+atilde.smcp = -52;
+iacute_j.smcp.loclNLD = 0;
+iacute_j.smcp.loclNLD.cv01 = 0;
+};
+f_b.liga = {
+lslash = 53;
+oslash = 12;
+};
 f_fina.ligature = {
 Z = 87;
 aacute = 0;
@@ -28924,17 +28938,6 @@ thorn = 114;
 threesuperior = 132;
 twosuperior = 113;
 udieresis = 34;
-};
-f.smcp = {
-a.smcp = -58;
-ae.smcp = -79;
-atilde.smcp = -52;
-iacute_j.smcp.loclNLD = 0;
-iacute_j.smcp.loclNLD.cv01 = 0;
-};
-f_b.liga = {
-lslash = 53;
-oslash = 12;
 };
 f_h.liga = {
 asterisk = -60;
@@ -47523,6 +47526,17 @@ three.lf = 77;
 threesuperior = 132;
 two.lf = 97;
 };
+f.smcp = {
+a.smcp = -74;
+ae.smcp = -83;
+atilde.smcp = -53;
+iacute_j.smcp.loclNLD = 0;
+iacute_j.smcp.loclNLD.cv01 = 0;
+};
+f_b.liga = {
+lslash = 41;
+oslash = 0;
+};
 f_fina.ligature = {
 Z = 98;
 aacute = 0;
@@ -47565,17 +47579,6 @@ thorn = 132;
 threesuperior = 132;
 twosuperior = 121;
 udieresis = 30;
-};
-f.smcp = {
-a.smcp = -74;
-ae.smcp = -83;
-atilde.smcp = -53;
-iacute_j.smcp.loclNLD = 0;
-iacute_j.smcp.loclNLD.cv01 = 0;
-};
-f_b.liga = {
-lslash = 41;
-oslash = 0;
 };
 f_h.liga = {
 asterisk = -64;
@@ -66164,6 +66167,17 @@ three.lf = 136;
 threesuperior = 164;
 two.lf = 147;
 };
+f.smcp = {
+a.smcp = -77;
+ae.smcp = -67;
+atilde.smcp = -31;
+iacute_j.smcp.loclNLD = -4;
+iacute_j.smcp.loclNLD.cv01 = -4;
+};
+f_b.liga = {
+lslash = 0;
+oslash = 0;
+};
 f_fina.ligature = {
 Z = 177;
 aacute = 113;
@@ -66206,17 +66220,6 @@ thorn = 189;
 threesuperior = 166;
 twosuperior = 148;
 udieresis = 114;
-};
-f.smcp = {
-a.smcp = -77;
-ae.smcp = -67;
-atilde.smcp = -31;
-iacute_j.smcp.loclNLD = -4;
-iacute_j.smcp.loclNLD.cv01 = -4;
-};
-f_b.liga = {
-lslash = 0;
-oslash = 0;
 };
 f_h.liga = {
 asterisk = -43;
@@ -84805,6 +84808,17 @@ three.lf = 108;
 threesuperior = 136;
 two.lf = 123;
 };
+f.smcp = {
+a.smcp = -105;
+ae.smcp = -124;
+atilde.smcp = -103;
+iacute_j.smcp.loclNLD = -31;
+iacute_j.smcp.loclNLD.cv01 = -31;
+};
+f_b.liga = {
+lslash = 25;
+oslash = 27;
+};
 f_fina.ligature = {
 Z = 125;
 aacute = 0;
@@ -84847,17 +84861,6 @@ thorn = 105;
 threesuperior = 159;
 twosuperior = 144;
 udieresis = 61;
-};
-f.smcp = {
-a.smcp = -105;
-ae.smcp = -124;
-atilde.smcp = -103;
-iacute_j.smcp.loclNLD = -31;
-iacute_j.smcp.loclNLD.cv01 = -31;
-};
-f_b.liga = {
-lslash = 25;
-oslash = 27;
 };
 f_h.liga = {
 asterisk = -67;
@@ -103447,6 +103450,17 @@ three.lf = 58;
 threesuperior = 56;
 two.lf = 38;
 };
+f.smcp = {
+a.smcp = -60;
+ae.smcp = -47;
+atilde.smcp = -92;
+iacute_j.smcp.loclNLD = -50;
+iacute_j.smcp.loclNLD.cv01 = -49;
+};
+f_b.liga = {
+lslash = 17;
+oslash = 13;
+};
 f_fina.ligature = {
 Z = 72;
 aacute = 0;
@@ -103489,17 +103503,6 @@ thorn = 24;
 threesuperior = 76;
 twosuperior = 52;
 udieresis = 0;
-};
-f.smcp = {
-a.smcp = -60;
-ae.smcp = -47;
-atilde.smcp = -92;
-iacute_j.smcp.loclNLD = -50;
-iacute_j.smcp.loclNLD.cv01 = -49;
-};
-f_b.liga = {
-lslash = 17;
-oslash = 13;
 };
 f_h.liga = {
 asterisk = -117;
@@ -122090,6 +122093,17 @@ three.lf = 57;
 threesuperior = 106;
 two.lf = 55;
 };
+f.smcp = {
+a.smcp = -96;
+ae.smcp = -58;
+atilde.smcp = -114;
+iacute_j.smcp.loclNLD = -62;
+iacute_j.smcp.loclNLD.cv01 = -62;
+};
+f_b.liga = {
+lslash = 2;
+oslash = -14;
+};
 f_fina.ligature = {
 Z = 93;
 aacute = -26;
@@ -122132,17 +122146,6 @@ thorn = 25;
 threesuperior = 125;
 twosuperior = 100;
 udieresis = 5;
-};
-f.smcp = {
-a.smcp = -96;
-ae.smcp = -58;
-atilde.smcp = -114;
-iacute_j.smcp.loclNLD = -62;
-iacute_j.smcp.loclNLD.cv01 = -62;
-};
-f_b.liga = {
-lslash = 2;
-oslash = -14;
 };
 f_h.liga = {
 asterisk = -115;
@@ -140734,6 +140737,17 @@ three.lf = 65;
 threesuperior = 80;
 two.lf = 75;
 };
+f.smcp = {
+a.smcp = -75;
+ae.smcp = -67;
+atilde.smcp = -75;
+iacute_j.smcp.loclNLD = -14;
+iacute_j.smcp.loclNLD.cv01 = -14;
+};
+f_b.liga = {
+lslash = 41;
+oslash = 18;
+};
 f_fina.ligature = {
 Z = 89;
 aacute = 16;
@@ -140776,17 +140790,6 @@ thorn = 72;
 threesuperior = 112;
 twosuperior = 93;
 udieresis = 35;
-};
-f.smcp = {
-a.smcp = -75;
-ae.smcp = -67;
-atilde.smcp = -75;
-iacute_j.smcp.loclNLD = -14;
-iacute_j.smcp.loclNLD.cv01 = -14;
-};
-f_b.liga = {
-lslash = 41;
-oslash = 18;
 };
 f_h.liga = {
 asterisk = -84;
@@ -159393,6 +159396,17 @@ three.lf = 100;
 threesuperior = 144;
 two.lf = 118;
 };
+f.smcp = {
+a.smcp = -115;
+ae.smcp = -105;
+atilde.smcp = -112;
+iacute_j.smcp.loclNLD = -32;
+iacute_j.smcp.loclNLD.cv01 = -32;
+};
+f_b.liga = {
+lslash = 33;
+oslash = 11;
+};
 f_fina.ligature = {
 Z = 124;
 aacute = 46;
@@ -159435,17 +159449,6 @@ thorn = 116;
 threesuperior = 169;
 twosuperior = 144;
 udieresis = 79;
-};
-f.smcp = {
-a.smcp = -115;
-ae.smcp = -105;
-atilde.smcp = -112;
-iacute_j.smcp.loclNLD = -32;
-iacute_j.smcp.loclNLD.cv01 = -32;
-};
-f_b.liga = {
-lslash = 33;
-oslash = 11;
 };
 f_h.liga = {
 asterisk = -92;
